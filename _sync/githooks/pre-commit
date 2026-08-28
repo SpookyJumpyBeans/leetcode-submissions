@@ -1,0 +1,29 @@
+#!/bin/sh
+# Refuse to commit LeetCode credentials.
+#
+# The values belong in _sync/.env, which is gitignored. It is easy to put them
+# in _sync/.env.example by mistake - that file IS tracked, and a push sends a
+# live session token to whoever is watching.
+
+fail() {
+    echo "" >&2
+    echo "pre-commit: $1" >&2
+    echo "" >&2
+    echo "  Cookies belong in _sync/.env (gitignored), never in a tracked file." >&2
+    echo "  Set them with:  python -m leetcode_sync --set-cookies" >&2
+    echo "" >&2
+    echo "  Override only if you are certain:  git commit --no-verify" >&2
+    echo "" >&2
+    exit 1
+}
+
+if git diff --cached --name-only | grep -qx '_sync/\.env'; then
+    fail "_sync/.env is staged - that file holds your live session token."
+fi
+
+if git diff --cached -U0 -- . \
+    | grep -qE '^\+ *(LEETCODE_SESSION|LEETCODE_CSRF_TOKEN|csrftoken) *= *[^ ]{20,}'; then
+    fail "a staged line looks like a real LeetCode cookie value."
+fi
+
+exit 0
