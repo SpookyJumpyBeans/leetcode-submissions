@@ -169,3 +169,8 @@ DEFAULT_TOPIC_RANK = 50  # an unrecognised tag is probably reasonably specific
 
 def topic_rank(slug: str) -> int:
     return TOPIC_RANK.get(slug, DEFAULT_TOPIC_RANK)
+
+
+# A topic folder holding fewer than this many problems is dissolved and its
+# problems fall through to their next-best tag. 1 disables the consolidation.
+TOPIC_MIN_SIZE = 2

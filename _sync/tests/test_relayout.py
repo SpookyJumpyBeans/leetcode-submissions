@@ -67,7 +67,7 @@ def test_plan_moves_only_lists_problems_in_the_wrong_place(tmp_path):
                  s("maximum-subarray"))
     index.record(q("208", "trie", "trie", "string"), s("trie"))
 
-    moves = plan_moves(repo, index)
+    moves = plan_moves(repo, index, min_size=1)
     assert len(moves) == 1
     assert moves[0].source == "array/0053-maximum-subarray"
     assert moves[0].destination == "dynamic-programming/0053-maximum-subarray"
@@ -79,7 +79,7 @@ def test_run_relayout_moves_files_and_prunes_the_empty_folder(tmp_path):
     index.record(q("53", "maximum-subarray", "array", "dynamic-programming"),
                  s("maximum-subarray"))
 
-    run_relayout(repo_root=repo, index=index, log=lambda *a: None)
+    run_relayout(repo_root=repo, index=index, min_size=1, log=lambda *a: None)
 
     moved = repo / "dynamic-programming" / "0053-maximum-subarray"
     assert (moved / "solution.py").read_text(encoding="utf-8") == "code\n"
@@ -94,7 +94,7 @@ def test_run_relayout_dry_run_changes_nothing(tmp_path):
     index.record(q("53", "maximum-subarray", "array", "dynamic-programming"),
                  s("maximum-subarray"))
 
-    moves = run_relayout(repo_root=repo, index=index, dry_run=True, log=lambda *a: None)
+    moves = run_relayout(repo_root=repo, index=index, dry_run=True, min_size=1, log=lambda *a: None)
     assert len(moves) == 1
     assert (repo / "array" / "0053-maximum-subarray" / "solution.py").exists()
     assert not (repo / "dynamic-programming").exists()
@@ -105,8 +105,8 @@ def test_run_relayout_is_idempotent(tmp_path):
     index = SolutionIndex(tmp_path / "index.json")
     index.record(q("53", "maximum-subarray", "array", "dynamic-programming"),
                  s("maximum-subarray"))
-    run_relayout(repo_root=repo, index=index, log=lambda *a: None)
-    assert run_relayout(repo_root=repo, index=index, log=lambda *a: None) == []
+    run_relayout(repo_root=repo, index=index, min_size=1, log=lambda *a: None)
+    assert run_relayout(repo_root=repo, index=index, min_size=1, log=lambda *a: None) == []
 
 
 def test_prune_leaves_the_sync_folder_alone(tmp_path):

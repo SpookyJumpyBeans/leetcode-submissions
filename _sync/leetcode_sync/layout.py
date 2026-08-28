@@ -30,8 +30,10 @@ class Placement:
         return f"{self.topic_dir}/{self.problem_dir}/{self.filename}"
 
 
-def placement_for(question: Question, submission: Submission) -> Placement:
-    topic_name, topic_slug = question.primary_topic
+def placement_for(question: Question, submission: Submission,
+                  topic: tuple[str, str] | None = None) -> Placement:
+    """``topic`` overrides the per-problem choice with a global assignment."""
+    topic_name, topic_slug = topic if topic is not None else question.primary_topic
     extension = lang_extension(submission.lang)
     return Placement(
         topic_dir=slugify(topic_slug or topic_name),
@@ -94,7 +96,8 @@ DIFFICULTY_ORDER = {"Easy": 0, "Medium": 1, "Hard": 2}
 
 
 def render_root_readme(entries: list[tuple[Question, list[Submission]]],
-                       generated_at: datetime | None = None) -> str:
+                       generated_at: datetime | None = None,
+                       assignment: dict[str, tuple[str, str]] | None = None) -> str:
     """The repo landing page: counts plus a full index grouped by topic."""
     generated_at = generated_at or datetime.now(timezone.utc)
     counts = {"Easy": 0, "Medium": 0, "Hard": 0}
@@ -124,9 +127,14 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         "",
     ]
 
+    def topic_of(question: Question) -> tuple[str, str]:
+        if assignment is not None and question.slug in assignment:
+            return assignment[question.slug]
+        return question.primary_topic
+
     by_topic: dict[str, list[tuple[Question, list[Submission]]]] = {}
     for question, submissions in entries:
-        topic_name, _ = question.primary_topic
+        topic_name, _ = topic_of(question)
         by_topic.setdefault(topic_name, []).append((question, submissions))
 
     for topic_name in sorted(by_topic):
@@ -139,7 +147,7 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         lines.append("| # | Problem | Difficulty | Solutions |")
         lines.append("| --- | --- | --- | --- |")
         for question, submissions in rows:
-            placement = placement_for(question, submissions[0])
+            placement = placement_for(question, submissions[0], topic_of(question))
             folder = f"{placement.topic_dir}/{placement.problem_dir}"
             langs = " ".join(
                 f"[{lang_display(s.lang, s.lang_name)}]({_encode(folder)}/solution.{lang_extension(s.lang)})"

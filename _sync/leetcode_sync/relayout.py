@@ -10,7 +10,8 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-from .config import REPO_ROOT
+from .bucketing import assign_topics
+from .config import REPO_ROOT, TOPIC_MIN_SIZE
 from .layout import placement_for
 from .state import SolutionIndex
 
@@ -29,10 +30,13 @@ def find_problem_dir(repo_root: Path, problem_dir: str) -> Path | None:
     return None
 
 
-def plan_moves(repo_root: Path, index: SolutionIndex) -> list[Move]:
+def plan_moves(repo_root: Path, index: SolutionIndex,
+               min_size: int = TOPIC_MIN_SIZE) -> list[Move]:
+    entries = index.entries()
+    assignment = assign_topics([question for question, _ in entries], min_size)
     moves: list[Move] = []
-    for question, submissions in index.entries():
-        placement = placement_for(question, submissions[0])
+    for question, submissions in entries:
+        placement = placement_for(question, submissions[0], assignment.get(question.slug))
         destination = repo_root / placement.topic_dir / placement.problem_dir
         current = find_problem_dir(repo_root, placement.problem_dir)
         if current is None or current.resolve() == destination.resolve():

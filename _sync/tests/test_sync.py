@@ -100,7 +100,7 @@ def test_run_sync_writes_tree_and_readmes(tmp_path):
         sub(7, "3sum", "python3", 700, status="Time Limit Exceeded"),
     ])
 
-    report = run_sync(client, state, repo_root=repo, cache=cache, index=index, log=lambda *a: None)
+    report = run_sync(client, state, repo_root=repo, cache=cache, index=index, min_size=1, log=lambda *a: None)
 
     assert report.fetched == 3
     assert report.accepted == 2
@@ -123,7 +123,7 @@ def test_run_sync_is_incremental_on_the_second_pass(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     history = [sub(9, "two-sum", "python3", 900)]
     run_sync(FakeClient(history), state, repo_root=repo, cache=cache, index=index,
-             log=lambda *a: None)
+             min_size=1, log=lambda *a: None)
 
     # A newer submission for a different problem arrives.
     history.insert(0, sub(11, "3sum", "cpp", 1100, code="int main(){}"))
@@ -131,7 +131,7 @@ def test_run_sync_is_incremental_on_the_second_pass(tmp_path):
     client = FakeClient(history)
     report = run_sync(client, state2, repo_root=repo,
                       cache=ProblemCache(tmp_path / "cache.json"),
-                      index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+                      index=SolutionIndex(tmp_path / "index.json"), min_size=1, log=lambda *a: None)
 
     assert report.fetched == 1  # stopped at the already-seen submission
     assert (repo / "two-pointers" / "0015-3sum" / "solution.cpp").exists()
@@ -146,14 +146,14 @@ def test_run_sync_overwrites_with_a_newer_accepted_solution(tmp_path):
     repo = tmp_path / "repo"
     state, cache, index = _fixture_paths(tmp_path)
     run_sync(FakeClient([sub(1, "two-sum", "python3", 100, code="old")]), state,
-             repo_root=repo, cache=cache, index=index, log=lambda *a: None)
+             repo_root=repo, cache=cache, index=index, min_size=1, log=lambda *a: None)
     solution = repo / "hash-table" / "0001-two-sum" / "solution.py"
     assert "old" in solution.read_text(encoding="utf-8")
 
     state2 = SyncState.load(tmp_path / "state.json")
     run_sync(FakeClient([sub(2, "two-sum", "python3", 200, code="new")]), state2,
              repo_root=repo, cache=ProblemCache(tmp_path / "cache.json"),
-             index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+             index=SolutionIndex(tmp_path / "index.json"), min_size=1, log=lambda *a: None)
     assert "new" in solution.read_text(encoding="utf-8")
 
 
@@ -161,7 +161,7 @@ def test_run_sync_dry_run_writes_nothing(tmp_path):
     repo = tmp_path / "repo"
     state, cache, index = _fixture_paths(tmp_path)
     report = run_sync(FakeClient([sub(1, "two-sum", "python3", 100)]), state, repo_root=repo,
-                      cache=cache, index=index, dry_run=True, log=lambda *a: None)
+                      cache=cache, index=index, dry_run=True, min_size=1, log=lambda *a: None)
     assert report.written == ["hash-table/0001-two-sum/solution.py"]
     assert not repo.exists()
     assert state.newest_submission_id is None
@@ -172,7 +172,7 @@ def test_run_sync_skips_problems_without_metadata(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     client = FakeClient([sub(1, "ghost-problem", "python3", 100)], questions={})
     report = run_sync(client, state, repo_root=repo, cache=cache, index=index,
-                      log=lambda *a: None)
+                      min_size=1, log=lambda *a: None)
     assert report.skipped_unknown == ["ghost-problem"]
     assert report.written == []
 
@@ -180,7 +180,7 @@ def test_run_sync_skips_problems_without_metadata(tmp_path):
 def test_run_sync_reports_no_new_submissions(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     report = run_sync(FakeClient([]), state, repo_root=tmp_path / "repo", cache=cache,
-                      index=index, log=lambda *a: None)
+                      index=index, min_size=1, log=lambda *a: None)
     assert report.fetched == 0 and not report.changed
 
 
@@ -191,7 +191,7 @@ def test_partial_run_saves_progress_and_a_resume_cursor(tmp_path):
     client = FakeClient(history, fail_after=1)
 
     report = run_sync(client, state, repo_root=repo, full=True, cache=cache, index=index,
-                      log=lambda *a: None)
+                      min_size=1, log=lambda *a: None)
 
     assert report.partial is True
     assert report.fetched == 1
@@ -206,13 +206,13 @@ def test_resumed_backfill_continues_where_it_stopped(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     history = [sub(9, "two-sum", "python3", 900), sub(8, "3sum", "cpp", 800)]
     run_sync(FakeClient(history, fail_after=1), state, repo_root=repo, full=True,
-             cache=cache, index=index, log=lambda *a: None)
+             cache=cache, index=index, min_size=1, log=lambda *a: None)
 
     state2 = SyncState.load(tmp_path / "state.json")
     client = FakeClient(history)
     report = run_sync(client, state2, repo_root=repo, full=True,
                       cache=ProblemCache(tmp_path / "cache.json"),
-                      index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+                      index=SolutionIndex(tmp_path / "index.json"), min_size=1, log=lambda *a: None)
 
     assert report.resumed_from == 1
     assert client.start_offset == 1  # did not re-fetch page one
@@ -226,14 +226,14 @@ def test_completed_backfill_preserves_the_newest_submission_marker(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     history = [sub(9, "two-sum", "python3", 900), sub(8, "3sum", "cpp", 800)]
     run_sync(FakeClient(history, fail_after=1), state, repo_root=repo, full=True,
-             cache=cache, index=index, log=lambda *a: None)
+             cache=cache, index=index, min_size=1, log=lambda *a: None)
     assert state.newest_submission_id == 9
 
     # The resumed leg starts mid-history, so it must not claim a new high-water mark.
     state2 = SyncState.load(tmp_path / "state.json")
     run_sync(FakeClient(history), state2, repo_root=repo, full=True,
              cache=ProblemCache(tmp_path / "cache.json"),
-             index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+             index=SolutionIndex(tmp_path / "index.json"), min_size=1, log=lambda *a: None)
     assert state2.newest_submission_id == 9
 
 
@@ -241,12 +241,12 @@ def test_older_submission_never_overwrites_a_newer_one(tmp_path):
     repo = tmp_path / "repo"
     state, cache, index = _fixture_paths(tmp_path)
     run_sync(FakeClient([sub(9, "two-sum", "python3", 900, code="newer")]), state,
-             repo_root=repo, cache=cache, index=index, log=lambda *a: None)
+             repo_root=repo, cache=cache, index=index, min_size=1, log=lambda *a: None)
 
     # A resumed backfill walking backwards hits an older accepted attempt.
     state2 = SyncState.load(tmp_path / "state.json")
     run_sync(FakeClient([sub(1, "two-sum", "python3", 100, code="older")]), state2,
              repo_root=repo, full=True, cache=ProblemCache(tmp_path / "cache.json"),
-             index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+             index=SolutionIndex(tmp_path / "index.json"), min_size=1, log=lambda *a: None)
 
     assert "newer" in (repo / "hash-table" / "0001-two-sum" / "solution.py").read_text(encoding="utf-8")

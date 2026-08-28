@@ -21,6 +21,8 @@ from .layout import (
     render_solution,
     write_text,
 )
+from .bucketing import assign_topics
+from .config import TOPIC_MIN_SIZE
 from .relayout import apply_moves, plan_moves, prune_empty_topic_dirs
 from .state import ProblemCache, SolutionIndex, SyncState
 
@@ -66,6 +68,7 @@ def run_sync(
     max_submissions: int | None = None,
     cache: ProblemCache | None = None,
     index: SolutionIndex | None = None,
+    min_size: int = TOPIC_MIN_SIZE,
     log=print,
 ) -> SyncReport:
     report = SyncReport()
@@ -89,7 +92,6 @@ def run_sync(
         cursor["offset"], cursor["last_key"] = offset, last_key
 
     seen: set[tuple[str, str]] = set()
-    touched: set[str] = set()
 
     def handle(submission: Submission) -> None:
         if not submission.accepted or not submission.slug:
@@ -113,7 +115,6 @@ def run_sync(
         report.accepted += 1
         placement = placement_for(question, submission)
         index.record(question, submission)
-        touched.add(question.slug)
         if dry_run:
             report.written.append(placement.relative_path)
             return
@@ -151,7 +152,15 @@ def run_sync(
         cache.save()
         return report
 
-    _write_readmes(repo_root, index, touched)
+    moves = normalize_layout(repo_root, index, log=log, min_size=min_size)
+    if moves:
+        log(f"Re-filed {len(moves)} problems under the current topic ranking.")
+        remap = {m.source: m.destination for m in moves}
+        report.written = [
+            remap.get(str(Path(path).parent.as_posix()), str(Path(path).parent.as_posix()))
+            + "/" + Path(path).name
+            for path in report.written
+        ]
     cache.save()
     index.save()
 
@@ -170,10 +179,10 @@ def run_sync(
 
 
 def run_relayout(repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None,
-                 dry_run: bool = False, log=print) -> list:
+                 dry_run: bool = False, min_size: int = TOPIC_MIN_SIZE, log=print) -> list:
     """Re-file already-synced problems under the current topic ranking."""
     index = index if index is not None else SolutionIndex(INDEX_PATH)
-    moves = plan_moves(repo_root, index)
+    moves = plan_moves(repo_root, index, min_size)
     if not moves:
         log("Every problem is already in the right folder.")
         return moves
@@ -185,24 +194,34 @@ def run_relayout(repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None
     if dry_run:
         return moves
 
-    apply_moves(repo_root, moves)
-    removed = prune_empty_topic_dirs(repo_root)
-    if removed:
-        log(f"Removed empty topic folders: {', '.join(removed)}")
-    all_slugs = {question.slug for question, _ in index.entries()}
-    _write_readmes(repo_root, index, all_slugs)
+    normalize_layout(repo_root, index, log=log, min_size=min_size)
     return moves
 
 
-def _write_readmes(repo_root: Path, index: SolutionIndex, touched: set[str]) -> None:
+def _write_readmes(repo_root: Path, index: SolutionIndex,
+                   min_size: int = TOPIC_MIN_SIZE) -> None:
+    """Rewrite every README. Consolidation is global, so one problem arriving
+    can change which folder its neighbours belong in."""
     entries = index.entries()
+    assignment = assign_topics([question for question, _ in entries], min_size)
     for question, submissions in entries:
-        if question.slug not in touched:
-            continue
-        placement = placement_for(question, submissions[0])
+        placement = placement_for(question, submissions[0], assignment.get(question.slug))
         readme = repo_root / placement.topic_dir / placement.problem_dir / "README.md"
         write_text(readme, render_problem_readme(question, submissions))
-    write_text(repo_root / "README.md", render_root_readme(entries))
+    write_text(repo_root / "README.md", render_root_readme(entries, assignment=assignment))
+
+
+def normalize_layout(repo_root: Path, index: SolutionIndex, log=print,
+                     min_size: int = TOPIC_MIN_SIZE) -> list:
+    """Move anything now in the wrong folder, then regenerate the READMEs."""
+    moves = plan_moves(repo_root, index, min_size)
+    if moves:
+        apply_moves(repo_root, moves)
+        removed = prune_empty_topic_dirs(repo_root)
+        if removed:
+            log(f"Removed empty topic folders: {', '.join(removed)}")
+    _write_readmes(repo_root, index, min_size)
+    return moves
 
 
 def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:

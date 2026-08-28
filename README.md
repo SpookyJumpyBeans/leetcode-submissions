@@ -15,7 +15,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | --- | --- | --- | --- |
 | 674 | [Longest Continuous Increasing Subsequence](array/0674-longest-continuous-increasing-subsequence) | Easy | [Java](array/0674-longest-continuous-increasing-subsequence/solution.java) |
 
-## Backtracking (11)
+## Backtracking (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -30,8 +30,9 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 90 | [Subsets II](backtracking/0090-subsets-ii) | Medium | [Java](backtracking/0090-subsets-ii/solution.java) |
 | 257 | [Binary Tree Paths](backtracking/0257-binary-tree-paths) | Easy | [Java](backtracking/0257-binary-tree-paths/solution.java) |
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
+| 1863 | [Sum of All Subset XOR Totals](backtracking/1863-sum-of-all-subset-xor-totals) | Easy | [Java](backtracking/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Binary Search (9)
+## Binary Search (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -42,8 +43,10 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 153 | [Find Minimum in Rotated Sorted Array](binary-search/0153-find-minimum-in-rotated-sorted-array) | Medium | [Java](binary-search/0153-find-minimum-in-rotated-sorted-array/solution.java) |
 | 209 | [Minimum Size Subarray Sum](binary-search/0209-minimum-size-subarray-sum) | Medium | [Java](binary-search/0209-minimum-size-subarray-sum/solution.java) |
 | 268 | [Missing Number](binary-search/0268-missing-number) | Easy | [Java](binary-search/0268-missing-number/solution.java) |
+| 278 | [First Bad Version](binary-search/0278-first-bad-version) | Easy | [Java](binary-search/0278-first-bad-version/solution.java) |
 | 704 | [Binary Search](binary-search/0704-binary-search) | Easy | [Java](binary-search/0704-binary-search/solution.java) |
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
+| 2251 | [Number of Flowers in Full Bloom](binary-search/2251-number-of-flowers-in-full-bloom) | Hard | [Java](binary-search/2251-number-of-flowers-in-full-bloom/solution.java) |
 
 ## Bit Manipulation (8)
 
@@ -57,12 +60,6 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1486 | [XOR Operation in an Array](bit-manipulation/1486-xor-operation-in-an-array) | Easy | [C++](bit-manipulation/1486-xor-operation-in-an-array/solution.cpp) |
 | 1720 | [Decode XORed Array](bit-manipulation/1720-decode-xored-array) | Easy | [Java](bit-manipulation/1720-decode-xored-array/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
-
-## Bitmask (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 473 | [Matchsticks to Square](bitmask/0473-matchsticks-to-square) | Medium | [Java](bitmask/0473-matchsticks-to-square/solution.java) |
 
 ## Breadth-First Search (4)
 
@@ -80,12 +77,6 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 347 | [Top K Frequent Elements](bucket-sort/0347-top-k-frequent-elements) | Medium | [Java](bucket-sort/0347-top-k-frequent-elements/solution.java) |
 | 451 | [Sort Characters By Frequency](bucket-sort/0451-sort-characters-by-frequency) | Medium | [Java](bucket-sort/0451-sort-characters-by-frequency/solution.java) |
 
-## Combinatorics (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
-
 ## Data Stream (3)
 
 | # | Problem | Difficulty | Solutions |
@@ -101,11 +92,12 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 417 | [Pacific Atlantic Water Flow](depth-first-search/0417-pacific-atlantic-water-flow) | Medium | [Java](depth-first-search/0417-pacific-atlantic-water-flow/solution.java) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (5)
+## Design (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 304 | [Range Sum Query 2D - Immutable](design/0304-range-sum-query-2d-immutable) | Medium | [Java](design/0304-range-sum-query-2d-immutable/solution.java) |
+| 900 | [RLE Iterator](design/0900-rle-iterator) | Medium | [Java](design/0900-rle-iterator/solution.java) |
 | 981 | [Time Based Key-Value Store](design/0981-time-based-key-value-store) | Medium | [C++](design/0981-time-based-key-value-store/solution.cpp) [Java](design/0981-time-based-key-value-store/solution.java) |
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
@@ -126,7 +118,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
 
-## Dynamic Programming (29)
+## Dynamic Programming (30)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -152,6 +144,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 343 | [Integer Break](dynamic-programming/0343-integer-break) | Medium | [Java](dynamic-programming/0343-integer-break/solution.java) |
 | 392 | [Is Subsequence](dynamic-programming/0392-is-subsequence) | Easy | [Java](dynamic-programming/0392-is-subsequence/solution.java) |
 | 410 | [Split Array Largest Sum](dynamic-programming/0410-split-array-largest-sum) | Hard | [Java](dynamic-programming/0410-split-array-largest-sum/solution.java) |
+| 473 | [Matchsticks to Square](dynamic-programming/0473-matchsticks-to-square) | Medium | [Java](dynamic-programming/0473-matchsticks-to-square/solution.java) |
 | 509 | [Fibonacci Number](dynamic-programming/0509-fibonacci-number) | Easy | [Java](dynamic-programming/0509-fibonacci-number/solution.java) |
 | 647 | [Palindromic Substrings](dynamic-programming/0647-palindromic-substrings) | Medium | [Java](dynamic-programming/0647-palindromic-substrings/solution.java) |
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
@@ -159,18 +152,6 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
-
-## Enumeration (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 2468 | [Split Message Based on Limit](enumeration/2468-split-message-based-on-limit) | Hard | [Java](enumeration/2468-split-message-based-on-limit/solution.java) |
-
-## Eulerian Circuit (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 332 | [Reconstruct Itinerary](eulerian-circuit/0332-reconstruct-itinerary) | Hard | [Java](eulerian-circuit/0332-reconstruct-itinerary/solution.java) |
 
 ## Game Theory (4)
 
@@ -181,13 +162,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1927 | [Sum Game](game-theory/1927-sum-game) | Medium | [Java](game-theory/1927-sum-game/solution.java) |
 | 2029 | [Stone Game IX](game-theory/2029-stone-game-ix) | Medium | [Java](game-theory/2029-stone-game-ix/solution.java) |
 
-## Geometry (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 973 | [K Closest Points to Origin](geometry/0973-k-closest-points-to-origin) | Medium | [Java](geometry/0973-k-closest-points-to-origin/solution.java) |
-
-## Graph Theory (6)
+## Graph Theory (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -195,6 +170,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 207 | [Course Schedule](graph/0207-course-schedule) | Medium | [Java](graph/0207-course-schedule/solution.java) |
 | 210 | [Course Schedule II](graph/0210-course-schedule-ii) | Medium | [Java](graph/0210-course-schedule-ii/solution.java) |
 | 310 | [Minimum Height Trees](graph/0310-minimum-height-trees) | Medium | [Java](graph/0310-minimum-height-trees/solution.java) |
+| 332 | [Reconstruct Itinerary](graph/0332-reconstruct-itinerary) | Hard | [Java](graph/0332-reconstruct-itinerary/solution.java) |
 | 802 | [Find Eventual Safe States](graph/0802-find-eventual-safe-states) | Medium | [Java](graph/0802-find-eventual-safe-states/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 
@@ -231,25 +207,14 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
 
-## Interactive (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 278 | [First Bad Version](interactive/0278-first-bad-version) | Easy | [Java](interactive/0278-first-bad-version/solution.java) |
-
-## Iterator (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
-
-## Linked List (12)
+## Linked List (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 2 | [Add Two Numbers](linked-list/0002-add-two-numbers) | Medium | [Java](linked-list/0002-add-two-numbers/solution.java) |
 | 19 | [Remove Nth Node From End of List](linked-list/0019-remove-nth-node-from-end-of-list) | Medium | [Java](linked-list/0019-remove-nth-node-from-end-of-list/solution.java) |
 | 21 | [Merge Two Sorted Lists](linked-list/0021-merge-two-sorted-lists) | Easy | [Java](linked-list/0021-merge-two-sorted-lists/solution.java) |
+| 23 | [Merge k Sorted Lists](linked-list/0023-merge-k-sorted-lists) | Hard | [Java](linked-list/0023-merge-k-sorted-lists/solution.java) |
 | 25 | [Reverse Nodes in k-Group](linked-list/0025-reverse-nodes-in-k-group) | Hard | [Java](linked-list/0025-reverse-nodes-in-k-group/solution.java) |
 | 83 | [Remove Duplicates from Sorted List](linked-list/0083-remove-duplicates-from-sorted-list) | Easy | [Java](linked-list/0083-remove-duplicates-from-sorted-list/solution.java) |
 | 138 | [Copy List with Random Pointer](linked-list/0138-copy-list-with-random-pointer) | Medium | [Java](linked-list/0138-copy-list-with-random-pointer/solution.java) |
@@ -277,12 +242,6 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 48 | [Rotate Image](matrix/0048-rotate-image) | Medium | [Java](matrix/0048-rotate-image/solution.java) |
 | 54 | [Spiral Matrix](matrix/0054-spiral-matrix) | Medium | [Java](matrix/0054-spiral-matrix/solution.java) |
 
-## Merge Sort (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 23 | [Merge k Sorted Lists](merge-sort/0023-merge-k-sorted-lists) | Hard | [Java](merge-sort/0023-merge-k-sorted-lists/solution.java) |
-
 ## Monotonic Queue (2)
 
 | # | Problem | Difficulty | Solutions |
@@ -300,12 +259,6 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 
-## Ordered Set (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 2251 | [Number of Flowers in Full Bloom](ordered-set/2251-number-of-flowers-in-full-bloom) | Hard | [Java](ordered-set/2251-number-of-flowers-in-full-bloom/solution.java) |
-
 ## Prefix Sum (3)
 
 | # | Problem | Difficulty | Solutions |
@@ -314,11 +267,12 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
 
-## Quickselect (1)
+## Quickselect (2)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 215 | [Kth Largest Element in an Array](quickselect/0215-kth-largest-element-in-an-array) | Medium | [Java](quickselect/0215-kth-largest-element-in-an-array/solution.java) |
+| 973 | [K Closest Points to Origin](quickselect/0973-k-closest-points-to-origin) | Medium | [Java](quickselect/0973-k-closest-points-to-origin/solution.java) |
 
 ## Segment Tree (2)
 
@@ -375,19 +329,14 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
 
-## String (1)
+## String (2)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
+| 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## String Matching (1)
-
-| # | Problem | Difficulty | Solutions |
-| --- | --- | --- | --- |
-| 572 | [Subtree of Another Tree](string-matching/0572-subtree-of-another-tree) | Easy | [Java](string-matching/0572-subtree-of-another-tree/solution.java) |
-
-## Tree (19)
+## Tree (20)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -407,6 +356,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 427 | [Construct Quad Tree](tree/0427-construct-quad-tree) | Medium | [Java](tree/0427-construct-quad-tree/solution.java) |
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
+| 572 | [Subtree of Another Tree](tree/0572-subtree-of-another-tree) | Easy | [Java](tree/0572-subtree-of-another-tree/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
