@@ -9,7 +9,7 @@ from .api import AuthError, LeetCodeClient, LeetCodeError
 from .config import Credentials, MissingCredentials
 from .setup import prompt_for_cookies
 from .state import SyncState
-from .sync import commit, run_sync, summarize
+from .sync import SyncReport, commit, run_relayout, run_sync, summarize
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -21,6 +21,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--set-cookies",
         action="store_true",
         help="Prompt for your LeetCode cookies and write them to _sync/.env.",
+    )
+    parser.add_argument(
+        "--relayout",
+        action="store_true",
+        help="Re-file synced problems under the current topic ranking. No network.",
     )
     parser.add_argument(
         "--full",
@@ -64,6 +69,13 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.set_cookies:
         return prompt_for_cookies()
+
+    if args.relayout:
+        moves = run_relayout(dry_run=args.dry_run)
+        if moves and not args.dry_run and not args.no_commit:
+            report = SyncReport(written=[m.destination for m in moves])
+            commit(report, push=args.push)
+        return 0
 
     try:
         credentials = Credentials.load()

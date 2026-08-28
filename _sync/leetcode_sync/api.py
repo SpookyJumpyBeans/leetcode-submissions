@@ -15,6 +15,8 @@ from typing import Any, Iterator
 
 import requests
 
+from .config import topic_rank
+
 BASE_URL = "https://leetcode.com"
 SUBMISSIONS_URL = f"{BASE_URL}/api/submissions/"
 GRAPHQL_URL = f"{BASE_URL}/graphql/"
@@ -111,8 +113,17 @@ class Question:
 
     @property
     def primary_topic(self) -> tuple[str, str]:
-        """LeetCode lists tags roughly by relevance; the first is the best bucket."""
-        return self.topics[0] if self.topics else ("Miscellaneous", "miscellaneous")
+        """The most specific tag, not the first one LeetCode happens to list.
+
+        Ties keep LeetCode's own ordering, so equally-ranked tags stay stable.
+        """
+        if not self.topics:
+            return ("Miscellaneous", "miscellaneous")
+        ranked = sorted(
+            enumerate(self.topics),
+            key=lambda pair: (topic_rank(pair[1][1]), pair[0]),
+        )
+        return ranked[0][1]
 
     def to_json(self) -> dict[str, Any]:
         return {

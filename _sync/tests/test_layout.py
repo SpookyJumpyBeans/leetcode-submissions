@@ -52,8 +52,9 @@ def test_slugify_collapses_punctuation():
 
 
 def test_placement_uses_primary_topic_and_padded_number():
+    # Tagged [Array, Hash Table]: the specific tag wins over the catch-all.
     placement = placement_for(make_question(), make_submission())
-    assert placement.relative_path == "array/0001-two-sum/solution.py"
+    assert placement.relative_path == "hash-table/0001-two-sum/solution.py"
 
 
 def test_placement_falls_back_when_frontend_id_is_not_numeric():
@@ -110,9 +111,9 @@ def test_root_readme_groups_by_topic_and_counts_difficulty():
     readme = render_root_readme(entries, generated_at=datetime(2026, 1, 2, tzinfo=timezone.utc))
     assert "**2 problems solved**" in readme
     assert "1 Easy" in readme and "1 Medium" in readme
-    assert "## Array (1)" in readme
+    assert "## Hash Table (1)" in readme
     assert "## Two Pointers (1)" in readme
-    assert "(array/0001-two-sum)" in readme
+    assert "(hash-table/0001-two-sum)" in readme
     assert "Last synced 2026-01-02" in readme
 
 

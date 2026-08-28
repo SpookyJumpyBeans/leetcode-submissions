@@ -104,11 +104,11 @@ def test_run_sync_writes_tree_and_readmes(tmp_path):
 
     assert report.fetched == 3
     assert report.accepted == 2
-    assert (repo / "array" / "0001-two-sum" / "solution.py").exists()
-    assert (repo / "array" / "0001-two-sum" / "solution.java").exists()
+    assert (repo / "hash-table" / "0001-two-sum" / "solution.py").exists()
+    assert (repo / "hash-table" / "0001-two-sum" / "solution.java").exists()
     assert not (repo / "two-pointers").exists()
 
-    problem_readme = (repo / "array" / "0001-two-sum" / "README.md").read_text(encoding="utf-8")
+    problem_readme = (repo / "hash-table" / "0001-two-sum" / "README.md").read_text(encoding="utf-8")
     assert "solution.java" in problem_readme
     root_readme = (repo / "README.md").read_text(encoding="utf-8")
     assert "**1 problems solved**" in root_readme
@@ -147,7 +147,7 @@ def test_run_sync_overwrites_with_a_newer_accepted_solution(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     run_sync(FakeClient([sub(1, "two-sum", "python3", 100, code="old")]), state,
              repo_root=repo, cache=cache, index=index, log=lambda *a: None)
-    solution = repo / "array" / "0001-two-sum" / "solution.py"
+    solution = repo / "hash-table" / "0001-two-sum" / "solution.py"
     assert "old" in solution.read_text(encoding="utf-8")
 
     state2 = SyncState.load(tmp_path / "state.json")
@@ -162,7 +162,7 @@ def test_run_sync_dry_run_writes_nothing(tmp_path):
     state, cache, index = _fixture_paths(tmp_path)
     report = run_sync(FakeClient([sub(1, "two-sum", "python3", 100)]), state, repo_root=repo,
                       cache=cache, index=index, dry_run=True, log=lambda *a: None)
-    assert report.written == ["array/0001-two-sum/solution.py"]
+    assert report.written == ["hash-table/0001-two-sum/solution.py"]
     assert not repo.exists()
     assert state.newest_submission_id is None
 
@@ -196,7 +196,7 @@ def test_partial_run_saves_progress_and_a_resume_cursor(tmp_path):
     assert report.partial is True
     assert report.fetched == 1
     # The one solution it managed to fetch is on disk, not discarded.
-    assert (repo / "array" / "0001-two-sum" / "solution.py").exists()
+    assert (repo / "hash-table" / "0001-two-sum" / "solution.py").exists()
     assert state.backfill_offset == 1
     assert state.backfill_complete is False
 
@@ -249,4 +249,4 @@ def test_older_submission_never_overwrites_a_newer_one(tmp_path):
              repo_root=repo, full=True, cache=ProblemCache(tmp_path / "cache.json"),
              index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
 
-    assert "newer" in (repo / "array" / "0001-two-sum" / "solution.py").read_text(encoding="utf-8")
+    assert "newer" in (repo / "hash-table" / "0001-two-sum" / "solution.py").read_text(encoding="utf-8")

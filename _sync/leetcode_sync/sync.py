@@ -21,6 +21,7 @@ from .layout import (
     render_solution,
     write_text,
 )
+from .relayout import apply_moves, plan_moves, prune_empty_topic_dirs
 from .state import ProblemCache, SolutionIndex, SyncState
 
 INDEX_PATH = REPO_ROOT / "_sync" / ".solution_index.json"
@@ -166,6 +167,31 @@ def run_sync(
     state.problems_synced = len(index)
     state.save()
     return report
+
+
+def run_relayout(repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None,
+                 dry_run: bool = False, log=print) -> list:
+    """Re-file already-synced problems under the current topic ranking."""
+    index = index if index is not None else SolutionIndex(INDEX_PATH)
+    moves = plan_moves(repo_root, index)
+    if not moves:
+        log("Every problem is already in the right folder.")
+        return moves
+    log(f"{len(moves)} problems move:")
+    for move in moves[:15]:
+        log(f"  {move.source}  ->  {move.destination}")
+    if len(moves) > 15:
+        log(f"  ... and {len(moves) - 15} more")
+    if dry_run:
+        return moves
+
+    apply_moves(repo_root, moves)
+    removed = prune_empty_topic_dirs(repo_root)
+    if removed:
+        log(f"Removed empty topic folders: {', '.join(removed)}")
+    all_slugs = {question.slug for question, _ in index.entries()}
+    _write_readmes(repo_root, index, all_slugs)
+    return moves
 
 
 def _write_readmes(repo_root: Path, index: SolutionIndex, touched: set[str]) -> None:

@@ -119,3 +119,53 @@ class Credentials:
                 f"{ENV_PATH} (see .env.example)."
             )
         return cls(session=session, csrf_token=csrf)
+
+
+# Topic-folder ranking. LeetCode returns tags in its own order, and that order
+# puts the vaguest tag first far too often - "array" leads on roughly half of
+# all problems, which collapses the whole repo into one folder. Lower rank wins,
+# so a problem tagged [array, dynamic-programming] files under the DP folder.
+#
+# The tiers, loosely: distinctive structures and niche techniques beat the big
+# algorithm families, which beat generic traversal techniques, which beat the
+# catch-all container tags.
+TOPIC_RANK = {
+    # Distinctive structures and niche techniques - always the best label.
+    "segment-tree": 10, "binary-indexed-tree": 10, "trie": 10, "union-find": 10,
+    "suffix-array": 10, "minimum-spanning-tree": 10, "strongly-connected-component": 10,
+    "biconnected-component": 10, "eulerian-circuit": 10, "rolling-hash": 10,
+    "string-matching": 10, "shortest-path": 10, "monotonic-stack": 10,
+    "monotonic-queue": 10, "line-sweep": 10, "reservoir-sampling": 10,
+    "rejection-sampling": 10, "randomized": 10, "quickselect": 10, "radix-sort": 10,
+    "bucket-sort": 10, "counting-sort": 10, "merge-sort": 10, "game-theory": 10,
+    "geometry": 10, "number-theory": 10, "combinatorics": 10, "bitmask": 10,
+    "probability-and-statistics": 10, "concurrency": 10, "interactive": 10,
+    "shell": 10, "iterator": 10, "data-stream": 10, "doubly-linked-list": 10,
+    "ordered-set": 10, "hash-function": 10, "brainteaser": 10,
+
+    # The big algorithm families people actually browse for.
+    "dynamic-programming": 15, "backtracking": 15,
+
+    # Data structures: a better shelf than the technique used to walk them.
+    "tree": 18, "binary-tree": 18, "binary-search-tree": 18, "graph": 18,
+    "linked-list": 18, "heap-priority-queue": 18, "stack": 18, "queue": 18,
+    "design": 18, "database": 18,
+
+    # Techniques.
+    "sliding-window": 22, "binary-search": 22, "two-pointers": 22,
+    "divide-and-conquer": 22, "greedy": 22, "recursion": 22, "memoization": 22,
+    "depth-first-search": 22, "breadth-first-search": 22, "topological-sort": 22,
+
+    # Weak labels: true of a great many problems.
+    "prefix-sum": 30, "bit-manipulation": 30, "simulation": 30, "matrix": 30,
+    "sorting": 40, "counting": 40, "enumeration": 40,
+
+    # Catch-alls. These should only ever win when nothing else applies.
+    "hash-table": 90, "math": 92, "string": 95, "array": 99,
+}
+
+DEFAULT_TOPIC_RANK = 50  # an unrecognised tag is probably reasonably specific
+
+
+def topic_rank(slug: str) -> int:
+    return TOPIC_RANK.get(slug, DEFAULT_TOPIC_RANK)
