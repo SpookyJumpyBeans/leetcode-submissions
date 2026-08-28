@@ -1,4 +1,214 @@
 {
+  "3sum": {
+    "difficulty": "Medium",
+    "frontend_id": "15",
+    "paid_only": false,
+    "slug": "3sum",
+    "title": "3Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "3sum-closest": {
+    "difficulty": "Medium",
+    "frontend_id": "16",
+    "paid_only": false,
+    "slug": "3sum-closest",
+    "title": "3Sum Closest",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "add-binary": {
+    "difficulty": "Easy",
+    "frontend_id": "67",
+    "paid_only": false,
+    "slug": "add-binary",
+    "title": "Add Binary",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "add-two-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "2",
+    "paid_only": false,
+    "slug": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "all-oone-data-structure": {
+    "difficulty": "Hard",
+    "frontend_id": "432",
+    "paid_only": false,
+    "slug": "all-oone-data-structure",
+    "title": "All O`one Data Structure",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
+      ]
+    ]
+  },
+  "asteroid-collision": {
+    "difficulty": "Medium",
+    "frontend_id": "735",
+    "paid_only": false,
+    "slug": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "balanced-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "110",
+    "paid_only": false,
+    "slug": "balanced-binary-tree",
+    "title": "Balanced Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "difficulty": "Easy",
+    "frontend_id": "121",
+    "paid_only": false,
+    "slug": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "122",
+    "paid_only": false,
+    "slug": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "binary-search": {
+    "difficulty": "Easy",
+    "frontend_id": "704",
+    "paid_only": false,
+    "slug": "binary-search",
+    "title": "Binary Search",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "difficulty": "Easy",
     "frontend_id": "94",
@@ -9,6 +219,85 @@
       [
         "Stack",
         "stack"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "binary-tree-level-order-traversal": {
+    "difficulty": "Medium",
+    "frontend_id": "102",
+    "paid_only": false,
+    "slug": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "binary-tree-maximum-path-sum": {
+    "difficulty": "Hard",
+    "frontend_id": "124",
+    "paid_only": false,
+    "slug": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "DP on Trees",
+        "dp-on-trees"
+      ]
+    ]
+  },
+  "binary-tree-paths": {
+    "difficulty": "Easy",
+    "frontend_id": "257",
+    "paid_only": false,
+    "slug": "binary-tree-paths",
+    "title": "Binary Tree Paths",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
       ],
       [
         "Tree",
@@ -74,6 +363,31 @@
       ]
     ]
   },
+  "binary-tree-right-side-view": {
+    "difficulty": "Medium",
+    "frontend_id": "199",
+    "paid_only": false,
+    "slug": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "boats-to-save-people": {
     "difficulty": "Medium",
     "frontend_id": "881",
@@ -132,6 +446,31 @@
       ]
     ]
   },
+  "car-fleet": {
+    "difficulty": "Medium",
+    "frontend_id": "853",
+    "paid_only": false,
+    "slug": "car-fleet",
+    "title": "Car Fleet",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ]
+    ]
+  },
   "car-pooling": {
     "difficulty": "Medium",
     "frontend_id": "1094",
@@ -161,6 +500,199 @@
       ]
     ]
   },
+  "cheapest-flights-within-k-stops": {
+    "difficulty": "Medium",
+    "frontend_id": "787",
+    "paid_only": false,
+    "slug": "cheapest-flights-within-k-stops",
+    "title": "Cheapest Flights Within K Stops",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ]
+    ]
+  },
+  "check-divisibility-by-digit-sum-and-product": {
+    "difficulty": "Easy",
+    "frontend_id": "3622",
+    "paid_only": false,
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ]
+    ]
+  },
+  "cinema-seat-allocation": {
+    "difficulty": "Medium",
+    "frontend_id": "1386",
+    "paid_only": false,
+    "slug": "cinema-seat-allocation",
+    "title": "Cinema Seat Allocation",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "climbing-stairs": {
+    "difficulty": "Easy",
+    "frontend_id": "70",
+    "paid_only": false,
+    "slug": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ]
+    ]
+  },
+  "clone-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "133",
+    "paid_only": false,
+    "slug": "clone-graph",
+    "title": "Clone Graph",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ]
+    ]
+  },
+  "combination-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "39",
+    "paid_only": false,
+    "slug": "combination-sum",
+    "title": "Combination Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
+  "combination-sum-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "40",
+    "paid_only": false,
+    "slug": "combination-sum-ii",
+    "title": "Combination Sum II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
+  "combinations": {
+    "difficulty": "Medium",
+    "frontend_id": "77",
+    "paid_only": false,
+    "slug": "combinations",
+    "title": "Combinations",
+    "topics": [
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
+  "construct-binary-tree-from-preorder-and-inorder-traversal": {
+    "difficulty": "Medium",
+    "frontend_id": "105",
+    "paid_only": false,
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "construct-quad-tree": {
     "difficulty": "Medium",
     "frontend_id": "427",
@@ -186,6 +718,228 @@
       ]
     ]
   },
+  "container-with-most-water": {
+    "difficulty": "Medium",
+    "frontend_id": "11",
+    "paid_only": false,
+    "slug": "container-with-most-water",
+    "title": "Container With Most Water",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "contains-duplicate": {
+    "difficulty": "Easy",
+    "frontend_id": "217",
+    "paid_only": false,
+    "slug": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "copy-list-with-random-pointer": {
+    "difficulty": "Medium",
+    "frontend_id": "138",
+    "paid_only": false,
+    "slug": "copy-list-with-random-pointer",
+    "title": "Copy List with Random Pointer",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ]
+    ]
+  },
+  "count-complete-tree-nodes": {
+    "difficulty": "Medium",
+    "frontend_id": "222",
+    "paid_only": false,
+    "slug": "count-complete-tree-nodes",
+    "title": "Count Complete Tree Nodes",
+    "topics": [
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "count-good-nodes-in-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1448",
+    "paid_only": false,
+    "slug": "count-good-nodes-in-binary-tree",
+    "title": "Count Good Nodes in Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "count-integers-in-intervals": {
+    "difficulty": "Hard",
+    "frontend_id": "2276",
+    "paid_only": false,
+    "slug": "count-integers-in-intervals",
+    "title": "Count Integers in Intervals",
+    "topics": [
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
+  "counting-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "338",
+    "paid_only": false,
+    "slug": "counting-bits",
+    "title": "Counting Bits",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "course-schedule": {
+    "difficulty": "Medium",
+    "frontend_id": "207",
+    "paid_only": false,
+    "slug": "course-schedule",
+    "title": "Course Schedule",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ],
+      [
+        "Directed Acyclic Graph",
+        "directed-acyclic-graph"
+      ]
+    ]
+  },
+  "course-schedule-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "210",
+    "paid_only": false,
+    "slug": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ]
+    ]
+  },
+  "daily-temperatures": {
+    "difficulty": "Medium",
+    "frontend_id": "739",
+    "paid_only": false,
+    "slug": "daily-temperatures",
+    "title": "Daily Temperatures",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ]
+    ]
+  },
   "decode-string": {
     "difficulty": "Medium",
     "frontend_id": "394",
@@ -207,6 +961,809 @@
       ]
     ]
   },
+  "decode-ways": {
+    "difficulty": "Medium",
+    "frontend_id": "91",
+    "paid_only": false,
+    "slug": "decode-ways",
+    "title": "Decode Ways",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "decode-xored-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1720",
+    "paid_only": false,
+    "slug": "decode-xored-array",
+    "title": "Decode XORed Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "delete-node-in-a-bst": {
+    "difficulty": "Medium",
+    "frontend_id": "450",
+    "paid_only": false,
+    "slug": "delete-node-in-a-bst",
+    "title": "Delete Node in a BST",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "delete-node-in-a-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "237",
+    "paid_only": false,
+    "slug": "delete-node-in-a-linked-list",
+    "title": "Delete Node in a Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ]
+    ]
+  },
+  "design-add-and-search-words-data-structure": {
+    "difficulty": "Medium",
+    "frontend_id": "211",
+    "paid_only": false,
+    "slug": "design-add-and-search-words-data-structure",
+    "title": "Design Add and Search Words Data Structure",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Trie",
+        "trie"
+      ]
+    ]
+  },
+  "design-parking-system": {
+    "difficulty": "Easy",
+    "frontend_id": "1603",
+    "paid_only": false,
+    "slug": "design-parking-system",
+    "title": "Design Parking System",
+    "topics": [
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
+  "design-twitter": {
+    "difficulty": "Medium",
+    "frontend_id": "355",
+    "paid_only": false,
+    "slug": "design-twitter",
+    "title": "Design Twitter",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ]
+    ]
+  },
+  "diameter-of-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "543",
+    "paid_only": false,
+    "slug": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "DP on Trees",
+        "dp-on-trees"
+      ]
+    ]
+  },
+  "different-ways-to-add-parentheses": {
+    "difficulty": "Medium",
+    "frontend_id": "241",
+    "paid_only": false,
+    "slug": "different-ways-to-add-parentheses",
+    "title": "Different Ways to Add Parentheses",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
+  "distribute-elements-into-two-arrays-i": {
+    "difficulty": "Easy",
+    "frontend_id": "3069",
+    "paid_only": false,
+    "slug": "distribute-elements-into-two-arrays-i",
+    "title": "Distribute Elements Into Two Arrays I",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "evaluate-division": {
+    "difficulty": "Medium",
+    "frontend_id": "399",
+    "paid_only": false,
+    "slug": "evaluate-division",
+    "title": "Evaluate Division",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ],
+      [
+        "Bellman\u2013Ford Algorithm",
+        "bellman-ford-algorithm"
+      ],
+      [
+        "Floyd\u2013Warshall Algorithm",
+        "floyd-warshall-algorithm"
+      ]
+    ]
+  },
+  "evaluate-reverse-polish-notation": {
+    "difficulty": "Medium",
+    "frontend_id": "150",
+    "paid_only": false,
+    "slug": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Stack",
+        "stack"
+      ]
+    ]
+  },
+  "excel-sheet-column-title": {
+    "difficulty": "Easy",
+    "frontend_id": "168",
+    "paid_only": false,
+    "slug": "excel-sheet-column-title",
+    "title": "Excel Sheet Column Title",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "fibonacci-number": {
+    "difficulty": "Easy",
+    "frontend_id": "509",
+    "paid_only": false,
+    "slug": "fibonacci-number",
+    "title": "Fibonacci Number",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ]
+    ]
+  },
+  "find-all-anagrams-in-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "438",
+    "paid_only": false,
+    "slug": "find-all-anagrams-in-a-string",
+    "title": "Find All Anagrams in a String",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "find-eventual-safe-states": {
+    "difficulty": "Medium",
+    "frontend_id": "802",
+    "paid_only": false,
+    "slug": "find-eventual-safe-states",
+    "title": "Find Eventual Safe States",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ],
+      [
+        "Kosaraju's Algorithm",
+        "kosarajus-algorithm"
+      ],
+      [
+        "Tarjan's SCC Algorithm",
+        "tarjans-scc-algorithm"
+      ]
+    ]
+  },
+  "find-k-pairs-with-smallest-sums": {
+    "difficulty": "Medium",
+    "frontend_id": "373",
+    "paid_only": false,
+    "slug": "find-k-pairs-with-smallest-sums",
+    "title": "Find K Pairs with Smallest Sums",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ]
+    ]
+  },
+  "find-median-from-data-stream": {
+    "difficulty": "Hard",
+    "frontend_id": "295",
+    "paid_only": false,
+    "slug": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
+  "find-minimum-in-rotated-sorted-array": {
+    "difficulty": "Medium",
+    "frontend_id": "153",
+    "paid_only": false,
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
+  "find-pivot-index": {
+    "difficulty": "Easy",
+    "frontend_id": "724",
+    "paid_only": false,
+    "slug": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
+    "difficulty": "Medium",
+    "frontend_id": "1334",
+    "paid_only": false,
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ],
+      [
+        "Bellman\u2013Ford Algorithm",
+        "bellman-ford-algorithm"
+      ],
+      [
+        "Floyd\u2013Warshall Algorithm",
+        "floyd-warshall-algorithm"
+      ]
+    ]
+  },
+  "find-the-duplicate-number": {
+    "difficulty": "Medium",
+    "frontend_id": "287",
+    "paid_only": false,
+    "slug": "find-the-duplicate-number",
+    "title": "Find the Duplicate Number",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Pigeonhole Principle",
+        "pigeonhole-principle"
+      ],
+      [
+        "Floyd's Cycle Finding Algorithm",
+        "floyds-cycle-finding-algorithm"
+      ]
+    ]
+  },
+  "find-the-largest-almost-missing-integer": {
+    "difficulty": "Easy",
+    "frontend_id": "3471",
+    "paid_only": false,
+    "slug": "find-the-largest-almost-missing-integer",
+    "title": "Find the Largest Almost Missing Integer",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ]
+    ]
+  },
+  "find-the-length-of-the-longest-common-prefix": {
+    "difficulty": "Medium",
+    "frontend_id": "3043",
+    "paid_only": false,
+    "slug": "find-the-length-of-the-longest-common-prefix",
+    "title": "Find the Length of the Longest Common Prefix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Trie",
+        "trie"
+      ]
+    ]
+  },
+  "finding-pairs-with-a-certain-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "1865",
+    "paid_only": false,
+    "slug": "finding-pairs-with-a-certain-sum",
+    "title": "Finding Pairs With a Certain Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ]
+    ]
+  },
+  "first-bad-version": {
+    "difficulty": "Easy",
+    "frontend_id": "278",
+    "paid_only": false,
+    "slug": "first-bad-version",
+    "title": "First Bad Version",
+    "topics": [
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Interactive",
+        "interactive"
+      ]
+    ]
+  },
+  "flood-fill": {
+    "difficulty": "Easy",
+    "frontend_id": "733",
+    "paid_only": false,
+    "slug": "flood-fill",
+    "title": "Flood Fill",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "gas-station": {
+    "difficulty": "Medium",
+    "frontend_id": "134",
+    "paid_only": false,
+    "slug": "gas-station",
+    "title": "Gas Station",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "generate-parentheses": {
+    "difficulty": "Medium",
+    "frontend_id": "22",
+    "paid_only": false,
+    "slug": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
+  "group-anagrams": {
+    "difficulty": "Medium",
+    "frontend_id": "49",
+    "paid_only": false,
+    "slug": "group-anagrams",
+    "title": "Group Anagrams",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "hand-of-straights": {
+    "difficulty": "Medium",
+    "frontend_id": "846",
+    "paid_only": false,
+    "slug": "hand-of-straights",
+    "title": "Hand of Straights",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "happy-number": {
+    "difficulty": "Easy",
+    "frontend_id": "202",
+    "paid_only": false,
+    "slug": "happy-number",
+    "title": "Happy Number",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Floyd's Cycle Finding Algorithm",
+        "floyds-cycle-finding-algorithm"
+      ]
+    ]
+  },
+  "house-robber": {
+    "difficulty": "Medium",
+    "frontend_id": "198",
+    "paid_only": false,
+    "slug": "house-robber",
+    "title": "House Robber",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "house-robber-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "213",
+    "paid_only": false,
+    "slug": "house-robber-ii",
+    "title": "House Robber II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "implement-trie-prefix-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "208",
+    "paid_only": false,
+    "slug": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Trie",
+        "trie"
+      ]
+    ]
+  },
   "integer-break": {
     "difficulty": "Medium",
     "frontend_id": "343",
@@ -221,6 +1778,348 @@
       [
         "Dynamic Programming",
         "dynamic-programming"
+      ]
+    ]
+  },
+  "invert-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "226",
+    "paid_only": false,
+    "slug": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "is-subsequence": {
+    "difficulty": "Easy",
+    "frontend_id": "392",
+    "paid_only": false,
+    "slug": "is-subsequence",
+    "title": "Is Subsequence",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "isomorphic-strings": {
+    "difficulty": "Easy",
+    "frontend_id": "205",
+    "paid_only": false,
+    "slug": "isomorphic-strings",
+    "title": "Isomorphic Strings",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "jump-game": {
+    "difficulty": "Medium",
+    "frontend_id": "55",
+    "paid_only": false,
+    "slug": "jump-game",
+    "title": "Jump Game",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "jump-game-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "45",
+    "paid_only": false,
+    "slug": "jump-game-ii",
+    "title": "Jump Game II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "k-closest-points-to-origin": {
+    "difficulty": "Medium",
+    "frontend_id": "973",
+    "paid_only": false,
+    "slug": "k-closest-points-to-origin",
+    "title": "K Closest Points to Origin",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Geometry",
+        "geometry"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Quickselect",
+        "quickselect"
+      ],
+      [
+        "K-D Tree",
+        "k-d-tree"
+      ]
+    ]
+  },
+  "koko-eating-bananas": {
+    "difficulty": "Medium",
+    "frontend_id": "875",
+    "paid_only": false,
+    "slug": "koko-eating-bananas",
+    "title": "Koko Eating Bananas",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
+  "kth-largest-element-in-a-stream": {
+    "difficulty": "Easy",
+    "frontend_id": "703",
+    "paid_only": false,
+    "slug": "kth-largest-element-in-a-stream",
+    "title": "Kth Largest Element in a Stream",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
+  "kth-largest-element-in-an-array": {
+    "difficulty": "Medium",
+    "frontend_id": "215",
+    "paid_only": false,
+    "slug": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Quickselect",
+        "quickselect"
+      ]
+    ]
+  },
+  "kth-smallest-element-in-a-bst": {
+    "difficulty": "Medium",
+    "frontend_id": "230",
+    "paid_only": false,
+    "slug": "kth-smallest-element-in-a-bst",
+    "title": "Kth Smallest Element in a BST",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "kth-smallest-element-in-a-sorted-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "378",
+    "paid_only": false,
+    "slug": "kth-smallest-element-in-a-sorted-matrix",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "largest-rectangle-in-histogram": {
+    "difficulty": "Hard",
+    "frontend_id": "84",
+    "paid_only": false,
+    "slug": "largest-rectangle-in-histogram",
+    "title": "Largest Rectangle in Histogram",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ],
+      [
+        "Range Minimum/Maximum Query",
+        "range-minimum-maximum-query"
+      ]
+    ]
+  },
+  "last-stone-weight": {
+    "difficulty": "Easy",
+    "frontend_id": "1046",
+    "paid_only": false,
+    "slug": "last-stone-weight",
+    "title": "Last Stone Weight",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ]
+    ]
+  },
+  "letter-combinations-of-a-phone-number": {
+    "difficulty": "Medium",
+    "frontend_id": "17",
+    "paid_only": false,
+    "slug": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
       ]
     ]
   },
@@ -253,6 +2152,481 @@
       ]
     ]
   },
+  "lfu-cache": {
+    "difficulty": "Hard",
+    "frontend_id": "460",
+    "paid_only": false,
+    "slug": "lfu-cache",
+    "title": "LFU Cache",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
+      ]
+    ]
+  },
+  "linked-list-cycle": {
+    "difficulty": "Easy",
+    "frontend_id": "141",
+    "paid_only": false,
+    "slug": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Floyd's Cycle Finding Algorithm",
+        "floyds-cycle-finding-algorithm"
+      ]
+    ]
+  },
+  "longest-common-prefix": {
+    "difficulty": "Easy",
+    "frontend_id": "14",
+    "paid_only": false,
+    "slug": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Trie",
+        "trie"
+      ]
+    ]
+  },
+  "longest-consecutive-sequence": {
+    "difficulty": "Medium",
+    "frontend_id": "128",
+    "paid_only": false,
+    "slug": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ]
+    ]
+  },
+  "longest-continuous-increasing-subsequence": {
+    "difficulty": "Easy",
+    "frontend_id": "674",
+    "paid_only": false,
+    "slug": "longest-continuous-increasing-subsequence",
+    "title": "Longest Continuous Increasing Subsequence",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ]
+    ]
+  },
+  "longest-happy-string": {
+    "difficulty": "Medium",
+    "frontend_id": "1405",
+    "paid_only": false,
+    "slug": "longest-happy-string",
+    "title": "Longest Happy String",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ]
+    ]
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "difficulty": "Hard",
+    "frontend_id": "329",
+    "paid_only": false,
+    "slug": "longest-increasing-path-in-a-matrix",
+    "title": "Longest Increasing Path in a Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Directed Acyclic Graph",
+        "directed-acyclic-graph"
+      ]
+    ]
+  },
+  "longest-mountain-in-array": {
+    "difficulty": "Medium",
+    "frontend_id": "845",
+    "paid_only": false,
+    "slug": "longest-mountain-in-array",
+    "title": "Longest Mountain in Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Enumeration",
+        "enumeration"
+      ]
+    ]
+  },
+  "longest-palindrome-by-concatenating-two-letter-words": {
+    "difficulty": "Medium",
+    "frontend_id": "2131",
+    "paid_only": false,
+    "slug": "longest-palindrome-by-concatenating-two-letter-words",
+    "title": "Longest Palindrome by Concatenating Two Letter Words",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
+  "longest-palindromic-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "5",
+    "paid_only": false,
+    "slug": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Manacher",
+        "manacher"
+      ]
+    ]
+  },
+  "longest-path-with-different-adjacent-characters": {
+    "difficulty": "Hard",
+    "frontend_id": "2246",
+    "paid_only": false,
+    "slug": "longest-path-with-different-adjacent-characters",
+    "title": "Longest Path With Different Adjacent Characters",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ]
+    ]
+  },
+  "longest-repeating-character-replacement": {
+    "difficulty": "Medium",
+    "frontend_id": "424",
+    "paid_only": false,
+    "slug": "longest-repeating-character-replacement",
+    "title": "Longest Repeating Character Replacement",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "longest-subsequence-with-non-zero-bitwise-xor": {
+    "difficulty": "Medium",
+    "frontend_id": "3702",
+    "paid_only": false,
+    "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+    "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "longest-substring-of-one-repeating-character": {
+    "difficulty": "Hard",
+    "frontend_id": "2213",
+    "paid_only": false,
+    "slug": "longest-substring-of-one-repeating-character",
+    "title": "Longest Substring of One Repeating Character",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
+  "longest-substring-without-repeating-characters": {
+    "difficulty": "Medium",
+    "frontend_id": "3",
+    "paid_only": false,
+    "slug": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "longest-turbulent-subarray": {
+    "difficulty": "Medium",
+    "frontend_id": "978",
+    "paid_only": false,
+    "slug": "longest-turbulent-subarray",
+    "title": "Longest Turbulent Subarray",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "235",
+    "paid_only": false,
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Binary Lifting",
+        "binary-lifting"
+      ],
+      [
+        "Lowest Common Ancestor",
+        "lowest-common-ancestor"
+      ]
+    ]
+  },
+  "lru-cache": {
+    "difficulty": "Medium",
+    "frontend_id": "146",
+    "paid_only": false,
+    "slug": "lru-cache",
+    "title": "LRU Cache",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
+      ]
+    ]
+  },
+  "majority-element-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "229",
+    "paid_only": false,
+    "slug": "majority-element-ii",
+    "title": "Majority Element II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Boyer\u2013Moore Majority Vote Algorithm",
+        "boyer-moore-majority-vote-algorithm"
+      ]
+    ]
+  },
   "matchsticks-to-square": {
     "difficulty": "Medium",
     "frontend_id": "473",
@@ -282,6 +2656,361 @@
       ]
     ]
   },
+  "max-area-of-island": {
+    "difficulty": "Medium",
+    "frontend_id": "695",
+    "paid_only": false,
+    "slug": "max-area-of-island",
+    "title": "Max Area of Island",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "104",
+    "paid_only": false,
+    "slug": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "maximum-length-substring-with-two-occurrences": {
+    "difficulty": "Easy",
+    "frontend_id": "3090",
+    "paid_only": false,
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "maximum-subarray": {
+    "difficulty": "Medium",
+    "frontend_id": "53",
+    "paid_only": false,
+    "slug": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "maximum-sum-circular-subarray": {
+    "difficulty": "Medium",
+    "frontend_id": "918",
+    "paid_only": false,
+    "slug": "maximum-sum-circular-subarray",
+    "title": "Maximum Sum Circular Subarray",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Monotonic Queue",
+        "monotonic-queue"
+      ]
+    ]
+  },
+  "median-of-two-sorted-arrays": {
+    "difficulty": "Hard",
+    "frontend_id": "4",
+    "paid_only": false,
+    "slug": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ]
+    ]
+  },
+  "meeting-rooms-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "2402",
+    "paid_only": false,
+    "slug": "meeting-rooms-iii",
+    "title": "Meeting Rooms III",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "merge-intervals": {
+    "difficulty": "Medium",
+    "frontend_id": "56",
+    "paid_only": false,
+    "slug": "merge-intervals",
+    "title": "Merge Intervals",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Quicksort",
+        "quicksort"
+      ]
+    ]
+  },
+  "merge-k-sorted-lists": {
+    "difficulty": "Hard",
+    "frontend_id": "23",
+    "paid_only": false,
+    "slug": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Merge Sort",
+        "merge-sort"
+      ],
+      [
+        "Tournament Sort",
+        "tournament-sort"
+      ]
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "difficulty": "Easy",
+    "frontend_id": "21",
+    "paid_only": false,
+    "slug": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "middle-of-the-linked-list": {
+    "difficulty": "Easy",
+    "frontend_id": "876",
+    "paid_only": false,
+    "slug": "middle-of-the-linked-list",
+    "title": "Middle of the Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "min-cost-climbing-stairs": {
+    "difficulty": "Easy",
+    "frontend_id": "746",
+    "paid_only": false,
+    "slug": "min-cost-climbing-stairs",
+    "title": "Min Cost Climbing Stairs",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "min-cost-to-connect-all-points": {
+    "difficulty": "Medium",
+    "frontend_id": "1584",
+    "paid_only": false,
+    "slug": "min-cost-to-connect-all-points",
+    "title": "Min Cost to Connect All Points",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Minimum Spanning Tree",
+        "minimum-spanning-tree"
+      ],
+      [
+        "Prim's Algorithm",
+        "prims-algorithm"
+      ],
+      [
+        "Kruskal's Algorithm",
+        "kruskals-algorithm"
+      ],
+      [
+        "Bor\u016fvka's Algorithm",
+        "boruvkas-algorithm"
+      ]
+    ]
+  },
+  "min-stack": {
+    "difficulty": "Medium",
+    "frontend_id": "155",
+    "paid_only": false,
+    "slug": "min-stack",
+    "title": "Min Stack",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ]
+    ]
+  },
+  "minimum-cost-to-reach-destination-in-time": {
+    "difficulty": "Hard",
+    "frontend_id": "1928",
+    "paid_only": false,
+    "slug": "minimum-cost-to-reach-destination-in-time",
+    "title": "Minimum Cost to Reach Destination in Time",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ]
+    ]
+  },
   "minimum-height-trees": {
     "difficulty": "Medium",
     "frontend_id": "310",
@@ -307,6 +3036,144 @@
       ]
     ]
   },
+  "minimum-path-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "64",
+    "paid_only": false,
+    "slug": "minimum-path-sum",
+    "title": "Minimum Path Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "minimum-size-subarray-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "209",
+    "paid_only": false,
+    "slug": "minimum-size-subarray-sum",
+    "title": "Minimum Size Subarray Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "minimum-window-substring": {
+    "difficulty": "Hard",
+    "frontend_id": "76",
+    "paid_only": false,
+    "slug": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "missing-number": {
+    "difficulty": "Easy",
+    "frontend_id": "268",
+    "paid_only": false,
+    "slug": "missing-number",
+    "title": "Missing Number",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "move-zeroes": {
+    "difficulty": "Easy",
+    "frontend_id": "283",
+    "paid_only": false,
+    "slug": "move-zeroes",
+    "title": "Move Zeroes",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "n-queens": {
+    "difficulty": "Hard",
+    "frontend_id": "51",
+    "paid_only": false,
+    "slug": "n-queens",
+    "title": "N-Queens",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Algorithm X",
+        "algorithm-x"
+      ]
+    ]
+  },
   "n-th-tribonacci-number": {
     "difficulty": "Easy",
     "frontend_id": "1137",
@@ -325,6 +3192,461 @@
       [
         "Memoization",
         "memoization"
+      ]
+    ]
+  },
+  "network-delay-time": {
+    "difficulty": "Medium",
+    "frontend_id": "743",
+    "paid_only": false,
+    "slug": "network-delay-time",
+    "title": "Network Delay Time",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ]
+    ]
+  },
+  "number-of-1-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "191",
+    "paid_only": false,
+    "slug": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "topics": [
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "number-of-flowers-in-full-bloom": {
+    "difficulty": "Hard",
+    "frontend_id": "2251",
+    "paid_only": false,
+    "slug": "number-of-flowers-in-full-bloom",
+    "title": "Number of Flowers in Full Bloom",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
+  "number-of-islands": {
+    "difficulty": "Medium",
+    "frontend_id": "200",
+    "paid_only": false,
+    "slug": "number-of-islands",
+    "title": "Number of Islands",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "number-of-provinces": {
+    "difficulty": "Medium",
+    "frontend_id": "547",
+    "paid_only": false,
+    "slug": "number-of-provinces",
+    "title": "Number of Provinces",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ]
+    ]
+  },
+  "number-of-recent-calls": {
+    "difficulty": "Easy",
+    "frontend_id": "933",
+    "paid_only": false,
+    "slug": "number-of-recent-calls",
+    "title": "Number of Recent Calls",
+    "topics": [
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
+  "number-of-steps-to-reduce-a-number-to-zero": {
+    "difficulty": "Easy",
+    "frontend_id": "1342",
+    "paid_only": false,
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "online-stock-span": {
+    "difficulty": "Medium",
+    "frontend_id": "901",
+    "paid_only": false,
+    "slug": "online-stock-span",
+    "title": "Online Stock Span",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
+  "pacific-atlantic-water-flow": {
+    "difficulty": "Medium",
+    "frontend_id": "417",
+    "paid_only": false,
+    "slug": "pacific-atlantic-water-flow",
+    "title": "Pacific Atlantic Water Flow",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "palindrome-partitioning": {
+    "difficulty": "Medium",
+    "frontend_id": "131",
+    "paid_only": false,
+    "slug": "palindrome-partitioning",
+    "title": "Palindrome Partitioning",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
+  "palindromic-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "647",
+    "paid_only": false,
+    "slug": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "partitioning-into-minimum-number-of-deci-binary-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "1689",
+    "paid_only": false,
+    "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+    "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
+  "path-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "112",
+    "paid_only": false,
+    "slug": "path-sum",
+    "title": "Path Sum",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "path-with-minimum-effort": {
+    "difficulty": "Medium",
+    "frontend_id": "1631",
+    "paid_only": false,
+    "slug": "path-with-minimum-effort",
+    "title": "Path With Minimum Effort",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ]
+    ]
+  },
+  "perfect-squares": {
+    "difficulty": "Medium",
+    "frontend_id": "279",
+    "paid_only": false,
+    "slug": "perfect-squares",
+    "title": "Perfect Squares",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Knapsack Problem",
+        "knapsack-problem"
+      ],
+      [
+        "Complete Knapsack",
+        "complete-knapsack"
+      ]
+    ]
+  },
+  "permutation-in-string": {
+    "difficulty": "Medium",
+    "frontend_id": "567",
+    "paid_only": false,
+    "slug": "permutation-in-string",
+    "title": "Permutation in String",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ]
+    ]
+  },
+  "permutations": {
+    "difficulty": "Medium",
+    "frontend_id": "46",
+    "paid_only": false,
+    "slug": "permutations",
+    "title": "Permutations",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
+  "plus-one": {
+    "difficulty": "Easy",
+    "frontend_id": "66",
+    "paid_only": false,
+    "slug": "plus-one",
+    "title": "Plus One",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ]
+    ]
+  },
+  "product-of-array-except-self": {
+    "difficulty": "Medium",
+    "frontend_id": "238",
+    "paid_only": false,
+    "slug": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
       ]
     ]
   },
@@ -353,6 +3675,414 @@
       ]
     ]
   },
+  "reconstruct-itinerary": {
+    "difficulty": "Hard",
+    "frontend_id": "332",
+    "paid_only": false,
+    "slug": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Eulerian Circuit",
+        "eulerian-circuit"
+      ],
+      [
+        "Eulerian Path",
+        "eulerian-path"
+      ],
+      [
+        "Semi-Eulerian Graph",
+        "semi-eulerian-graph"
+      ]
+    ]
+  },
+  "redundant-connection": {
+    "difficulty": "Medium",
+    "frontend_id": "684",
+    "paid_only": false,
+    "slug": "redundant-connection",
+    "title": "Redundant Connection",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ]
+    ]
+  },
+  "remove-duplicates-from-sorted-list": {
+    "difficulty": "Easy",
+    "frontend_id": "83",
+    "paid_only": false,
+    "slug": "remove-duplicates-from-sorted-list",
+    "title": "Remove Duplicates from Sorted List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ]
+    ]
+  },
+  "remove-element": {
+    "difficulty": "Easy",
+    "frontend_id": "27",
+    "paid_only": false,
+    "slug": "remove-element",
+    "title": "Remove Element",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "difficulty": "Medium",
+    "frontend_id": "19",
+    "paid_only": false,
+    "slug": "remove-nth-node-from-end-of-list",
+    "title": "Remove Nth Node From End of List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "reorder-list": {
+    "difficulty": "Medium",
+    "frontend_id": "143",
+    "paid_only": false,
+    "slug": "reorder-list",
+    "title": "Reorder List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "reverse-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "190",
+    "paid_only": false,
+    "slug": "reverse-bits",
+    "title": "Reverse Bits",
+    "topics": [
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "reverse-integer": {
+    "difficulty": "Medium",
+    "frontend_id": "7",
+    "paid_only": false,
+    "slug": "reverse-integer",
+    "title": "Reverse Integer",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ]
+    ]
+  },
+  "reverse-linked-list": {
+    "difficulty": "Easy",
+    "frontend_id": "206",
+    "paid_only": false,
+    "slug": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "reverse-nodes-in-k-group": {
+    "difficulty": "Hard",
+    "frontend_id": "25",
+    "paid_only": false,
+    "slug": "reverse-nodes-in-k-group",
+    "title": "Reverse Nodes in k-Group",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "reverse-string": {
+    "difficulty": "Easy",
+    "frontend_id": "344",
+    "paid_only": false,
+    "slug": "reverse-string",
+    "title": "Reverse String",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "reverse-words-in-a-string-iii": {
+    "difficulty": "Easy",
+    "frontend_id": "557",
+    "paid_only": false,
+    "slug": "reverse-words-in-a-string-iii",
+    "title": "Reverse Words in a String III",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "rle-iterator": {
+    "difficulty": "Medium",
+    "frontend_id": "900",
+    "paid_only": false,
+    "slug": "rle-iterator",
+    "title": "RLE Iterator",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Iterator",
+        "iterator"
+      ]
+    ]
+  },
+  "rotate-array": {
+    "difficulty": "Medium",
+    "frontend_id": "189",
+    "paid_only": false,
+    "slug": "rotate-array",
+    "title": "Rotate Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "rotate-image": {
+    "difficulty": "Medium",
+    "frontend_id": "48",
+    "paid_only": false,
+    "slug": "rotate-image",
+    "title": "Rotate Image",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "rotting-oranges": {
+    "difficulty": "Medium",
+    "frontend_id": "994",
+    "paid_only": false,
+    "slug": "rotting-oranges",
+    "title": "Rotting Oranges",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "running-sum-of-1d-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1480",
+    "paid_only": false,
+    "slug": "running-sum-of-1d-array",
+    "title": "Running Sum of 1d Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "same-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "100",
+    "paid_only": false,
+    "slug": "same-tree",
+    "title": "Same Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "search-a-2d-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "74",
+    "paid_only": false,
+    "slug": "search-a-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "search-in-rotated-sorted-array": {
+    "difficulty": "Medium",
+    "frontend_id": "33",
+    "paid_only": false,
+    "slug": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
   "search-insert-position": {
     "difficulty": "Easy",
     "frontend_id": "35",
@@ -370,6 +4100,131 @@
       ]
     ]
   },
+  "serialize-and-deserialize-binary-tree": {
+    "difficulty": "Hard",
+    "frontend_id": "297",
+    "paid_only": false,
+    "slug": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "shortest-path-in-a-grid-with-obstacles-elimination": {
+    "difficulty": "Hard",
+    "frontend_id": "1293",
+    "paid_only": false,
+    "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+    "title": "Shortest Path in a Grid with Obstacles Elimination",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "shortest-path-in-binary-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "1091",
+    "paid_only": false,
+    "slug": "shortest-path-in-binary-matrix",
+    "title": "Shortest Path in Binary Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "single-number": {
+    "difficulty": "Easy",
+    "frontend_id": "136",
+    "paid_only": false,
+    "slug": "single-number",
+    "title": "Single Number",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "sliding-window-maximum": {
+    "difficulty": "Hard",
+    "frontend_id": "239",
+    "paid_only": false,
+    "slug": "sliding-window-maximum",
+    "title": "Sliding Window Maximum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Monotonic Queue",
+        "monotonic-queue"
+      ],
+      [
+        "Range Minimum/Maximum Query",
+        "range-minimum-maximum-query"
+      ]
+    ]
+  },
   "smallest-missing-multiple-of-k": {
     "difficulty": "Easy",
     "frontend_id": "3718",
@@ -384,6 +4239,372 @@
       [
         "Hash Table",
         "hash-table"
+      ]
+    ]
+  },
+  "snapshot-array": {
+    "difficulty": "Medium",
+    "frontend_id": "1146",
+    "paid_only": false,
+    "slug": "snapshot-array",
+    "title": "Snapshot Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Persistent Data Structure",
+        "persistent-data-structure"
+      ]
+    ]
+  },
+  "sort-characters-by-frequency": {
+    "difficulty": "Medium",
+    "frontend_id": "451",
+    "paid_only": false,
+    "slug": "sort-characters-by-frequency",
+    "title": "Sort Characters By Frequency",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Bucket Sort",
+        "bucket-sort"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
+  "spiral-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "54",
+    "paid_only": false,
+    "slug": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "split-array-largest-sum": {
+    "difficulty": "Hard",
+    "frontend_id": "410",
+    "paid_only": false,
+    "slug": "split-array-largest-sum",
+    "title": "Split Array Largest Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "split-message-based-on-limit": {
+    "difficulty": "Hard",
+    "frontend_id": "2468",
+    "paid_only": false,
+    "slug": "split-message-based-on-limit",
+    "title": "Split Message Based on Limit",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Enumeration",
+        "enumeration"
+      ]
+    ]
+  },
+  "squares-of-a-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "977",
+    "paid_only": false,
+    "slug": "squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "step-by-step-directions-from-a-binary-tree-node-to-another": {
+    "difficulty": "Medium",
+    "frontend_id": "2096",
+    "paid_only": false,
+    "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Binary Lifting",
+        "binary-lifting"
+      ],
+      [
+        "Lowest Common Ancestor",
+        "lowest-common-ancestor"
+      ]
+    ]
+  },
+  "stone-game": {
+    "difficulty": "Medium",
+    "frontend_id": "877",
+    "paid_only": false,
+    "slug": "stone-game",
+    "title": "Stone Game",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Minimax",
+        "minimax-algorithm"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ],
+      [
+        "Zero-Sum Game",
+        "zero-sum-game"
+      ]
+    ]
+  },
+  "stone-game-ix": {
+    "difficulty": "Medium",
+    "frontend_id": "2029",
+    "paid_only": false,
+    "slug": "stone-game-ix",
+    "title": "Stone Game IX",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Minimax",
+        "minimax-algorithm"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ],
+      [
+        "Nim Game",
+        "nim-game"
+      ],
+      [
+        "Zero-Sum Game",
+        "zero-sum-game"
+      ]
+    ]
+  },
+  "stone-game-v": {
+    "difficulty": "Hard",
+    "frontend_id": "1563",
+    "paid_only": false,
+    "slug": "stone-game-v",
+    "title": "Stone Game V",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ]
+    ]
+  },
+  "string-to-integer-atoi": {
+    "difficulty": "Medium",
+    "frontend_id": "8",
+    "paid_only": false,
+    "slug": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "topics": [
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "78",
+    "paid_only": false,
+    "slug": "subsets",
+    "title": "Subsets",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "subsets-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "90",
+    "paid_only": false,
+    "slug": "subsets-ii",
+    "title": "Subsets II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "subtree-of-another-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "572",
+    "paid_only": false,
+    "slug": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "String Matching",
+        "string-matching"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Hash Function",
+        "hash-function"
       ]
     ]
   },
@@ -442,6 +4663,585 @@
       [
         "Enumeration",
         "enumeration"
+      ]
+    ]
+  },
+  "sum-of-two-integers": {
+    "difficulty": "Medium",
+    "frontend_id": "371",
+    "paid_only": false,
+    "slug": "sum-of-two-integers",
+    "title": "Sum of Two Integers",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "surrounded-regions": {
+    "difficulty": "Medium",
+    "frontend_id": "130",
+    "paid_only": false,
+    "slug": "surrounded-regions",
+    "title": "Surrounded Regions",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "swim-in-rising-water": {
+    "difficulty": "Hard",
+    "frontend_id": "778",
+    "paid_only": false,
+    "slug": "swim-in-rising-water",
+    "title": "Swim in Rising Water",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Minimax",
+        "minimax-algorithm"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ]
+    ]
+  },
+  "task-scheduler": {
+    "difficulty": "Medium",
+    "frontend_id": "621",
+    "paid_only": false,
+    "slug": "task-scheduler",
+    "title": "Task Scheduler",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
+  "text-justification": {
+    "difficulty": "Hard",
+    "frontend_id": "68",
+    "paid_only": false,
+    "slug": "text-justification",
+    "title": "Text Justification",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
+  "time-based-key-value-store": {
+    "difficulty": "Medium",
+    "frontend_id": "981",
+    "paid_only": false,
+    "slug": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ]
+    ]
+  },
+  "top-k-frequent-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "347",
+    "paid_only": false,
+    "slug": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Bucket Sort",
+        "bucket-sort"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Quickselect",
+        "quickselect"
+      ]
+    ]
+  },
+  "trapping-rain-water": {
+    "difficulty": "Hard",
+    "frontend_id": "42",
+    "paid_only": false,
+    "slug": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ]
+    ]
+  },
+  "triples-with-bitwise-and-equal-to-zero": {
+    "difficulty": "Hard",
+    "frontend_id": "982",
+    "paid_only": false,
+    "slug": "triples-with-bitwise-and-equal-to-zero",
+    "title": "Triples with Bitwise AND Equal To Zero",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "two-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "1",
+    "paid_only": false,
+    "slug": "two-sum",
+    "title": "Two Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ]
+    ]
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "difficulty": "Medium",
+    "frontend_id": "167",
+    "paid_only": false,
+    "slug": "two-sum-ii-input-array-is-sorted",
+    "title": "Two Sum II - Input Array Is Sorted",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
+  "ugly-number-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "264",
+    "paid_only": false,
+    "slug": "ugly-number-ii",
+    "title": "Ugly Number II",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ]
+    ]
+  },
+  "unique-email-addresses": {
+    "difficulty": "Easy",
+    "frontend_id": "929",
+    "paid_only": false,
+    "slug": "unique-email-addresses",
+    "title": "Unique Email Addresses",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "unique-paths-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "980",
+    "paid_only": false,
+    "slug": "unique-paths-iii",
+    "title": "Unique Paths III",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Hamiltonian Path",
+        "hamiltonian-path"
+      ]
+    ]
+  },
+  "valid-anagram": {
+    "difficulty": "Easy",
+    "frontend_id": "242",
+    "paid_only": false,
+    "slug": "valid-anagram",
+    "title": "Valid Anagram",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
+  "valid-palindrome": {
+    "difficulty": "Easy",
+    "frontend_id": "125",
+    "paid_only": false,
+    "slug": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
+  "valid-parentheses": {
+    "difficulty": "Easy",
+    "frontend_id": "20",
+    "paid_only": false,
+    "slug": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
+  "valid-sudoku": {
+    "difficulty": "Medium",
+    "frontend_id": "36",
+    "paid_only": false,
+    "slug": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "validate-binary-search-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "98",
+    "paid_only": false,
+    "slug": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "word-ladder": {
+    "difficulty": "Hard",
+    "frontend_id": "127",
+    "paid_only": false,
+    "slug": "word-ladder",
+    "title": "Word Ladder",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Bidirectional Search",
+        "bidirectional-search"
+      ]
+    ]
+  },
+  "word-search": {
+    "difficulty": "Medium",
+    "frontend_id": "79",
+    "paid_only": false,
+    "slug": "word-search",
+    "title": "Word Search",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "word-search-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "212",
+    "paid_only": false,
+    "slug": "word-search-ii",
+    "title": "Word Search II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Trie",
+        "trie"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "xor-operation-in-an-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1486",
+    "paid_only": false,
+    "slug": "xor-operation-in-an-array",
+    "title": "XOR Operation in an Array",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
       ]
     ]
   }

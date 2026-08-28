@@ -1,0 +1,8655 @@
+{
+  "3sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "15",
+      "paid_only": false,
+      "slug": "3sum",
+      "title": "3Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2089145594,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "29 MB",
+        "runtime": "47 ms",
+        "slug": "3sum",
+        "status": "Accepted",
+        "timestamp": 1785520266,
+        "title": "3Sum"
+      },
+      {
+        "id": 1399954980,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "52.2 MB",
+        "runtime": "836 ms",
+        "slug": "3sum",
+        "status": "Accepted",
+        "timestamp": 1727117905,
+        "title": "3Sum"
+      }
+    ]
+  },
+  "3sum-closest": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "16",
+      "paid_only": false,
+      "slug": "3sum-closest",
+      "title": "3Sum Closest",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1912005078,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.8 MB",
+        "runtime": "17 ms",
+        "slug": "3sum-closest",
+        "status": "Accepted",
+        "timestamp": 1770523225,
+        "title": "3Sum Closest"
+      }
+    ]
+  },
+  "add-binary": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "67",
+      "paid_only": false,
+      "slug": "add-binary",
+      "title": "Add Binary",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2117952400,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "2 ms",
+        "slug": "add-binary",
+        "status": "Accepted",
+        "timestamp": 1787542200,
+        "title": "Add Binary"
+      }
+    ]
+  },
+  "add-two-numbers": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2",
+      "paid_only": false,
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1827535029,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "1 ms",
+        "slug": "add-two-numbers",
+        "status": "Accepted",
+        "timestamp": 1762925582,
+        "title": "Add Two Numbers"
+      }
+    ]
+  },
+  "all-oone-data-structure": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "432",
+      "paid_only": false,
+      "slug": "all-oone-data-structure",
+      "title": "All O`one Data Structure",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2078870497,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "96.1 MB",
+        "runtime": "160 ms",
+        "slug": "all-oone-data-structure",
+        "status": "Accepted",
+        "timestamp": 1784839597,
+        "title": "All O`one Data Structure"
+      }
+    ]
+  },
+  "asteroid-collision": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "735",
+      "paid_only": false,
+      "slug": "asteroid-collision",
+      "title": "Asteroid Collision",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1918707521,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.1 MB",
+        "runtime": "5 ms",
+        "slug": "asteroid-collision",
+        "status": "Accepted",
+        "timestamp": 1771055889,
+        "title": "Asteroid Collision"
+      }
+    ]
+  },
+  "balanced-binary-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "110",
+      "paid_only": false,
+      "slug": "balanced-binary-tree",
+      "title": "Balanced Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1833067210,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.5 MB",
+        "runtime": "0 ms",
+        "slug": "balanced-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1763449006,
+        "title": "Balanced Binary Tree"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "121",
+      "paid_only": false,
+      "slug": "best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2093517063,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "97.3 MB",
+        "runtime": "6 ms",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "status": "Accepted",
+        "timestamp": 1785823099,
+        "title": "Best Time to Buy and Sell Stock"
+      },
+      {
+        "id": 1860159202,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "94.7 MB",
+        "runtime": "2 ms",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "status": "Accepted",
+        "timestamp": 1766187543,
+        "title": "Best Time to Buy and Sell Stock"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "122",
+      "paid_only": false,
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "title": "Best Time to Buy and Sell Stock II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2078894585,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "20.1 MB",
+        "runtime": "0 ms",
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "status": "Accepted",
+        "timestamp": 1784843167,
+        "title": "Best Time to Buy and Sell Stock II"
+      }
+    ]
+  },
+  "binary-search": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "704",
+      "paid_only": false,
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1814545249,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46 MB",
+        "runtime": "0 ms",
+        "slug": "binary-search",
+        "status": "Accepted",
+        "timestamp": 1761699626,
+        "title": "Binary Search"
+      }
+    ]
+  },
+  "binary-tree-inorder-traversal": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "94",
+      "paid_only": false,
+      "slug": "binary-tree-inorder-traversal",
+      "title": "Binary Tree Inorder Traversal",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2120313742,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "0 ms",
+        "slug": "binary-tree-inorder-traversal",
+        "status": "Accepted",
+        "timestamp": 1787715465,
+        "title": "Binary Tree Inorder Traversal"
+      }
+    ]
+  },
+  "binary-tree-level-order-traversal": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "102",
+      "paid_only": false,
+      "slug": "binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1842012745,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47 MB",
+        "runtime": "18 ms",
+        "slug": "binary-tree-level-order-traversal",
+        "status": "Accepted",
+        "timestamp": 1764359618,
+        "title": "Binary Tree Level Order Traversal"
+      }
+    ]
+  },
+  "binary-tree-maximum-path-sum": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "124",
+      "paid_only": false,
+      "slug": "binary-tree-maximum-path-sum",
+      "title": "Binary Tree Maximum Path Sum",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "DP on Trees",
+          "dp-on-trees"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1844581256,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "0 ms",
+        "slug": "binary-tree-maximum-path-sum",
+        "status": "Accepted",
+        "timestamp": 1764637866,
+        "title": "Binary Tree Maximum Path Sum"
+      }
+    ]
+  },
+  "binary-tree-paths": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "257",
+      "paid_only": false,
+      "slug": "binary-tree-paths",
+      "title": "Binary Tree Paths",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2070384561,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50 MB",
+        "runtime": "5 ms",
+        "slug": "binary-tree-paths",
+        "status": "Accepted",
+        "timestamp": 1784232772,
+        "title": "Binary Tree Paths"
+      }
+    ]
+  },
+  "binary-tree-postorder-traversal": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "145",
+      "paid_only": false,
+      "slug": "binary-tree-postorder-traversal",
+      "title": "Binary Tree Postorder Traversal",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2120315063,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "binary-tree-postorder-traversal",
+        "status": "Accepted",
+        "timestamp": 1787715605,
+        "title": "Binary Tree Postorder Traversal"
+      }
+    ]
+  },
+  "binary-tree-preorder-traversal": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "144",
+      "paid_only": false,
+      "slug": "binary-tree-preorder-traversal",
+      "title": "Binary Tree Preorder Traversal",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2120314118,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "binary-tree-preorder-traversal",
+        "status": "Accepted",
+        "timestamp": 1787715507,
+        "title": "Binary Tree Preorder Traversal"
+      }
+    ]
+  },
+  "binary-tree-right-side-view": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "199",
+      "paid_only": false,
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1842031469,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.8 MB",
+        "runtime": "1 ms",
+        "slug": "binary-tree-right-side-view",
+        "status": "Accepted",
+        "timestamp": 1764362371,
+        "title": "Binary Tree Right Side View"
+      }
+    ]
+  },
+  "boats-to-save-people": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "881",
+      "paid_only": false,
+      "slug": "boats-to-save-people",
+      "title": "Boats to Save People",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Timsort",
+          "timsort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2118992425,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "58.2 MB",
+        "runtime": "806 ms",
+        "slug": "boats-to-save-people",
+        "status": "Accepted",
+        "timestamp": 1787610481,
+        "title": "Boats to Save People"
+      }
+    ]
+  },
+  "build-a-matrix-with-conditions": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2392",
+      "paid_only": false,
+      "slug": "build-a-matrix-with-conditions",
+      "title": "Build a Matrix With Conditions",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Directed Acyclic Graph",
+          "directed-acyclic-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121421206,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "58.8 MB",
+        "runtime": "10 ms",
+        "slug": "build-a-matrix-with-conditions",
+        "status": "Accepted",
+        "timestamp": 1787800790,
+        "title": "Build a Matrix With Conditions"
+      }
+    ]
+  },
+  "car-fleet": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "853",
+      "paid_only": false,
+      "slug": "car-fleet",
+      "title": "Car Fleet",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1814490391,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "59.3 MB",
+        "runtime": "829 ms",
+        "slug": "car-fleet",
+        "status": "Accepted",
+        "timestamp": 1761691045,
+        "title": "Car Fleet"
+      }
+    ]
+  },
+  "car-pooling": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1094",
+      "paid_only": false,
+      "slug": "car-pooling",
+      "title": "Car Pooling",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121159395,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.4 MB",
+        "runtime": "6 ms",
+        "slug": "car-pooling",
+        "status": "Accepted",
+        "timestamp": 1787767961,
+        "title": "Car Pooling"
+      }
+    ]
+  },
+  "cheapest-flights-within-k-stops": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "787",
+      "paid_only": false,
+      "slug": "cheapest-flights-within-k-stops",
+      "title": "Cheapest Flights Within K Stops",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1877282711,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "6 ms",
+        "slug": "cheapest-flights-within-k-stops",
+        "status": "Accepted",
+        "timestamp": 1767768605,
+        "title": "Cheapest Flights Within K Stops"
+      }
+    ]
+  },
+  "check-divisibility-by-digit-sum-and-product": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3622",
+      "paid_only": false,
+      "slug": "check-divisibility-by-digit-sum-and-product",
+      "title": "Check Divisibility by Digit Sum and Product",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2115722308,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.3 MB",
+        "runtime": "0 ms",
+        "slug": "check-divisibility-by-digit-sum-and-product",
+        "status": "Accepted",
+        "timestamp": 1787375890,
+        "title": "Check Divisibility by Digit Sum and Product"
+      }
+    ]
+  },
+  "cinema-seat-allocation": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1386",
+      "paid_only": false,
+      "slug": "cinema-seat-allocation",
+      "title": "Cinema Seat Allocation",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2113298564,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "53.9 MB",
+        "runtime": "31 ms",
+        "slug": "cinema-seat-allocation",
+        "status": "Accepted",
+        "timestamp": 1787183819,
+        "title": "Cinema Seat Allocation"
+      }
+    ]
+  },
+  "climbing-stairs": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "70",
+      "paid_only": false,
+      "slug": "climbing-stairs",
+      "title": "Climbing Stairs",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1879313620,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.2 MB",
+        "runtime": "0 ms",
+        "slug": "climbing-stairs",
+        "status": "Accepted",
+        "timestamp": 1767927035,
+        "title": "Climbing Stairs"
+      }
+    ]
+  },
+  "clone-graph": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "133",
+      "paid_only": false,
+      "slug": "clone-graph",
+      "title": "Clone Graph",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1873681684,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.3 MB",
+        "runtime": "24 ms",
+        "slug": "clone-graph",
+        "status": "Accepted",
+        "timestamp": 1767490891,
+        "title": "Clone Graph"
+      }
+    ]
+  },
+  "combination-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "39",
+      "paid_only": false,
+      "slug": "combination-sum",
+      "title": "Combination Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1846541135,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.7 MB",
+        "runtime": "2 ms",
+        "slug": "combination-sum",
+        "status": "Accepted",
+        "timestamp": 1764830620,
+        "title": "Combination Sum"
+      }
+    ]
+  },
+  "combination-sum-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "40",
+      "paid_only": false,
+      "slug": "combination-sum-ii",
+      "title": "Combination Sum II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1854884979,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "7 ms",
+        "slug": "combination-sum-ii",
+        "status": "Accepted",
+        "timestamp": 1765670190,
+        "title": "Combination Sum II"
+      }
+    ]
+  },
+  "combinations": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "77",
+      "paid_only": false,
+      "slug": "combinations",
+      "title": "Combinations",
+      "topics": [
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2070427201,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "82.5 MB",
+        "runtime": "74 ms",
+        "slug": "combinations",
+        "status": "Accepted",
+        "timestamp": 1784238856,
+        "title": "Combinations"
+      },
+      {
+        "id": 2116539746,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "97.9 MB",
+        "runtime": "14 ms",
+        "slug": "combinations",
+        "status": "Accepted",
+        "timestamp": 1787424996,
+        "title": "Combinations"
+      }
+    ]
+  },
+  "construct-binary-tree-from-preorder-and-inorder-traversal": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "105",
+      "paid_only": false,
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1844553199,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.3 MB",
+        "runtime": "3 ms",
+        "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+        "status": "Accepted",
+        "timestamp": 1764632889,
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal"
+      }
+    ]
+  },
+  "construct-quad-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "427",
+      "paid_only": false,
+      "slug": "construct-quad-tree",
+      "title": "Construct Quad Tree",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2120432215,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.4 MB",
+        "runtime": "1 ms",
+        "slug": "construct-quad-tree",
+        "status": "Accepted",
+        "timestamp": 1787724036,
+        "title": "Construct Quad Tree"
+      }
+    ]
+  },
+  "container-with-most-water": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "11",
+      "paid_only": false,
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1452242091,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "56.4 MB",
+        "runtime": "916 ms",
+        "slug": "container-with-most-water",
+        "status": "Accepted",
+        "timestamp": 1731560174,
+        "title": "Container With Most Water"
+      }
+    ]
+  },
+  "contains-duplicate": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "217",
+      "paid_only": false,
+      "slug": "contains-duplicate",
+      "title": "Contains Duplicate",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 774459775,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "71.2 MB",
+        "runtime": "17 ms",
+        "slug": "contains-duplicate",
+        "status": "Accepted",
+        "timestamp": 1660583762,
+        "title": "Contains Duplicate"
+      }
+    ]
+  },
+  "copy-list-with-random-pointer": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "138",
+      "paid_only": false,
+      "slug": "copy-list-with-random-pointer",
+      "title": "Copy List with Random Pointer",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1824533720,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.8 MB",
+        "runtime": "0 ms",
+        "slug": "copy-list-with-random-pointer",
+        "status": "Accepted",
+        "timestamp": 1762641815,
+        "title": "Copy List with Random Pointer"
+      }
+    ]
+  },
+  "count-complete-tree-nodes": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "222",
+      "paid_only": false,
+      "slug": "count-complete-tree-nodes",
+      "title": "Count Complete Tree Nodes",
+      "topics": [
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2107118606,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.6 MB",
+        "runtime": "0 ms",
+        "slug": "count-complete-tree-nodes",
+        "status": "Accepted",
+        "timestamp": 1786754286,
+        "title": "Count Complete Tree Nodes"
+      }
+    ]
+  },
+  "count-good-nodes-in-binary-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1448",
+      "paid_only": false,
+      "slug": "count-good-nodes-in-binary-tree",
+      "title": "Count Good Nodes in Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1842057017,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "57.1 MB",
+        "runtime": "2 ms",
+        "slug": "count-good-nodes-in-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1764366717,
+        "title": "Count Good Nodes in Binary Tree"
+      }
+    ]
+  },
+  "count-integers-in-intervals": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2276",
+      "paid_only": false,
+      "slug": "count-integers-in-intervals",
+      "title": "Count Integers in Intervals",
+      "topics": [
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Segment Tree",
+          "segment-tree"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2106001994,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "126 MB",
+        "runtime": "80 ms",
+        "slug": "count-integers-in-intervals",
+        "status": "Accepted",
+        "timestamp": 1786662310,
+        "title": "Count Integers in Intervals"
+      }
+    ]
+  },
+  "counting-bits": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "338",
+      "paid_only": false,
+      "slug": "counting-bits",
+      "title": "Counting Bits",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878119529,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.8 MB",
+        "runtime": "2 ms",
+        "slug": "counting-bits",
+        "status": "Accepted",
+        "timestamp": 1767825583,
+        "title": "Counting Bits"
+      }
+    ]
+  },
+  "course-schedule": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "207",
+      "paid_only": false,
+      "slug": "course-schedule",
+      "title": "Course Schedule",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ],
+        [
+          "Directed Acyclic Graph",
+          "directed-acyclic-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2104660016,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "10 ms",
+        "slug": "course-schedule",
+        "status": "Accepted",
+        "timestamp": 1786560679,
+        "title": "Course Schedule"
+      }
+    ]
+  },
+  "course-schedule-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "210",
+      "paid_only": false,
+      "slug": "course-schedule-ii",
+      "title": "Course Schedule II",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1874902616,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48 MB",
+        "runtime": "7 ms",
+        "slug": "course-schedule-ii",
+        "status": "Accepted",
+        "timestamp": 1767590145,
+        "title": "Course Schedule II"
+      }
+    ]
+  },
+  "daily-temperatures": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "739",
+      "paid_only": false,
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1813573408,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "60.7 MB",
+        "runtime": "82 ms",
+        "slug": "daily-temperatures",
+        "status": "Accepted",
+        "timestamp": 1761612212,
+        "title": "Daily Temperatures"
+      }
+    ]
+  },
+  "decode-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "394",
+      "paid_only": false,
+      "slug": "decode-string",
+      "title": "Decode String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2119113716,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.1 MB",
+        "runtime": "0 ms",
+        "slug": "decode-string",
+        "status": "Accepted",
+        "timestamp": 1787628688,
+        "title": "Decode String"
+      }
+    ]
+  },
+  "decode-ways": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "91",
+      "paid_only": false,
+      "slug": "decode-ways",
+      "title": "Decode Ways",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1885429388,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "1 ms",
+        "slug": "decode-ways",
+        "status": "Accepted",
+        "timestamp": 1768451026,
+        "title": "Decode Ways"
+      }
+    ]
+  },
+  "decode-xored-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1720",
+      "paid_only": false,
+      "slug": "decode-xored-array",
+      "title": "Decode XORed Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 802393791,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.5 MB",
+        "runtime": "1 ms",
+        "slug": "decode-xored-array",
+        "status": "Accepted",
+        "timestamp": 1663455216,
+        "title": "Decode XORed Array"
+      }
+    ]
+  },
+  "delete-node-in-a-bst": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "450",
+      "paid_only": false,
+      "slug": "delete-node-in-a-bst",
+      "title": "Delete Node in a BST",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2112242192,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.7 MB",
+        "runtime": "0 ms",
+        "slug": "delete-node-in-a-bst",
+        "status": "Accepted",
+        "timestamp": 1787116442,
+        "title": "Delete Node in a BST"
+      }
+    ]
+  },
+  "delete-node-in-a-linked-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "237",
+      "paid_only": false,
+      "slug": "delete-node-in-a-linked-list",
+      "title": "Delete Node in a Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 775458175,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.8 MB",
+        "runtime": "0 ms",
+        "slug": "delete-node-in-a-linked-list",
+        "status": "Accepted",
+        "timestamp": 1660678556,
+        "title": "Delete Node in a Linked List"
+      }
+    ]
+  },
+  "design-add-and-search-words-data-structure": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "211",
+      "paid_only": false,
+      "slug": "design-add-and-search-words-data-structure",
+      "title": "Design Add and Search Words Data Structure",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1860279289,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "274.1 MB",
+        "runtime": "177 ms",
+        "slug": "design-add-and-search-words-data-structure",
+        "status": "Accepted",
+        "timestamp": 1766207545,
+        "title": "Design Add and Search Words Data Structure"
+      }
+    ]
+  },
+  "design-parking-system": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1603",
+      "paid_only": false,
+      "slug": "design-parking-system",
+      "title": "Design Parking System",
+      "topics": [
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2113302573,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.4 MB",
+        "runtime": "8 ms",
+        "slug": "design-parking-system",
+        "status": "Accepted",
+        "timestamp": 1787184657,
+        "title": "Design Parking System"
+      }
+    ]
+  },
+  "design-twitter": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "355",
+      "paid_only": false,
+      "slug": "design-twitter",
+      "title": "Design Twitter",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1859327930,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "56.6 MB",
+        "runtime": "32 ms",
+        "slug": "design-twitter",
+        "status": "Accepted",
+        "timestamp": 1766101040,
+        "title": "Design Twitter"
+      }
+    ]
+  },
+  "diameter-of-binary-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "543",
+      "paid_only": false,
+      "slug": "diameter-of-binary-tree",
+      "title": "Diameter of Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "DP on Trees",
+          "dp-on-trees"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1832086828,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.3 MB",
+        "runtime": "112 ms",
+        "slug": "diameter-of-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1763365867,
+        "title": "Diameter of Binary Tree"
+      }
+    ]
+  },
+  "different-ways-to-add-parentheses": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "241",
+      "paid_only": false,
+      "slug": "different-ways-to-add-parentheses",
+      "title": "Different Ways to Add Parentheses",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2115574052,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "1 ms",
+        "slug": "different-ways-to-add-parentheses",
+        "status": "Accepted",
+        "timestamp": 1787357053,
+        "title": "Different Ways to Add Parentheses"
+      }
+    ]
+  },
+  "distribute-elements-into-two-arrays-i": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3069",
+      "paid_only": false,
+      "slug": "distribute-elements-into-two-arrays-i",
+      "title": "Distribute Elements Into Two Arrays I",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2114593895,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "23.6 MB",
+        "runtime": "0 ms",
+        "slug": "distribute-elements-into-two-arrays-i",
+        "status": "Accepted",
+        "timestamp": 1787284257,
+        "title": "Distribute Elements Into Two Arrays I"
+      }
+    ]
+  },
+  "evaluate-division": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "399",
+      "paid_only": false,
+      "slug": "evaluate-division",
+      "title": "Evaluate Division",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ],
+        [
+          "Bellman\u2013Ford Algorithm",
+          "bellman-ford-algorithm"
+        ],
+        [
+          "Floyd\u2013Warshall Algorithm",
+          "floyd-warshall-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2116617149,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47 MB",
+        "runtime": "2 ms",
+        "slug": "evaluate-division",
+        "status": "Accepted",
+        "timestamp": 1787432001,
+        "title": "Evaluate Division"
+      }
+    ]
+  },
+  "evaluate-reverse-polish-notation": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "150",
+      "paid_only": false,
+      "slug": "evaluate-reverse-polish-notation",
+      "title": "Evaluate Reverse Polish Notation",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Stack",
+          "stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1811885764,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45 MB",
+        "runtime": "6 ms",
+        "slug": "evaluate-reverse-polish-notation",
+        "status": "Accepted",
+        "timestamp": 1761453752,
+        "title": "Evaluate Reverse Polish Notation"
+      }
+    ]
+  },
+  "excel-sheet-column-title": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "168",
+      "paid_only": false,
+      "slug": "excel-sheet-column-title",
+      "title": "Excel Sheet Column Title",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2117943854,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.1 MB",
+        "runtime": "0 ms",
+        "slug": "excel-sheet-column-title",
+        "status": "Accepted",
+        "timestamp": 1787541175,
+        "title": "Excel Sheet Column Title"
+      }
+    ]
+  },
+  "fibonacci-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "509",
+      "paid_only": false,
+      "slug": "fibonacci-number",
+      "title": "Fibonacci Number",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 818127268,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.2 MB",
+        "runtime": "0 ms",
+        "slug": "fibonacci-number",
+        "status": "Accepted",
+        "timestamp": 1665261190,
+        "title": "Fibonacci Number"
+      }
+    ]
+  },
+  "find-all-anagrams-in-a-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "438",
+      "paid_only": false,
+      "slug": "find-all-anagrams-in-a-string",
+      "title": "Find All Anagrams in a String",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2098450160,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "11.7 MB",
+        "runtime": "3 ms",
+        "slug": "find-all-anagrams-in-a-string",
+        "status": "Accepted",
+        "timestamp": 1786134927,
+        "title": "Find All Anagrams in a String"
+      }
+    ]
+  },
+  "find-eventual-safe-states": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "802",
+      "paid_only": false,
+      "slug": "find-eventual-safe-states",
+      "title": "Find Eventual Safe States",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ],
+        [
+          "Kosaraju's Algorithm",
+          "kosarajus-algorithm"
+        ],
+        [
+          "Tarjan's SCC Algorithm",
+          "tarjans-scc-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2109557231,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "64.1 MB",
+        "runtime": "24 ms",
+        "slug": "find-eventual-safe-states",
+        "status": "Accepted",
+        "timestamp": 1786929869,
+        "title": "Find Eventual Safe States"
+      }
+    ]
+  },
+  "find-k-pairs-with-smallest-sums": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "373",
+      "paid_only": false,
+      "slug": "find-k-pairs-with-smallest-sums",
+      "title": "Find K Pairs with Smallest Sums",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1912097149,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "121.6 MB",
+        "runtime": "156 ms",
+        "slug": "find-k-pairs-with-smallest-sums",
+        "status": "Accepted",
+        "timestamp": 1770530089,
+        "title": "Find K Pairs with Smallest Sums"
+      }
+    ]
+  },
+  "find-median-from-data-stream": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "295",
+      "paid_only": false,
+      "slug": "find-median-from-data-stream",
+      "title": "Find Median from Data Stream",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1859353483,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "111.6 MB",
+        "runtime": "124 ms",
+        "slug": "find-median-from-data-stream",
+        "status": "Accepted",
+        "timestamp": 1766106097,
+        "title": "Find Median from Data Stream"
+      }
+    ]
+  },
+  "find-minimum-in-rotated-sorted-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "153",
+      "paid_only": false,
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820267853,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.8 MB",
+        "runtime": "0 ms",
+        "slug": "find-minimum-in-rotated-sorted-array",
+        "status": "Accepted",
+        "timestamp": 1762237961,
+        "title": "Find Minimum in Rotated Sorted Array"
+      }
+    ]
+  },
+  "find-pivot-index": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "724",
+      "paid_only": false,
+      "slug": "find-pivot-index",
+      "title": "Find Pivot Index",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 778187376,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "53.5 MB",
+        "runtime": "5 ms",
+        "slug": "find-pivot-index",
+        "status": "Accepted",
+        "timestamp": 1660964887,
+        "title": "Find Pivot Index"
+      }
+    ]
+  },
+  "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1334",
+      "paid_only": false,
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ],
+        [
+          "Bellman\u2013Ford Algorithm",
+          "bellman-ford-algorithm"
+        ],
+        [
+          "Floyd\u2013Warshall Algorithm",
+          "floyd-warshall-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2109590460,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.3 MB",
+        "runtime": "29 ms",
+        "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+        "status": "Accepted",
+        "timestamp": 1786934905,
+        "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance"
+      }
+    ]
+  },
+  "find-the-duplicate-number": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "287",
+      "paid_only": false,
+      "slug": "find-the-duplicate-number",
+      "title": "Find the Duplicate Number",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Pigeonhole Principle",
+          "pigeonhole-principle"
+        ],
+        [
+          "Floyd's Cycle Finding Algorithm",
+          "floyds-cycle-finding-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1827968879,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "79.1 MB",
+        "runtime": "55 ms",
+        "slug": "find-the-duplicate-number",
+        "status": "Accepted",
+        "timestamp": 1762963843,
+        "title": "Find the Duplicate Number"
+      }
+    ]
+  },
+  "find-the-largest-almost-missing-integer": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3471",
+      "paid_only": false,
+      "slug": "find-the-largest-almost-missing-integer",
+      "title": "Find the Largest Almost Missing Integer",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2110819351,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "28.7 MB",
+        "runtime": "0 ms",
+        "slug": "find-the-largest-almost-missing-integer",
+        "status": "Accepted",
+        "timestamp": 1787023054,
+        "title": "Find the Largest Almost Missing Integer"
+      }
+    ]
+  },
+  "find-the-length-of-the-longest-common-prefix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3043",
+      "paid_only": false,
+      "slug": "find-the-length-of-the-longest-common-prefix",
+      "title": "Find the Length of the Longest Common Prefix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2104893671,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "86.5 MB",
+        "runtime": "75 ms",
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "status": "Accepted",
+        "timestamp": 1786591742,
+        "title": "Find the Length of the Longest Common Prefix"
+      }
+    ]
+  },
+  "finding-pairs-with-a-certain-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1865",
+      "paid_only": false,
+      "slug": "finding-pairs-with-a-certain-sum",
+      "title": "Finding Pairs With a Certain Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2104920934,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "109.7 MB",
+        "runtime": "158 ms",
+        "slug": "finding-pairs-with-a-certain-sum",
+        "status": "Accepted",
+        "timestamp": 1786594011,
+        "title": "Finding Pairs With a Certain Sum"
+      }
+    ]
+  },
+  "first-bad-version": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "278",
+      "paid_only": false,
+      "slug": "first-bad-version",
+      "title": "First Bad Version",
+      "topics": [
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Interactive",
+          "interactive"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 766291001,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "38.9 MB",
+        "runtime": "17 ms",
+        "slug": "first-bad-version",
+        "status": "Accepted",
+        "timestamp": 1659748963,
+        "title": "First Bad Version"
+      }
+    ]
+  },
+  "flood-fill": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "733",
+      "paid_only": false,
+      "slug": "flood-fill",
+      "title": "Flood Fill",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 768033925,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "1 ms",
+        "slug": "flood-fill",
+        "status": "Accepted",
+        "timestamp": 1659924772,
+        "title": "Flood Fill"
+      }
+    ]
+  },
+  "gas-station": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "134",
+      "paid_only": false,
+      "slug": "gas-station",
+      "title": "Gas Station",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1885497834,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "119.5 MB",
+        "runtime": "2 ms",
+        "slug": "gas-station",
+        "status": "Accepted",
+        "timestamp": 1768456781,
+        "title": "Gas Station"
+      }
+    ]
+  },
+  "generate-parentheses": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "22",
+      "paid_only": false,
+      "slug": "generate-parentheses",
+      "title": "Generate Parentheses",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1813555742,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.8 MB",
+        "runtime": "2 ms",
+        "slug": "generate-parentheses",
+        "status": "Accepted",
+        "timestamp": 1761609518,
+        "title": "Generate Parentheses"
+      }
+    ]
+  },
+  "group-anagrams": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "49",
+      "paid_only": false,
+      "slug": "group-anagrams",
+      "title": "Group Anagrams",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1380450461,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "6 ms",
+        "slug": "group-anagrams",
+        "status": "Accepted",
+        "timestamp": 1725572469,
+        "title": "Group Anagrams"
+      }
+    ]
+  },
+  "hand-of-straights": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "846",
+      "paid_only": false,
+      "slug": "hand-of-straights",
+      "title": "Hand of Straights",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1900643539,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.6 MB",
+        "runtime": "45 ms",
+        "slug": "hand-of-straights",
+        "status": "Accepted",
+        "timestamp": 1769670890,
+        "title": "Hand of Straights"
+      }
+    ]
+  },
+  "happy-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "202",
+      "paid_only": false,
+      "slug": "happy-number",
+      "title": "Happy Number",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Floyd's Cycle Finding Algorithm",
+          "floyds-cycle-finding-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1891775789,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.7 MB",
+        "runtime": "4 ms",
+        "slug": "happy-number",
+        "status": "Accepted",
+        "timestamp": 1768974184,
+        "title": "Happy Number"
+      }
+    ]
+  },
+  "house-robber": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "198",
+      "paid_only": false,
+      "slug": "house-robber",
+      "title": "House Robber",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1884543488,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.1 MB",
+        "runtime": "0 ms",
+        "slug": "house-robber",
+        "status": "Accepted",
+        "timestamp": 1768372248,
+        "title": "House Robber"
+      }
+    ]
+  },
+  "house-robber-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "213",
+      "paid_only": false,
+      "slug": "house-robber-ii",
+      "title": "House Robber II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2100842383,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.4 MB",
+        "runtime": "0 ms",
+        "slug": "house-robber-ii",
+        "status": "Accepted",
+        "timestamp": 1786309237,
+        "title": "House Robber II"
+      }
+    ]
+  },
+  "implement-trie-prefix-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "208",
+      "paid_only": false,
+      "slug": "implement-trie-prefix-tree",
+      "title": "Implement Trie (Prefix Tree)",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1860255903,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "62.2 MB",
+        "runtime": "33 ms",
+        "slug": "implement-trie-prefix-tree",
+        "status": "Accepted",
+        "timestamp": 1766205195,
+        "title": "Implement Trie (Prefix Tree)"
+      }
+    ]
+  },
+  "integer-break": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "343",
+      "paid_only": false,
+      "slug": "integer-break",
+      "title": "Integer Break",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2122440176,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42 MB",
+        "runtime": "0 ms",
+        "slug": "integer-break",
+        "status": "Accepted",
+        "timestamp": 1787880027,
+        "title": "Integer Break"
+      }
+    ]
+  },
+  "invert-binary-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "226",
+      "paid_only": false,
+      "slug": "invert-binary-tree",
+      "title": "Invert Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1828052238,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "0 ms",
+        "slug": "invert-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1762969093,
+        "title": "Invert Binary Tree"
+      }
+    ]
+  },
+  "is-subsequence": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "392",
+      "paid_only": false,
+      "slug": "is-subsequence",
+      "title": "Is Subsequence",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 779815090,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.8 MB",
+        "runtime": "1 ms",
+        "slug": "is-subsequence",
+        "status": "Accepted",
+        "timestamp": 1661124220,
+        "title": "Is Subsequence"
+      }
+    ]
+  },
+  "isomorphic-strings": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "205",
+      "paid_only": false,
+      "slug": "isomorphic-strings",
+      "title": "Isomorphic Strings",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 779091723,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "342.7 MB",
+        "runtime": "399 ms",
+        "slug": "isomorphic-strings",
+        "status": "Accepted",
+        "timestamp": 1661053123,
+        "title": "Isomorphic Strings"
+      }
+    ]
+  },
+  "jump-game": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "55",
+      "paid_only": false,
+      "slug": "jump-game",
+      "title": "Jump Game",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1883265239,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "3 ms",
+        "slug": "jump-game",
+        "status": "Accepted",
+        "timestamp": 1768256767,
+        "title": "Jump Game"
+      }
+    ]
+  },
+  "jump-game-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "45",
+      "paid_only": false,
+      "slug": "jump-game-ii",
+      "title": "Jump Game II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1883275467,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.6 MB",
+        "runtime": "17 ms",
+        "slug": "jump-game-ii",
+        "status": "Accepted",
+        "timestamp": 1768258422,
+        "title": "Jump Game II"
+      }
+    ]
+  },
+  "k-closest-points-to-origin": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "973",
+      "paid_only": false,
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Geometry",
+          "geometry"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Quickselect",
+          "quickselect"
+        ],
+        [
+          "K-D Tree",
+          "k-d-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1844636279,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.7 MB",
+        "runtime": "28 ms",
+        "slug": "k-closest-points-to-origin",
+        "status": "Accepted",
+        "timestamp": 1764645626,
+        "title": "K Closest Points to Origin"
+      }
+    ]
+  },
+  "koko-eating-bananas": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "875",
+      "paid_only": false,
+      "slug": "koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1814750995,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.3 MB",
+        "runtime": "14 ms",
+        "slug": "koko-eating-bananas",
+        "status": "Accepted",
+        "timestamp": 1761718895,
+        "title": "Koko Eating Bananas"
+      }
+    ]
+  },
+  "kth-largest-element-in-a-stream": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "703",
+      "paid_only": false,
+      "slug": "kth-largest-element-in-a-stream",
+      "title": "Kth Largest Element in a Stream",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1842777065,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "52 MB",
+        "runtime": "22 ms",
+        "slug": "kth-largest-element-in-a-stream",
+        "status": "Accepted",
+        "timestamp": 1764450776,
+        "title": "Kth Largest Element in a Stream"
+      }
+    ]
+  },
+  "kth-largest-element-in-an-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "215",
+      "paid_only": false,
+      "slug": "kth-largest-element-in-an-array",
+      "title": "Kth Largest Element in an Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Quickselect",
+          "quickselect"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1844646669,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "69.9 MB",
+        "runtime": "26 ms",
+        "slug": "kth-largest-element-in-an-array",
+        "status": "Accepted",
+        "timestamp": 1764646789,
+        "title": "Kth Largest Element in an Array"
+      }
+    ]
+  },
+  "kth-smallest-element-in-a-bst": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "230",
+      "paid_only": false,
+      "slug": "kth-smallest-element-in-a-bst",
+      "title": "Kth Smallest Element in a BST",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1843877251,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "0 ms",
+        "slug": "kth-smallest-element-in-a-bst",
+        "status": "Accepted",
+        "timestamp": 1764567997,
+        "title": "Kth Smallest Element in a BST"
+      }
+    ]
+  },
+  "kth-smallest-element-in-a-sorted-matrix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "378",
+      "paid_only": false,
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1912128375,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50.8 MB",
+        "runtime": "17 ms",
+        "slug": "kth-smallest-element-in-a-sorted-matrix",
+        "status": "Accepted",
+        "timestamp": 1770532087,
+        "title": "Kth Smallest Element in a Sorted Matrix"
+      }
+    ]
+  },
+  "largest-rectangle-in-histogram": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "84",
+      "paid_only": false,
+      "slug": "largest-rectangle-in-histogram",
+      "title": "Largest Rectangle in Histogram",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ],
+        [
+          "Range Minimum/Maximum Query",
+          "range-minimum-maximum-query"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820995175,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "92 MB",
+        "runtime": "1180 ms",
+        "slug": "largest-rectangle-in-histogram",
+        "status": "Accepted",
+        "timestamp": 1762300908,
+        "title": "Largest Rectangle in Histogram"
+      }
+    ]
+  },
+  "last-stone-weight": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1046",
+      "paid_only": false,
+      "slug": "last-stone-weight",
+      "title": "Last Stone Weight",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1842786708,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "1 ms",
+        "slug": "last-stone-weight",
+        "status": "Accepted",
+        "timestamp": 1764452320,
+        "title": "Last Stone Weight"
+      }
+    ]
+  },
+  "letter-combinations-of-a-phone-number": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "17",
+      "paid_only": false,
+      "slug": "letter-combinations-of-a-phone-number",
+      "title": "Letter Combinations of a Phone Number",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1859422047,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.3 MB",
+        "runtime": "3 ms",
+        "slug": "letter-combinations-of-a-phone-number",
+        "status": "Accepted",
+        "timestamp": 1766116625,
+        "title": "Letter Combinations of a Phone Number"
+      }
+    ]
+  },
+  "lexicographically-smallest-permutation-greater-than-target": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3720",
+      "paid_only": false,
+      "slug": "lexicographically-smallest-permutation-greater-than-target",
+      "title": "Lexicographically Smallest Permutation Greater Than Target",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Enumeration",
+          "enumeration"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2122405912,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "8 ms",
+        "slug": "lexicographically-smallest-permutation-greater-than-target",
+        "status": "Accepted",
+        "timestamp": 1787872354,
+        "title": "Lexicographically Smallest Permutation Greater Than Target"
+      }
+    ]
+  },
+  "lfu-cache": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "460",
+      "paid_only": false,
+      "slug": "lfu-cache",
+      "title": "LFU Cache",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2115697953,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "137.1 MB",
+        "runtime": "72 ms",
+        "slug": "lfu-cache",
+        "status": "Accepted",
+        "timestamp": 1787374230,
+        "title": "LFU Cache"
+      }
+    ]
+  },
+  "linked-list-cycle": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "141",
+      "paid_only": false,
+      "slug": "linked-list-cycle",
+      "title": "Linked List Cycle",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Floyd's Cycle Finding Algorithm",
+          "floyds-cycle-finding-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820974340,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.8 MB",
+        "runtime": "0 ms",
+        "slug": "linked-list-cycle",
+        "status": "Accepted",
+        "timestamp": 1762297412,
+        "title": "Linked List Cycle"
+      }
+    ]
+  },
+  "longest-common-prefix": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "14",
+      "paid_only": false,
+      "slug": "longest-common-prefix",
+      "title": "Longest Common Prefix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1788836462,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.3 MB",
+        "runtime": "3 ms",
+        "slug": "longest-common-prefix",
+        "status": "Accepted",
+        "timestamp": 1759380245,
+        "title": "Longest Common Prefix"
+      }
+    ]
+  },
+  "longest-consecutive-sequence": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "128",
+      "paid_only": false,
+      "slug": "longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1381441768,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "56.3 MB",
+        "runtime": "561 ms",
+        "slug": "longest-consecutive-sequence",
+        "status": "Accepted",
+        "timestamp": 1725651882,
+        "title": "Longest Consecutive Sequence"
+      }
+    ]
+  },
+  "longest-continuous-increasing-subsequence": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "674",
+      "paid_only": false,
+      "slug": "longest-continuous-increasing-subsequence",
+      "title": "Longest Continuous Increasing Subsequence",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2117922451,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "1 ms",
+        "slug": "longest-continuous-increasing-subsequence",
+        "status": "Accepted",
+        "timestamp": 1787538158,
+        "title": "Longest Continuous Increasing Subsequence"
+      }
+    ]
+  },
+  "longest-happy-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1405",
+      "paid_only": false,
+      "slug": "longest-happy-string",
+      "title": "Longest Happy String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2116505681,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.5 MB",
+        "runtime": "2 ms",
+        "slug": "longest-happy-string",
+        "status": "Accepted",
+        "timestamp": 1787422967,
+        "title": "Longest Happy String"
+      }
+    ]
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "329",
+      "paid_only": false,
+      "slug": "longest-increasing-path-in-a-matrix",
+      "title": "Longest Increasing Path in a Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Directed Acyclic Graph",
+          "directed-acyclic-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2101068679,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.8 MB",
+        "runtime": "8 ms",
+        "slug": "longest-increasing-path-in-a-matrix",
+        "status": "Accepted",
+        "timestamp": 1786338400,
+        "title": "Longest Increasing Path in a Matrix"
+      }
+    ]
+  },
+  "longest-mountain-in-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "845",
+      "paid_only": false,
+      "slug": "longest-mountain-in-array",
+      "title": "Longest Mountain in Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Enumeration",
+          "enumeration"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103517902,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.2 MB",
+        "runtime": "3 ms",
+        "slug": "longest-mountain-in-array",
+        "status": "Accepted",
+        "timestamp": 1786496278,
+        "title": "Longest Mountain in Array"
+      }
+    ]
+  },
+  "longest-palindrome-by-concatenating-two-letter-words": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2131",
+      "paid_only": false,
+      "slug": "longest-palindrome-by-concatenating-two-letter-words",
+      "title": "Longest Palindrome by Concatenating Two Letter Words",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2101040726,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "92.8 MB",
+        "runtime": "59 ms",
+        "slug": "longest-palindrome-by-concatenating-two-letter-words",
+        "status": "Accepted",
+        "timestamp": 1786336751,
+        "title": "Longest Palindrome by Concatenating Two Letter Words"
+      }
+    ]
+  },
+  "longest-palindromic-substring": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "5",
+      "paid_only": false,
+      "slug": "longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Manacher",
+          "manacher"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1884586480,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.2 MB",
+        "runtime": "121 ms",
+        "slug": "longest-palindromic-substring",
+        "status": "Accepted",
+        "timestamp": 1768375468,
+        "title": "Longest Palindromic Substring"
+      }
+    ]
+  },
+  "longest-path-with-different-adjacent-characters": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2246",
+      "paid_only": false,
+      "slug": "longest-path-with-different-adjacent-characters",
+      "title": "Longest Path With Different Adjacent Characters",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2094564681,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "205.5 MB",
+        "runtime": "251 ms",
+        "slug": "longest-path-with-different-adjacent-characters",
+        "status": "Accepted",
+        "timestamp": 1785874069,
+        "title": "Longest Path With Different Adjacent Characters"
+      }
+    ]
+  },
+  "longest-repeating-character-replacement": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "424",
+      "paid_only": false,
+      "slug": "longest-repeating-character-replacement",
+      "title": "Longest Repeating Character Replacement",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1776509179,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.5 MB",
+        "runtime": "62 ms",
+        "slug": "longest-repeating-character-replacement",
+        "status": "Accepted",
+        "timestamp": 1758321621,
+        "title": "Longest Repeating Character Replacement"
+      }
+    ]
+  },
+  "longest-subsequence-with-non-zero-bitwise-xor": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3702",
+      "paid_only": false,
+      "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+      "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2107178542,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "133.7 MB",
+        "runtime": "2 ms",
+        "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+        "status": "Accepted",
+        "timestamp": 1786765483,
+        "title": "Longest Subsequence With Non-Zero Bitwise XOR"
+      }
+    ]
+  },
+  "longest-substring-of-one-repeating-character": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2213",
+      "paid_only": false,
+      "slug": "longest-substring-of-one-repeating-character",
+      "title": "Longest Substring of One Repeating Character",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Segment Tree",
+          "segment-tree"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2108002849,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "157.4 MB",
+        "runtime": "124 ms",
+        "slug": "longest-substring-of-one-repeating-character",
+        "status": "Accepted",
+        "timestamp": 1786812261,
+        "title": "Longest Substring of One Repeating Character"
+      }
+    ]
+  },
+  "longest-substring-without-repeating-characters": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3",
+      "paid_only": false,
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 767866127,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "118 MB",
+        "runtime": "241 ms",
+        "slug": "longest-substring-without-repeating-characters",
+        "status": "Accepted",
+        "timestamp": 1659903401,
+        "title": "Longest Substring Without Repeating Characters"
+      }
+    ]
+  },
+  "longest-turbulent-subarray": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "978",
+      "paid_only": false,
+      "slug": "longest-turbulent-subarray",
+      "title": "Longest Turbulent Subarray",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2117926527,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "51.8 MB",
+        "runtime": "6 ms",
+        "slug": "longest-turbulent-subarray",
+        "status": "Accepted",
+        "timestamp": 1787538781,
+        "title": "Longest Turbulent Subarray"
+      }
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "235",
+      "paid_only": false,
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Binary Lifting",
+          "binary-lifting"
+        ],
+        [
+          "Lowest Common Ancestor",
+          "lowest-common-ancestor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1837486560,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.7 MB",
+        "runtime": "6 ms",
+        "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+        "status": "Accepted",
+        "timestamp": 1763884464,
+        "title": "Lowest Common Ancestor of a Binary Search Tree"
+      }
+    ]
+  },
+  "lru-cache": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "146",
+      "paid_only": false,
+      "slug": "lru-cache",
+      "title": "LRU Cache",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2113332822,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "58.8 MB",
+        "runtime": "16 ms",
+        "slug": "lru-cache",
+        "status": "Accepted",
+        "timestamp": 1787190043,
+        "title": "LRU Cache"
+      }
+    ]
+  },
+  "majority-element-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "229",
+      "paid_only": false,
+      "slug": "majority-element-ii",
+      "title": "Majority Element II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Boyer\u2013Moore Majority Vote Algorithm",
+          "boyer-moore-majority-vote-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2111687683,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "51.1 MB",
+        "runtime": "13 ms",
+        "slug": "majority-element-ii",
+        "status": "Accepted",
+        "timestamp": 1787070406,
+        "title": "Majority Element II"
+      }
+    ]
+  },
+  "matchsticks-to-square": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "473",
+      "paid_only": false,
+      "slug": "matchsticks-to-square",
+      "title": "Matchsticks to Square",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Bitmask",
+          "bitmask"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121275295,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.4 MB",
+        "runtime": "2 ms",
+        "slug": "matchsticks-to-square",
+        "status": "Accepted",
+        "timestamp": 1787776364,
+        "title": "Matchsticks to Square"
+      }
+    ]
+  },
+  "max-area-of-island": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "695",
+      "paid_only": false,
+      "slug": "max-area-of-island",
+      "title": "Max Area of Island",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1873675808,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.5 MB",
+        "runtime": "2 ms",
+        "slug": "max-area-of-island",
+        "status": "Accepted",
+        "timestamp": 1767489980,
+        "title": "Max Area of Island"
+      }
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "104",
+      "paid_only": false,
+      "slug": "maximum-depth-of-binary-tree",
+      "title": "Maximum Depth of Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1828058072,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.2 MB",
+        "runtime": "0 ms",
+        "slug": "maximum-depth-of-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1762969439,
+        "title": "Maximum Depth of Binary Tree"
+      }
+    ]
+  },
+  "maximum-length-substring-with-two-occurrences": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3090",
+      "paid_only": false,
+      "slug": "maximum-length-substring-with-two-occurrences",
+      "title": "Maximum Length Substring With Two Occurrences",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2106805182,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.6 MB",
+        "runtime": "1 ms",
+        "slug": "maximum-length-substring-with-two-occurrences",
+        "status": "Accepted",
+        "timestamp": 1786724721,
+        "title": "Maximum Length Substring With Two Occurrences"
+      }
+    ]
+  },
+  "maximum-subarray": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "53",
+      "paid_only": false,
+      "slug": "maximum-subarray",
+      "title": "Maximum Subarray",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 816150572,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "67.8 MB",
+        "runtime": "340 ms",
+        "slug": "maximum-subarray",
+        "status": "Accepted",
+        "timestamp": 1665021590,
+        "title": "Maximum Subarray"
+      },
+      {
+        "id": 1883254340,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "80.4 MB",
+        "runtime": "1 ms",
+        "slug": "maximum-subarray",
+        "status": "Accepted",
+        "timestamp": 1768255154,
+        "title": "Maximum Subarray"
+      }
+    ]
+  },
+  "maximum-sum-circular-subarray": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "918",
+      "paid_only": false,
+      "slug": "maximum-sum-circular-subarray",
+      "title": "Maximum Sum Circular Subarray",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Monotonic Queue",
+          "monotonic-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2110844896,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "51.4 MB",
+        "runtime": "5 ms",
+        "slug": "maximum-sum-circular-subarray",
+        "status": "Accepted",
+        "timestamp": 1787025269,
+        "title": "Maximum Sum Circular Subarray"
+      }
+    ]
+  },
+  "median-of-two-sorted-arrays": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "4",
+      "paid_only": false,
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820946539,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.9 MB",
+        "runtime": "21 ms",
+        "slug": "median-of-two-sorted-arrays",
+        "status": "Accepted",
+        "timestamp": 1762293159,
+        "title": "Median of Two Sorted Arrays"
+      }
+    ]
+  },
+  "meeting-rooms-iii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2402",
+      "paid_only": false,
+      "slug": "meeting-rooms-iii",
+      "title": "Meeting Rooms III",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2111673196,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "155.1 MB",
+        "runtime": "78 ms",
+        "slug": "meeting-rooms-iii",
+        "status": "Accepted",
+        "timestamp": 1787069811,
+        "title": "Meeting Rooms III"
+      }
+    ]
+  },
+  "merge-intervals": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "56",
+      "paid_only": false,
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Quicksort",
+          "quicksort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2105975156,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.7 MB",
+        "runtime": "6 ms",
+        "slug": "merge-intervals",
+        "status": "Accepted",
+        "timestamp": 1786656980,
+        "title": "Merge Intervals"
+      }
+    ]
+  },
+  "merge-k-sorted-lists": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "23",
+      "paid_only": false,
+      "slug": "merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Merge Sort",
+          "merge-sort"
+        ],
+        [
+          "Tournament Sort",
+          "tournament-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1832052627,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "2 ms",
+        "slug": "merge-k-sorted-lists",
+        "status": "Accepted",
+        "timestamp": 1763363055,
+        "title": "Merge k Sorted Lists"
+      }
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "21",
+      "paid_only": false,
+      "slug": "merge-two-sorted-lists",
+      "title": "Merge Two Sorted Lists",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820348547,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.9 MB",
+        "runtime": "0 ms",
+        "slug": "merge-two-sorted-lists",
+        "status": "Accepted",
+        "timestamp": 1762245345,
+        "title": "Merge Two Sorted Lists"
+      }
+    ]
+  },
+  "middle-of-the-linked-list": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "876",
+      "paid_only": false,
+      "slug": "middle-of-the-linked-list",
+      "title": "Middle of the Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 775442491,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42 MB",
+        "runtime": "0 ms",
+        "slug": "middle-of-the-linked-list",
+        "status": "Accepted",
+        "timestamp": 1660677291,
+        "title": "Middle of the Linked List"
+      }
+    ]
+  },
+  "min-cost-climbing-stairs": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "746",
+      "paid_only": false,
+      "slug": "min-cost-climbing-stairs",
+      "title": "Min Cost Climbing Stairs",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1880249331,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "0 ms",
+        "slug": "min-cost-climbing-stairs",
+        "status": "Accepted",
+        "timestamp": 1768006464,
+        "title": "Min Cost Climbing Stairs"
+      }
+    ]
+  },
+  "min-cost-to-connect-all-points": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1584",
+      "paid_only": false,
+      "slug": "min-cost-to-connect-all-points",
+      "title": "Min Cost to Connect All Points",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Minimum Spanning Tree",
+          "minimum-spanning-tree"
+        ],
+        [
+          "Prim's Algorithm",
+          "prims-algorithm"
+        ],
+        [
+          "Kruskal's Algorithm",
+          "kruskals-algorithm"
+        ],
+        [
+          "Bor\u016fvka's Algorithm",
+          "boruvkas-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1877122021,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "67 ms",
+        "slug": "min-cost-to-connect-all-points",
+        "status": "Accepted",
+        "timestamp": 1767758308,
+        "title": "Min Cost to Connect All Points"
+      }
+    ]
+  },
+  "min-stack": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "155",
+      "paid_only": false,
+      "slug": "min-stack",
+      "title": "Min Stack",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1811880207,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.8 MB",
+        "runtime": "5 ms",
+        "slug": "min-stack",
+        "status": "Accepted",
+        "timestamp": 1761453208,
+        "title": "Min Stack"
+      }
+    ]
+  },
+  "minimum-cost-to-reach-destination-in-time": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1928",
+      "paid_only": false,
+      "slug": "minimum-cost-to-reach-destination-in-time",
+      "title": "Minimum Cost to Reach Destination in Time",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2104741346,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "105.3 MB",
+        "runtime": "938 ms",
+        "slug": "minimum-cost-to-reach-destination-in-time",
+        "status": "Accepted",
+        "timestamp": 1786567114,
+        "title": "Minimum Cost to Reach Destination in Time"
+      }
+    ]
+  },
+  "minimum-height-trees": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "310",
+      "paid_only": false,
+      "slug": "minimum-height-trees",
+      "title": "Minimum Height Trees",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121380481,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "63.7 MB",
+        "runtime": "15 ms",
+        "slug": "minimum-height-trees",
+        "status": "Accepted",
+        "timestamp": 1787795070,
+        "title": "Minimum Height Trees"
+      }
+    ]
+  },
+  "minimum-path-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "64",
+      "paid_only": false,
+      "slug": "minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2107188939,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50.2 MB",
+        "runtime": "4 ms",
+        "slug": "minimum-path-sum",
+        "status": "Accepted",
+        "timestamp": 1786766684,
+        "title": "Minimum Path Sum"
+      }
+    ]
+  },
+  "minimum-size-subarray-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "209",
+      "paid_only": false,
+      "slug": "minimum-size-subarray-sum",
+      "title": "Minimum Size Subarray Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1779861957,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "57 MB",
+        "runtime": "51 ms",
+        "slug": "minimum-size-subarray-sum",
+        "status": "Accepted",
+        "timestamp": 1758608128,
+        "title": "Minimum Size Subarray Sum"
+      }
+    ]
+  },
+  "minimum-window-substring": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "76",
+      "paid_only": false,
+      "slug": "minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1821002264,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.7 MB",
+        "runtime": "2 ms",
+        "slug": "minimum-window-substring",
+        "status": "Accepted",
+        "timestamp": 1762302030,
+        "title": "Minimum Window Substring"
+      }
+    ]
+  },
+  "missing-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "268",
+      "paid_only": false,
+      "slug": "missing-number",
+      "title": "Missing Number",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878376504,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.2 MB",
+        "runtime": "0 ms",
+        "slug": "missing-number",
+        "status": "Accepted",
+        "timestamp": 1767852192,
+        "title": "Missing Number"
+      }
+    ]
+  },
+  "move-zeroes": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "283",
+      "paid_only": false,
+      "slug": "move-zeroes",
+      "title": "Move Zeroes",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 767962272,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.7 MB",
+        "runtime": "84 ms",
+        "slug": "move-zeroes",
+        "status": "Accepted",
+        "timestamp": 1659914966,
+        "title": "Move Zeroes"
+      }
+    ]
+  },
+  "n-queens": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "51",
+      "paid_only": false,
+      "slug": "n-queens",
+      "title": "N-Queens",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Algorithm X",
+          "algorithm-x"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1860151249,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "3 ms",
+        "slug": "n-queens",
+        "status": "Accepted",
+        "timestamp": 1766185688,
+        "title": "N-Queens"
+      }
+    ]
+  },
+  "n-th-tribonacci-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1137",
+      "paid_only": false,
+      "slug": "n-th-tribonacci-number",
+      "title": "N-th Tribonacci Number",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121428480,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.2 MB",
+        "runtime": "0 ms",
+        "slug": "n-th-tribonacci-number",
+        "status": "Accepted",
+        "timestamp": 1787801609,
+        "title": "N-th Tribonacci Number"
+      }
+    ]
+  },
+  "network-delay-time": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "743",
+      "paid_only": false,
+      "slug": "network-delay-time",
+      "title": "Network Delay Time",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1876948880,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.7 MB",
+        "runtime": "9 ms",
+        "slug": "network-delay-time",
+        "status": "Accepted",
+        "timestamp": 1767735492,
+        "title": "Network Delay Time"
+      }
+    ]
+  },
+  "number-of-1-bits": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "191",
+      "paid_only": false,
+      "slug": "number-of-1-bits",
+      "title": "Number of 1 Bits",
+      "topics": [
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878017357,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.3 MB",
+        "runtime": "0 ms",
+        "slug": "number-of-1-bits",
+        "status": "Accepted",
+        "timestamp": 1767813731,
+        "title": "Number of 1 Bits"
+      }
+    ]
+  },
+  "number-of-flowers-in-full-bloom": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2251",
+      "paid_only": false,
+      "slug": "number-of-flowers-in-full-bloom",
+      "title": "Number of Flowers in Full Bloom",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103459160,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "113.7 MB",
+        "runtime": "38 ms",
+        "slug": "number-of-flowers-in-full-bloom",
+        "status": "Accepted",
+        "timestamp": 1786485199,
+        "title": "Number of Flowers in Full Bloom"
+      }
+    ]
+  },
+  "number-of-islands": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "200",
+      "paid_only": false,
+      "slug": "number-of-islands",
+      "title": "Number of Islands",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1873665103,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "52.5 MB",
+        "runtime": "3 ms",
+        "slug": "number-of-islands",
+        "status": "Accepted",
+        "timestamp": 1767488336,
+        "title": "Number of Islands"
+      }
+    ]
+  },
+  "number-of-provinces": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "547",
+      "paid_only": false,
+      "slug": "number-of-provinces",
+      "title": "Number of Provinces",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2109608806,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.3 MB",
+        "runtime": "2 ms",
+        "slug": "number-of-provinces",
+        "status": "Accepted",
+        "timestamp": 1786937160,
+        "title": "Number of Provinces"
+      }
+    ]
+  },
+  "number-of-recent-calls": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "933",
+      "paid_only": false,
+      "slug": "number-of-recent-calls",
+      "title": "Number of Recent Calls",
+      "topics": [
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2102050921,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "59.6 MB",
+        "runtime": "22 ms",
+        "slug": "number-of-recent-calls",
+        "status": "Accepted",
+        "timestamp": 1786394628,
+        "title": "Number of Recent Calls"
+      }
+    ]
+  },
+  "number-of-steps-to-reduce-a-number-to-zero": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1342",
+      "paid_only": false,
+      "slug": "number-of-steps-to-reduce-a-number-to-zero",
+      "title": "Number of Steps to Reduce a Number to Zero",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 802400523,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "6 MB",
+        "runtime": "0 ms",
+        "slug": "number-of-steps-to-reduce-a-number-to-zero",
+        "status": "Accepted",
+        "timestamp": 1663456255,
+        "title": "Number of Steps to Reduce a Number to Zero"
+      },
+      {
+        "id": 802396519,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.4 MB",
+        "runtime": "1 ms",
+        "slug": "number-of-steps-to-reduce-a-number-to-zero",
+        "status": "Accepted",
+        "timestamp": 1663455619,
+        "title": "Number of Steps to Reduce a Number to Zero"
+      }
+    ]
+  },
+  "online-stock-span": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "901",
+      "paid_only": false,
+      "slug": "online-stock-span",
+      "title": "Online Stock Span",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2111990711,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.3 MB",
+        "runtime": "32 ms",
+        "slug": "online-stock-span",
+        "status": "Accepted",
+        "timestamp": 1787086256,
+        "title": "Online Stock Span"
+      }
+    ]
+  },
+  "pacific-atlantic-water-flow": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "417",
+      "paid_only": false,
+      "slug": "pacific-atlantic-water-flow",
+      "title": "Pacific Atlantic Water Flow",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1874743526,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.4 MB",
+        "runtime": "10 ms",
+        "slug": "pacific-atlantic-water-flow",
+        "status": "Accepted",
+        "timestamp": 1767573854,
+        "title": "Pacific Atlantic Water Flow"
+      }
+    ]
+  },
+  "palindrome-partitioning": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "131",
+      "paid_only": false,
+      "slug": "palindrome-partitioning",
+      "title": "Palindrome Partitioning",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1859398851,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "65.4 MB",
+        "runtime": "8 ms",
+        "slug": "palindrome-partitioning",
+        "status": "Accepted",
+        "timestamp": 1766113613,
+        "title": "Palindrome Partitioning"
+      }
+    ]
+  },
+  "palindromic-substrings": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "647",
+      "paid_only": false,
+      "slug": "palindromic-substrings",
+      "title": "Palindromic Substrings",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1885468542,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.5 MB",
+        "runtime": "15 ms",
+        "slug": "palindromic-substrings",
+        "status": "Accepted",
+        "timestamp": 1768454478,
+        "title": "Palindromic Substrings"
+      }
+    ]
+  },
+  "partitioning-into-minimum-number-of-deci-binary-numbers": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1689",
+      "paid_only": false,
+      "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+      "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 779825128,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.5 MB",
+        "runtime": "3 ms",
+        "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+        "status": "Accepted",
+        "timestamp": 1661125752,
+        "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers"
+      }
+    ]
+  },
+  "path-sum": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "112",
+      "paid_only": false,
+      "slug": "path-sum",
+      "title": "Path Sum",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2095390634,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "21.6 MB",
+        "runtime": "0 ms",
+        "slug": "path-sum",
+        "status": "Accepted",
+        "timestamp": 1785937976,
+        "title": "Path Sum"
+      }
+    ]
+  },
+  "path-with-minimum-effort": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1631",
+      "paid_only": false,
+      "slug": "path-with-minimum-effort",
+      "title": "Path With Minimum Effort",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2116691678,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "46 ms",
+        "slug": "path-with-minimum-effort",
+        "status": "Accepted",
+        "timestamp": 1787446399,
+        "title": "Path With Minimum Effort"
+      }
+    ]
+  },
+  "perfect-squares": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "279",
+      "paid_only": false,
+      "slug": "perfect-squares",
+      "title": "Perfect Squares",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Knapsack Problem",
+          "knapsack-problem"
+        ],
+        [
+          "Complete Knapsack",
+          "complete-knapsack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2116845019,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45 MB",
+        "runtime": "271 ms",
+        "slug": "perfect-squares",
+        "status": "Accepted",
+        "timestamp": 1787456156,
+        "title": "Perfect Squares"
+      }
+    ]
+  },
+  "permutation-in-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "567",
+      "paid_only": false,
+      "slug": "permutation-in-string",
+      "title": "Permutation in String",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103433466,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "9.9 MB",
+        "runtime": "0 ms",
+        "slug": "permutation-in-string",
+        "status": "Accepted",
+        "timestamp": 1786481640,
+        "title": "Permutation in String"
+      },
+      {
+        "id": 767954883,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.4 MB",
+        "runtime": "165 ms",
+        "slug": "permutation-in-string",
+        "status": "Accepted",
+        "timestamp": 1659913923,
+        "title": "Permutation in String"
+      }
+    ]
+  },
+  "permutations": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "46",
+      "paid_only": false,
+      "slug": "permutations",
+      "title": "Permutations",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1854942961,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.4 MB",
+        "runtime": "2 ms",
+        "slug": "permutations",
+        "status": "Accepted",
+        "timestamp": 1765679916,
+        "title": "Permutations"
+      }
+    ]
+  },
+  "plus-one": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "66",
+      "paid_only": false,
+      "slug": "plus-one",
+      "title": "Plus One",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1891784050,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.6 MB",
+        "runtime": "1 ms",
+        "slug": "plus-one",
+        "status": "Accepted",
+        "timestamp": 1768974717,
+        "title": "Plus One"
+      }
+    ]
+  },
+  "product-of-array-except-self": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "238",
+      "paid_only": false,
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1380500934,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.2 MB",
+        "runtime": "2 ms",
+        "slug": "product-of-array-except-self",
+        "status": "Accepted",
+        "timestamp": 1725578529,
+        "title": "Product of Array Except Self"
+      }
+    ]
+  },
+  "range-sum-query-2d-immutable": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "304",
+      "paid_only": false,
+      "slug": "range-sum-query-2d-immutable",
+      "title": "Range Sum Query 2D - Immutable",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2118972593,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "142.1 MB",
+        "runtime": "109 ms",
+        "slug": "range-sum-query-2d-immutable",
+        "status": "Accepted",
+        "timestamp": 1787607095,
+        "title": "Range Sum Query 2D - Immutable"
+      }
+    ]
+  },
+  "reconstruct-itinerary": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "332",
+      "paid_only": false,
+      "slug": "reconstruct-itinerary",
+      "title": "Reconstruct Itinerary",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Eulerian Circuit",
+          "eulerian-circuit"
+        ],
+        [
+          "Eulerian Path",
+          "eulerian-path"
+        ],
+        [
+          "Semi-Eulerian Graph",
+          "semi-eulerian-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1877060892,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.3 MB",
+        "runtime": "5 ms",
+        "slug": "reconstruct-itinerary",
+        "status": "Accepted",
+        "timestamp": 1767752148,
+        "title": "Reconstruct Itinerary"
+      }
+    ]
+  },
+  "redundant-connection": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "684",
+      "paid_only": false,
+      "slug": "redundant-connection",
+      "title": "Redundant Connection",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1874937947,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.7 MB",
+        "runtime": "0 ms",
+        "slug": "redundant-connection",
+        "status": "Accepted",
+        "timestamp": 1767592533,
+        "title": "Redundant Connection"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-list": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "83",
+      "paid_only": false,
+      "slug": "remove-duplicates-from-sorted-list",
+      "title": "Remove Duplicates from Sorted List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 775706044,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.6 MB",
+        "runtime": "1 ms",
+        "slug": "remove-duplicates-from-sorted-list",
+        "status": "Accepted",
+        "timestamp": 1660707190,
+        "title": "Remove Duplicates from Sorted List"
+      }
+    ]
+  },
+  "remove-element": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "27",
+      "paid_only": false,
+      "slug": "remove-element",
+      "title": "Remove Element",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1788857449,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.9 MB",
+        "runtime": "0 ms",
+        "slug": "remove-element",
+        "status": "Accepted",
+        "timestamp": 1759382054,
+        "title": "Remove Element"
+      }
+    ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "19",
+      "paid_only": false,
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1821021392,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.5 MB",
+        "runtime": "0 ms",
+        "slug": "remove-nth-node-from-end-of-list",
+        "status": "Accepted",
+        "timestamp": 1762305084,
+        "title": "Remove Nth Node From End of List"
+      }
+    ]
+  },
+  "reorder-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "143",
+      "paid_only": false,
+      "slug": "reorder-list",
+      "title": "Reorder List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820984251,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50.4 MB",
+        "runtime": "3 ms",
+        "slug": "reorder-list",
+        "status": "Accepted",
+        "timestamp": 1762299067,
+        "title": "Reorder List"
+      }
+    ]
+  },
+  "reverse-bits": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "190",
+      "paid_only": false,
+      "slug": "reverse-bits",
+      "title": "Reverse Bits",
+      "topics": [
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878371497,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.5 MB",
+        "runtime": "0 ms",
+        "slug": "reverse-bits",
+        "status": "Accepted",
+        "timestamp": 1767851866,
+        "title": "Reverse Bits"
+      }
+    ]
+  },
+  "reverse-integer": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "7",
+      "paid_only": false,
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878425318,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.5 MB",
+        "runtime": "1 ms",
+        "slug": "reverse-integer",
+        "status": "Accepted",
+        "timestamp": 1767855070,
+        "title": "Reverse Integer"
+      }
+    ]
+  },
+  "reverse-linked-list": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "206",
+      "paid_only": false,
+      "slug": "reverse-linked-list",
+      "title": "Reverse Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820323267,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.9 MB",
+        "runtime": "0 ms",
+        "slug": "reverse-linked-list",
+        "status": "Accepted",
+        "timestamp": 1762242730,
+        "title": "Reverse Linked List"
+      }
+    ]
+  },
+  "reverse-nodes-in-k-group": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "25",
+      "paid_only": false,
+      "slug": "reverse-nodes-in-k-group",
+      "title": "Reverse Nodes in k-Group",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1837466448,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "5 ms",
+        "slug": "reverse-nodes-in-k-group",
+        "status": "Accepted",
+        "timestamp": 1763882501,
+        "title": "Reverse Nodes in k-Group"
+      }
+    ]
+  },
+  "reverse-string": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "344",
+      "paid_only": false,
+      "slug": "reverse-string",
+      "title": "Reverse String",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 766943481,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "57.7 MB",
+        "runtime": "2 ms",
+        "slug": "reverse-string",
+        "status": "Accepted",
+        "timestamp": 1659813631,
+        "title": "Reverse String"
+      }
+    ]
+  },
+  "reverse-words-in-a-string-iii": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "557",
+      "paid_only": false,
+      "slug": "reverse-words-in-a-string-iii",
+      "title": "Reverse Words in a String III",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 767022163,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "495.9 MB",
+        "runtime": "1619 ms",
+        "slug": "reverse-words-in-a-string-iii",
+        "status": "Accepted",
+        "timestamp": 1659821865,
+        "title": "Reverse Words in a String III"
+      }
+    ]
+  },
+  "rle-iterator": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "900",
+      "paid_only": false,
+      "slug": "rle-iterator",
+      "title": "RLE Iterator",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Iterator",
+          "iterator"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2102047083,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.9 MB",
+        "runtime": "4 ms",
+        "slug": "rle-iterator",
+        "status": "Accepted",
+        "timestamp": 1786394218,
+        "title": "RLE Iterator"
+      }
+    ]
+  },
+  "rotate-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "189",
+      "paid_only": false,
+      "slug": "rotate-array",
+      "title": "Rotate Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2111764949,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "275.4 MB",
+        "runtime": "11 ms",
+        "slug": "rotate-array",
+        "status": "Accepted",
+        "timestamp": 1787073419,
+        "title": "Rotate Array"
+      }
+    ]
+  },
+  "rotate-image": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "48",
+      "paid_only": false,
+      "slug": "rotate-image",
+      "title": "Rotate Image",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1983300495,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44 MB",
+        "runtime": "0 ms",
+        "slug": "rotate-image",
+        "status": "Accepted",
+        "timestamp": 1776666874,
+        "title": "Rotate Image"
+      }
+    ]
+  },
+  "rotting-oranges": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "994",
+      "paid_only": false,
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2106010918,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.8 MB",
+        "runtime": "2 ms",
+        "slug": "rotting-oranges",
+        "status": "Accepted",
+        "timestamp": 1786664447,
+        "title": "Rotting Oranges"
+      }
+    ]
+  },
+  "running-sum-of-1d-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1480",
+      "paid_only": false,
+      "slug": "running-sum-of-1d-array",
+      "title": "Running Sum of 1d Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 778180678,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.8 MB",
+        "runtime": "0 ms",
+        "slug": "running-sum-of-1d-array",
+        "status": "Accepted",
+        "timestamp": 1660963848,
+        "title": "Running Sum of 1d Array"
+      }
+    ]
+  },
+  "same-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "100",
+      "paid_only": false,
+      "slug": "same-tree",
+      "title": "Same Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1833047427,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "0 ms",
+        "slug": "same-tree",
+        "status": "Accepted",
+        "timestamp": 1763447642,
+        "title": "Same Tree"
+      }
+    ]
+  },
+  "search-a-2d-matrix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "74",
+      "paid_only": false,
+      "slug": "search-a-2d-matrix",
+      "title": "Search a 2D Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1814554189,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.6 MB",
+        "runtime": "0 ms",
+        "slug": "search-a-2d-matrix",
+        "status": "Accepted",
+        "timestamp": 1761700900,
+        "title": "Search a 2D Matrix"
+      }
+    ]
+  },
+  "search-in-rotated-sorted-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "33",
+      "paid_only": false,
+      "slug": "search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1820271711,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "search-in-rotated-sorted-array",
+        "status": "Accepted",
+        "timestamp": 1762238259,
+        "title": "Search in Rotated Sorted Array"
+      }
+    ]
+  },
+  "search-insert-position": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "35",
+      "paid_only": false,
+      "slug": "search-insert-position",
+      "title": "Search Insert Position",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2119124166,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.8 MB",
+        "runtime": "0 ms",
+        "slug": "search-insert-position",
+        "status": "Accepted",
+        "timestamp": 1787629590,
+        "title": "Search Insert Position"
+      }
+    ]
+  },
+  "serialize-and-deserialize-binary-tree": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "297",
+      "paid_only": false,
+      "slug": "serialize-and-deserialize-binary-tree",
+      "title": "Serialize and Deserialize Binary Tree",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1844613860,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.1 MB",
+        "runtime": "72 ms",
+        "slug": "serialize-and-deserialize-binary-tree",
+        "status": "Accepted",
+        "timestamp": 1764642717,
+        "title": "Serialize and Deserialize Binary Tree"
+      }
+    ]
+  },
+  "shortest-path-in-a-grid-with-obstacles-elimination": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1293",
+      "paid_only": false,
+      "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2102133229,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49 MB",
+        "runtime": "33 ms",
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "status": "Accepted",
+        "timestamp": 1786408598,
+        "title": "Shortest Path in a Grid with Obstacles Elimination"
+      }
+    ]
+  },
+  "shortest-path-in-binary-matrix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1091",
+      "paid_only": false,
+      "slug": "shortest-path-in-binary-matrix",
+      "title": "Shortest Path in Binary Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103621050,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "21 ms",
+        "slug": "shortest-path-in-binary-matrix",
+        "status": "Accepted",
+        "timestamp": 1786507379,
+        "title": "Shortest Path in Binary Matrix"
+      }
+    ]
+  },
+  "single-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "136",
+      "paid_only": false,
+      "slug": "single-number",
+      "title": "Single Number",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878014750,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "1 ms",
+        "slug": "single-number",
+        "status": "Accepted",
+        "timestamp": 1767813528,
+        "title": "Single Number"
+      }
+    ]
+  },
+  "sliding-window-maximum": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "239",
+      "paid_only": false,
+      "slug": "sliding-window-maximum",
+      "title": "Sliding Window Maximum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Monotonic Queue",
+          "monotonic-queue"
+        ],
+        [
+          "Range Minimum/Maximum Query",
+          "range-minimum-maximum-query"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1813544799,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "59.6 MB",
+        "runtime": "31 ms",
+        "slug": "sliding-window-maximum",
+        "status": "Accepted",
+        "timestamp": 1761607781,
+        "title": "Sliding Window Maximum"
+      }
+    ]
+  },
+  "smallest-missing-multiple-of-k": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3718",
+      "paid_only": false,
+      "slug": "smallest-missing-multiple-of-k",
+      "title": "Smallest Missing Multiple of K",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2119861964,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.8 MB",
+        "runtime": "2 ms",
+        "slug": "smallest-missing-multiple-of-k",
+        "status": "Accepted",
+        "timestamp": 1787674003,
+        "title": "Smallest Missing Multiple of K"
+      }
+    ]
+  },
+  "snapshot-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1146",
+      "paid_only": false,
+      "slug": "snapshot-array",
+      "title": "Snapshot Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Persistent Data Structure",
+          "persistent-data-structure"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2102175673,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "129.9 MB",
+        "runtime": "52 ms",
+        "slug": "snapshot-array",
+        "status": "Accepted",
+        "timestamp": 1786414434,
+        "title": "Snapshot Array"
+      }
+    ]
+  },
+  "sort-characters-by-frequency": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "451",
+      "paid_only": false,
+      "slug": "sort-characters-by-frequency",
+      "title": "Sort Characters By Frequency",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Bucket Sort",
+          "bucket-sort"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1911035794,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.8 MB",
+        "runtime": "376 ms",
+        "slug": "sort-characters-by-frequency",
+        "status": "Accepted",
+        "timestamp": 1770449981,
+        "title": "Sort Characters By Frequency"
+      }
+    ]
+  },
+  "spiral-matrix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "54",
+      "paid_only": false,
+      "slug": "spiral-matrix",
+      "title": "Spiral Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103474365,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.8 MB",
+        "runtime": "0 ms",
+        "slug": "spiral-matrix",
+        "status": "Accepted",
+        "timestamp": 1786487895,
+        "title": "Spiral Matrix"
+      }
+    ]
+  },
+  "split-array-largest-sum": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "410",
+      "paid_only": false,
+      "slug": "split-array-largest-sum",
+      "title": "Split Array Largest Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2112005158,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "split-array-largest-sum",
+        "status": "Accepted",
+        "timestamp": 1787088189,
+        "title": "Split Array Largest Sum"
+      }
+    ]
+  },
+  "split-message-based-on-limit": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2468",
+      "paid_only": false,
+      "slug": "split-message-based-on-limit",
+      "title": "Split Message Based on Limit",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Enumeration",
+          "enumeration"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103345561,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "53.7 MB",
+        "runtime": "77 ms",
+        "slug": "split-message-based-on-limit",
+        "status": "Accepted",
+        "timestamp": 1786474526,
+        "title": "Split Message Based on Limit"
+      }
+    ]
+  },
+  "squares-of-a-sorted-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "977",
+      "paid_only": false,
+      "slug": "squares-of-a-sorted-array",
+      "title": "Squares of a Sorted Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 766351997,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.4 MB",
+        "runtime": "2 ms",
+        "slug": "squares-of-a-sorted-array",
+        "status": "Accepted",
+        "timestamp": 1659758711,
+        "title": "Squares of a Sorted Array"
+      }
+    ]
+  },
+  "step-by-step-directions-from-a-binary-tree-node-to-another": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2096",
+      "paid_only": false,
+      "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+      "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Binary Lifting",
+          "binary-lifting"
+        ],
+        [
+          "Lowest Common Ancestor",
+          "lowest-common-ancestor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2097550334,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "211.5 MB",
+        "runtime": "20 ms",
+        "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+        "status": "Accepted",
+        "timestamp": 1786082410,
+        "title": "Step-By-Step Directions From a Binary Tree Node to Another"
+      }
+    ]
+  },
+  "stone-game": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "877",
+      "paid_only": false,
+      "slug": "stone-game",
+      "title": "Stone Game",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Minimax",
+          "minimax-algorithm"
+        ],
+        [
+          "Game Theory",
+          "game-theory"
+        ],
+        [
+          "Zero-Sum Game",
+          "zero-sum-game"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2117856787,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "13 ms",
+        "slug": "stone-game",
+        "status": "Accepted",
+        "timestamp": 1787525268,
+        "title": "Stone Game"
+      }
+    ]
+  },
+  "stone-game-ix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2029",
+      "paid_only": false,
+      "slug": "stone-game-ix",
+      "title": "Stone Game IX",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Minimax",
+          "minimax-algorithm"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Game Theory",
+          "game-theory"
+        ],
+        [
+          "Nim Game",
+          "nim-game"
+        ],
+        [
+          "Zero-Sum Game",
+          "zero-sum-game"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2109527782,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "114.8 MB",
+        "runtime": "3 ms",
+        "slug": "stone-game-ix",
+        "status": "Accepted",
+        "timestamp": 1786923849,
+        "title": "Stone Game IX"
+      }
+    ]
+  },
+  "stone-game-v": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1563",
+      "paid_only": false,
+      "slug": "stone-game-v",
+      "title": "Stone Game V",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Game Theory",
+          "game-theory"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2110460102,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "227 ms",
+        "slug": "stone-game-v",
+        "status": "Accepted",
+        "timestamp": 1786987387,
+        "title": "Stone Game V"
+      }
+    ]
+  },
+  "string-to-integer-atoi": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "8",
+      "paid_only": false,
+      "slug": "string-to-integer-atoi",
+      "title": "String to Integer (atoi)",
+      "topics": [
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2105965658,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.1 MB",
+        "runtime": "1 ms",
+        "slug": "string-to-integer-atoi",
+        "status": "Accepted",
+        "timestamp": 1786655523,
+        "title": "String to Integer (atoi)"
+      }
+    ]
+  },
+  "subsets": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "78",
+      "paid_only": false,
+      "slug": "subsets",
+      "title": "Subsets",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1846524011,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44 MB",
+        "runtime": "1 ms",
+        "slug": "subsets",
+        "status": "Accepted",
+        "timestamp": 1764829248,
+        "title": "Subsets"
+      }
+    ]
+  },
+  "subsets-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "90",
+      "paid_only": false,
+      "slug": "subsets-ii",
+      "title": "Subsets II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1854998552,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "2 ms",
+        "slug": "subsets-ii",
+        "status": "Accepted",
+        "timestamp": 1765682470,
+        "title": "Subsets II"
+      }
+    ]
+  },
+  "subtree-of-another-tree": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "572",
+      "paid_only": false,
+      "slug": "subtree-of-another-tree",
+      "title": "Subtree of Another Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "String Matching",
+          "string-matching"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Hash Function",
+          "hash-function"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1833081372,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.5 MB",
+        "runtime": "2 ms",
+        "slug": "subtree-of-another-tree",
+        "status": "Accepted",
+        "timestamp": 1763450096,
+        "title": "Subtree of Another Tree"
+      }
+    ]
+  },
+  "sum-game": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1927",
+      "paid_only": false,
+      "slug": "sum-game",
+      "title": "Sum Game",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Game Theory",
+          "game-theory"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2118915795,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.1 MB",
+        "runtime": "10 ms",
+        "slug": "sum-game",
+        "status": "Accepted",
+        "timestamp": 1787600622,
+        "title": "Sum Game"
+      }
+    ]
+  },
+  "sum-of-all-subset-xor-totals": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1863",
+      "paid_only": false,
+      "slug": "sum-of-all-subset-xor-totals",
+      "title": "Sum of All Subset XOR Totals",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Combinatorics",
+          "combinatorics"
+        ],
+        [
+          "Enumeration",
+          "enumeration"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2121456414,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.8 MB",
+        "runtime": "0 ms",
+        "slug": "sum-of-all-subset-xor-totals",
+        "status": "Accepted",
+        "timestamp": 1787804101,
+        "title": "Sum of All Subset XOR Totals"
+      }
+    ]
+  },
+  "sum-of-two-integers": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "371",
+      "paid_only": false,
+      "slug": "sum-of-two-integers",
+      "title": "Sum of Two Integers",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1878403087,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.9 MB",
+        "runtime": "0 ms",
+        "slug": "sum-of-two-integers",
+        "status": "Accepted",
+        "timestamp": 1767853813,
+        "title": "Sum of Two Integers"
+      }
+    ]
+  },
+  "surrounded-regions": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "130",
+      "paid_only": false,
+      "slug": "surrounded-regions",
+      "title": "Surrounded Regions",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1874773287,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.7 MB",
+        "runtime": "8 ms",
+        "slug": "surrounded-regions",
+        "status": "Accepted",
+        "timestamp": 1767578060,
+        "title": "Surrounded Regions"
+      }
+    ]
+  },
+  "swim-in-rising-water": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "778",
+      "paid_only": false,
+      "slug": "swim-in-rising-water",
+      "title": "Swim in Rising Water",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Minimax",
+          "minimax-algorithm"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1877239907,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.4 MB",
+        "runtime": "9 ms",
+        "slug": "swim-in-rising-water",
+        "status": "Accepted",
+        "timestamp": 1767766056,
+        "title": "Swim in Rising Water"
+      }
+    ]
+  },
+  "task-scheduler": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "621",
+      "paid_only": false,
+      "slug": "task-scheduler",
+      "title": "Task Scheduler",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1846495425,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.1 MB",
+        "runtime": "54 ms",
+        "slug": "task-scheduler",
+        "status": "Accepted",
+        "timestamp": 1764826914,
+        "title": "Task Scheduler"
+      }
+    ]
+  },
+  "text-justification": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "68",
+      "paid_only": false,
+      "slug": "text-justification",
+      "title": "Text Justification",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2102221676,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "1 ms",
+        "slug": "text-justification",
+        "status": "Accepted",
+        "timestamp": 1786419136,
+        "title": "Text Justification"
+      }
+    ]
+  },
+  "time-based-key-value-store": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "981",
+      "paid_only": false,
+      "slug": "time-based-key-value-store",
+      "title": "Time Based Key-Value Store",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2100836159,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "137 MB",
+        "runtime": "55 ms",
+        "slug": "time-based-key-value-store",
+        "status": "Accepted",
+        "timestamp": 1786308415,
+        "title": "Time Based Key-Value Store"
+      },
+      {
+        "id": 2102054645,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "108.9 MB",
+        "runtime": "164 ms",
+        "slug": "time-based-key-value-store",
+        "status": "Accepted",
+        "timestamp": 1786395055,
+        "title": "Time Based Key-Value Store"
+      }
+    ]
+  },
+  "top-k-frequent-elements": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "347",
+      "paid_only": false,
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Bucket Sort",
+          "bucket-sort"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Quickselect",
+          "quickselect"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1380467266,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48 MB",
+        "runtime": "18 ms",
+        "slug": "top-k-frequent-elements",
+        "status": "Accepted",
+        "timestamp": 1725574383,
+        "title": "Top K Frequent Elements"
+      }
+    ]
+  },
+  "trapping-rain-water": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "42",
+      "paid_only": false,
+      "slug": "trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1704256966,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "0 ms",
+        "slug": "trapping-rain-water",
+        "status": "Accepted",
+        "timestamp": 1752981565,
+        "title": "Trapping Rain Water"
+      }
+    ]
+  },
+  "triples-with-bitwise-and-equal-to-zero": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "982",
+      "paid_only": false,
+      "slug": "triples-with-bitwise-and-equal-to-zero",
+      "title": "Triples with Bitwise AND Equal To Zero",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2070379709,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50.8 MB",
+        "runtime": "282 ms",
+        "slug": "triples-with-bitwise-and-equal-to-zero",
+        "status": "Accepted",
+        "timestamp": 1784232242,
+        "title": "Triples with Bitwise AND Equal To Zero"
+      }
+    ]
+  },
+  "two-sum": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1",
+      "paid_only": false,
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103644729,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.3 MB",
+        "runtime": "2 ms",
+        "slug": "two-sum",
+        "status": "Accepted",
+        "timestamp": 1786508734,
+        "title": "Two Sum"
+      }
+    ]
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "167",
+      "paid_only": false,
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1382609773,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.5 MB",
+        "runtime": "2 ms",
+        "slug": "two-sum-ii-input-array-is-sorted",
+        "status": "Accepted",
+        "timestamp": 1725757775,
+        "title": "Two Sum II - Input Array Is Sorted"
+      }
+    ]
+  },
+  "ugly-number-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "264",
+      "paid_only": false,
+      "slug": "ugly-number-ii",
+      "title": "Ugly Number II",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1911023123,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.9 MB",
+        "runtime": "55 ms",
+        "slug": "ugly-number-ii",
+        "status": "Accepted",
+        "timestamp": 1770449054,
+        "title": "Ugly Number II"
+      }
+    ]
+  },
+  "unique-email-addresses": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "929",
+      "paid_only": false,
+      "slug": "unique-email-addresses",
+      "title": "Unique Email Addresses",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2070346445,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.4 MB",
+        "runtime": "9 ms",
+        "slug": "unique-email-addresses",
+        "status": "Accepted",
+        "timestamp": 1784229241,
+        "title": "Unique Email Addresses"
+      }
+    ]
+  },
+  "unique-paths-iii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "980",
+      "paid_only": false,
+      "slug": "unique-paths-iii",
+      "title": "Unique Paths III",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Hamiltonian Path",
+          "hamiltonian-path"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2103419446,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45 MB",
+        "runtime": "1 ms",
+        "slug": "unique-paths-iii",
+        "status": "Accepted",
+        "timestamp": 1786480119,
+        "title": "Unique Paths III"
+      }
+    ]
+  },
+  "valid-anagram": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "242",
+      "paid_only": false,
+      "slug": "valid-anagram",
+      "title": "Valid Anagram",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1379138542,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "54.6 MB",
+        "runtime": "71 ms",
+        "slug": "valid-anagram",
+        "status": "Accepted",
+        "timestamp": 1725474289,
+        "title": "Valid Anagram"
+      }
+    ]
+  },
+  "valid-palindrome": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "125",
+      "paid_only": false,
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2107168821,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.2 MB",
+        "runtime": "15 ms",
+        "slug": "valid-palindrome",
+        "status": "Accepted",
+        "timestamp": 1786764183,
+        "title": "Valid Palindrome"
+      }
+    ]
+  },
+  "valid-parentheses": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "20",
+      "paid_only": false,
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1811833370,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.6 MB",
+        "runtime": "9 ms",
+        "slug": "valid-parentheses",
+        "status": "Accepted",
+        "timestamp": 1761450006,
+        "title": "Valid Parentheses"
+      }
+    ]
+  },
+  "valid-sudoku": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "36",
+      "paid_only": false,
+      "slug": "valid-sudoku",
+      "title": "Valid Sudoku",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1381424080,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "74 ms",
+        "slug": "valid-sudoku",
+        "status": "Accepted",
+        "timestamp": 1725650471,
+        "title": "Valid Sudoku"
+      }
+    ]
+  },
+  "validate-binary-search-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "98",
+      "paid_only": false,
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1843074040,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "0 ms",
+        "slug": "validate-binary-search-tree",
+        "status": "Accepted",
+        "timestamp": 1764481952,
+        "title": "Validate Binary Search Tree"
+      }
+    ]
+  },
+  "word-ladder": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "127",
+      "paid_only": false,
+      "slug": "word-ladder",
+      "title": "Word Ladder",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Bidirectional Search",
+          "bidirectional-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1875801425,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "77 ms",
+        "slug": "word-ladder",
+        "status": "Accepted",
+        "timestamp": 1767651587,
+        "title": "Word Ladder"
+      }
+    ]
+  },
+  "word-search": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "79",
+      "paid_only": false,
+      "slug": "word-search",
+      "title": "Word Search",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1855036025,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "135 ms",
+        "slug": "word-search",
+        "status": "Accepted",
+        "timestamp": 1765684553,
+        "title": "Word Search"
+      }
+    ]
+  },
+  "word-search-ii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "212",
+      "paid_only": false,
+      "slug": "word-search-ii",
+      "title": "Word Search II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Trie",
+          "trie"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 1873618817,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.1 MB",
+        "runtime": "158 ms",
+        "slug": "word-search-ii",
+        "status": "Accepted",
+        "timestamp": 1767480797,
+        "title": "Word Search II"
+      }
+    ]
+  },
+  "xor-operation-in-an-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1486",
+      "paid_only": false,
+      "slug": "xor-operation-in-an-array",
+      "title": "XOR Operation in an Array",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 802402784,
+        "lang": "cpp",
+        "lang_name": "C++",
+        "memory": "5.9 MB",
+        "runtime": "2 ms",
+        "slug": "xor-operation-in-an-array",
+        "status": "Accepted",
+        "timestamp": 1663456589,
+        "title": "XOR Operation in an Array"
+      }
+    ]
+  }
+}
