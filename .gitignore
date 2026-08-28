@@ -1,0 +1,12 @@
+# Credentials - never commit these.
+_sync/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Sync logs
+_sync/logs/
