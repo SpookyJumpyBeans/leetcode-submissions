@@ -48,6 +48,12 @@ class AuthError(LeetCodeError):
     pass
 
 
+class ThrottledError(LeetCodeError):
+    """Rate limiting we could not wait out. Progress is still resumable."""
+
+    pass
+
+
 @dataclass(frozen=True)
 class Submission:
     """One row of the submission history."""
@@ -132,13 +138,14 @@ class Question:
 
 class LeetCodeClient:
     def __init__(self, session_cookie: str, csrf_token: str = "", delay: float = 1.0,
-                 max_retries: int = 4):
+                 max_retries: int = 6):
         self.delay = delay
         self.max_retries = max_retries
         self.http = requests.Session()
         self.http.cookies.set("LEETCODE_SESSION", session_cookie, domain="leetcode.com")
         if csrf_token:
             self.http.cookies.set("csrftoken", csrf_token, domain="leetcode.com")
+        self._succeeded_once = False
         self.http.headers.update({
             "User-Agent": USER_AGENT,
             "Referer": BASE_URL,
@@ -151,6 +158,13 @@ class LeetCodeClient:
     def _get(self, url: str, params: dict[str, Any]) -> dict[str, Any]:
         for attempt in range(self.max_retries):
             response = self.http.get(url, params=params, timeout=30)
+
+            # 403 means one of two very different things. Before any request has
+            # succeeded it is a bad cookie; after several good pages it is
+            # LeetCode throttling us, and the fix is to wait, not to re-auth.
+            if response.status_code in (429, 403) and self._succeeded_once:
+                _backoff(attempt)
+                continue
             if response.status_code == 429:
                 _backoff(attempt)
                 continue
@@ -161,19 +175,30 @@ class LeetCodeClient:
                 )
             response.raise_for_status()
             try:
-                return response.json()
+                payload = response.json()
             except ValueError as exc:
                 # An HTML body here means we were bounced to the login page.
                 raise AuthError(
                     "Expected JSON but got HTML - the session cookie is not valid."
                 ) from exc
-        raise LeetCodeError(f"Gave up after {self.max_retries} rate-limited attempts: {url}")
+            self._succeeded_once = True
+            return payload
+        raise ThrottledError(
+            f"LeetCode kept throttling us after {self.max_retries} attempts. "
+            "Progress so far is saved - rerun to continue, ideally with a larger --delay."
+        )
 
     def iter_submissions(self, stop_at_id: int | None = None,
-                         stop_before_timestamp: int | None = None) -> Iterator[Submission]:
-        """Yield submissions newest-first, stopping once we reach known ground."""
-        offset = 0
-        last_key: str | None = None
+                         stop_before_timestamp: int | None = None,
+                         start_offset: int = 0, start_last_key: str | None = None,
+                         on_page=None) -> Iterator[Submission]:
+        """Yield submissions newest-first, stopping once we reach known ground.
+
+        ``on_page(offset, last_key)`` is called after each page with the cursor
+        for the *next* one, so a caller can checkpoint and resume a long walk.
+        """
+        offset = start_offset
+        last_key: str | None = start_last_key
         while True:
             params: dict[str, Any] = {"offset": offset, "limit": PAGE_SIZE}
             if last_key:
@@ -181,6 +206,8 @@ class LeetCodeClient:
             payload = self._get(SUBMISSIONS_URL, params)
             rows = payload.get("submissions_dump") or []
             if not rows:
+                if on_page:
+                    on_page(None, None)  # history exhausted
                 return
             for row in rows:
                 submission = Submission.from_payload(row)
@@ -191,9 +218,13 @@ class LeetCodeClient:
                     return
                 yield submission
             if not payload.get("has_next"):
+                if on_page:
+                    on_page(None, None)  # history exhausted
                 return
             last_key = payload.get("last_key")
             offset += PAGE_SIZE
+            if on_page:
+                on_page(offset, last_key)
             time.sleep(self.delay)
 
     def get_question(self, slug: str) -> Question | None:

@@ -1,0 +1,448 @@
+{
+  "binary-tree-inorder-traversal": {
+    "difficulty": "Easy",
+    "frontend_id": "94",
+    "paid_only": false,
+    "slug": "binary-tree-inorder-traversal",
+    "title": "Binary Tree Inorder Traversal",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "binary-tree-postorder-traversal": {
+    "difficulty": "Easy",
+    "frontend_id": "145",
+    "paid_only": false,
+    "slug": "binary-tree-postorder-traversal",
+    "title": "Binary Tree Postorder Traversal",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "binary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "frontend_id": "144",
+    "paid_only": false,
+    "slug": "binary-tree-preorder-traversal",
+    "title": "Binary Tree Preorder Traversal",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
+  "boats-to-save-people": {
+    "difficulty": "Medium",
+    "frontend_id": "881",
+    "paid_only": false,
+    "slug": "boats-to-save-people",
+    "title": "Boats to Save People",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Timsort",
+        "timsort"
+      ]
+    ]
+  },
+  "build-a-matrix-with-conditions": {
+    "difficulty": "Hard",
+    "frontend_id": "2392",
+    "paid_only": false,
+    "slug": "build-a-matrix-with-conditions",
+    "title": "Build a Matrix With Conditions",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Directed Acyclic Graph",
+        "directed-acyclic-graph"
+      ]
+    ]
+  },
+  "car-pooling": {
+    "difficulty": "Medium",
+    "frontend_id": "1094",
+    "paid_only": false,
+    "slug": "car-pooling",
+    "title": "Car Pooling",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "construct-quad-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "427",
+    "paid_only": false,
+    "slug": "construct-quad-tree",
+    "title": "Construct Quad Tree",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "decode-string": {
+    "difficulty": "Medium",
+    "frontend_id": "394",
+    "paid_only": false,
+    "slug": "decode-string",
+    "title": "Decode String",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Recursion",
+        "recursion"
+      ]
+    ]
+  },
+  "integer-break": {
+    "difficulty": "Medium",
+    "frontend_id": "343",
+    "paid_only": false,
+    "slug": "integer-break",
+    "title": "Integer Break",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "lexicographically-smallest-permutation-greater-than-target": {
+    "difficulty": "Medium",
+    "frontend_id": "3720",
+    "paid_only": false,
+    "slug": "lexicographically-smallest-permutation-greater-than-target",
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Enumeration",
+        "enumeration"
+      ]
+    ]
+  },
+  "matchsticks-to-square": {
+    "difficulty": "Medium",
+    "frontend_id": "473",
+    "paid_only": false,
+    "slug": "matchsticks-to-square",
+    "title": "Matchsticks to Square",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Bitmask",
+        "bitmask"
+      ]
+    ]
+  },
+  "minimum-height-trees": {
+    "difficulty": "Medium",
+    "frontend_id": "310",
+    "paid_only": false,
+    "slug": "minimum-height-trees",
+    "title": "Minimum Height Trees",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ]
+    ]
+  },
+  "n-th-tribonacci-number": {
+    "difficulty": "Easy",
+    "frontend_id": "1137",
+    "paid_only": false,
+    "slug": "n-th-tribonacci-number",
+    "title": "N-th Tribonacci Number",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ]
+    ]
+  },
+  "range-sum-query-2d-immutable": {
+    "difficulty": "Medium",
+    "frontend_id": "304",
+    "paid_only": false,
+    "slug": "range-sum-query-2d-immutable",
+    "title": "Range Sum Query 2D - Immutable",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "search-insert-position": {
+    "difficulty": "Easy",
+    "frontend_id": "35",
+    "paid_only": false,
+    "slug": "search-insert-position",
+    "title": "Search Insert Position",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
+  "smallest-missing-multiple-of-k": {
+    "difficulty": "Easy",
+    "frontend_id": "3718",
+    "paid_only": false,
+    "slug": "smallest-missing-multiple-of-k",
+    "title": "Smallest Missing Multiple of K",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ]
+    ]
+  },
+  "sum-game": {
+    "difficulty": "Medium",
+    "frontend_id": "1927",
+    "paid_only": false,
+    "slug": "sum-game",
+    "title": "Sum Game",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ]
+    ]
+  },
+  "sum-of-all-subset-xor-totals": {
+    "difficulty": "Easy",
+    "frontend_id": "1863",
+    "paid_only": false,
+    "slug": "sum-of-all-subset-xor-totals",
+    "title": "Sum of All Subset XOR Totals",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Combinatorics",
+        "combinatorics"
+      ],
+      [
+        "Enumeration",
+        "enumeration"
+      ]
+    ]
+  }
+}

@@ -42,9 +42,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--delay",
         type=float,
-        default=1.0,
+        default=2.0,
         metavar="SECONDS",
-        help="Pause between history pages (default: 1.0). Raise it if you hit rate limits.",
+        help="Pause between history pages (default: 2.0). Raise it if you hit rate limits.",
     )
     parser.add_argument(
         "--no-commit",
@@ -78,7 +78,9 @@ def main(argv: list[str] | None = None) -> int:
     )
     state = SyncState.load()
 
-    if args.full:
+    if args.full and state.backfill_offset:
+        print(f"Resuming an interrupted backfill (offset {state.backfill_offset}).")
+    elif args.full:
         print("Full backfill: walking the entire submission history.")
     elif state.newest_submission_id:
         print(f"Incremental sync since submission {state.newest_submission_id}.")

@@ -1,4 +1,9 @@
-"""Orchestration: pull submissions, lay them out, commit the result."""
+"""Orchestration: pull submissions, lay them out, commit the result.
+
+Submissions are written as they arrive rather than after the whole history is
+collected, so a run cut short by throttling still leaves useful work behind and
+records where to pick up.
+"""
 
 from __future__ import annotations
 
@@ -7,7 +12,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .api import LeetCodeClient, Question, Submission
+from .api import LeetCodeClient, Submission, ThrottledError
 from .config import REPO_ROOT
 from .layout import (
     placement_for,
@@ -29,6 +34,9 @@ class SyncReport:
     skipped_unknown: list[str] = field(default_factory=list)
     newest_id: int | None = None
     newest_timestamp: int | None = None
+    partial: bool = False
+    interrupted_reason: str = ""
+    resumed_from: int | None = None
 
     @property
     def changed(self) -> bool:
@@ -66,68 +74,109 @@ def run_sync(
     stop_id = None if full else state.newest_submission_id
     stop_ts = None if full else state.newest_timestamp
 
-    collected: list[Submission] = []
-    for submission in client.iter_submissions(stop_at_id=stop_id, stop_before_timestamp=stop_ts):
-        collected.append(submission)
-        report.fetched += 1
-        if report.fetched == 1:
-            report.newest_id = submission.id
-            report.newest_timestamp = submission.timestamp
-        if report.fetched % 100 == 0:
-            log(f"  ...fetched {report.fetched} submissions")
-        if max_submissions is not None and report.fetched >= max_submissions:
-            break
+    resumed = bool(full and state.backfill_offset)
+    start_offset = state.backfill_offset if resumed else 0
+    start_last_key = state.backfill_last_key if resumed else None
+    if resumed:
+        report.resumed_from = start_offset
+        log(f"Resuming the backfill from offset {start_offset}.")
 
-    if not collected:
-        log("No new submissions.")
-        return report
+    # Cursor for the *next* unfetched page; (None, None) means history exhausted.
+    cursor: dict[str, object] = {"offset": start_offset, "last_key": start_last_key}
 
-    keepers = select_latest_accepted(collected)
-    report.accepted = len(keepers)
-    log(f"Fetched {report.fetched} submissions; {report.accepted} solutions to write.")
+    def on_page(offset, last_key):
+        cursor["offset"], cursor["last_key"] = offset, last_key
 
-    touched_slugs: set[str] = set()
-    for (slug, _lang), submission in sorted(keepers.items()):
-        question = cache.get(slug)
+    seen: set[tuple[str, str]] = set()
+    touched: set[str] = set()
+
+    def handle(submission: Submission) -> None:
+        if not submission.accepted or not submission.slug:
+            return
+        key = (submission.slug, submission.lang)
+        if key in seen:
+            return
+        seen.add(key)
+        # A resumed walk moves backwards in time; never regress a newer solution.
+        if index.has_newer(submission.slug, submission.lang, submission.timestamp):
+            return
+
+        question = cache.get(submission.slug)
         if question is None:
-            question = client.get_question(slug)
+            question = client.get_question(submission.slug)
             if question is None:
-                report.skipped_unknown.append(slug)
-                continue
+                report.skipped_unknown.append(submission.slug)
+                return
             cache.put(question)
+
+        report.accepted += 1
         placement = placement_for(question, submission)
         index.record(question, submission)
-        touched_slugs.add(slug)
+        touched.add(question.slug)
         if dry_run:
             report.written.append(placement.relative_path)
-            continue
+            return
         path = repo_root / placement.topic_dir / placement.problem_dir / placement.filename
         if write_text(path, render_solution(question, submission)):
             report.written.append(placement.relative_path)
+
+    try:
+        for submission in client.iter_submissions(
+            stop_at_id=stop_id,
+            stop_before_timestamp=stop_ts,
+            start_offset=start_offset,
+            start_last_key=start_last_key,
+            on_page=on_page,
+        ):
+            report.fetched += 1
+            if report.fetched == 1 and not resumed:
+                report.newest_id = submission.id
+                report.newest_timestamp = submission.timestamp
+            handle(submission)
+            if report.fetched % 100 == 0:
+                log(f"  ...{report.fetched} submissions, {report.accepted} solutions kept")
+            if max_submissions is not None and report.fetched >= max_submissions:
+                break
+    except ThrottledError as exc:
+        report.partial = True
+        report.interrupted_reason = str(exc)
+        log(f"Throttled after {report.fetched} submissions - saving progress.")
+
+    if report.fetched == 0 and not report.partial:
+        log("No new submissions.")
+        return report
 
     if dry_run:
         cache.save()
         return report
 
-    # Per-problem READMEs, but only for problems this run touched.
-    entries = index.entries()
-    for question, submissions in entries:
-        if question.slug not in touched_slugs:
-            continue
-        placement = placement_for(question, submissions[0])
-        readme = repo_root / placement.topic_dir / placement.problem_dir / "README.md"
-        write_text(readme, render_problem_readme(question, submissions))
-
-    write_text(repo_root / "README.md", render_root_readme(entries))
-
+    _write_readmes(repo_root, index, touched)
     cache.save()
     index.save()
-    state.newest_submission_id = report.newest_id or state.newest_submission_id
-    state.newest_timestamp = report.newest_timestamp or state.newest_timestamp
+
+    if report.newest_id is not None:
+        state.newest_submission_id = report.newest_id
+        state.newest_timestamp = report.newest_timestamp
+    if full:
+        finished = cursor["offset"] is None and not report.partial
+        state.backfill_offset = None if finished else cursor["offset"]
+        state.backfill_last_key = None if finished else cursor["last_key"]
+        state.backfill_complete = finished
     state.last_run = datetime.now(timezone.utc).isoformat(timespec="seconds")
     state.problems_synced = len(index)
     state.save()
     return report
+
+
+def _write_readmes(repo_root: Path, index: SolutionIndex, touched: set[str]) -> None:
+    entries = index.entries()
+    for question, submissions in entries:
+        if question.slug not in touched:
+            continue
+        placement = placement_for(question, submissions[0])
+        readme = repo_root / placement.topic_dir / placement.problem_dir / "README.md"
+        write_text(readme, render_problem_readme(question, submissions))
+    write_text(repo_root / "README.md", render_root_readme(entries))
 
 
 def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:
@@ -156,6 +205,8 @@ def commit(report: SyncReport, repo_root: Path = REPO_ROOT, push: bool = False,
         subject = f"Add solution: {report.written[0]}"
     else:
         subject = f"Sync {count} LeetCode solutions"
+    if report.partial:
+        subject += " (partial)"
     result = git("commit", "-m", subject, repo_root=repo_root)
     if result.returncode != 0:
         log(result.stderr.strip() or result.stdout.strip())
@@ -178,10 +229,11 @@ def summarize(report: SyncReport) -> str:
         f"Files written        : {len(report.written)}",
     ]
     if report.skipped_unknown:
-        lines.append(
-            f"Skipped (no metadata): {len(report.skipped_unknown)} "
-            f"({', '.join(report.skipped_unknown[:5])}"
-            + (", ..." if len(report.skipped_unknown) > 5 else "")
-            + ")"
-        )
+        shown = ", ".join(report.skipped_unknown[:5])
+        more = ", ..." if len(report.skipped_unknown) > 5 else ""
+        lines.append(f"Skipped (no metadata): {len(report.skipped_unknown)} ({shown}{more})")
+    if report.partial:
+        lines.append("")
+        lines.append("PARTIAL RUN - everything above is saved.")
+        lines.append("Rerun with --full to continue from where it stopped.")
     return "\n".join(lines)

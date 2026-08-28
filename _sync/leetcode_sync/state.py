@@ -18,6 +18,10 @@ class SyncState:
     newest_timestamp: int | None = None
     last_run: str | None = None
     problems_synced: int = 0
+    # Where a partial backfill stopped, so the next --full run resumes there.
+    backfill_offset: int | None = None
+    backfill_last_key: str | None = None
+    backfill_complete: bool = False
     path: Path = field(default=STATE_PATH, compare=False)
 
     @classmethod
@@ -30,6 +34,9 @@ class SyncState:
             newest_timestamp=data.get("newest_timestamp"),
             last_run=data.get("last_run"),
             problems_synced=data.get("problems_synced", 0),
+            backfill_offset=data.get("backfill_offset"),
+            backfill_last_key=data.get("backfill_last_key"),
+            backfill_complete=data.get("backfill_complete", False),
             path=path,
         )
 
@@ -42,6 +49,9 @@ class SyncState:
                     "newest_timestamp": self.newest_timestamp,
                     "last_run": self.last_run,
                     "problems_synced": self.problems_synced,
+                    "backfill_offset": self.backfill_offset,
+                    "backfill_last_key": self.backfill_last_key,
+                    "backfill_complete": self.backfill_complete,
                 },
                 indent=2,
             )
@@ -114,6 +124,15 @@ class SolutionIndex:
             "slug": submission.slug,
             "status": submission.status,
         }
+
+    def has_newer(self, slug: str, lang: str, timestamp: int) -> bool:
+        """True if we already stored an equal-or-newer solution for this pair.
+
+        A resumed backfill walks backwards in time, so without this an older
+        accepted submission would overwrite the newer one already on disk.
+        """
+        record = self._submissions.get(slug, {}).get(lang)
+        return record is not None and record.get("timestamp", 0) >= timestamp
 
     def entries(self) -> list[tuple[Question, list]]:
         from .api import Submission

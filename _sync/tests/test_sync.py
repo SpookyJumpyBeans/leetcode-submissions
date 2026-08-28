@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from leetcode_sync.api import Question, Submission, _slug_from_url
+from leetcode_sync.api import Question, Submission, ThrottledError, _slug_from_url
 from leetcode_sync.state import ProblemCache, SolutionIndex, SyncState
 from leetcode_sync.sync import run_sync, select_latest_accepted
 
@@ -24,18 +24,29 @@ def sub(id_, slug, lang, ts, status="Accepted", code="x = 1"):
 class FakeClient:
     """Serves a canned history newest-first, the way LeetCode does."""
 
-    def __init__(self, submissions, questions=None):
+    def __init__(self, submissions, questions=None, fail_after=None):
         self.submissions = submissions
         self.questions = questions if questions is not None else QUESTIONS
         self.question_calls = 0
+        self.fail_after = fail_after
+        self.start_offset = 0
 
-    def iter_submissions(self, stop_at_id=None, stop_before_timestamp=None):
-        for submission in self.submissions:
+    def iter_submissions(self, stop_at_id=None, stop_before_timestamp=None,
+                         start_offset=0, start_last_key=None, on_page=None):
+        self.start_offset = start_offset
+        rows = self.submissions[start_offset:]
+        for position, submission in enumerate(rows, start=start_offset + 1):
             if stop_at_id is not None and submission.id == stop_at_id:
                 return
             if stop_before_timestamp is not None and submission.timestamp <= stop_before_timestamp:
                 return
+            if self.fail_after is not None and position > self.fail_after:
+                raise ThrottledError("throttled")
             yield submission
+            if on_page:
+                on_page(position, f"key-{position}")
+        if on_page:
+            on_page(None, None)
 
     def get_question(self, slug):
         self.question_calls += 1
@@ -171,3 +182,71 @@ def test_run_sync_reports_no_new_submissions(tmp_path):
     report = run_sync(FakeClient([]), state, repo_root=tmp_path / "repo", cache=cache,
                       index=index, log=lambda *a: None)
     assert report.fetched == 0 and not report.changed
+
+
+def test_partial_run_saves_progress_and_a_resume_cursor(tmp_path):
+    repo = tmp_path / "repo"
+    state, cache, index = _fixture_paths(tmp_path)
+    history = [sub(9, "two-sum", "python3", 900), sub(8, "3sum", "cpp", 800)]
+    client = FakeClient(history, fail_after=1)
+
+    report = run_sync(client, state, repo_root=repo, full=True, cache=cache, index=index,
+                      log=lambda *a: None)
+
+    assert report.partial is True
+    assert report.fetched == 1
+    # The one solution it managed to fetch is on disk, not discarded.
+    assert (repo / "array" / "0001-two-sum" / "solution.py").exists()
+    assert state.backfill_offset == 1
+    assert state.backfill_complete is False
+
+
+def test_resumed_backfill_continues_where_it_stopped(tmp_path):
+    repo = tmp_path / "repo"
+    state, cache, index = _fixture_paths(tmp_path)
+    history = [sub(9, "two-sum", "python3", 900), sub(8, "3sum", "cpp", 800)]
+    run_sync(FakeClient(history, fail_after=1), state, repo_root=repo, full=True,
+             cache=cache, index=index, log=lambda *a: None)
+
+    state2 = SyncState.load(tmp_path / "state.json")
+    client = FakeClient(history)
+    report = run_sync(client, state2, repo_root=repo, full=True,
+                      cache=ProblemCache(tmp_path / "cache.json"),
+                      index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+
+    assert report.resumed_from == 1
+    assert client.start_offset == 1  # did not re-fetch page one
+    assert (repo / "two-pointers" / "0015-3sum" / "solution.cpp").exists()
+    assert state2.backfill_complete is True
+    assert state2.backfill_offset is None
+
+
+def test_completed_backfill_preserves_the_newest_submission_marker(tmp_path):
+    repo = tmp_path / "repo"
+    state, cache, index = _fixture_paths(tmp_path)
+    history = [sub(9, "two-sum", "python3", 900), sub(8, "3sum", "cpp", 800)]
+    run_sync(FakeClient(history, fail_after=1), state, repo_root=repo, full=True,
+             cache=cache, index=index, log=lambda *a: None)
+    assert state.newest_submission_id == 9
+
+    # The resumed leg starts mid-history, so it must not claim a new high-water mark.
+    state2 = SyncState.load(tmp_path / "state.json")
+    run_sync(FakeClient(history), state2, repo_root=repo, full=True,
+             cache=ProblemCache(tmp_path / "cache.json"),
+             index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+    assert state2.newest_submission_id == 9
+
+
+def test_older_submission_never_overwrites_a_newer_one(tmp_path):
+    repo = tmp_path / "repo"
+    state, cache, index = _fixture_paths(tmp_path)
+    run_sync(FakeClient([sub(9, "two-sum", "python3", 900, code="newer")]), state,
+             repo_root=repo, cache=cache, index=index, log=lambda *a: None)
+
+    # A resumed backfill walking backwards hits an older accepted attempt.
+    state2 = SyncState.load(tmp_path / "state.json")
+    run_sync(FakeClient([sub(1, "two-sum", "python3", 100, code="older")]), state2,
+             repo_root=repo, full=True, cache=ProblemCache(tmp_path / "cache.json"),
+             index=SolutionIndex(tmp_path / "index.json"), log=lambda *a: None)
+
+    assert "newer" in (repo / "array" / "0001-two-sum" / "solution.py").read_text(encoding="utf-8")
