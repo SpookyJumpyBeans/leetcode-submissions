@@ -7,6 +7,7 @@ import sys
 
 from .api import AuthError, LeetCodeClient, LeetCodeError
 from .config import Credentials, MissingCredentials
+from .setup import prompt_for_cookies
 from .state import SyncState
 from .sync import commit, run_sync, summarize
 
@@ -15,6 +16,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="leetcode-sync",
         description="Mirror accepted LeetCode submissions into this repository.",
+    )
+    parser.add_argument(
+        "--set-cookies",
+        action="store_true",
+        help="Prompt for your LeetCode cookies and write them to _sync/.env.",
     )
     parser.add_argument(
         "--full",
@@ -55,6 +61,9 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+
+    if args.set_cookies:
+        return prompt_for_cookies()
 
     try:
         credentials = Credentials.load()
