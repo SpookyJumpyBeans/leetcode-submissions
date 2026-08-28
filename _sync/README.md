@@ -91,3 +91,16 @@ Add `-Push` inside the `/tr` string once a remote is configured.
 - Premium-only problems sync like any other; if LeetCode won't return metadata for
   a slug, the sync reports it under "Skipped" and moves on rather than failing.
 - Tests: `python -m pytest tests` (no network — the client is faked).
+
+## The credential guard
+
+`githooks/pre-commit` refuses to commit anything that looks like a live LeetCode
+cookie, and refuses to stage `_sync/.env` at all. It is already active in this
+clone; a fresh clone has to opt in, because git does not run hooks it was handed
+by a remote:
+
+```
+git config core.hooksPath _sync/githooks
+```
+
+To bypass it deliberately: `git commit --no-verify`.
