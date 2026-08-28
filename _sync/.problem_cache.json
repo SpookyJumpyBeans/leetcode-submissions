@@ -2102,6 +2102,23 @@
       ]
     ]
   },
+  "lemonade-change": {
+    "difficulty": "Easy",
+    "frontend_id": "860",
+    "paid_only": false,
+    "slug": "lemonade-change",
+    "title": "Lemonade Change",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
   "letter-combinations-of-a-phone-number": {
     "difficulty": "Medium",
     "frontend_id": "17",
@@ -5008,6 +5025,27 @@
       [
         "String",
         "string"
+      ]
+    ]
+  },
+  "unique-paths-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "63",
+    "paid_only": false,
+    "slug": "unique-paths-ii",
+    "title": "Unique Paths II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },

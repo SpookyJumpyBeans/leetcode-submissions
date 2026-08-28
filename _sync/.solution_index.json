@@ -3500,6 +3500,38 @@
       }
     ]
   },
+  "lemonade-change": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "860",
+      "paid_only": false,
+      "slug": "lemonade-change",
+      "title": "Lemonade Change",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2122464819,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "72.4 MB",
+        "runtime": "3 ms",
+        "slug": "lemonade-change",
+        "status": "Accepted",
+        "timestamp": 1787884462,
+        "title": "Lemonade Change"
+      }
+    ]
+  },
   "letter-combinations-of-a-phone-number": {
     "question": {
       "difficulty": "Medium",
@@ -8265,6 +8297,42 @@
         "status": "Accepted",
         "timestamp": 1784229241,
         "title": "Unique Email Addresses"
+      }
+    ]
+  },
+  "unique-paths-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "63",
+      "paid_only": false,
+      "slug": "unique-paths-ii",
+      "title": "Unique Paths II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2122456520,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.7 MB",
+        "runtime": "0 ms",
+        "slug": "unique-paths-ii",
+        "status": "Accepted",
+        "timestamp": 1787883080,
+        "title": "Unique Paths II"
       }
     ]
   },

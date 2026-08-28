@@ -3,7 +3,7 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**222 problems solved** &nbsp;·&nbsp; 64 Easy &nbsp;·&nbsp; 126 Medium &nbsp;·&nbsp; 32 Hard
+**224 problems solved** &nbsp;·&nbsp; 65 Easy &nbsp;·&nbsp; 127 Medium &nbsp;·&nbsp; 32 Hard
 
 Languages: C++, Java
 
@@ -118,7 +118,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
 
-## Dynamic Programming (30)
+## Dynamic Programming (31)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -127,6 +127,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 45 | [Jump Game II](dynamic-programming/0045-jump-game-ii) | Medium | [Java](dynamic-programming/0045-jump-game-ii/solution.java) |
 | 53 | [Maximum Subarray](dynamic-programming/0053-maximum-subarray) | Medium | [C++](dynamic-programming/0053-maximum-subarray/solution.cpp) [Java](dynamic-programming/0053-maximum-subarray/solution.java) |
 | 55 | [Jump Game](dynamic-programming/0055-jump-game) | Medium | [Java](dynamic-programming/0055-jump-game/solution.java) |
+| 63 | [Unique Paths II](dynamic-programming/0063-unique-paths-ii) | Medium | [Java](dynamic-programming/0063-unique-paths-ii/solution.java) |
 | 64 | [Minimum Path Sum](dynamic-programming/0064-minimum-path-sum) | Medium | [Java](dynamic-programming/0064-minimum-path-sum/solution.java) |
 | 70 | [Climbing Stairs](dynamic-programming/0070-climbing-stairs) | Easy | [Java](dynamic-programming/0070-climbing-stairs/solution.java) |
 | 91 | [Decode Ways](dynamic-programming/0091-decode-ways) | Medium | [Java](dynamic-programming/0091-decode-ways/solution.java) |
@@ -174,12 +175,13 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 802 | [Find Eventual Safe States](graph/0802-find-eventual-safe-states) | Medium | [Java](graph/0802-find-eventual-safe-states/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 
-## Greedy (6)
+## Greedy (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 134 | [Gas Station](greedy/0134-gas-station) | Medium | [Java](greedy/0134-gas-station/solution.java) |
 | 846 | [Hand of Straights](greedy/0846-hand-of-straights) | Medium | [Java](greedy/0846-hand-of-straights/solution.java) |
+| 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
