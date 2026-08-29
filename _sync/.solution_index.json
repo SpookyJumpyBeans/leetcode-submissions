@@ -665,6 +665,34 @@
       }
     ]
   },
+  "bitwise-and-of-numbers-range": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "201",
+      "paid_only": false,
+      "slug": "bitwise-and-of-numbers-range",
+      "title": "Bitwise AND of Numbers Range",
+      "topics": [
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2123355107,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.6 MB",
+        "runtime": "4 ms",
+        "slug": "bitwise-and-of-numbers-range",
+        "status": "Accepted",
+        "timestamp": 1787964049,
+        "title": "Bitwise AND of Numbers Range"
+      }
+    ]
+  },
   "boats-to-save-people": {
     "question": {
       "difficulty": "Medium",
@@ -1988,6 +2016,42 @@
       }
     ]
   },
+  "dota2-senate": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "649",
+      "paid_only": false,
+      "slug": "dota2-senate",
+      "title": "Dota2 Senate",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Queue",
+          "queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2122521194,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.5 MB",
+        "runtime": "14 ms",
+        "slug": "dota2-senate",
+        "status": "Accepted",
+        "timestamp": 1787890979,
+        "title": "Dota2 Senate"
+      }
+    ]
+  },
   "evaluate-division": {
     "question": {
       "difficulty": "Medium",
@@ -2949,6 +3013,42 @@
         "status": "Accepted",
         "timestamp": 1766205195,
         "title": "Implement Trie (Prefix Tree)"
+      }
+    ]
+  },
+  "insert-greatest-common-divisors-in-linked-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2807",
+      "paid_only": false,
+      "slug": "insert-greatest-common-divisors-in-linked-list",
+      "title": "Insert Greatest Common Divisors in Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Number Theory",
+          "number-theory"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2123349607,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47 MB",
+        "runtime": "1 ms",
+        "slug": "insert-greatest-common-divisors-in-linked-list",
+        "status": "Accepted",
+        "timestamp": 1787962578,
+        "title": "Insert Greatest Common Divisors in Linked List"
       }
     ]
   },

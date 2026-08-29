@@ -388,6 +388,19 @@
       ]
     ]
   },
+  "bitwise-and-of-numbers-range": {
+    "difficulty": "Medium",
+    "frontend_id": "201",
+    "paid_only": false,
+    "slug": "bitwise-and-of-numbers-range",
+    "title": "Bitwise AND of Numbers Range",
+    "topics": [
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
   "boats-to-save-people": {
     "difficulty": "Medium",
     "frontend_id": "881",
@@ -1175,6 +1188,27 @@
       ]
     ]
   },
+  "dota2-senate": {
+    "difficulty": "Medium",
+    "frontend_id": "649",
+    "paid_only": false,
+    "slug": "dota2-senate",
+    "title": "Dota2 Senate",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Queue",
+        "queue"
+      ]
+    ]
+  },
   "evaluate-division": {
     "difficulty": "Medium",
     "frontend_id": "399",
@@ -1761,6 +1795,27 @@
       [
         "Trie",
         "trie"
+      ]
+    ]
+  },
+  "insert-greatest-common-divisors-in-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "2807",
+    "paid_only": false,
+    "slug": "insert-greatest-common-divisors-in-linked-list",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Number Theory",
+        "number-theory"
       ]
     ]
   },

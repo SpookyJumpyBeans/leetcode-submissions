@@ -3,11 +3,11 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**224 problems solved** &nbsp;·&nbsp; 65 Easy &nbsp;·&nbsp; 127 Medium &nbsp;·&nbsp; 32 Hard
+**227 problems solved** &nbsp;·&nbsp; 65 Easy &nbsp;·&nbsp; 130 Medium &nbsp;·&nbsp; 32 Hard
 
 Languages: C++, Java
 
-_Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (1)
 
@@ -48,12 +48,13 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
 | 2251 | [Number of Flowers in Full Bloom](binary-search/2251-number-of-flowers-in-full-bloom) | Hard | [Java](binary-search/2251-number-of-flowers-in-full-bloom/solution.java) |
 
-## Bit Manipulation (8)
+## Bit Manipulation (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 67 | [Add Binary](bit-manipulation/0067-add-binary) | Easy | [Java](bit-manipulation/0067-add-binary/solution.java) |
 | 136 | [Single Number](bit-manipulation/0136-single-number) | Easy | [Java](bit-manipulation/0136-single-number/solution.java) |
+| 201 | [Bitwise AND of Numbers Range](bit-manipulation/0201-bitwise-and-of-numbers-range) | Medium | [Java](bit-manipulation/0201-bitwise-and-of-numbers-range/solution.java) |
 | 371 | [Sum of Two Integers](bit-manipulation/0371-sum-of-two-integers) | Medium | [Java](bit-manipulation/0371-sum-of-two-integers/solution.java) |
 | 982 | [Triples with Bitwise AND Equal To Zero](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero) | Hard | [Java](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero/solution.java) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero) | Easy | [C++](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.cpp) [Java](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.java) |
@@ -175,11 +176,12 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 802 | [Find Eventual Safe States](graph/0802-find-eventual-safe-states) | Medium | [Java](graph/0802-find-eventual-safe-states/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 
-## Greedy (7)
+## Greedy (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 134 | [Gas Station](greedy/0134-gas-station) | Medium | [Java](greedy/0134-gas-station/solution.java) |
+| 649 | [Dota2 Senate](greedy/0649-dota2-senate) | Medium | [Java](greedy/0649-dota2-senate/solution.java) |
 | 846 | [Hand of Straights](greedy/0846-hand-of-straights) | Medium | [Java](greedy/0846-hand-of-straights/solution.java) |
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
@@ -209,7 +211,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
 
-## Linked List (13)
+## Linked List (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -226,6 +228,7 @@ _Last synced 2026-08-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
+| 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
 ## Math (4)
 
