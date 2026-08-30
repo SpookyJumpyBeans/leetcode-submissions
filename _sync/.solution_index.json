@@ -4472,6 +4472,42 @@
       }
     ]
   },
+  "make-lexicographically-smallest-array-by-swapping-elements": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2948",
+      "paid_only": false,
+      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+      "title": "Make Lexicographically Smallest Array by Swapping Elements",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124385415,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "238.3 MB",
+        "runtime": "227 ms",
+        "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+        "status": "Accepted",
+        "timestamp": 1788044161,
+        "title": "Make Lexicographically Smallest Array by Swapping Elements"
+      }
+    ]
+  },
   "matchsticks-to-square": {
     "question": {
       "difficulty": "Medium",
@@ -4884,6 +4920,38 @@
         "status": "Accepted",
         "timestamp": 1763363055,
         "title": "Merge k Sorted Lists"
+      }
+    ]
+  },
+  "merge-strings-alternately": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1768",
+      "paid_only": false,
+      "slug": "merge-strings-alternately",
+      "title": "Merge Strings Alternately",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124400312,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "1 ms",
+        "slug": "merge-strings-alternately",
+        "status": "Accepted",
+        "timestamp": 1788047586,
+        "title": "Merge Strings Alternately"
       }
     ]
   },
@@ -7642,6 +7710,42 @@
         "status": "Accepted",
         "timestamp": 1786655523,
         "title": "String to Integer (atoi)"
+      }
+    ]
+  },
+  "subarray-sum-equals-k": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "560",
+      "paid_only": false,
+      "slug": "subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124395481,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.1 MB",
+        "runtime": "23 ms",
+        "slug": "subarray-sum-equals-k",
+        "status": "Accepted",
+        "timestamp": 1788046400,
+        "title": "Subarray Sum Equals K"
       }
     ]
   },

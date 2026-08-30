@@ -3,11 +3,11 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**227 problems solved** &nbsp;·&nbsp; 65 Easy &nbsp;·&nbsp; 130 Medium &nbsp;·&nbsp; 32 Hard
+**230 problems solved** &nbsp;·&nbsp; 66 Easy &nbsp;·&nbsp; 132 Medium &nbsp;·&nbsp; 32 Hard
 
 Languages: C++, Java
 
-_Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (1)
 
@@ -264,11 +264,12 @@ _Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 
-## Prefix Sum (3)
+## Prefix Sum (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 238 | [Product of Array Except Self](prefix-sum/0238-product-of-array-except-self) | Medium | [Java](prefix-sum/0238-product-of-array-except-self/solution.java) |
+| 560 | [Subarray Sum Equals K](prefix-sum/0560-subarray-sum-equals-k) | Medium | [Java](prefix-sum/0560-subarray-sum-equals-k/solution.java) |
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
 
@@ -376,7 +377,7 @@ _Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 212 | [Word Search II](trie/0212-word-search-ii) | Hard | [Java](trie/0212-word-search-ii/solution.java) |
 | 3043 | [Find the Length of the Longest Common Prefix](trie/3043-find-the-length-of-the-longest-common-prefix) | Medium | [Java](trie/3043-find-the-length-of-the-longest-common-prefix/solution.java) |
 
-## Two Pointers (15)
+## Two Pointers (16)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -395,8 +396,9 @@ _Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 567 | [Permutation in String](two-pointers/0567-permutation-in-string) | Medium | [C++](two-pointers/0567-permutation-in-string/solution.cpp) [Java](two-pointers/0567-permutation-in-string/solution.java) |
 | 881 | [Boats to Save People](two-pointers/0881-boats-to-save-people) | Medium | [Java](two-pointers/0881-boats-to-save-people/solution.java) |
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
+| 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (10)
+## Union-Find (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -410,3 +412,4 @@ _Last synced 2026-08-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 778 | [Swim in Rising Water](union-find/0778-swim-in-rising-water) | Hard | [Java](union-find/0778-swim-in-rising-water/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
 | 1631 | [Path With Minimum Effort](union-find/1631-path-with-minimum-effort) | Medium | [Java](union-find/1631-path-with-minimum-effort/solution.java) |
+| 2948 | [Make Lexicographically Smallest Array by Swapping Elements](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements) | Medium | [Java](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) |

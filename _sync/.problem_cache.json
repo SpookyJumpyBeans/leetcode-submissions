@@ -2699,6 +2699,27 @@
       ]
     ]
   },
+  "make-lexicographically-smallest-array-by-swapping-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "2948",
+    "paid_only": false,
+    "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+    "title": "Make Lexicographically Smallest Array by Swapping Elements",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "matchsticks-to-square": {
     "difficulty": "Medium",
     "frontend_id": "473",
@@ -2950,6 +2971,23 @@
       [
         "Tournament Sort",
         "tournament-sort"
+      ]
+    ]
+  },
+  "merge-strings-alternately": {
+    "difficulty": "Easy",
+    "frontend_id": "1768",
+    "paid_only": false,
+    "slug": "merge-strings-alternately",
+    "title": "Merge Strings Alternately",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
       ]
     ]
   },
@@ -4606,6 +4644,27 @@
       [
         "String",
         "string"
+      ]
+    ]
+  },
+  "subarray-sum-equals-k": {
+    "difficulty": "Medium",
+    "frontend_id": "560",
+    "paid_only": false,
+    "slug": "subarray-sum-equals-k",
+    "title": "Subarray Sum Equals K",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
       ]
     ]
   },
