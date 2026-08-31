@@ -1689,6 +1689,23 @@
       ]
     ]
   },
+  "guess-number-higher-or-lower": {
+    "difficulty": "Easy",
+    "frontend_id": "374",
+    "paid_only": false,
+    "slug": "guess-number-higher-or-lower",
+    "title": "Guess Number Higher or Lower",
+    "topics": [
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Interactive",
+        "interactive"
+      ]
+    ]
+  },
   "hand-of-straights": {
     "difficulty": "Medium",
     "frontend_id": "846",
@@ -2803,6 +2820,31 @@
       ]
     ]
   },
+  "maximum-frequency-stack": {
+    "difficulty": "Hard",
+    "frontend_id": "895",
+    "paid_only": false,
+    "slug": "maximum-frequency-stack",
+    "title": "Maximum Frequency Stack",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
   "maximum-length-substring-with-two-occurrences": {
     "difficulty": "Easy",
     "frontend_id": "3090",
@@ -3902,6 +3944,23 @@
       ]
     ]
   },
+  "removing-minimum-and-maximum-from-array": {
+    "difficulty": "Medium",
+    "frontend_id": "2091",
+    "paid_only": false,
+    "slug": "removing-minimum-and-maximum-from-array",
+    "title": "Removing Minimum and Maximum From Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
   "reorder-list": {
     "difficulty": "Medium",
     "frontend_id": "143",
@@ -4478,6 +4537,27 @@
       [
         "Enumeration",
         "enumeration"
+      ]
+    ]
+  },
+  "sqrtx": {
+    "difficulty": "Easy",
+    "frontend_id": "69",
+    "paid_only": false,
+    "slug": "sqrtx",
+    "title": "Sqrt(x)",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Newton's Method",
+        "newtons-method"
       ]
     ]
   },
@@ -5227,6 +5307,27 @@
       [
         "String",
         "string"
+      ]
+    ]
+  },
+  "valid-palindrome-ii": {
+    "difficulty": "Easy",
+    "frontend_id": "680",
+    "paid_only": false,
+    "slug": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
       ]
     ]
   },

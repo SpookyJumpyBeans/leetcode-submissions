@@ -3,11 +3,11 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**230 problems solved** &nbsp;·&nbsp; 66 Easy &nbsp;·&nbsp; 132 Medium &nbsp;·&nbsp; 32 Hard
+**235 problems solved** &nbsp;·&nbsp; 69 Easy &nbsp;·&nbsp; 133 Medium &nbsp;·&nbsp; 33 Hard
 
 Languages: C++, Java
 
-_Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (1)
 
@@ -32,21 +32,20 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](backtracking/1863-sum-of-all-subset-xor-totals) | Easy | [Java](backtracking/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Binary Search (11)
+## Binary Search (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 4 | [Median of Two Sorted Arrays](binary-search/0004-median-of-two-sorted-arrays) | Hard | [Java](binary-search/0004-median-of-two-sorted-arrays/solution.java) |
 | 33 | [Search in Rotated Sorted Array](binary-search/0033-search-in-rotated-sorted-array) | Medium | [Java](binary-search/0033-search-in-rotated-sorted-array/solution.java) |
 | 35 | [Search Insert Position](binary-search/0035-search-insert-position) | Easy | [Java](binary-search/0035-search-insert-position/solution.java) |
+| 69 | [Sqrt(x)](binary-search/0069-sqrtx) | Easy | [Java](binary-search/0069-sqrtx/solution.java) |
 | 74 | [Search a 2D Matrix](binary-search/0074-search-a-2d-matrix) | Medium | [Java](binary-search/0074-search-a-2d-matrix/solution.java) |
 | 153 | [Find Minimum in Rotated Sorted Array](binary-search/0153-find-minimum-in-rotated-sorted-array) | Medium | [Java](binary-search/0153-find-minimum-in-rotated-sorted-array/solution.java) |
 | 209 | [Minimum Size Subarray Sum](binary-search/0209-minimum-size-subarray-sum) | Medium | [Java](binary-search/0209-minimum-size-subarray-sum/solution.java) |
 | 268 | [Missing Number](binary-search/0268-missing-number) | Easy | [Java](binary-search/0268-missing-number/solution.java) |
-| 278 | [First Bad Version](binary-search/0278-first-bad-version) | Easy | [Java](binary-search/0278-first-bad-version/solution.java) |
 | 704 | [Binary Search](binary-search/0704-binary-search) | Easy | [Java](binary-search/0704-binary-search/solution.java) |
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
-| 2251 | [Number of Flowers in Full Bloom](binary-search/2251-number-of-flowers-in-full-bloom) | Hard | [Java](binary-search/2251-number-of-flowers-in-full-bloom/solution.java) |
 
 ## Bit Manipulation (9)
 
@@ -176,7 +175,7 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 802 | [Find Eventual Safe States](graph/0802-find-eventual-safe-states) | Medium | [Java](graph/0802-find-eventual-safe-states/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 
-## Greedy (8)
+## Greedy (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -186,6 +185,7 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
+| 2091 | [Removing Minimum and Maximum From Array](greedy/2091-removing-minimum-and-maximum-from-array) | Medium | [Java](greedy/2091-removing-minimum-and-maximum-from-array/solution.java) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
@@ -210,6 +210,13 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1094 | [Car Pooling](heap-priority-queue/1094-car-pooling) | Medium | [Java](heap-priority-queue/1094-car-pooling/solution.java) |
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
+
+## Interactive (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 278 | [First Bad Version](interactive/0278-first-bad-version) | Easy | [Java](interactive/0278-first-bad-version/solution.java) |
+| 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
 
 ## Linked List (14)
 
@@ -263,6 +270,13 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 739 | [Daily Temperatures](monotonic-stack/0739-daily-temperatures) | Medium | [Java](monotonic-stack/0739-daily-temperatures/solution.java) |
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
+
+## Ordered Set (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 895 | [Maximum Frequency Stack](ordered-set/0895-maximum-frequency-stack) | Hard | [Java](ordered-set/0895-maximum-frequency-stack/solution.java) |
+| 2251 | [Number of Flowers in Full Bloom](ordered-set/2251-number-of-flowers-in-full-bloom) | Hard | [Java](ordered-set/2251-number-of-flowers-in-full-bloom/solution.java) |
 
 ## Prefix Sum (4)
 
@@ -377,7 +391,7 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 212 | [Word Search II](trie/0212-word-search-ii) | Hard | [Java](trie/0212-word-search-ii/solution.java) |
 | 3043 | [Find the Length of the Longest Common Prefix](trie/3043-find-the-length-of-the-longest-common-prefix) | Medium | [Java](trie/3043-find-the-length-of-the-longest-common-prefix/solution.java) |
 
-## Two Pointers (16)
+## Two Pointers (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -394,6 +408,7 @@ _Last synced 2026-08-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 344 | [Reverse String](two-pointers/0344-reverse-string) | Easy | [Java](two-pointers/0344-reverse-string/solution.java) |
 | 557 | [Reverse Words in a String III](two-pointers/0557-reverse-words-in-a-string-iii) | Easy | [Java](two-pointers/0557-reverse-words-in-a-string-iii/solution.java) |
 | 567 | [Permutation in String](two-pointers/0567-permutation-in-string) | Medium | [C++](two-pointers/0567-permutation-in-string/solution.cpp) [Java](two-pointers/0567-permutation-in-string/solution.java) |
+| 680 | [Valid Palindrome II](two-pointers/0680-valid-palindrome-ii) | Easy | [Java](two-pointers/0680-valid-palindrome-ii/solution.java) |
 | 881 | [Boats to Save People](two-pointers/0881-boats-to-save-people) | Medium | [Java](two-pointers/0881-boats-to-save-people/solution.java) |
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |

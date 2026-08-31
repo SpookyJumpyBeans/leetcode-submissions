@@ -2832,6 +2832,38 @@
       }
     ]
   },
+  "guess-number-higher-or-lower": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "374",
+      "paid_only": false,
+      "slug": "guess-number-higher-or-lower",
+      "title": "Guess Number Higher or Lower",
+      "topics": [
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Interactive",
+          "interactive"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124651281,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42 MB",
+        "runtime": "0 ms",
+        "slug": "guess-number-higher-or-lower",
+        "status": "Accepted",
+        "timestamp": 1788066906,
+        "title": "Guess Number Higher or Lower"
+      }
+    ]
+  },
   "hand-of-straights": {
     "question": {
       "difficulty": "Medium",
@@ -4633,6 +4665,46 @@
         "status": "Accepted",
         "timestamp": 1762969439,
         "title": "Maximum Depth of Binary Tree"
+      }
+    ]
+  },
+  "maximum-frequency-stack": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "895",
+      "paid_only": false,
+      "slug": "maximum-frequency-stack",
+      "title": "Maximum Frequency Stack",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124627283,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "70.5 MB",
+        "runtime": "35 ms",
+        "slug": "maximum-frequency-stack",
+        "status": "Accepted",
+        "timestamp": 1788064953,
+        "title": "Maximum Frequency Stack"
       }
     ]
   },
@@ -6473,6 +6545,38 @@
       }
     ]
   },
+  "removing-minimum-and-maximum-from-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2091",
+      "paid_only": false,
+      "slug": "removing-minimum-and-maximum-from-array",
+      "title": "Removing Minimum and Maximum From Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2125433250,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "86.5 MB",
+        "runtime": "2 ms",
+        "slug": "removing-minimum-and-maximum-from-array",
+        "status": "Accepted",
+        "timestamp": 1788118435,
+        "title": "Removing Minimum and Maximum From Array"
+      }
+    ]
+  },
   "reorder-list": {
     "question": {
       "difficulty": "Medium",
@@ -6657,14 +6761,14 @@
     },
     "submissions": [
       {
-        "id": 766943481,
+        "id": 2124512762,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "57.7 MB",
-        "runtime": "2 ms",
+        "memory": "48.4 MB",
+        "runtime": "0 ms",
         "slug": "reverse-string",
         "status": "Accepted",
-        "timestamp": 1659813631,
+        "timestamp": 1788059170,
         "title": "Reverse String"
       }
     ]
@@ -7454,6 +7558,42 @@
         "status": "Accepted",
         "timestamp": 1786474526,
         "title": "Split Message Based on Limit"
+      }
+    ]
+  },
+  "sqrtx": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "69",
+      "paid_only": false,
+      "slug": "sqrtx",
+      "title": "Sqrt(x)",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Newton's Method",
+          "newtons-method"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124648014,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.7 MB",
+        "runtime": "1 ms",
+        "slug": "sqrtx",
+        "status": "Accepted",
+        "timestamp": 1788066650,
+        "title": "Sqrt(x)"
       }
     ]
   },
@@ -8649,6 +8789,42 @@
         "status": "Accepted",
         "timestamp": 1786764183,
         "title": "Valid Palindrome"
+      }
+    ]
+  },
+  "valid-palindrome-ii": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "680",
+      "paid_only": false,
+      "slug": "valid-palindrome-ii",
+      "title": "Valid Palindrome II",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2124506760,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "4 ms",
+        "slug": "valid-palindrome-ii",
+        "status": "Accepted",
+        "timestamp": 1788058984,
+        "title": "Valid Palindrome II"
       }
     ]
   },
