@@ -154,6 +154,27 @@
       ]
     ]
   },
+  "baseball-game": {
+    "difficulty": "Easy",
+    "frontend_id": "682",
+    "paid_only": false,
+    "slug": "baseball-game",
+    "title": "Baseball Game",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "best-time-to-buy-and-sell-stock": {
     "difficulty": "Easy",
     "frontend_id": "121",
@@ -677,6 +698,23 @@
       ]
     ]
   },
+  "concatenation-of-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1929",
+    "paid_only": false,
+    "slug": "concatenation-of-array",
+    "title": "Concatenation of Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "construct-binary-tree-from-preorder-and-inorder-traversal": {
     "difficulty": "Medium",
     "frontend_id": "105",
@@ -1064,6 +1102,64 @@
       [
         "Trie",
         "trie"
+      ]
+    ]
+  },
+  "design-hashmap": {
+    "difficulty": "Easy",
+    "frontend_id": "706",
+    "paid_only": false,
+    "slug": "design-hashmap",
+    "title": "Design HashMap",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Hash Function",
+        "hash-function"
+      ]
+    ]
+  },
+  "design-hashset": {
+    "difficulty": "Easy",
+    "frontend_id": "705",
+    "paid_only": false,
+    "slug": "design-hashset",
+    "title": "Design HashSet",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Hash Function",
+        "hash-function"
       ]
     ]
   },
@@ -1559,6 +1655,19 @@
       ]
     ]
   },
+  "find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+    "difficulty": "Medium",
+    "frontend_id": "2058",
+    "paid_only": false,
+    "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+    "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ]
+    ]
+  },
   "finding-pairs-with-a-certain-sum": {
     "difficulty": "Medium",
     "frontend_id": "1865",
@@ -1594,6 +1703,23 @@
       [
         "Interactive",
         "interactive"
+      ]
+    ]
+  },
+  "first-missing-positive": {
+    "difficulty": "Hard",
+    "frontend_id": "41",
+    "paid_only": false,
+    "slug": "first-missing-positive",
+    "title": "First Missing Positive",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
       ]
     ]
   },
@@ -1661,6 +1787,31 @@
       [
         "Bracket Sequences",
         "bracket-sequences"
+      ]
+    ]
+  },
+  "greatest-common-divisor-of-strings": {
+    "difficulty": "Easy",
+    "frontend_id": "1071",
+    "paid_only": false,
+    "slug": "greatest-common-divisor-of-strings",
+    "title": "Greatest Common Divisor of Strings",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Euclidean Algorithm",
+        "euclidean-algorithm"
+      ],
+      [
+        "Greatest Common Divisor",
+        "greatest-common-divisor"
       ]
     ]
   },
@@ -1787,6 +1938,48 @@
       [
         "Dynamic Programming",
         "dynamic-programming"
+      ]
+    ]
+  },
+  "implement-queue-using-stacks": {
+    "difficulty": "Easy",
+    "frontend_id": "232",
+    "paid_only": false,
+    "slug": "implement-queue-using-stacks",
+    "title": "Implement Queue using Stacks",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
+      ]
+    ]
+  },
+  "implement-stack-using-queues": {
+    "difficulty": "Easy",
+    "frontend_id": "225",
+    "paid_only": false,
+    "slug": "implement-stack-using-queues",
+    "title": "Implement Stack using Queues",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
       ]
     ]
   },
@@ -1955,6 +2148,31 @@
       [
         "Greedy",
         "greedy"
+      ]
+    ]
+  },
+  "jump-game-vii": {
+    "difficulty": "Medium",
+    "frontend_id": "1871",
+    "paid_only": false,
+    "slug": "jump-game-vii",
+    "title": "Jump Game VII",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
       ]
     ]
   },
@@ -2687,6 +2905,39 @@
       ]
     ]
   },
+  "majority-element": {
+    "difficulty": "Easy",
+    "frontend_id": "169",
+    "paid_only": false,
+    "slug": "majority-element",
+    "title": "Majority Element",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Counting",
+        "counting"
+      ],
+      [
+        "Boyer\u2013Moore Majority Vote Algorithm",
+        "boyer-moore-majority-vote-algorithm"
+      ]
+    ]
+  },
   "majority-element-ii": {
     "difficulty": "Medium",
     "frontend_id": "229",
@@ -3016,6 +3267,27 @@
       ]
     ]
   },
+  "merge-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "88",
+    "paid_only": false,
+    "slug": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "merge-strings-alternately": {
     "difficulty": "Easy",
     "frontend_id": "1768",
@@ -3302,6 +3574,35 @@
       [
         "Two Pointers",
         "two-pointers"
+      ]
+    ]
+  },
+  "my-calendar-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "732",
+    "paid_only": false,
+    "slug": "my-calendar-iii",
+    "title": "My Calendar III",
+    "topics": [
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
       ]
     ]
   },
@@ -3614,6 +3915,39 @@
       ]
     ]
   },
+  "partition-to-k-equal-sum-subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "698",
+    "paid_only": false,
+    "slug": "partition-to-k-equal-sum-subsets",
+    "title": "Partition to K Equal Sum Subsets",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ],
+      [
+        "Bitmask",
+        "bitmask"
+      ]
+    ]
+  },
   "partitioning-into-minimum-number-of-deci-binary-numbers": {
     "difficulty": "Medium",
     "frontend_id": "1689",
@@ -3897,6 +4231,23 @@
       ]
     ]
   },
+  "remove-duplicates-from-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "26",
+    "paid_only": false,
+    "slug": "remove-duplicates-from-sorted-array",
+    "title": "Remove Duplicates from Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
   "remove-duplicates-from-sorted-list": {
     "difficulty": "Easy",
     "frontend_id": "83",
@@ -4106,6 +4457,27 @@
       [
         "Iterator",
         "iterator"
+      ]
+    ]
+  },
+  "roman-to-integer": {
+    "difficulty": "Easy",
+    "frontend_id": "13",
+    "paid_only": false,
+    "slug": "roman-to-integer",
+    "title": "Roman to Integer",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "String",
+        "string"
       ]
     ]
   },
@@ -4648,6 +5020,43 @@
       ]
     ]
   },
+  "stone-game-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "1140",
+    "paid_only": false,
+    "slug": "stone-game-ii",
+    "title": "Stone Game II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Minimax",
+        "minimax-algorithm"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ],
+      [
+        "Zero-Sum Game",
+        "zero-sum-game"
+      ]
+    ]
+  },
   "stone-game-ix": {
     "difficulty": "Medium",
     "frontend_id": "2029",
@@ -5088,6 +5497,27 @@
       ]
     ]
   },
+  "transpose-matrix": {
+    "difficulty": "Easy",
+    "frontend_id": "867",
+    "paid_only": false,
+    "slug": "transpose-matrix",
+    "title": "Transpose Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "trapping-rain-water": {
     "difficulty": "Hard",
     "frontend_id": "42",
@@ -5395,6 +5825,43 @@
       [
         "Binary Tree",
         "binary-tree"
+      ]
+    ]
+  },
+  "word-break-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "140",
+    "paid_only": false,
+    "slug": "word-break-ii",
+    "title": "Word Break II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Trie",
+        "trie"
+      ],
+      [
+        "Memoization",
+        "memoization"
       ]
     ]
   },

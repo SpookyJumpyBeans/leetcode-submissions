@@ -3,11 +3,11 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**235 problems solved** &nbsp;·&nbsp; 69 Easy &nbsp;·&nbsp; 133 Medium &nbsp;·&nbsp; 33 Hard
+**254 problems solved** &nbsp;·&nbsp; 81 Easy &nbsp;·&nbsp; 137 Medium &nbsp;·&nbsp; 36 Hard
 
 Languages: C++, Java
 
-_Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (1)
 
@@ -61,6 +61,13 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1720 | [Decode XORed Array](bit-manipulation/1720-decode-xored-array) | Easy | [Java](bit-manipulation/1720-decode-xored-array/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
+## Bitmask (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 473 | [Matchsticks to Square](bitmask/0473-matchsticks-to-square) | Medium | [Java](bitmask/0473-matchsticks-to-square/solution.java) |
+| 698 | [Partition to K Equal Sum Subsets](bitmask/0698-partition-to-k-equal-sum-subsets) | Medium | [Java](bitmask/0698-partition-to-k-equal-sum-subsets/solution.java) |
+
 ## Breadth-First Search (4)
 
 | # | Problem | Difficulty | Solutions |
@@ -103,10 +110,11 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
 | 1865 | [Finding Pairs With a Certain Sum](design/1865-finding-pairs-with-a-certain-sum) | Medium | [Java](design/1865-finding-pairs-with-a-certain-sum/solution.java) |
 
-## Divide and Conquer (2)
+## Divide and Conquer (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 169 | [Majority Element](divide-and-conquer/0169-majority-element) | Easy | [Java](divide-and-conquer/0169-majority-element/solution.java) |
 | 190 | [Reverse Bits](divide-and-conquer/0190-reverse-bits) | Easy | [Java](divide-and-conquer/0190-reverse-bits/solution.java) |
 | 191 | [Number of 1 Bits](divide-and-conquer/0191-number-of-1-bits) | Easy | [Java](divide-and-conquer/0191-number-of-1-bits/solution.java) |
 
@@ -145,20 +153,21 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 343 | [Integer Break](dynamic-programming/0343-integer-break) | Medium | [Java](dynamic-programming/0343-integer-break/solution.java) |
 | 392 | [Is Subsequence](dynamic-programming/0392-is-subsequence) | Easy | [Java](dynamic-programming/0392-is-subsequence/solution.java) |
 | 410 | [Split Array Largest Sum](dynamic-programming/0410-split-array-largest-sum) | Hard | [Java](dynamic-programming/0410-split-array-largest-sum/solution.java) |
-| 473 | [Matchsticks to Square](dynamic-programming/0473-matchsticks-to-square) | Medium | [Java](dynamic-programming/0473-matchsticks-to-square/solution.java) |
 | 509 | [Fibonacci Number](dynamic-programming/0509-fibonacci-number) | Easy | [Java](dynamic-programming/0509-fibonacci-number/solution.java) |
 | 647 | [Palindromic Substrings](dynamic-programming/0647-palindromic-substrings) | Medium | [Java](dynamic-programming/0647-palindromic-substrings/solution.java) |
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
+| 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
 
-## Game Theory (4)
+## Game Theory (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 877 | [Stone Game](game-theory/0877-stone-game) | Medium | [Java](game-theory/0877-stone-game/solution.java) |
+| 1140 | [Stone Game II](game-theory/1140-stone-game-ii) | Medium | [Java](game-theory/1140-stone-game-ii/solution.java) |
 | 1563 | [Stone Game V](game-theory/1563-stone-game-v) | Hard | [Java](game-theory/1563-stone-game-v/solution.java) |
 | 1927 | [Sum Game](game-theory/1927-sum-game) | Medium | [Java](game-theory/1927-sum-game/solution.java) |
 | 2029 | [Stone Game IX](game-theory/2029-stone-game-ix) | Medium | [Java](game-theory/2029-stone-game-ix/solution.java) |
@@ -189,11 +198,21 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
-## Hash Table (5)
+## Hash Function (3)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 572 | [Subtree of Another Tree](hash-function/0572-subtree-of-another-tree) | Easy | [Java](hash-function/0572-subtree-of-another-tree/solution.java) |
+| 705 | [Design HashSet](hash-function/0705-design-hashset) | Easy | [Java](hash-function/0705-design-hashset/solution.java) |
+| 706 | [Design HashMap](hash-function/0706-design-hashmap) | Easy | [Java](hash-function/0706-design-hashmap/solution.java) |
+
+## Hash Table (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 1 | [Two Sum](hash-table/0001-two-sum) | Easy | [Java](hash-table/0001-two-sum/solution.java) |
+| 13 | [Roman to Integer](hash-table/0013-roman-to-integer) | Easy | [Java](hash-table/0013-roman-to-integer/solution.java) |
+| 41 | [First Missing Positive](hash-table/0041-first-missing-positive) | Hard | [Java](hash-table/0041-first-missing-positive/solution.java) |
 | 205 | [Isomorphic Strings](hash-table/0205-isomorphic-strings) | Easy | [Java](hash-table/0205-isomorphic-strings/solution.java) |
 | 929 | [Unique Email Addresses](hash-table/0929-unique-email-addresses) | Easy | [Java](hash-table/0929-unique-email-addresses/solution.java) |
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
@@ -218,7 +237,7 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 278 | [First Bad Version](interactive/0278-first-bad-version) | Easy | [Java](interactive/0278-first-bad-version/solution.java) |
 | 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
 
-## Linked List (14)
+## Linked List (15)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -235,24 +254,27 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
+| 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
 | 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
-## Math (4)
+## Math (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 7 | [Reverse Integer](math/0007-reverse-integer) | Medium | [Java](math/0007-reverse-integer/solution.java) |
 | 66 | [Plus One](math/0066-plus-one) | Easy | [Java](math/0066-plus-one/solution.java) |
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
+| 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
 
-## Matrix (3)
+## Matrix (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 36 | [Valid Sudoku](matrix/0036-valid-sudoku) | Medium | [Java](matrix/0036-valid-sudoku/solution.java) |
 | 48 | [Rotate Image](matrix/0048-rotate-image) | Medium | [Java](matrix/0048-rotate-image/solution.java) |
 | 54 | [Spiral Matrix](matrix/0054-spiral-matrix) | Medium | [Java](matrix/0054-spiral-matrix/solution.java) |
+| 867 | [Transpose Matrix](matrix/0867-transpose-matrix) | Easy | [Java](matrix/0867-transpose-matrix/solution.java) |
 
 ## Monotonic Queue (2)
 
@@ -294,10 +316,11 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 215 | [Kth Largest Element in an Array](quickselect/0215-kth-largest-element-in-an-array) | Medium | [Java](quickselect/0215-kth-largest-element-in-an-array/solution.java) |
 | 973 | [K Closest Points to Origin](quickselect/0973-k-closest-points-to-origin) | Medium | [Java](quickselect/0973-k-closest-points-to-origin/solution.java) |
 
-## Segment Tree (2)
+## Segment Tree (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 732 | [My Calendar III](segment-tree/0732-my-calendar-iii) | Hard | [Java](segment-tree/0732-my-calendar-iii/solution.java) |
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
 
@@ -309,11 +332,12 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 787 | [Cheapest Flights Within K Stops](shortest-path/0787-cheapest-flights-within-k-stops) | Medium | [Java](shortest-path/0787-cheapest-flights-within-k-stops/solution.java) |
 | 1334 | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | Medium | [Java](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution.java) |
 
-## Simulation (2)
+## Simulation (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 68 | [Text Justification](simulation/0068-text-justification) | Hard | [Java](simulation/0068-text-justification/solution.java) |
+| 1929 | [Concatenation of Array](simulation/1929-concatenation-of-array) | Easy | [Java](simulation/1929-concatenation-of-array/solution.java) |
 | 3069 | [Distribute Elements Into Two Arrays I](simulation/3069-distribute-elements-into-two-arrays-i) | Easy | [C++](simulation/3069-distribute-elements-into-two-arrays-i/solution.cpp) |
 
 ## Sliding Window (5)
@@ -336,7 +360,7 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 229 | [Majority Element II](sorting/0229-majority-element-ii) | Medium | [Java](sorting/0229-majority-element-ii/solution.java) |
 | 242 | [Valid Anagram](sorting/0242-valid-anagram) | Easy | [Java](sorting/0242-valid-anagram/solution.java) |
 
-## Stack (8)
+## Stack (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -346,7 +370,10 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 145 | [Binary Tree Postorder Traversal](stack/0145-binary-tree-postorder-traversal) | Easy | [Java](stack/0145-binary-tree-postorder-traversal/solution.java) |
 | 150 | [Evaluate Reverse Polish Notation](stack/0150-evaluate-reverse-polish-notation) | Medium | [Java](stack/0150-evaluate-reverse-polish-notation/solution.java) |
 | 155 | [Min Stack](stack/0155-min-stack) | Medium | [Java](stack/0155-min-stack/solution.java) |
+| 225 | [Implement Stack using Queues](stack/0225-implement-stack-using-queues) | Easy | [Java](stack/0225-implement-stack-using-queues/solution.java) |
+| 232 | [Implement Queue using Stacks](stack/0232-implement-queue-using-stacks) | Easy | [Java](stack/0232-implement-queue-using-stacks/solution.java) |
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
+| 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
 
 ## String (2)
@@ -356,7 +383,7 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (20)
+## Tree (19)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -376,29 +403,31 @@ _Last synced 2026-08-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 427 | [Construct Quad Tree](tree/0427-construct-quad-tree) | Medium | [Java](tree/0427-construct-quad-tree/solution.java) |
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
-| 572 | [Subtree of Another Tree](tree/0572-subtree-of-another-tree) | Easy | [Java](tree/0572-subtree-of-another-tree/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 
-## Trie (5)
+## Trie (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](trie/0014-longest-common-prefix) | Easy | [Java](trie/0014-longest-common-prefix/solution.java) |
+| 140 | [Word Break II](trie/0140-word-break-ii) | Hard | [Java](trie/0140-word-break-ii/solution.java) |
 | 208 | [Implement Trie (Prefix Tree)](trie/0208-implement-trie-prefix-tree) | Medium | [Java](trie/0208-implement-trie-prefix-tree/solution.java) |
 | 211 | [Design Add and Search Words Data Structure](trie/0211-design-add-and-search-words-data-structure) | Medium | [Java](trie/0211-design-add-and-search-words-data-structure/solution.java) |
 | 212 | [Word Search II](trie/0212-word-search-ii) | Hard | [Java](trie/0212-word-search-ii/solution.java) |
 | 3043 | [Find the Length of the Longest Common Prefix](trie/3043-find-the-length-of-the-longest-common-prefix) | Medium | [Java](trie/3043-find-the-length-of-the-longest-common-prefix/solution.java) |
 
-## Two Pointers (17)
+## Two Pointers (19)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 11 | [Container With Most Water](two-pointers/0011-container-with-most-water) | Medium | [Java](two-pointers/0011-container-with-most-water/solution.java) |
 | 15 | [3Sum](two-pointers/0015-3sum) | Medium | [C++](two-pointers/0015-3sum/solution.cpp) [Java](two-pointers/0015-3sum/solution.java) |
 | 16 | [3Sum Closest](two-pointers/0016-3sum-closest) | Medium | [Java](two-pointers/0016-3sum-closest/solution.java) |
+| 26 | [Remove Duplicates from Sorted Array](two-pointers/0026-remove-duplicates-from-sorted-array) | Easy | [Java](two-pointers/0026-remove-duplicates-from-sorted-array/solution.java) |
 | 27 | [Remove Element](two-pointers/0027-remove-element) | Easy | [Java](two-pointers/0027-remove-element/solution.java) |
+| 88 | [Merge Sorted Array](two-pointers/0088-merge-sorted-array) | Easy | [Java](two-pointers/0088-merge-sorted-array/solution.java) |
 | 125 | [Valid Palindrome](two-pointers/0125-valid-palindrome) | Easy | [Java](two-pointers/0125-valid-palindrome/solution.java) |
 | 167 | [Two Sum II - Input Array Is Sorted](two-pointers/0167-two-sum-ii-input-array-is-sorted) | Medium | [Java](two-pointers/0167-two-sum-ii-input-array-is-sorted/solution.java) |
 | 189 | [Rotate Array](two-pointers/0189-rotate-array) | Medium | [Java](two-pointers/0189-rotate-array/solution.java) |
