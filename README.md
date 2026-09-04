@@ -3,7 +3,7 @@
 My accepted LeetCode solutions, synced automatically from my submission
 history. Problems are grouped by their primary topic tag.
 
-**254 problems solved** &nbsp;·&nbsp; 81 Easy &nbsp;·&nbsp; 137 Medium &nbsp;·&nbsp; 36 Hard
+**260 problems solved** &nbsp;·&nbsp; 81 Easy &nbsp;·&nbsp; 139 Medium &nbsp;·&nbsp; 40 Hard
 
 Languages: C++, Java
 
@@ -32,7 +32,7 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](backtracking/1863-sum-of-all-subset-xor-totals) | Easy | [Java](backtracking/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Binary Search (10)
+## Binary Search (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -41,6 +41,7 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 35 | [Search Insert Position](binary-search/0035-search-insert-position) | Easy | [Java](binary-search/0035-search-insert-position/solution.java) |
 | 69 | [Sqrt(x)](binary-search/0069-sqrtx) | Easy | [Java](binary-search/0069-sqrtx/solution.java) |
 | 74 | [Search a 2D Matrix](binary-search/0074-search-a-2d-matrix) | Medium | [Java](binary-search/0074-search-a-2d-matrix/solution.java) |
+| 81 | [Search in Rotated Sorted Array II](binary-search/0081-search-in-rotated-sorted-array-ii) | Medium | [Java](binary-search/0081-search-in-rotated-sorted-array-ii/solution.java) |
 | 153 | [Find Minimum in Rotated Sorted Array](binary-search/0153-find-minimum-in-rotated-sorted-array) | Medium | [Java](binary-search/0153-find-minimum-in-rotated-sorted-array/solution.java) |
 | 209 | [Minimum Size Subarray Sum](binary-search/0209-minimum-size-subarray-sum) | Medium | [Java](binary-search/0209-minimum-size-subarray-sum/solution.java) |
 | 268 | [Missing Number](binary-search/0268-missing-number) | Easy | [Java](binary-search/0268-missing-number/solution.java) |
@@ -162,12 +163,13 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
 
-## Game Theory (5)
+## Game Theory (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 877 | [Stone Game](game-theory/0877-stone-game) | Medium | [Java](game-theory/0877-stone-game/solution.java) |
 | 1140 | [Stone Game II](game-theory/1140-stone-game-ii) | Medium | [Java](game-theory/1140-stone-game-ii/solution.java) |
+| 1406 | [Stone Game III](game-theory/1406-stone-game-iii) | Hard | [Java](game-theory/1406-stone-game-iii/solution.java) |
 | 1563 | [Stone Game V](game-theory/1563-stone-game-v) | Hard | [Java](game-theory/1563-stone-game-v/solution.java) |
 | 1927 | [Sum Game](game-theory/1927-sum-game) | Medium | [Java](game-theory/1927-sum-game/solution.java) |
 | 2029 | [Stone Game IX](game-theory/2029-stone-game-ix) | Medium | [Java](game-theory/2029-stone-game-ix/solution.java) |
@@ -218,24 +220,26 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
 | 3718 | [Smallest Missing Multiple of K](hash-table/3718-smallest-missing-multiple-of-k) | Easy | [Java](hash-table/3718-smallest-missing-multiple-of-k/solution.java) |
 
-## Heap (Priority Queue) (7)
+## Heap (Priority Queue) (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 373 | [Find K Pairs with Smallest Sums](heap-priority-queue/0373-find-k-pairs-with-smallest-sums) | Medium | [Java](heap-priority-queue/0373-find-k-pairs-with-smallest-sums/solution.java) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](heap-priority-queue/0378-kth-smallest-element-in-a-sorted-matrix) | Medium | [Java](heap-priority-queue/0378-kth-smallest-element-in-a-sorted-matrix/solution.java) |
+| 502 | [IPO](heap-priority-queue/0502-ipo) | Hard | [Java](heap-priority-queue/0502-ipo/solution.java) |
 | 621 | [Task Scheduler](heap-priority-queue/0621-task-scheduler) | Medium | [Java](heap-priority-queue/0621-task-scheduler/solution.java) |
 | 1046 | [Last Stone Weight](heap-priority-queue/1046-last-stone-weight) | Easy | [Java](heap-priority-queue/1046-last-stone-weight/solution.java) |
 | 1094 | [Car Pooling](heap-priority-queue/1094-car-pooling) | Medium | [Java](heap-priority-queue/1094-car-pooling/solution.java) |
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
 
-## Interactive (2)
+## Interactive (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 278 | [First Bad Version](interactive/0278-first-bad-version) | Easy | [Java](interactive/0278-first-bad-version/solution.java) |
 | 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
+| 1095 | [Find in Mountain Array](interactive/1095-find-in-mountain-array) | Hard | [Java](interactive/1095-find-in-mountain-array/solution.java) |
 
 ## Linked List (15)
 
@@ -383,7 +387,7 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (19)
+## Tree (20)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -403,6 +407,7 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 427 | [Construct Quad Tree](tree/0427-construct-quad-tree) | Medium | [Java](tree/0427-construct-quad-tree/solution.java) |
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
+| 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
@@ -442,7 +447,7 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (11)
+## Union-Find (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -456,4 +461,5 @@ _Last synced 2026-09-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 778 | [Swim in Rising Water](union-find/0778-swim-in-rising-water) | Hard | [Java](union-find/0778-swim-in-rising-water/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
 | 1631 | [Path With Minimum Effort](union-find/1631-path-with-minimum-effort) | Medium | [Java](union-find/1631-path-with-minimum-effort/solution.java) |
+| 2709 | [Greatest Common Divisor Traversal](union-find/2709-greatest-common-divisor-traversal) | Hard | [Java](union-find/2709-greatest-common-divisor-traversal/solution.java) |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements) | Medium | [Java](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) |

@@ -337,14 +337,14 @@
         "title": "Best Time to Buy and Sell Stock"
       },
       {
-        "id": 1860159202,
+        "id": 2131169676,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "94.7 MB",
-        "runtime": "2 ms",
+        "memory": "94.6 MB",
+        "runtime": "1 ms",
         "slug": "best-time-to-buy-and-sell-stock",
         "status": "Accepted",
-        "timestamp": 1766187543,
+        "timestamp": 1788561539,
         "title": "Best Time to Buy and Sell Stock"
       }
     ]
@@ -1784,6 +1784,42 @@
       }
     ]
   },
+  "delete-leaves-with-a-given-value": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1325",
+      "paid_only": false,
+      "slug": "delete-leaves-with-a-given-value",
+      "title": "Delete Leaves With a Given Value",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2130290062,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.1 MB",
+        "runtime": "0 ms",
+        "slug": "delete-leaves-with-a-given-value",
+        "status": "Accepted",
+        "timestamp": 1788497882,
+        "title": "Delete Leaves With a Given Value"
+      }
+    ]
+  },
   "delete-node-in-a-bst": {
     "question": {
       "difficulty": "Medium",
@@ -2460,6 +2496,46 @@
       }
     ]
   },
+  "find-in-mountain-array": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1095",
+      "paid_only": false,
+      "slug": "find-in-mountain-array",
+      "title": "Find in Mountain Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Interactive",
+          "interactive"
+        ],
+        [
+          "Ternary Search",
+          "ternary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2131160901,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "0 ms",
+        "slug": "find-in-mountain-array",
+        "status": "Accepted",
+        "timestamp": 1788559692,
+        "title": "Find in Mountain Array"
+      }
+    ]
+  },
   "find-k-pairs-with-smallest-sums": {
     "question": {
       "difficulty": "Medium",
@@ -3048,6 +3124,58 @@
       }
     ]
   },
+  "greatest-common-divisor-traversal": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2709",
+      "paid_only": false,
+      "slug": "greatest-common-divisor-traversal",
+      "title": "Greatest Common Divisor Traversal",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Number Theory",
+          "number-theory"
+        ],
+        [
+          "Prime Factorization",
+          "prime-factorization"
+        ],
+        [
+          "Euclidean Algorithm",
+          "euclidean-algorithm"
+        ],
+        [
+          "Greatest Common Divisor",
+          "greatest-common-divisor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2130336044,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "90.8 MB",
+        "runtime": "178 ms",
+        "slug": "greatest-common-divisor-traversal",
+        "status": "Accepted",
+        "timestamp": 1788500896,
+        "title": "Greatest Common Divisor Traversal"
+      }
+    ]
+  },
   "group-anagrams": {
     "question": {
       "difficulty": "Medium",
@@ -3481,6 +3609,46 @@
         "status": "Accepted",
         "timestamp": 1762969093,
         "title": "Invert Binary Tree"
+      }
+    ]
+  },
+  "ipo": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "502",
+      "paid_only": false,
+      "slug": "ipo",
+      "title": "IPO",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2131183934,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "141.5 MB",
+        "runtime": "99 ms",
+        "slug": "ipo",
+        "status": "Accepted",
+        "timestamp": 1788565130,
+        "title": "IPO"
       }
     ]
   },
@@ -7705,6 +7873,38 @@
       }
     ]
   },
+  "search-in-rotated-sorted-array-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "81",
+      "paid_only": false,
+      "slug": "search-in-rotated-sorted-array-ii",
+      "title": "Search in Rotated Sorted Array II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2130251091,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.1 MB",
+        "runtime": "0 ms",
+        "slug": "search-in-rotated-sorted-array-ii",
+        "status": "Accepted",
+        "timestamp": 1788494773,
+        "title": "Search in Rotated Sorted Array II"
+      }
+    ]
+  },
   "search-insert-position": {
     "question": {
       "difficulty": "Easy",
@@ -8390,6 +8590,54 @@
         "status": "Accepted",
         "timestamp": 1788328189,
         "title": "Stone Game II"
+      }
+    ]
+  },
+  "stone-game-iii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1406",
+      "paid_only": false,
+      "slug": "stone-game-iii",
+      "title": "Stone Game III",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Minimax",
+          "minimax-algorithm"
+        ],
+        [
+          "Game Theory",
+          "game-theory"
+        ],
+        [
+          "Zero-Sum Game",
+          "zero-sum-game"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2131168686,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "92.1 MB",
+        "runtime": "31 ms",
+        "slug": "stone-game-iii",
+        "status": "Accepted",
+        "timestamp": 1788561310,
+        "title": "Stone Game III"
       }
     ]
   },

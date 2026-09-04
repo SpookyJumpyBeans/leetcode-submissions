@@ -1046,6 +1046,27 @@
       ]
     ]
   },
+  "delete-leaves-with-a-given-value": {
+    "difficulty": "Medium",
+    "frontend_id": "1325",
+    "paid_only": false,
+    "slug": "delete-leaves-with-a-given-value",
+    "title": "Delete Leaves With a Given Value",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "delete-node-in-a-bst": {
     "difficulty": "Medium",
     "frontend_id": "450",
@@ -1467,6 +1488,31 @@
       ]
     ]
   },
+  "find-in-mountain-array": {
+    "difficulty": "Hard",
+    "frontend_id": "1095",
+    "paid_only": false,
+    "slug": "find-in-mountain-array",
+    "title": "Find in Mountain Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Interactive",
+        "interactive"
+      ],
+      [
+        "Ternary Search",
+        "ternary-search"
+      ]
+    ]
+  },
   "find-k-pairs-with-smallest-sums": {
     "difficulty": "Medium",
     "frontend_id": "373",
@@ -1815,6 +1861,43 @@
       ]
     ]
   },
+  "greatest-common-divisor-traversal": {
+    "difficulty": "Hard",
+    "frontend_id": "2709",
+    "paid_only": false,
+    "slug": "greatest-common-divisor-traversal",
+    "title": "Greatest Common Divisor Traversal",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Number Theory",
+        "number-theory"
+      ],
+      [
+        "Prime Factorization",
+        "prime-factorization"
+      ],
+      [
+        "Euclidean Algorithm",
+        "euclidean-algorithm"
+      ],
+      [
+        "Greatest Common Divisor",
+        "greatest-common-divisor"
+      ]
+    ]
+  },
   "group-anagrams": {
     "difficulty": "Medium",
     "frontend_id": "49",
@@ -2068,6 +2151,31 @@
       [
         "Binary Tree",
         "binary-tree"
+      ]
+    ]
+  },
+  "ipo": {
+    "difficulty": "Hard",
+    "frontend_id": "502",
+    "paid_only": false,
+    "slug": "ipo",
+    "title": "IPO",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
       ]
     ]
   },
@@ -4624,6 +4732,23 @@
       ]
     ]
   },
+  "search-in-rotated-sorted-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "81",
+    "paid_only": false,
+    "slug": "search-in-rotated-sorted-array-ii",
+    "title": "Search in Rotated Sorted Array II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ]
+    ]
+  },
   "search-insert-position": {
     "difficulty": "Easy",
     "frontend_id": "35",
@@ -5046,6 +5171,39 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ],
+      [
+        "Game Theory",
+        "game-theory"
+      ],
+      [
+        "Zero-Sum Game",
+        "zero-sum-game"
+      ]
+    ]
+  },
+  "stone-game-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "1406",
+    "paid_only": false,
+    "slug": "stone-game-iii",
+    "title": "Stone Game III",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Minimax",
+        "minimax-algorithm"
       ],
       [
         "Game Theory",

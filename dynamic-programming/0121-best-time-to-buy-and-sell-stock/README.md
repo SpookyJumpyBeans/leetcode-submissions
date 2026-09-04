@@ -8,4 +8,4 @@
 | Language | File | Runtime | Memory | Accepted |
 | --- | --- | --- | --- | --- |
 | C++ | [solution.cpp](solution.cpp) | 6 ms | 97.3 MB | 2026-08-04 |
-| Java | [solution.java](solution.java) | 2 ms | 94.7 MB | 2025-12-19 |
+| Java | [solution.java](solution.java) | 1 ms | 94.6 MB | 2026-09-04 |
