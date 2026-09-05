@@ -4,12 +4,13 @@ from __future__ import annotations
 
 import argparse
 import sys
+from pathlib import Path
 
 from .api import AuthError, LeetCodeClient, LeetCodeError
 from .config import Credentials, MissingCredentials
 from .setup import prompt_for_cookies
 from .state import SyncState
-from .sync import SyncReport, commit, run_relayout, run_sync, summarize
+from .sync import SyncReport, commit, run_import_neetcode, run_relayout, run_sync, summarize
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -21,6 +22,17 @@ def build_parser() -> argparse.ArgumentParser:
         "--set-cookies",
         action="store_true",
         help="Prompt for your LeetCode cookies and write them to _sync/.env.",
+    )
+    parser.add_argument(
+        "--import-neetcode",
+        metavar="PATH",
+        default=None,
+        help="Fold a NeetCode GitHub Sync repo into this tree (path to a local clone).",
+    )
+    parser.add_argument(
+        "--include-existing",
+        action="store_true",
+        help="With --import-neetcode, also import problems already solved on LeetCode.",
     )
     parser.add_argument(
         "--relayout",
@@ -69,6 +81,27 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.set_cookies:
         return prompt_for_cookies()
+
+    if args.import_neetcode:
+        try:
+            credentials = Credentials.load()
+        except MissingCredentials as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 2
+        client = LeetCodeClient(credentials.session, credentials.csrf_token, delay=args.delay)
+        report = run_import_neetcode(
+            Path(args.import_neetcode), client,
+            include_existing=args.include_existing, dry_run=args.dry_run,
+        )
+        print(f"Imported            : {len(report.imported)}")
+        print(f"Already on LeetCode : {len(report.skipped_existing)}")
+        if report.unresolved:
+            print(f"Unresolved slugs    : {', '.join(report.unresolved)}")
+        for line in report.imported:
+            print(f"  + {line}")
+        if not args.dry_run and report.changed and not args.no_commit:
+            commit(report, push=args.push)
+        return 0
 
     if args.relayout:
         moves = run_relayout(dry_run=args.dry_run)

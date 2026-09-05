@@ -45,6 +45,8 @@ LANG_EXTENSIONS = {
 
 # Human-facing names for the ones whose slug is not obvious.
 LANG_DISPLAY = {
+    "bash": "Bash",
+    "c": "C",
     "cpp": "C++",
     "csharp": "C#",
     "golang": "Go",
@@ -57,6 +59,17 @@ LANG_DISPLAY = {
     "python3": "Python3",
     "pythondata": "Pandas",
     "typescript": "TypeScript",
+    "dart": "Dart",
+    "elixir": "Elixir",
+    "erlang": "Erlang",
+    "java": "Java",
+    "kotlin": "Kotlin",
+    "php": "PHP",
+    "racket": "Racket",
+    "ruby": "Ruby",
+    "rust": "Rust",
+    "scala": "Scala",
+    "swift": "Swift",
 }
 
 # Line-comment token per extension, used for the provenance header.

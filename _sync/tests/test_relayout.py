@@ -115,3 +115,16 @@ def test_prune_leaves_the_sync_folder_alone(tmp_path):
     removed = prune_empty_topic_dirs(tmp_path)
     assert removed == ["empty-topic"]
     assert (tmp_path / "_sync").exists()
+
+
+def test_relayout_regenerates_readmes_even_with_nothing_to_move(tmp_path):
+    repo = build_repo(tmp_path, [("dynamic-programming", "0053-maximum-subarray")])
+    index = SolutionIndex(tmp_path / "index.json")
+    index.record(q("53", "maximum-subarray", "array", "dynamic-programming"),
+                 s("maximum-subarray"))
+
+    moves = run_relayout(repo_root=repo, index=index, min_size=1, log=lambda *a: None)
+
+    assert moves == []
+    assert (repo / "README.md").exists()
+    assert (repo / "dynamic-programming" / "0053-maximum-subarray" / "README.md").exists()

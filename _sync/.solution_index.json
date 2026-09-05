@@ -82,6 +82,96 @@
       }
     ]
   },
+  "4sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "18",
+      "paid_only": false,
+      "slug": "4sum",
+      "title": "4Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "4sum",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "4Sum"
+      }
+    ]
+  },
+  "accounts-merge": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "721",
+      "paid_only": false,
+      "slug": "accounts-merge",
+      "title": "Accounts Merge",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "accounts-merge",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Accounts Merge"
+      }
+    ]
+  },
   "add-binary": {
     "question": {
       "difficulty": "Easy",
@@ -382,6 +472,39 @@
         "status": "Accepted",
         "timestamp": 1784843167,
         "title": "Best Time to Buy and Sell Stock II"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-with-cooldown": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "309",
+      "paid_only": false,
+      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Best Time to Buy and Sell Stock with Cooldown"
       }
     ]
   },
@@ -817,6 +940,72 @@
       }
     ]
   },
+  "burst-balloons": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "312",
+      "paid_only": false,
+      "slug": "burst-balloons",
+      "title": "Burst Balloons",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "burst-balloons",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Burst Balloons"
+      }
+    ]
+  },
+  "capacity-to-ship-packages-within-d-days": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1011",
+      "paid_only": false,
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "title": "Capacity To Ship Packages Within D Days",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Capacity To Ship Packages Within D Days"
+      }
+    ]
+  },
   "car-fleet": {
     "question": {
       "difficulty": "Medium",
@@ -1093,6 +1282,80 @@
       }
     ]
   },
+  "coin-change": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "322",
+      "paid_only": false,
+      "slug": "coin-change",
+      "title": "Coin Change",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "coin-change",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Coin Change"
+      }
+    ]
+  },
+  "coin-change-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "518",
+      "paid_only": false,
+      "slug": "coin-change-ii",
+      "title": "Coin Change II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Knapsack Problem",
+          "knapsack-problem"
+        ],
+        [
+          "Complete Knapsack",
+          "complete-knapsack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "coin-change-ii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Coin Change II"
+      }
+    ]
+  },
   "combination-sum": {
     "question": {
       "difficulty": "Medium",
@@ -1154,6 +1417,39 @@
         "status": "Accepted",
         "timestamp": 1765670190,
         "title": "Combination Sum II"
+      }
+    ]
+  },
+  "combination-sum-iv": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "377",
+      "paid_only": false,
+      "slug": "combination-sum-iv",
+      "title": "Combination Sum IV",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "combination-sum-iv",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Combination Sum IV"
       }
     ]
   },
@@ -1381,6 +1677,43 @@
         "status": "Accepted",
         "timestamp": 1660583762,
         "title": "Contains Duplicate"
+      }
+    ]
+  },
+  "contains-duplicate-ii": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "219",
+      "paid_only": false,
+      "slug": "contains-duplicate-ii",
+      "title": "Contains Duplicate II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "contains-duplicate-ii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Contains Duplicate II"
       }
     ]
   },
@@ -1645,6 +1978,84 @@
         "status": "Accepted",
         "timestamp": 1767590145,
         "title": "Course Schedule II"
+      }
+    ]
+  },
+  "course-schedule-iv": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1462",
+      "paid_only": false,
+      "slug": "course-schedule-iv",
+      "title": "Course Schedule IV",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "course-schedule-iv",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Course Schedule IV"
+      }
+    ]
+  },
+  "custom-sort-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "791",
+      "paid_only": false,
+      "slug": "custom-sort-string",
+      "title": "Custom Sort String",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "custom-sort-string",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Custom Sort String"
       }
     ]
   },
@@ -1924,6 +2335,47 @@
       }
     ]
   },
+  "design-circular-queue": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "622",
+      "paid_only": false,
+      "slug": "design-circular-queue",
+      "title": "Design Circular Queue",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "design-circular-queue",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Design Circular Queue"
+      }
+    ]
+  },
   "design-hashmap": {
     "question": {
       "difficulty": "Easy",
@@ -2088,6 +2540,51 @@
       }
     ]
   },
+  "detect-squares": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2013",
+      "paid_only": false,
+      "slug": "detect-squares",
+      "title": "Detect Squares",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Counting",
+          "counting"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "detect-squares",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Detect Squares"
+      }
+    ]
+  },
   "diameter-of-binary-tree": {
     "question": {
       "difficulty": "Easy",
@@ -2176,6 +2673,39 @@
       }
     ]
   },
+  "distinct-subsequences": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "115",
+      "paid_only": false,
+      "slug": "distinct-subsequences",
+      "title": "Distinct Subsequences",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "distinct-subsequences",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Distinct Subsequences"
+      }
+    ]
+  },
   "distribute-elements-into-two-arrays-i": {
     "question": {
       "difficulty": "Easy",
@@ -2241,6 +2771,39 @@
         "status": "Accepted",
         "timestamp": 1787890979,
         "title": "Dota2 Senate"
+      }
+    ]
+  },
+  "edit-distance": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "72",
+      "paid_only": false,
+      "slug": "edit-distance",
+      "title": "Edit Distance",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "edit-distance",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Edit Distance"
       }
     ]
   },
@@ -2369,6 +2932,51 @@
         "status": "Accepted",
         "timestamp": 1787541175,
         "title": "Excel Sheet Column Title"
+      }
+    ]
+  },
+  "extra-characters-in-a-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2707",
+      "paid_only": false,
+      "slug": "extra-characters-in-a-string",
+      "title": "Extra Characters in a String",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "extra-characters-in-a-string",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Extra Characters in a String"
       }
     ]
   },
@@ -2533,6 +3141,55 @@
         "status": "Accepted",
         "timestamp": 1788559692,
         "title": "Find in Mountain Array"
+      }
+    ]
+  },
+  "find-k-closest-elements": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "658",
+      "paid_only": false,
+      "slug": "find-k-closest-elements",
+      "title": "Find K Closest Elements",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "find-k-closest-elements",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Find K Closest Elements"
       }
     ]
   },
@@ -2869,6 +3526,43 @@
         "status": "Accepted",
         "timestamp": 1788212733,
         "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points"
+      }
+    ]
+  },
+  "find-the-town-judge": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "997",
+      "paid_only": false,
+      "slug": "find-the-town-judge",
+      "title": "Find the Town Judge",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "find-the-town-judge",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Find the Town Judge"
       }
     ]
   },
@@ -3540,6 +4234,72 @@
       }
     ]
   },
+  "insert-interval": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "57",
+      "paid_only": false,
+      "slug": "insert-interval",
+      "title": "Insert Interval",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "insert-interval",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Insert Interval"
+      }
+    ]
+  },
+  "insert-into-a-binary-search-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "701",
+      "paid_only": false,
+      "slug": "insert-into-a-binary-search-tree",
+      "title": "Insert into a Binary Search Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "insert-into-a-binary-search-tree",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Insert into a Binary Search Tree"
+      }
+    ]
+  },
   "integer-break": {
     "question": {
       "difficulty": "Medium",
@@ -3569,6 +4329,39 @@
         "status": "Accepted",
         "timestamp": 1787880027,
         "title": "Integer Break"
+      }
+    ]
+  },
+  "interleaving-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "97",
+      "paid_only": false,
+      "slug": "interleaving-string",
+      "title": "Interleaving String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "interleaving-string",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Interleaving String"
       }
     ]
   },
@@ -3685,6 +4478,47 @@
         "status": "Accepted",
         "timestamp": 1661124220,
         "title": "Is Subsequence"
+      }
+    ]
+  },
+  "island-perimeter": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "463",
+      "paid_only": false,
+      "slug": "island-perimeter",
+      "title": "Island Perimeter",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "island-perimeter",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Island Perimeter"
       }
     ]
   },
@@ -4396,6 +5230,43 @@
       }
     ]
   },
+  "longest-common-subsequence": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1143",
+      "paid_only": false,
+      "slug": "longest-common-subsequence",
+      "title": "Longest Common Subsequence",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Longest Common Subsequence",
+          "longest-common-subsequence"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "longest-common-subsequence",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Longest Common Subsequence"
+      }
+    ]
+  },
   "longest-consecutive-sequence": {
     "question": {
       "difficulty": "Medium",
@@ -4553,6 +5424,47 @@
         "status": "Accepted",
         "timestamp": 1786338400,
         "title": "Longest Increasing Path in a Matrix"
+      }
+    ]
+  },
+  "longest-increasing-subsequence": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "300",
+      "paid_only": false,
+      "slug": "longest-increasing-subsequence",
+      "title": "Longest Increasing Subsequence",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Longest Increasing Subsequence",
+          "longest-increasing-subsequence"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "longest-increasing-subsequence",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Longest Increasing Subsequence"
       }
     ]
   },
@@ -5328,6 +6240,39 @@
       }
     ]
   },
+  "maximum-product-subarray": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "152",
+      "paid_only": false,
+      "slug": "maximum-product-subarray",
+      "title": "Maximum Product Subarray",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "maximum-product-subarray",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Maximum Product Subarray"
+      }
+    ]
+  },
   "maximum-subarray": {
     "question": {
       "difficulty": "Medium",
@@ -5452,6 +6397,55 @@
         "status": "Accepted",
         "timestamp": 1762293159,
         "title": "Median of Two Sorted Arrays"
+      }
+    ]
+  },
+  "meeting-rooms-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "253",
+      "paid_only": true,
+      "slug": "meeting-rooms-ii",
+      "title": "Meeting Rooms II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "meeting-rooms-ii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Meeting Rooms II"
       }
     ]
   },
@@ -5644,6 +6638,39 @@
         "status": "Accepted",
         "timestamp": 1788047586,
         "title": "Merge Strings Alternately"
+      }
+    ]
+  },
+  "merge-triplets-to-form-target-triplet": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1899",
+      "paid_only": false,
+      "slug": "merge-triplets-to-form-target-triplet",
+      "title": "Merge Triplets to Form Target Triplet",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "merge-triplets-to-form-target-triplet",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Merge Triplets to Form Target Triplet"
       }
     ]
   },
@@ -5907,6 +6934,51 @@
       }
     ]
   },
+  "minimum-interval-to-include-each-query": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1851",
+      "paid_only": false,
+      "slug": "minimum-interval-to-include-each-query",
+      "title": "Minimum Interval to Include Each Query",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sweep Line",
+          "sweep-line"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "minimum-interval-to-include-each-query",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Minimum Interval to Include Each Query"
+      }
+    ]
+  },
   "minimum-path-sum": {
     "question": {
       "difficulty": "Medium",
@@ -6099,6 +7171,43 @@
       }
     ]
   },
+  "multiply-strings": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "43",
+      "paid_only": false,
+      "slug": "multiply-strings",
+      "title": "Multiply Strings",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "multiply-strings",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Multiply Strings"
+      }
+    ]
+  },
   "my-calendar-iii": {
     "question": {
       "difficulty": "Hard",
@@ -6260,6 +7369,47 @@
         "status": "Accepted",
         "timestamp": 1767735492,
         "title": "Network Delay Time"
+      }
+    ]
+  },
+  "non-overlapping-intervals": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "435",
+      "paid_only": false,
+      "slug": "non-overlapping-intervals",
+      "title": "Non-overlapping Intervals",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "non-overlapping-intervals",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Non-overlapping Intervals"
       }
     ]
   },
@@ -6546,6 +7696,51 @@
       }
     ]
   },
+  "open-the-lock": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "752",
+      "paid_only": false,
+      "slug": "open-the-lock",
+      "title": "Open the Lock",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Bidirectional Search",
+          "bidirectional-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "open-the-lock",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Open the Lock"
+      }
+    ]
+  },
   "pacific-atlantic-water-flow": {
     "question": {
       "difficulty": "Medium",
@@ -6655,6 +7850,88 @@
         "status": "Accepted",
         "timestamp": 1768454478,
         "title": "Palindromic Substrings"
+      }
+    ]
+  },
+  "partition-equal-subset-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "416",
+      "paid_only": false,
+      "slug": "partition-equal-subset-sum",
+      "title": "Partition Equal Subset Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Knapsack Problem",
+          "knapsack-problem"
+        ],
+        [
+          "0-1 Knapsack",
+          "0-1-knapsack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "partition-equal-subset-sum",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Partition Equal Subset Sum"
+      }
+    ]
+  },
+  "partition-labels": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "763",
+      "paid_only": false,
+      "slug": "partition-labels",
+      "title": "Partition Labels",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "partition-labels",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Partition Labels"
       }
     ]
   },
@@ -6961,6 +8238,43 @@
       }
     ]
   },
+  "permutations-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "47",
+      "paid_only": false,
+      "slug": "permutations-ii",
+      "title": "Permutations II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "permutations-ii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Permutations II"
+      }
+    ]
+  },
   "plus-one": {
     "question": {
       "difficulty": "Easy",
@@ -6990,6 +8304,39 @@
         "status": "Accepted",
         "timestamp": 1768974717,
         "title": "Plus One"
+      }
+    ]
+  },
+  "powx-n": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "50",
+      "paid_only": false,
+      "slug": "powx-n",
+      "title": "Pow(x, n)",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "powx-n",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Pow(x, n)"
       }
     ]
   },
@@ -7162,6 +8509,43 @@
         "status": "Accepted",
         "timestamp": 1767592533,
         "title": "Redundant Connection"
+      }
+    ]
+  },
+  "regular-expression-matching": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "10",
+      "paid_only": false,
+      "slug": "regular-expression-matching",
+      "title": "Regular Expression Matching",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Recursion",
+          "recursion"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "regular-expression-matching",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Regular Expression Matching"
       }
     ]
   },
@@ -7361,6 +8745,55 @@
       }
     ]
   },
+  "reorganize-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "767",
+      "paid_only": false,
+      "slug": "reorganize-string",
+      "title": "Reorganize String",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "reorganize-string",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Reorganize String"
+      }
+    ]
+  },
   "reverse-bits": {
     "question": {
       "difficulty": "Easy",
@@ -7450,6 +8883,35 @@
         "status": "Accepted",
         "timestamp": 1762242730,
         "title": "Reverse Linked List"
+      }
+    ]
+  },
+  "reverse-linked-list-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "92",
+      "paid_only": false,
+      "slug": "reverse-linked-list-ii",
+      "title": "Reverse Linked List II",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "reverse-linked-list-ii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Reverse Linked List II"
       }
     ]
   },
@@ -7985,6 +9447,43 @@
       }
     ]
   },
+  "set-matrix-zeroes": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "73",
+      "paid_only": false,
+      "slug": "set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "set-matrix-zeroes",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Set Matrix Zeroes"
+      }
+    ]
+  },
   "shortest-path-in-a-grid-with-obstacles-elimination": {
     "question": {
       "difficulty": "Hard",
@@ -8057,6 +9556,39 @@
       }
     ]
   },
+  "simplify-path": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "71",
+      "paid_only": false,
+      "slug": "simplify-path",
+      "title": "Simplify Path",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "simplify-path",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Simplify Path"
+      }
+    ]
+  },
   "single-number": {
     "question": {
       "difficulty": "Easy",
@@ -8086,6 +9618,43 @@
         "status": "Accepted",
         "timestamp": 1767813528,
         "title": "Single Number"
+      }
+    ]
+  },
+  "single-threaded-cpu": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1834",
+      "paid_only": false,
+      "slug": "single-threaded-cpu",
+      "title": "Single-Threaded CPU",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "single-threaded-cpu",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Single-Threaded CPU"
       }
     ]
   },
@@ -8213,6 +9782,63 @@
       }
     ]
   },
+  "sort-an-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "912",
+      "paid_only": false,
+      "slug": "sort-an-array",
+      "title": "Sort an Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Merge Sort",
+          "merge-sort"
+        ],
+        [
+          "Bucket Sort",
+          "bucket-sort"
+        ],
+        [
+          "Radix Sort",
+          "radix-sort"
+        ],
+        [
+          "Counting Sort",
+          "counting-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "sort-an-array",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Sort an Array"
+      }
+    ]
+  },
   "sort-characters-by-frequency": {
     "question": {
       "difficulty": "Medium",
@@ -8258,6 +9884,51 @@
         "status": "Accepted",
         "timestamp": 1770449981,
         "title": "Sort Characters By Frequency"
+      }
+    ]
+  },
+  "sort-colors": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "75",
+      "paid_only": false,
+      "slug": "sort-colors",
+      "title": "Sort Colors",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Quicksort",
+          "quicksort"
+        ],
+        [
+          "Bubble Sort",
+          "bubble-sort"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "sort-colors",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Sort Colors"
       }
     ]
   },
@@ -9141,6 +10812,51 @@
       }
     ]
   },
+  "target-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "494",
+      "paid_only": false,
+      "slug": "target-sum",
+      "title": "Target Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Knapsack Problem",
+          "knapsack-problem"
+        ],
+        [
+          "0-1 Knapsack",
+          "0-1-knapsack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "target-sum",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Target Sum"
+      }
+    ]
+  },
   "task-scheduler": {
     "question": {
       "difficulty": "Medium",
@@ -9592,6 +11308,43 @@
       }
     ]
   },
+  "unique-paths": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "62",
+      "paid_only": false,
+      "slug": "unique-paths",
+      "title": "Unique Paths",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Combinatorics",
+          "combinatorics"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "unique-paths",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Unique Paths"
+      }
+    ]
+  },
   "unique-paths-ii": {
     "question": {
       "difficulty": "Medium",
@@ -9812,6 +11565,51 @@
       }
     ]
   },
+  "valid-parenthesis-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "678",
+      "paid_only": false,
+      "slug": "valid-parenthesis-string",
+      "title": "Valid Parenthesis String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "valid-parenthesis-string",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Valid Parenthesis String"
+      }
+    ]
+  },
   "valid-sudoku": {
     "question": {
       "difficulty": "Medium",
@@ -9885,6 +11683,43 @@
         "status": "Accepted",
         "timestamp": 1764481952,
         "title": "Validate Binary Search Tree"
+      }
+    ]
+  },
+  "verifying-an-alien-dictionary": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "953",
+      "paid_only": false,
+      "slug": "verifying-an-alien-dictionary",
+      "title": "Verifying an Alien Dictionary",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "cpp",
+        "lang_name": "cpp",
+        "memory": "",
+        "runtime": "",
+        "slug": "verifying-an-alien-dictionary",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1788566040,
+        "title": "Verifying an Alien Dictionary"
       }
     ]
   },

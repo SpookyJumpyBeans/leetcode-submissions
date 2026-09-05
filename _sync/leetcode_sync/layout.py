@@ -52,11 +52,13 @@ def render_solution(question: Question, submission: Submission) -> str:
     """The submitted code with a short provenance header comment."""
     extension = lang_extension(submission.lang)
     token = comment_token(extension)
+    from_neetcode = getattr(submission, "source", "leetcode") == "neetcode"
+    accepted = ("Accepted on NeetCode" if from_neetcode else "Accepted")
     header = [
         f"{token} {question.frontend_id}. {question.title}",
         f"{token} https://leetcode.com/problems/{question.slug}/",
         f"{token} {question.difficulty} | {lang_display(submission.lang, submission.lang_name)}"
-        f" | Accepted {format_timestamp(submission.timestamp)}",
+        f" | {accepted} {format_timestamp(submission.timestamp)}",
     ]
     stats = [part for part in (submission.runtime, submission.memory) if part and part != "N/A"]
     if stats:
@@ -68,6 +70,8 @@ def render_solution(question: Question, submission: Submission) -> str:
 def render_problem_readme(question: Question, submissions: list[Submission]) -> str:
     """A small index for one problem folder."""
     topic_names = ", ".join(name for name, _ in question.topics) or "-"
+    # Only problems that actually came from NeetCode carry the extra column.
+    mixed = any(getattr(s, "source", "leetcode") == "neetcode" for s in submissions)
     lines = [
         f"# {question.frontend_id}. {question.title}",
         "",
@@ -76,17 +80,19 @@ def render_problem_readme(question: Question, submissions: list[Submission]) -> 
         f"- **Difficulty:** {question.difficulty}",
         f"- **Topics:** {topic_names}",
         "",
-        "| Language | File | Runtime | Memory | Accepted |",
-        "| --- | --- | --- | --- | --- |",
+        "| Language | File | Runtime | Memory | Accepted |" + (" Source |" if mixed else ""),
+        "| --- | --- | --- | --- | --- |" + (" --- |" if mixed else ""),
     ]
     for submission in sorted(submissions, key=lambda s: s.lang):
         filename = f"solution.{lang_extension(submission.lang)}"
+        origin = "NeetCode" if getattr(submission, "source", "leetcode") == "neetcode" else "LeetCode"
         lines.append(
             f"| {lang_display(submission.lang, submission.lang_name)} "
             f"| [{filename}]({filename}) "
             f"| {submission.runtime or '-'} "
             f"| {submission.memory or '-'} "
             f"| {format_timestamp(submission.timestamp)} |"
+            + (f" {origin} |" if mixed else "")
         )
     lines.append("")
     return "\n".join(lines)
@@ -110,11 +116,22 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         for submission in submissions:
             languages.add(lang_display(submission.lang, submission.lang_name))
 
+    imported = sum(
+        1 for _, subs in entries
+        for s in subs if getattr(s, "source", "leetcode") == "neetcode"
+    )
+    intro = (
+        "My accepted solutions, synced automatically from my LeetCode submission "
+        "history and my NeetCode submissions. Problems are grouped by their "
+        "primary topic tag."
+        if imported else
+        "My accepted LeetCode solutions, synced automatically from my submission "
+        "history. Problems are grouped by their primary topic tag."
+    )
     lines = [
         "# LeetCode Submissions",
         "",
-        "My accepted LeetCode solutions, synced automatically from my submission",
-        "history. Problems are grouped by their primary topic tag.",
+        intro,
         "",
         f"**{len(entries)} problems solved** &nbsp;·&nbsp; "
         f"{counts['Easy']} Easy &nbsp;·&nbsp; {counts['Medium']} Medium &nbsp;·&nbsp; "
@@ -122,6 +139,15 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         "",
         f"Languages: {', '.join(sorted(languages)) or '-'}",
         "",
+    ]
+    if imported:
+        lines += [
+            f"{imported} solutions were solved on [NeetCode](https://neetcode.io)'s judge "
+            "rather than LeetCode's, so they have no LeetCode submission; each is marked "
+            "in its problem README.",
+            "",
+        ]
+    lines += [
         f"_Last synced {generated_at.strftime('%Y-%m-%d')} by [`_sync`](_sync/) "
         "([how it works](_sync/README.md))._",
         "",

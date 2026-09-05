@@ -123,6 +123,7 @@ class SolutionIndex:
             "title": submission.title,
             "slug": submission.slug,
             "status": submission.status,
+            "source": getattr(submission, "source", "leetcode"),
         }
 
     def has_newer(self, slug: str, lang: str, timestamp: int) -> bool:
@@ -132,7 +133,13 @@ class SolutionIndex:
         accepted submission would overwrite the newer one already on disk.
         """
         record = self._submissions.get(slug, {}).get(lang)
-        return record is not None and record.get("timestamp", 0) >= timestamp
+        if record is None:
+            return False
+        # A real LeetCode submission supersedes an imported NeetCode one whatever
+        # the dates say - the import timestamp is when it was synced, not solved.
+        if record.get("source") == "neetcode":
+            return False
+        return record.get("timestamp", 0) >= timestamp
 
     def entries(self) -> list[tuple[Question, list]]:
         from .api import Submission
@@ -145,6 +152,7 @@ class SolutionIndex:
                     lang_name=r.get("lang_name", ""), status=r.get("status", "Accepted"),
                     timestamp=r["timestamp"], runtime=r.get("runtime", ""),
                     memory=r.get("memory", ""), code="",
+                    source=r.get("source", "leetcode"),
                 )
                 for r in self._submissions.get(slug, {}).values()
             ]

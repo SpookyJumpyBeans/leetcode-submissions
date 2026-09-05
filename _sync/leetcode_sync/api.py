@@ -70,6 +70,7 @@ class Submission:
     runtime: str
     memory: str
     code: str
+    source: str = "leetcode"
 
     @property
     def accepted(self) -> bool:

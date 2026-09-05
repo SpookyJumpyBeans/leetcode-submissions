@@ -23,6 +23,7 @@ from .layout import (
 )
 from .bucketing import assign_topics
 from .config import TOPIC_MIN_SIZE
+from .neetcode import discover, to_submission
 from .relayout import apply_moves, plan_moves, prune_empty_topic_dirs
 from .state import ProblemCache, SolutionIndex, SyncState
 
@@ -183,17 +184,18 @@ def run_relayout(repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None
     """Re-file already-synced problems under the current topic ranking."""
     index = index if index is not None else SolutionIndex(INDEX_PATH)
     moves = plan_moves(repo_root, index, min_size)
-    if not moves:
-        log("Every problem is already in the right folder.")
-        return moves
-    log(f"{len(moves)} problems move:")
-    for move in moves[:15]:
-        log(f"  {move.source}  ->  {move.destination}")
-    if len(moves) > 15:
-        log(f"  ... and {len(moves) - 15} more")
+    if moves:
+        log(f"{len(moves)} problems move:")
+        for move in moves[:15]:
+            log(f"  {move.source}  ->  {move.destination}")
+        if len(moves) > 15:
+            log(f"  ... and {len(moves) - 15} more")
+    else:
+        log("Every problem is already in the right folder; regenerating READMEs.")
     if dry_run:
         return moves
 
+    # Runs even with no moves: rendering changes still need the READMEs rebuilt.
     normalize_layout(repo_root, index, log=log, min_size=min_size)
     return moves
 
@@ -222,6 +224,76 @@ def normalize_layout(repo_root: Path, index: SolutionIndex, log=print,
             log(f"Removed empty topic folders: {', '.join(removed)}")
     _write_readmes(repo_root, index, min_size)
     return moves
+
+
+@dataclass
+class ImportReport:
+    found: int = 0
+    imported: list[str] = field(default_factory=list)
+    skipped_existing: list[str] = field(default_factory=list)
+    unresolved: list[str] = field(default_factory=list)
+
+    @property
+    def changed(self) -> bool:
+        return bool(self.imported)
+
+    @property
+    def written(self) -> list[str]:
+        return self.imported
+
+
+def run_import_neetcode(
+    source_repo: Path,
+    client,
+    *,
+    repo_root: Path = REPO_ROOT,
+    cache: ProblemCache | None = None,
+    index: SolutionIndex | None = None,
+    include_existing: bool = False,
+    dry_run: bool = False,
+    min_size: int = TOPIC_MIN_SIZE,
+    log=print,
+) -> ImportReport:
+    """Fold a NeetCode GitHub Sync repo into this tree."""
+    report = ImportReport()
+    cache = cache if cache is not None else ProblemCache()
+    index = index if index is not None else SolutionIndex(INDEX_PATH)
+
+    known = {question.slug for question, _ in index.entries()}
+    solutions = discover(source_repo)
+    report.found = len(solutions)
+    log(f"Found {report.found} NeetCode solutions in {source_repo}.")
+
+    for solution in solutions:
+        if solution.leetcode_slug in known and not include_existing:
+            report.skipped_existing.append(solution.leetcode_slug)
+            continue
+
+        question = cache.get(solution.leetcode_slug)
+        if question is None:
+            question = client.get_question(solution.leetcode_slug)
+            if question is None:
+                report.unresolved.append(solution.neetcode_slug)
+                continue
+            cache.put(question)
+
+        submission = to_submission(solution, question)
+        placement = placement_for(question, submission)
+        report.imported.append(f"{question.frontend_id}. {question.title} ({solution.lang})")
+        if dry_run:
+            continue
+        index.record(question, submission)
+        path = repo_root / placement.topic_dir / placement.problem_dir / placement.filename
+        write_text(path, render_solution(question, submission))
+
+    if dry_run:
+        return report
+
+    if report.imported:
+        normalize_layout(repo_root, index, log=log, min_size=min_size)
+        cache.save()
+        index.save()
+    return report
 
 
 def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:
