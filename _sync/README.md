@@ -72,6 +72,29 @@ Picks up where the last run stopped and commits. Add `--push` if you've set a re
 | `--no-commit` | Write files but don't commit. |
 | `--push` | Push after committing. |
 
+## NeetCode
+
+NeetCode's judge is separate from LeetCode's, so problems solved there never
+appear in the LeetCode submission history. `--with-neetcode` refreshes a local
+clone of the NeetCode GitHub Sync repo (`NEETCODE_REPO` in `config.py`, cloned
+to the gitignored `_sync/.neetcode/`) and folds anything new into this tree:
+
+```
+python -m leetcode_sync --with-neetcode --push
+```
+
+The scheduled task does this by default. Imported solutions are marked
+`Accepted on NeetCode` in the file header and carry a **Source** column in their
+problem README. A problem already solved on LeetCode is left alone, and a later
+LeetCode submission always supersedes an import.
+
+NeetCode kept its original slugs after renaming its problems to match LeetCode,
+so `count-paths` is Unique Paths and `pow-x-n` is `powx-n`. Those are resolved
+through the `ALIASES` table in `neetcode.py`; if an import reports an unresolved
+slug, add it there.
+
+To import from a clone somewhere else instead: `--import-neetcode PATH`.
+
 ## Running it automatically
 
 `run_sync.ps1` wraps an incremental sync and appends to `logs/`. Register it as a

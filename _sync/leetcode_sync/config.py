@@ -187,3 +187,11 @@ def topic_rank(slug: str) -> int:
 # A topic folder holding fewer than this many problems is dissolved and its
 # problems fall through to their next-best tag. 1 disables the consolidation.
 TOPIC_MIN_SIZE = 2
+
+
+# The NeetCode GitHub Sync repository to fold in, as "owner/name" or a full git
+# URL. Kept here rather than in .env because --set-cookies rewrites that file.
+NEETCODE_REPO = "SpookyJumpyBeans/neetcode-submissions"
+
+# Local working clone of the above. Gitignored; refreshed before each import.
+NEETCODE_CLONE = SYNC_ROOT / ".neetcode"

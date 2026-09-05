@@ -10,3 +10,6 @@ venv/
 
 # Sync logs
 _sync/logs/
+
+# Working clone of the NeetCode sync repo
+_sync/.neetcode/

@@ -305,8 +305,8 @@ def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:
     )
 
 
-def commit(report: SyncReport, repo_root: Path = REPO_ROOT, push: bool = False,
-           log=print) -> bool:
+def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
+           subject: str | None = None, log=print) -> bool:
     """Stage and commit whatever the sync produced. Returns True if a commit was made."""
     if not report.changed:
         log("Nothing to commit.")
@@ -318,10 +318,11 @@ def commit(report: SyncReport, repo_root: Path = REPO_ROOT, push: bool = False,
         return False
 
     count = len(report.written)
-    if count == 1:
-        subject = f"Add solution: {report.written[0]}"
-    else:
-        subject = f"Sync {count} LeetCode solutions"
+    if subject is None:
+        if count == 1:
+            subject = f"Add solution: {report.written[0]}"
+        else:
+            subject = f"Sync {count} LeetCode solutions"
     if report.partial:
         subject += " (partial)"
     result = git("commit", "-m", subject, repo_root=repo_root)

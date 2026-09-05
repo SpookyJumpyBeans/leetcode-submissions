@@ -1,8 +1,11 @@
 <#
     Wrapper for the scheduled task: runs an incremental sync and logs the result.
-    Usage:  powershell -ExecutionPolicy Bypass -File "run_sync.ps1" [-Push] [-Full]
+    Usage:  powershell -ExecutionPolicy Bypass -File "run_sync.ps1" [-Push] [-Full] [-NoNeetCode]
+
+    By default this also refreshes the NeetCode clone and imports anything new
+    from it. Pass -NoNeetCode to sync LeetCode only.
 #>
-param([switch]$Push, [switch]$Full)
+param([switch]$Push, [switch]$Full, [switch]$NoNeetCode)
 
 $ErrorActionPreference = "Continue"
 $syncDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -13,6 +16,7 @@ $log = Join-Path $logDir ("sync-{0}.log" -f (Get-Date -Format "yyyy-MM"))
 $syncArgs = @("-m", "leetcode_sync")
 if ($Push) { $syncArgs += "--push" }
 if ($Full) { $syncArgs += "--full" }
+if (-not $NoNeetCode) { $syncArgs += "--with-neetcode" }
 
 Set-Location $syncDir
 

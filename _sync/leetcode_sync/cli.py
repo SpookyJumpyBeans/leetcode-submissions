@@ -7,7 +7,8 @@ import sys
 from pathlib import Path
 
 from .api import AuthError, LeetCodeClient, LeetCodeError
-from .config import Credentials, MissingCredentials
+from .config import NEETCODE_CLONE, NEETCODE_REPO, Credentials, MissingCredentials
+from .neetcode import ensure_clone
 from .setup import prompt_for_cookies
 from .state import SyncState
 from .sync import SyncReport, commit, run_import_neetcode, run_relayout, run_sync, summarize
@@ -28,6 +29,11 @@ def build_parser() -> argparse.ArgumentParser:
         metavar="PATH",
         default=None,
         help="Fold a NeetCode GitHub Sync repo into this tree (path to a local clone).",
+    )
+    parser.add_argument(
+        "--with-neetcode",
+        action="store_true",
+        help="After syncing LeetCode, refresh the NeetCode clone and import from it.",
     )
     parser.add_argument(
         "--include-existing",
@@ -149,6 +155,17 @@ def main(argv: list[str] | None = None) -> int:
 
     print(summarize(report))
 
+    neetcode_report = None
+    if args.with_neetcode and not args.dry_run:
+        source = ensure_clone(NEETCODE_REPO, NEETCODE_CLONE)
+        if source is None:
+            print("Skipping the NeetCode import; no clone available.")
+        else:
+            neetcode_report = run_import_neetcode(source, client)
+            print(f"NeetCode imported    : {len(neetcode_report.imported)}")
+            for line in neetcode_report.imported:
+                print(f"  + {line}")
+
     if args.dry_run:
         for path in report.written[:40]:
             print(f"  would write {path}")
@@ -157,5 +174,14 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if not args.no_commit:
-        commit(report, push=args.push)
+        combined = SyncReport(written=list(report.written))
+        subject = None
+        if neetcode_report and neetcode_report.imported:
+            combined.written += neetcode_report.imported
+            parts = []
+            if report.written:
+                parts.append(f"{len(report.written)} from LeetCode")
+            parts.append(f"{len(neetcode_report.imported)} from NeetCode")
+            subject = "Sync " + " and ".join(parts)
+        commit(combined, push=args.push, subject=subject)
     return 0

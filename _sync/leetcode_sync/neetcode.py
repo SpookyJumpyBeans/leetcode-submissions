@@ -136,3 +136,41 @@ def to_submission(solution: NeetCodeSolution, question: Question) -> Submission:
         code=code,
         source="neetcode",
     )
+
+
+def clone_url(repo: str) -> str:
+    """Accept "owner/name", a full URL, or a local path."""
+    if "://" in repo or repo.startswith("git@") or Path(repo).exists():
+        return repo
+    return f"https://github.com/{repo}.git"
+
+
+def ensure_clone(repo: str, destination: Path, log=print) -> Path | None:
+    """Clone the NeetCode repo, or fast-forward an existing clone.
+
+    Returns None rather than raising when the network is unavailable and there
+    is nothing on disk to fall back to - a scheduled run should not fail the
+    whole sync because GitHub was briefly unreachable.
+    """
+    url = clone_url(repo)
+    if (destination / ".git").is_dir():
+        result = subprocess.run(
+            ["git", "-C", str(destination), "pull", "--ff-only"],
+            capture_output=True, text=True, check=False,
+        )
+        if result.returncode != 0:
+            log("Could not refresh the NeetCode clone; using the copy on disk.")
+            log("  " + (result.stderr.strip().splitlines() or ["unknown error"])[-1])
+        return destination
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    # A full clone, not --depth 1: per-file commit dates are the solve dates.
+    result = subprocess.run(
+        ["git", "clone", "--quiet", url, str(destination)],
+        capture_output=True, text=True, check=False,
+    )
+    if result.returncode != 0:
+        log(f"Could not clone {repo}:")
+        log("  " + (result.stderr.strip().splitlines() or ["unknown error"])[-1])
+        return None
+    return destination

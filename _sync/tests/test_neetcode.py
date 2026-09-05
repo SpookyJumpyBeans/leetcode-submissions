@@ -143,3 +143,63 @@ def test_a_leetcode_submission_supersedes_an_imported_one(tmp_path):
     index.record(QUESTIONS["coin-change"], nc_sub)
     # Even with an older timestamp, a real LeetCode submission wins.
     assert index.has_newer("coin-change", "java", 100) is False
+
+
+def make_origin(tmp_path, contents="v1"):
+    """A local git repo standing in for the NeetCode remote."""
+    origin = tmp_path / "origin"
+    (origin / "Data Structures & Algorithms" / "coin-change").mkdir(parents=True)
+    (origin / "Data Structures & Algorithms" / "coin-change" / "submission-0.java").write_text(
+        contents, encoding="utf-8")
+    for args in (["init", "-q", "-b", "main"], ["add", "-A"],
+                 ["-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "seed"]):
+        subprocess.run(["git", "-C", str(origin), *args], check=True,
+                       capture_output=True)
+    return origin
+
+
+def test_clone_url_forms():
+    from leetcode_sync.neetcode import clone_url
+    assert clone_url("owner/name") == "https://github.com/owner/name.git"
+    assert clone_url("https://example.com/x.git") == "https://example.com/x.git"
+    assert clone_url("git@github.com:owner/name.git") == "git@github.com:owner/name.git"
+
+
+def test_ensure_clone_clones_then_fast_forwards(tmp_path):
+    from leetcode_sync.neetcode import ensure_clone
+    origin = make_origin(tmp_path)
+    dest = tmp_path / "clone"
+
+    assert ensure_clone(str(origin), dest, log=lambda *a: None) == dest
+    solution = dest / "Data Structures & Algorithms" / "coin-change" / "submission-0.java"
+    assert solution.read_text(encoding="utf-8") == "v1"
+
+    # A new commit upstream is picked up by the second call.
+    solution_upstream = origin / "Data Structures & Algorithms" / "coin-change" / "submission-0.java"
+    solution_upstream.write_text("v2", encoding="utf-8")
+    subprocess.run(["git", "-C", str(origin), "add", "-A"], check=True, capture_output=True)
+    subprocess.run(["git", "-C", str(origin), "-c", "user.name=t", "-c", "user.email=t@t",
+                    "commit", "-qm", "update"], check=True, capture_output=True)
+
+    assert ensure_clone(str(origin), dest, log=lambda *a: None) == dest
+    assert solution.read_text(encoding="utf-8") == "v2"
+
+
+def test_ensure_clone_returns_none_when_the_remote_is_unreachable(tmp_path):
+    from leetcode_sync.neetcode import ensure_clone
+    messages = []
+    assert ensure_clone(str(tmp_path / "nope"), tmp_path / "dest", log=messages.append) is None
+    assert any("Could not clone" in m for m in messages)
+
+
+def test_ensure_clone_keeps_a_stale_clone_when_the_pull_fails(tmp_path):
+    from leetcode_sync.neetcode import ensure_clone
+    origin = make_origin(tmp_path)
+    dest = tmp_path / "clone"
+    ensure_clone(str(origin), dest, log=lambda *a: None)
+    origin.rename(tmp_path / "origin-moved-away")  # remote vanishes
+
+    messages = []
+    assert ensure_clone(str(origin), dest, log=messages.append) == dest
+    assert any("using the copy on disk" in m for m in messages)
+    assert (dest / "Data Structures & Algorithms" / "coin-change" / "submission-0.java").exists()
