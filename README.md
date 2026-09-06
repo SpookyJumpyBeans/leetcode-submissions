@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**307 problems solved** &nbsp;·&nbsp; 85 Easy &nbsp;·&nbsp; 178 Medium &nbsp;·&nbsp; 44 Hard
+**309 problems solved** &nbsp;·&nbsp; 85 Easy &nbsp;·&nbsp; 178 Medium &nbsp;·&nbsp; 46 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -17,7 +17,7 @@ _Last synced 2026-09-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 57 | [Insert Interval](array/0057-insert-interval) | Medium | [Java](array/0057-insert-interval/solution.java) |
 | 674 | [Longest Continuous Increasing Subsequence](array/0674-longest-continuous-increasing-subsequence) | Easy | [Java](array/0674-longest-continuous-increasing-subsequence/solution.java) |
 
-## Backtracking (12)
+## Backtracking (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -27,6 +27,7 @@ _Last synced 2026-09-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 46 | [Permutations](backtracking/0046-permutations) | Medium | [Java](backtracking/0046-permutations/solution.java) |
 | 47 | [Permutations II](backtracking/0047-permutations-ii) | Medium | [C++](backtracking/0047-permutations-ii/solution.cpp) |
 | 51 | [N-Queens](backtracking/0051-n-queens) | Hard | [Java](backtracking/0051-n-queens/solution.java) |
+| 52 | [N-Queens II](backtracking/0052-n-queens-ii) | Hard | [Java](backtracking/0052-n-queens-ii/solution.java) |
 | 77 | [Combinations](backtracking/0077-combinations) | Medium | [C++](backtracking/0077-combinations/solution.cpp) [Java](backtracking/0077-combinations/solution.java) |
 | 78 | [Subsets](backtracking/0078-subsets) | Medium | [Java](backtracking/0078-subsets/solution.java) |
 | 79 | [Word Search](backtracking/0079-word-search) | Medium | [Java](backtracking/0079-word-search/solution.java) |
@@ -217,11 +218,12 @@ _Last synced 2026-09-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1462 | [Course Schedule IV](graph/1462-course-schedule-iv) | Medium | [C++](graph/1462-course-schedule-iv/solution.cpp) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 
-## Greedy (10)
+## Greedy (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 134 | [Gas Station](greedy/0134-gas-station) | Medium | [Java](greedy/0134-gas-station/solution.java) |
+| 135 | [Candy](greedy/0135-candy) | Hard | [Java](greedy/0135-candy/solution.java) |
 | 649 | [Dota2 Senate](greedy/0649-dota2-senate) | Medium | [Java](greedy/0649-dota2-senate/solution.java) |
 | 846 | [Hand of Straights](greedy/0846-hand-of-straights) | Medium | [Java](greedy/0846-hand-of-straights/solution.java) |
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |

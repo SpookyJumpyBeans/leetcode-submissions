@@ -973,6 +973,39 @@
       }
     ]
   },
+  "candy": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "135",
+      "paid_only": false,
+      "slug": "candy",
+      "title": "Candy",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132226533,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "54.8 MB",
+        "runtime": "82 ms",
+        "slug": "candy",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788655816,
+        "title": "Candy"
+      }
+    ]
+  },
   "capacity-to-ship-packages-within-d-days": {
     "question": {
       "difficulty": "Medium",
@@ -7285,6 +7318,39 @@
         "status": "Accepted",
         "timestamp": 1766185688,
         "title": "N-Queens"
+      }
+    ]
+  },
+  "n-queens-ii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "52",
+      "paid_only": false,
+      "slug": "n-queens-ii",
+      "title": "N-Queens II",
+      "topics": [
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Algorithm X",
+          "algorithm-x"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132215814,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "3 ms",
+        "slug": "n-queens-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788653180,
+        "title": "N-Queens II"
       }
     ]
   },

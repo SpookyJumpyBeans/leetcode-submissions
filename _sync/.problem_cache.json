@@ -572,6 +572,23 @@
       ]
     ]
   },
+  "candy": {
+    "difficulty": "Hard",
+    "frontend_id": "135",
+    "paid_only": false,
+    "slug": "candy",
+    "title": "Candy",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
   "capacity-to-ship-packages-within-d-days": {
     "difficulty": "Medium",
     "frontend_id": "1011",
@@ -4370,6 +4387,23 @@
         "Array",
         "array"
       ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Algorithm X",
+        "algorithm-x"
+      ]
+    ]
+  },
+  "n-queens-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "52",
+    "paid_only": false,
+    "slug": "n-queens-ii",
+    "title": "N-Queens II",
+    "topics": [
       [
         "Backtracking",
         "backtracking"
