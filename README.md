@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**309 problems solved** &nbsp;·&nbsp; 85 Easy &nbsp;·&nbsp; 178 Medium &nbsp;·&nbsp; 46 Hard
+**317 problems solved** &nbsp;·&nbsp; 88 Easy &nbsp;·&nbsp; 181 Medium &nbsp;·&nbsp; 48 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -52,7 +52,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
 | 1011 | [Capacity To Ship Packages Within D Days](binary-search/1011-capacity-to-ship-packages-within-d-days) | Medium | [C++](binary-search/1011-capacity-to-ship-packages-within-d-days/solution.cpp) |
 
-## Bit Manipulation (9)
+## Bit Manipulation (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -64,6 +64,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1342 | [Number of Steps to Reduce a Number to Zero](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero) | Easy | [C++](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.cpp) [Java](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.java) |
 | 1486 | [XOR Operation in an Array](bit-manipulation/1486-xor-operation-in-an-array) | Easy | [C++](bit-manipulation/1486-xor-operation-in-an-array/solution.cpp) |
 | 1720 | [Decode XORed Array](bit-manipulation/1720-decode-xored-array) | Easy | [Java](bit-manipulation/1720-decode-xored-array/solution.java) |
+| 3133 | [Minimum Array End](bit-manipulation/3133-minimum-array-end) | Medium | [Java](bit-manipulation/3133-minimum-array-end/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
 ## Bitmask (2)
@@ -97,13 +98,14 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 62 | [Unique Paths](combinatorics/0062-unique-paths) | Medium | [Java](combinatorics/0062-unique-paths/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (4)
+## Data Stream (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 295 | [Find Median from Data Stream](data-stream/0295-find-median-from-data-stream) | Hard | [Java](data-stream/0295-find-median-from-data-stream/solution.java) |
 | 703 | [Kth Largest Element in a Stream](data-stream/0703-kth-largest-element-in-a-stream) | Easy | [Java](data-stream/0703-kth-largest-element-in-a-stream/solution.java) |
 | 933 | [Number of Recent Calls](data-stream/0933-number-of-recent-calls) | Easy | [Java](data-stream/0933-number-of-recent-calls/solution.java) |
+| 1656 | [Design an Ordered Stream](data-stream/1656-design-an-ordered-stream) | Easy | [Java](data-stream/1656-design-an-ordered-stream/solution.java) |
 | 2013 | [Detect Squares](data-stream/2013-detect-squares) | Medium | [Java](data-stream/2013-detect-squares/solution.java) |
 
 ## Depth-First Search (3)
@@ -114,16 +116,18 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (6)
+## Design (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 303 | [Range Sum Query - Immutable](design/0303-range-sum-query-immutable) | Easy | [Java](design/0303-range-sum-query-immutable/solution.java) |
 | 304 | [Range Sum Query 2D - Immutable](design/0304-range-sum-query-2d-immutable) | Medium | [Java](design/0304-range-sum-query-2d-immutable/solution.java) |
 | 900 | [RLE Iterator](design/0900-rle-iterator) | Medium | [Java](design/0900-rle-iterator/solution.java) |
 | 981 | [Time Based Key-Value Store](design/0981-time-based-key-value-store) | Medium | [C++](design/0981-time-based-key-value-store/solution.cpp) [Java](design/0981-time-based-key-value-store/solution.java) |
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
 | 1865 | [Finding Pairs With a Certain Sum](design/1865-finding-pairs-with-a-certain-sum) | Medium | [Java](design/1865-finding-pairs-with-a-certain-sum/solution.java) |
+| 3242 | [Design Neighbor Sum Service](design/3242-design-neighbor-sum-service) | Easy | [Java](design/3242-design-neighbor-sum-service/solution.java) |
 
 ## Divide and Conquer (3)
 
@@ -141,7 +145,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
 
-## Dynamic Programming (47)
+## Dynamic Programming (49)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -157,7 +161,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 72 | [Edit Distance](dynamic-programming/0072-edit-distance) | Medium | [C++](dynamic-programming/0072-edit-distance/solution.cpp) |
 | 91 | [Decode Ways](dynamic-programming/0091-decode-ways) | Medium | [Java](dynamic-programming/0091-decode-ways/solution.java) |
 | 97 | [Interleaving String](dynamic-programming/0097-interleaving-string) | Medium | [Java](dynamic-programming/0097-interleaving-string/solution.java) |
-| 115 | [Distinct Subsequences](dynamic-programming/0115-distinct-subsequences) | Hard | [C++](dynamic-programming/0115-distinct-subsequences/solution.cpp) |
+| 115 | [Distinct Subsequences](dynamic-programming/0115-distinct-subsequences) | Hard | [C++](dynamic-programming/0115-distinct-subsequences/solution.cpp) [Java](dynamic-programming/0115-distinct-subsequences/solution.java) |
 | 121 | [Best Time to Buy and Sell Stock](dynamic-programming/0121-best-time-to-buy-and-sell-stock) | Easy | [C++](dynamic-programming/0121-best-time-to-buy-and-sell-stock/solution.cpp) [Java](dynamic-programming/0121-best-time-to-buy-and-sell-stock/solution.java) |
 | 122 | [Best Time to Buy and Sell Stock II](dynamic-programming/0122-best-time-to-buy-and-sell-stock-ii) | Medium | [C++](dynamic-programming/0122-best-time-to-buy-and-sell-stock-ii/solution.cpp) |
 | 124 | [Binary Tree Maximum Path Sum](dynamic-programming/0124-binary-tree-maximum-path-sum) | Hard | [Java](dynamic-programming/0124-binary-tree-maximum-path-sum/solution.java) |
@@ -173,6 +177,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 312 | [Burst Balloons](dynamic-programming/0312-burst-balloons) | Hard | [C++](dynamic-programming/0312-burst-balloons/solution.cpp) |
 | 322 | [Coin Change](dynamic-programming/0322-coin-change) | Medium | [Java](dynamic-programming/0322-coin-change/solution.java) |
 | 329 | [Longest Increasing Path in a Matrix](dynamic-programming/0329-longest-increasing-path-in-a-matrix) | Hard | [Java](dynamic-programming/0329-longest-increasing-path-in-a-matrix/solution.java) |
+| 337 | [House Robber III](dynamic-programming/0337-house-robber-iii) | Medium | [Java](dynamic-programming/0337-house-robber-iii/solution.java) |
 | 338 | [Counting Bits](dynamic-programming/0338-counting-bits) | Easy | [Java](dynamic-programming/0338-counting-bits/solution.java) |
 | 343 | [Integer Break](dynamic-programming/0343-integer-break) | Medium | [Java](dynamic-programming/0343-integer-break/solution.java) |
 | 377 | [Combination Sum IV](dynamic-programming/0377-combination-sum-iv) | Medium | [C++](dynamic-programming/0377-combination-sum-iv/solution.cpp) |
@@ -188,6 +193,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
+| 1049 | [Last Stone Weight II](dynamic-programming/1049-last-stone-weight-ii) | Medium | [Java](dynamic-programming/1049-last-stone-weight-ii/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
@@ -370,11 +376,12 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 215 | [Kth Largest Element in an Array](quickselect/0215-kth-largest-element-in-an-array) | Medium | [Java](quickselect/0215-kth-largest-element-in-an-array/solution.java) |
 | 973 | [K Closest Points to Origin](quickselect/0973-k-closest-points-to-origin) | Medium | [Java](quickselect/0973-k-closest-points-to-origin/solution.java) |
 
-## Segment Tree (3)
+## Segment Tree (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 732 | [My Calendar III](segment-tree/0732-my-calendar-iii) | Hard | [Java](segment-tree/0732-my-calendar-iii/solution.java) |
+| 1157 | [Online Majority Element In Subarray](segment-tree/1157-online-majority-element-in-subarray) | Hard | [Java](segment-tree/1157-online-majority-element-in-subarray/solution.java) |
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
 
@@ -506,7 +513,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (13)
+## Union-Find (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -519,6 +526,7 @@ _Last synced 2026-09-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 695 | [Max Area of Island](union-find/0695-max-area-of-island) | Medium | [Java](union-find/0695-max-area-of-island/solution.java) |
 | 721 | [Accounts Merge](union-find/0721-accounts-merge) | Medium | [C++](union-find/0721-accounts-merge/solution.cpp) |
 | 778 | [Swim in Rising Water](union-find/0778-swim-in-rising-water) | Hard | [Java](union-find/0778-swim-in-rising-water/solution.java) |
+| 1489 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Java](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
 | 1631 | [Path With Minimum Effort](union-find/1631-path-with-minimum-effort) | Medium | [Java](union-find/1631-path-with-minimum-effort/solution.java) |
 | 2709 | [Greatest Common Divisor Traversal](union-find/2709-greatest-common-divisor-traversal) | Hard | [Java](union-find/2709-greatest-common-divisor-traversal/solution.java) |

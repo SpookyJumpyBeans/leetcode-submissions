@@ -2368,6 +2368,47 @@
       }
     ]
   },
+  "design-an-ordered-stream": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1656",
+      "paid_only": false,
+      "slug": "design-an-ordered-stream",
+      "title": "Design an Ordered Stream",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133278248,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.6 MB",
+        "runtime": "75 ms",
+        "slug": "design-an-ordered-stream",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788726802,
+        "title": "Design an Ordered Stream"
+      }
+    ]
+  },
   "design-circular-queue": {
     "question": {
       "difficulty": "Medium",
@@ -2494,6 +2535,51 @@
         "status": "Accepted",
         "timestamp": 1788239781,
         "title": "Design HashSet"
+      }
+    ]
+  },
+  "design-neighbor-sum-service": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3242",
+      "paid_only": false,
+      "slug": "design-neighbor-sum-service",
+      "title": "Design Neighbor Sum Service",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133274846,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.5 MB",
+        "runtime": "18 ms",
+        "slug": "design-neighbor-sum-service",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788726388,
+        "title": "Design Neighbor Sum Service"
       }
     ]
   },
@@ -2735,6 +2821,18 @@
         "source": "neetcode",
         "status": "Accepted",
         "timestamp": 1788566040,
+        "title": "Distinct Subsequences"
+      },
+      {
+        "id": 2133256062,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "54.3 MB",
+        "runtime": "22 ms",
+        "slug": "distinct-subsequences",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788724363,
         "title": "Distinct Subsequences"
       }
     ]
@@ -3086,6 +3184,63 @@
         "status": "Accepted",
         "timestamp": 1786134927,
         "title": "Find All Anagrams in a String"
+      }
+    ]
+  },
+  "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1489",
+      "paid_only": false,
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "topics": [
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Minimum Spanning Tree",
+          "minimum-spanning-tree"
+        ],
+        [
+          "Strongly Connected Component",
+          "strongly-connected-component"
+        ],
+        [
+          "Prim's Algorithm",
+          "prims-algorithm"
+        ],
+        [
+          "Kruskal's Algorithm",
+          "kruskals-algorithm"
+        ],
+        [
+          "Bor\u016fvka's Algorithm",
+          "boruvkas-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132568958,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.5 MB",
+        "runtime": "162 ms",
+        "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788678484,
+        "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree"
       }
     ]
   },
@@ -4119,6 +4274,51 @@
       }
     ]
   },
+  "house-robber-iii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "337",
+      "paid_only": false,
+      "slug": "house-robber-iii",
+      "title": "House Robber III",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "DP on Trees",
+          "dp-on-trees"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132512789,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "0 ms",
+        "slug": "house-robber-iii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788675023,
+        "title": "House Robber III"
+      }
+    ]
+  },
   "implement-queue-using-stacks": {
     "question": {
       "difficulty": "Easy",
@@ -5032,6 +5232,47 @@
         "status": "Accepted",
         "timestamp": 1764452320,
         "title": "Last Stone Weight"
+      }
+    ]
+  },
+  "last-stone-weight-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1049",
+      "paid_only": false,
+      "slug": "last-stone-weight-ii",
+      "title": "Last Stone Weight II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Knapsack Problem",
+          "knapsack-problem"
+        ],
+        [
+          "0-1 Knapsack",
+          "0-1-knapsack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132497144,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.5 MB",
+        "runtime": "2 ms",
+        "slug": "last-stone-weight-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788674038,
+        "title": "Last Stone Weight II"
       }
     ]
   },
@@ -6887,6 +7128,35 @@
       }
     ]
   },
+  "minimum-array-end": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3133",
+      "paid_only": false,
+      "slug": "minimum-array-end",
+      "title": "Minimum Array End",
+      "topics": [
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2132236831,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.6 MB",
+        "runtime": "1 ms",
+        "slug": "minimum-array-end",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788658126,
+        "title": "Minimum Array End"
+      }
+    ]
+  },
   "minimum-cost-to-reach-destination-in-time": {
     "question": {
       "difficulty": "Hard",
@@ -7722,6 +7992,59 @@
       }
     ]
   },
+  "online-majority-element-in-subarray": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1157",
+      "paid_only": false,
+      "slug": "online-majority-element-in-subarray",
+      "title": "Online Majority Element In Subarray",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Binary Indexed Tree",
+          "binary-indexed-tree"
+        ],
+        [
+          "Segment Tree",
+          "segment-tree"
+        ],
+        [
+          "Sqrt Decomposition",
+          "sqrt-decomposition"
+        ],
+        [
+          "Boyer\u2013Moore Majority Vote Algorithm",
+          "boyer-moore-majority-vote-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133358951,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "88 MB",
+        "runtime": "121 ms",
+        "slug": "online-majority-element-in-subarray",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788741950,
+        "title": "Online Majority Element In Subarray"
+      }
+    ]
+  },
   "online-stock-span": {
     "question": {
       "difficulty": "Medium",
@@ -8475,6 +8798,43 @@
         "status": "Accepted",
         "timestamp": 1787607095,
         "title": "Range Sum Query 2D - Immutable"
+      }
+    ]
+  },
+  "range-sum-query-immutable": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "303",
+      "paid_only": false,
+      "slug": "range-sum-query-immutable",
+      "title": "Range Sum Query - Immutable",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133267647,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "7 ms",
+        "slug": "range-sum-query-immutable",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788725575,
+        "title": "Range Sum Query - Immutable"
       }
     ]
   },

@@ -1378,6 +1378,31 @@
       ]
     ]
   },
+  "design-an-ordered-stream": {
+    "difficulty": "Easy",
+    "frontend_id": "1656",
+    "paid_only": false,
+    "slug": "design-an-ordered-stream",
+    "title": "Design an Ordered Stream",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
   "design-circular-queue": {
     "difficulty": "Medium",
     "frontend_id": "622",
@@ -1458,6 +1483,35 @@
       [
         "Hash Function",
         "hash-function"
+      ]
+    ]
+  },
+  "design-neighbor-sum-service": {
+    "difficulty": "Easy",
+    "frontend_id": "3242",
+    "paid_only": false,
+    "slug": "design-neighbor-sum-service",
+    "title": "Design Neighbor Sum Service",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
@@ -1821,6 +1875,47 @@
       [
         "Sliding Window",
         "sliding-window"
+      ]
+    ]
+  },
+  "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree": {
+    "difficulty": "Hard",
+    "frontend_id": "1489",
+    "paid_only": false,
+    "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+    "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+    "topics": [
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Minimum Spanning Tree",
+        "minimum-spanning-tree"
+      ],
+      [
+        "Strongly Connected Component",
+        "strongly-connected-component"
+      ],
+      [
+        "Prim's Algorithm",
+        "prims-algorithm"
+      ],
+      [
+        "Kruskal's Algorithm",
+        "kruskals-algorithm"
+      ],
+      [
+        "Bor\u016fvka's Algorithm",
+        "boruvkas-algorithm"
       ]
     ]
   },
@@ -2447,6 +2542,35 @@
       ]
     ]
   },
+  "house-robber-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "337",
+    "paid_only": false,
+    "slug": "house-robber-iii",
+    "title": "House Robber III",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "DP on Trees",
+        "dp-on-trees"
+      ]
+    ]
+  },
   "implement-queue-using-stacks": {
     "difficulty": "Easy",
     "frontend_id": "232",
@@ -2996,6 +3120,31 @@
       [
         "Heap (Priority Queue)",
         "heap-priority-queue"
+      ]
+    ]
+  },
+  "last-stone-weight-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "1049",
+    "paid_only": false,
+    "slug": "last-stone-weight-ii",
+    "title": "Last Stone Weight II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Knapsack Problem",
+        "knapsack-problem"
+      ],
+      [
+        "0-1 Knapsack",
+        "0-1-knapsack"
       ]
     ]
   },
@@ -4130,6 +4279,19 @@
       ]
     ]
   },
+  "minimum-array-end": {
+    "difficulty": "Medium",
+    "frontend_id": "3133",
+    "paid_only": false,
+    "slug": "minimum-array-end",
+    "title": "Minimum Array End",
+    "topics": [
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
   "minimum-cost-to-reach-destination-in-time": {
     "difficulty": "Hard",
     "frontend_id": "1928",
@@ -4635,6 +4797,43 @@
       ]
     ]
   },
+  "online-majority-element-in-subarray": {
+    "difficulty": "Hard",
+    "frontend_id": "1157",
+    "paid_only": false,
+    "slug": "online-majority-element-in-subarray",
+    "title": "Online Majority Element In Subarray",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Binary Indexed Tree",
+        "binary-indexed-tree"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ],
+      [
+        "Sqrt Decomposition",
+        "sqrt-decomposition"
+      ],
+      [
+        "Boyer\u2013Moore Majority Vote Algorithm",
+        "boyer-moore-majority-vote-algorithm"
+      ]
+    ]
+  },
   "online-stock-span": {
     "difficulty": "Medium",
     "frontend_id": "901",
@@ -5083,6 +5282,27 @@
       [
         "Matrix",
         "matrix"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
+  "range-sum-query-immutable": {
+    "difficulty": "Easy",
+    "frontend_id": "303",
+    "paid_only": false,
+    "slug": "range-sum-query-immutable",
+    "title": "Range Sum Query - Immutable",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Design",
+        "design"
       ],
       [
         "Prefix Sum",
