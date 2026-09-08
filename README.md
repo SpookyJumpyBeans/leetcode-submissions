@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**317 problems solved** &nbsp;·&nbsp; 88 Easy &nbsp;·&nbsp; 181 Medium &nbsp;·&nbsp; 48 Hard
+**320 problems solved** &nbsp;·&nbsp; 88 Easy &nbsp;·&nbsp; 183 Medium &nbsp;·&nbsp; 49 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -98,7 +98,7 @@ _Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 62 | [Unique Paths](combinatorics/0062-unique-paths) | Medium | [Java](combinatorics/0062-unique-paths/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (5)
+## Data Stream (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -107,6 +107,7 @@ _Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 933 | [Number of Recent Calls](data-stream/0933-number-of-recent-calls) | Easy | [Java](data-stream/0933-number-of-recent-calls/solution.java) |
 | 1656 | [Design an Ordered Stream](data-stream/1656-design-an-ordered-stream) | Easy | [Java](data-stream/1656-design-an-ordered-stream/solution.java) |
 | 2013 | [Detect Squares](data-stream/2013-detect-squares) | Medium | [Java](data-stream/2013-detect-squares/solution.java) |
+| 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |
 
 ## Depth-First Search (3)
 
@@ -137,13 +138,14 @@ _Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 190 | [Reverse Bits](divide-and-conquer/0190-reverse-bits) | Easy | [Java](divide-and-conquer/0190-reverse-bits/solution.java) |
 | 191 | [Number of 1 Bits](divide-and-conquer/0191-number-of-1-bits) | Easy | [Java](divide-and-conquer/0191-number-of-1-bits/solution.java) |
 
-## Doubly-Linked List (3)
+## Doubly-Linked List (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 146 | [LRU Cache](doubly-linked-list/0146-lru-cache) | Medium | [Java](doubly-linked-list/0146-lru-cache/solution.java) |
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
+| 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
 ## Dynamic Programming (49)
 
@@ -353,12 +355,13 @@ _Last synced 2026-09-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 
-## Ordered Set (2)
+## Ordered Set (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 895 | [Maximum Frequency Stack](ordered-set/0895-maximum-frequency-stack) | Hard | [Java](ordered-set/0895-maximum-frequency-stack/solution.java) |
 | 2251 | [Number of Flowers in Full Bloom](ordered-set/2251-number-of-flowers-in-full-bloom) | Hard | [Java](ordered-set/2251-number-of-flowers-in-full-bloom/solution.java) |
+| 2336 | [Smallest Number in Infinite Set](ordered-set/2336-smallest-number-in-infinite-set) | Medium | [Java](ordered-set/2336-smallest-number-in-infinite-set/solution.java) |
 
 ## Prefix Sum (4)
 

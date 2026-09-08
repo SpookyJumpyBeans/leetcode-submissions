@@ -2328,6 +2328,55 @@
       }
     ]
   },
+  "design-a-text-editor": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2296",
+      "paid_only": false,
+      "slug": "design-a-text-editor",
+      "title": "Design a Text Editor",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133510679,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "89.8 MB",
+        "runtime": "215 ms",
+        "slug": "design-a-text-editor",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788758946,
+        "title": "Design a Text Editor"
+      }
+    ]
+  },
   "design-add-and-search-words-data-structure": {
     "question": {
       "difficulty": "Medium",
@@ -10164,6 +10213,47 @@
       }
     ]
   },
+  "smallest-number-in-infinite-set": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2336",
+      "paid_only": false,
+      "slug": "smallest-number-in-infinite-set",
+      "title": "Smallest Number in Infinite Set",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133369456,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.1 MB",
+        "runtime": "10 ms",
+        "slug": "smallest-number-in-infinite-set",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788744045,
+        "title": "Smallest Number in Infinite Set"
+      }
+    ]
+  },
   "snapshot-array": {
     "question": {
       "difficulty": "Medium",
@@ -10587,6 +10677,51 @@
         "status": "Accepted",
         "timestamp": 1786082410,
         "title": "Step-By-Step Directions From a Binary Tree Node to Another"
+      }
+    ]
+  },
+  "stock-price-fluctuation": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2034",
+      "paid_only": false,
+      "slug": "stock-price-fluctuation",
+      "title": "Stock Price Fluctuation ",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2133492257,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "132.5 MB",
+        "runtime": "86 ms",
+        "slug": "stock-price-fluctuation",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788757726,
+        "title": "Stock Price Fluctuation "
       }
     ]
   },

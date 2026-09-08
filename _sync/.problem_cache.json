@@ -1353,6 +1353,39 @@
       ]
     ]
   },
+  "design-a-text-editor": {
+    "difficulty": "Hard",
+    "frontend_id": "2296",
+    "paid_only": false,
+    "slug": "design-a-text-editor",
+    "title": "Design a Text Editor",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
+      ]
+    ]
+  },
   "design-add-and-search-words-data-structure": {
     "difficulty": "Medium",
     "frontend_id": "211",
@@ -6075,6 +6108,31 @@
       ]
     ]
   },
+  "smallest-number-in-infinite-set": {
+    "difficulty": "Medium",
+    "frontend_id": "2336",
+    "paid_only": false,
+    "slug": "smallest-number-in-infinite-set",
+    "title": "Smallest Number in Infinite Set",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
   "snapshot-array": {
     "difficulty": "Medium",
     "frontend_id": "1146",
@@ -6346,6 +6404,35 @@
       [
         "Lowest Common Ancestor",
         "lowest-common-ancestor"
+      ]
+    ]
+  },
+  "stock-price-fluctuation": {
+    "difficulty": "Medium",
+    "frontend_id": "2034",
+    "paid_only": false,
+    "slug": "stock-price-fluctuation",
+    "title": "Stock Price Fluctuation ",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
       ]
     ]
   },
