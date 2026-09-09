@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**320 problems solved** &nbsp;·&nbsp; 88 Easy &nbsp;·&nbsp; 183 Medium &nbsp;·&nbsp; 49 Hard
+**323 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 185 Medium &nbsp;·&nbsp; 49 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -117,7 +117,7 @@ _Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (8)
+## Design (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -128,6 +128,7 @@ _Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
 | 1865 | [Finding Pairs With a Certain Sum](design/1865-finding-pairs-with-a-certain-sum) | Medium | [Java](design/1865-finding-pairs-with-a-certain-sum/solution.java) |
+| 2671 | [Frequency Tracker](design/2671-frequency-tracker) | Medium | [Java](design/2671-frequency-tracker/solution.java) |
 | 3242 | [Design Neighbor Sum Service](design/3242-design-neighbor-sum-service) | Easy | [Java](design/3242-design-neighbor-sum-service/solution.java) |
 
 ## Divide and Conquer (3)
@@ -289,7 +290,7 @@ _Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
 | 1095 | [Find in Mountain Array](interactive/1095-find-in-mountain-array) | Hard | [Java](interactive/1095-find-in-mountain-array/solution.java) |
 
-## Linked List (16)
+## Linked List (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -306,11 +307,12 @@ _Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
 | 622 | [Design Circular Queue](linked-list/0622-design-circular-queue) | Medium | [C++](linked-list/0622-design-circular-queue/solution.cpp) |
+| 641 | [Design Circular Deque](linked-list/0641-design-circular-deque) | Medium | [Java](linked-list/0641-design-circular-deque/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
 | 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
-## Math (6)
+## Math (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -320,6 +322,7 @@ _Last synced 2026-09-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
+| 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |
 
 ## Matrix (5)
 

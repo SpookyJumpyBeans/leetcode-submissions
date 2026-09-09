@@ -1782,6 +1782,35 @@
       }
     ]
   },
+  "count-commas-in-range": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3870",
+      "paid_only": false,
+      "slug": "count-commas-in-range",
+      "title": "Count Commas in Range",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2134579514,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.5 MB",
+        "runtime": "1 ms",
+        "slug": "count-commas-in-range",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788839527,
+        "title": "Count Commas in Range"
+      }
+    ]
+  },
   "count-complete-tree-nodes": {
     "question": {
       "difficulty": "Medium",
@@ -2455,6 +2484,47 @@
         "status": "Accepted",
         "timestamp": 1788726802,
         "title": "Design an Ordered Stream"
+      }
+    ]
+  },
+  "design-circular-deque": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "641",
+      "paid_only": false,
+      "slug": "design-circular-deque",
+      "title": "Design Circular Deque",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2134681451,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.5 MB",
+        "runtime": "4 ms",
+        "slug": "design-circular-deque",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788845570,
+        "title": "Design Circular Deque"
       }
     ]
   },
@@ -3940,6 +4010,39 @@
         "status": "Accepted",
         "timestamp": 1659924772,
         "title": "Flood Fill"
+      }
+    ]
+  },
+  "frequency-tracker": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2671",
+      "paid_only": false,
+      "slug": "frequency-tracker",
+      "title": "Frequency Tracker",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2134718176,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "109.8 MB",
+        "runtime": "36 ms",
+        "slug": "frequency-tracker",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788847445,
+        "title": "Frequency Tracker"
       }
     ]
   },
