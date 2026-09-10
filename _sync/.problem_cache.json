@@ -1499,6 +1499,35 @@
       ]
     ]
   },
+  "design-event-manager": {
+    "difficulty": "Medium",
+    "frontend_id": "3885",
+    "paid_only": false,
+    "slug": "design-event-manager",
+    "title": "Design Event Manager",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
+      ]
+    ]
+  },
   "design-hashmap": {
     "difficulty": "Easy",
     "frontend_id": "706",
@@ -1725,6 +1754,23 @@
     "paid_only": false,
     "slug": "distinct-subsequences",
     "title": "Distinct Subsequences",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
+  "distinct-subsequences-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "940",
+    "paid_only": false,
+    "slug": "distinct-subsequences-ii",
+    "title": "Distinct Subsequences II",
     "topics": [
       [
         "String",

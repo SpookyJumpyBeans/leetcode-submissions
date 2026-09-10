@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**323 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 185 Medium &nbsp;·&nbsp; 49 Hard
+**325 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 186 Medium &nbsp;·&nbsp; 50 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -148,7 +148,7 @@ _Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (49)
+## Dynamic Programming (50)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -195,6 +195,7 @@ _Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 678 | [Valid Parenthesis String](dynamic-programming/0678-valid-parenthesis-string) | Medium | [Java](dynamic-programming/0678-valid-parenthesis-string/solution.java) |
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
+| 940 | [Distinct Subsequences II](dynamic-programming/0940-distinct-subsequences-ii) | Hard | [Java](dynamic-programming/0940-distinct-subsequences-ii/solution.java) |
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
 | 1049 | [Last Stone Weight II](dynamic-programming/1049-last-stone-weight-ii) | Medium | [Java](dynamic-programming/1049-last-stone-weight-ii/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
@@ -306,7 +307,7 @@ _Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 206 | [Reverse Linked List](linked-list/0206-reverse-linked-list) | Easy | [Java](linked-list/0206-reverse-linked-list/solution.java) |
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
-| 622 | [Design Circular Queue](linked-list/0622-design-circular-queue) | Medium | [C++](linked-list/0622-design-circular-queue/solution.cpp) |
+| 622 | [Design Circular Queue](linked-list/0622-design-circular-queue) | Medium | [C++](linked-list/0622-design-circular-queue/solution.cpp) [Java](linked-list/0622-design-circular-queue/solution.java) |
 | 641 | [Design Circular Deque](linked-list/0641-design-circular-deque) | Medium | [Java](linked-list/0641-design-circular-deque/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
@@ -358,13 +359,14 @@ _Last synced 2026-09-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 
-## Ordered Set (3)
+## Ordered Set (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 895 | [Maximum Frequency Stack](ordered-set/0895-maximum-frequency-stack) | Hard | [Java](ordered-set/0895-maximum-frequency-stack/solution.java) |
 | 2251 | [Number of Flowers in Full Bloom](ordered-set/2251-number-of-flowers-in-full-bloom) | Hard | [Java](ordered-set/2251-number-of-flowers-in-full-bloom/solution.java) |
 | 2336 | [Smallest Number in Infinite Set](ordered-set/2336-smallest-number-in-infinite-set) | Medium | [Java](ordered-set/2336-smallest-number-in-infinite-set/solution.java) |
+| 3885 | [Design Event Manager](ordered-set/3885-design-event-manager) | Medium | [Java](ordered-set/3885-design-event-manager/solution.java) |
 
 ## Prefix Sum (4)
 

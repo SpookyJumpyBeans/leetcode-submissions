@@ -2566,6 +2566,63 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Design Circular Queue"
+      },
+      {
+        "id": 2136926335,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "4 ms",
+        "slug": "design-circular-queue",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789001939,
+        "title": "Design Circular Queue"
+      }
+    ]
+  },
+  "design-event-manager": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3885",
+      "paid_only": false,
+      "slug": "design-event-manager",
+      "title": "Design Event Manager",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2136910797,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "227.7 MB",
+        "runtime": "187 ms",
+        "slug": "design-event-manager",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788998959,
+        "title": "Design Event Manager"
       }
     ]
   },
@@ -2953,6 +3010,39 @@
         "status": "Accepted",
         "timestamp": 1788724363,
         "title": "Distinct Subsequences"
+      }
+    ]
+  },
+  "distinct-subsequences-ii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "940",
+      "paid_only": false,
+      "slug": "distinct-subsequences-ii",
+      "title": "Distinct Subsequences II",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2136900173,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.3 MB",
+        "runtime": "2 ms",
+        "slug": "distinct-subsequences-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1788996657,
+        "title": "Distinct Subsequences II"
       }
     ]
   },
