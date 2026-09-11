@@ -1586,6 +1586,31 @@
       ]
     ]
   },
+  "design-memory-allocator": {
+    "difficulty": "Medium",
+    "frontend_id": "2502",
+    "paid_only": false,
+    "slug": "design-memory-allocator",
+    "title": "Design Memory Allocator",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "design-neighbor-sum-service": {
     "difficulty": "Easy",
     "frontend_id": "3242",
@@ -1633,6 +1658,31 @@
       [
         "Counting",
         "counting"
+      ]
+    ]
+  },
+  "design-ride-sharing-system": {
+    "difficulty": "Medium",
+    "frontend_id": "3829",
+    "paid_only": false,
+    "slug": "design-ride-sharing-system",
+    "title": "Design Ride Sharing System",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
       ]
     ]
   },
@@ -7040,6 +7090,31 @@
       [
         "Simulation",
         "simulation"
+      ]
+    ]
+  },
+  "throne-inheritance": {
+    "difficulty": "Medium",
+    "frontend_id": "1600",
+    "paid_only": false,
+    "slug": "throne-inheritance",
+    "title": "Throne Inheritance",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Design",
+        "design"
       ]
     ]
   },

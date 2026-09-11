@@ -2714,6 +2714,47 @@
       }
     ]
   },
+  "design-memory-allocator": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2502",
+      "paid_only": false,
+      "slug": "design-memory-allocator",
+      "title": "Design Memory Allocator",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2137967565,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "13 ms",
+        "slug": "design-memory-allocator",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789075473,
+        "title": "Design Memory Allocator"
+      }
+    ]
+  },
   "design-neighbor-sum-service": {
     "question": {
       "difficulty": "Easy",
@@ -2792,6 +2833,47 @@
         "status": "Accepted",
         "timestamp": 1787184657,
         "title": "Design Parking System"
+      }
+    ]
+  },
+  "design-ride-sharing-system": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3829",
+      "paid_only": false,
+      "slug": "design-ride-sharing-system",
+      "title": "Design Ride Sharing System",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2137169462,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.3 MB",
+        "runtime": "61 ms",
+        "slug": "design-ride-sharing-system",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789022220,
+        "title": "Design Ride Sharing System"
       }
     ]
   },
@@ -11692,6 +11774,47 @@
         "status": "Accepted",
         "timestamp": 1786419136,
         "title": "Text Justification"
+      }
+    ]
+  },
+  "throne-inheritance": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1600",
+      "paid_only": false,
+      "slug": "throne-inheritance",
+      "title": "Throne Inheritance",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2137996072,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "122.1 MB",
+        "runtime": "198 ms",
+        "slug": "throne-inheritance",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789080973,
+        "title": "Throne Inheritance"
       }
     ]
   },

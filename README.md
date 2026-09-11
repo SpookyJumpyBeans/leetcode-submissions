@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**325 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 186 Medium &nbsp;·&nbsp; 50 Hard
+**328 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 189 Medium &nbsp;·&nbsp; 50 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -98,7 +98,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 62 | [Unique Paths](combinatorics/0062-unique-paths) | Medium | [Java](combinatorics/0062-unique-paths/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (6)
+## Data Stream (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -108,6 +108,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1656 | [Design an Ordered Stream](data-stream/1656-design-an-ordered-stream) | Easy | [Java](data-stream/1656-design-an-ordered-stream/solution.java) |
 | 2013 | [Detect Squares](data-stream/2013-detect-squares) | Medium | [Java](data-stream/2013-detect-squares/solution.java) |
 | 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |
+| 3829 | [Design Ride Sharing System](data-stream/3829-design-ride-sharing-system) | Medium | [Java](data-stream/3829-design-ride-sharing-system/solution.java) |
 
 ## Depth-First Search (3)
 
@@ -117,7 +118,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (9)
+## Design (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -128,6 +129,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
 | 1865 | [Finding Pairs With a Certain Sum](design/1865-finding-pairs-with-a-certain-sum) | Medium | [Java](design/1865-finding-pairs-with-a-certain-sum/solution.java) |
+| 2502 | [Design Memory Allocator](design/2502-design-memory-allocator) | Medium | [Java](design/2502-design-memory-allocator/solution.java) |
 | 2671 | [Frequency Tracker](design/2671-frequency-tracker) | Medium | [Java](design/2671-frequency-tracker/solution.java) |
 | 3242 | [Design Neighbor Sum Service](design/3242-design-neighbor-sum-service) | Easy | [Java](design/3242-design-neighbor-sum-service/solution.java) |
 
@@ -456,7 +458,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (21)
+## Tree (22)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -479,6 +481,7 @@ _Last synced 2026-09-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 701 | [Insert into a Binary Search Tree](tree/0701-insert-into-a-binary-search-tree) | Medium | [C++](tree/0701-insert-into-a-binary-search-tree/solution.cpp) |
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
+| 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 
