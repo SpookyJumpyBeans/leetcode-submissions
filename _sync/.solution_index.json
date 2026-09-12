@@ -540,6 +540,55 @@
       }
     ]
   },
+  "binary-search-tree-iterator": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "173",
+      "paid_only": false,
+      "slug": "binary-search-tree-iterator",
+      "title": "Binary Search Tree Iterator",
+      "topics": [
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Iterator",
+          "iterator"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2138163889,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "50.4 MB",
+        "runtime": "17 ms",
+        "slug": "binary-search-tree-iterator",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789102787,
+        "title": "Binary Search Tree Iterator"
+      }
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "question": {
       "difficulty": "Easy",
@@ -2357,6 +2406,43 @@
       }
     ]
   },
+  "design-a-stack-with-increment-operation": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1381",
+      "paid_only": false,
+      "slug": "design-a-stack-with-increment-operation",
+      "title": "Design a Stack With Increment Operation",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2138091670,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "5 ms",
+        "slug": "design-a-stack-with-increment-operation",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789097410,
+        "title": "Design a Stack With Increment Operation"
+      }
+    ]
+  },
   "design-a-text-editor": {
     "question": {
       "difficulty": "Hard",
@@ -2484,6 +2570,55 @@
         "status": "Accepted",
         "timestamp": 1788726802,
         "title": "Design an Ordered Stream"
+      }
+    ]
+  },
+  "design-browser-history": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1472",
+      "paid_only": false,
+      "slug": "design-browser-history",
+      "title": "Design Browser History",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2138111264,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "53.6 MB",
+        "runtime": "46 ms",
+        "slug": "design-browser-history",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789099180,
+        "title": "Design Browser History"
       }
     ]
   },
@@ -2874,6 +3009,47 @@
         "status": "Accepted",
         "timestamp": 1789022220,
         "title": "Design Ride Sharing System"
+      }
+    ]
+  },
+  "design-task-manager": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3408",
+      "paid_only": false,
+      "slug": "design-task-manager",
+      "title": "Design Task Manager",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2138142505,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "270.4 MB",
+        "runtime": "348 ms",
+        "slug": "design-task-manager",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789101405,
+        "title": "Design Task Manager"
       }
     ]
   },
@@ -3736,14 +3912,15 @@
     },
     "submissions": [
       {
-        "id": 1859353483,
+        "id": 2138081417,
         "lang": "java",
         "lang_name": "Java",
         "memory": "111.6 MB",
-        "runtime": "124 ms",
+        "runtime": "136 ms",
         "slug": "find-median-from-data-stream",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1766106097,
+        "timestamp": 1789096259,
         "title": "Find Median from Data Stream"
       }
     ]

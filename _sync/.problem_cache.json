@@ -305,6 +305,39 @@
       ]
     ]
   },
+  "binary-search-tree-iterator": {
+    "difficulty": "Medium",
+    "frontend_id": "173",
+    "paid_only": false,
+    "slug": "binary-search-tree-iterator",
+    "title": "Binary Search Tree Iterator",
+    "topics": [
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Iterator",
+        "iterator"
+      ]
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "difficulty": "Easy",
     "frontend_id": "94",
@@ -1366,6 +1399,27 @@
       ]
     ]
   },
+  "design-a-stack-with-increment-operation": {
+    "difficulty": "Medium",
+    "frontend_id": "1381",
+    "paid_only": false,
+    "slug": "design-a-stack-with-increment-operation",
+    "title": "Design a Stack With Increment Operation",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ]
+    ]
+  },
   "design-a-text-editor": {
     "difficulty": "Hard",
     "frontend_id": "2296",
@@ -1442,6 +1496,39 @@
       [
         "Design",
         "design"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
+  "design-browser-history": {
+    "difficulty": "Medium",
+    "frontend_id": "1472",
+    "paid_only": false,
+    "slug": "design-browser-history",
+    "title": "Design Browser History",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
       ],
       [
         "Data Stream",
@@ -1683,6 +1770,31 @@
       [
         "Data Stream",
         "data-stream"
+      ]
+    ]
+  },
+  "design-task-manager": {
+    "difficulty": "Medium",
+    "frontend_id": "3408",
+    "paid_only": false,
+    "slug": "design-task-manager",
+    "title": "Design Task Manager",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
       ]
     ]
   },

@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**328 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 189 Medium &nbsp;·&nbsp; 50 Hard
+**332 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 193 Medium &nbsp;·&nbsp; 50 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -118,13 +118,12 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (10)
+## Design (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 303 | [Range Sum Query - Immutable](design/0303-range-sum-query-immutable) | Easy | [Java](design/0303-range-sum-query-immutable/solution.java) |
 | 304 | [Range Sum Query 2D - Immutable](design/0304-range-sum-query-2d-immutable) | Medium | [Java](design/0304-range-sum-query-2d-immutable/solution.java) |
-| 900 | [RLE Iterator](design/0900-rle-iterator) | Medium | [Java](design/0900-rle-iterator/solution.java) |
 | 981 | [Time Based Key-Value Store](design/0981-time-based-key-value-store) | Medium | [C++](design/0981-time-based-key-value-store/solution.cpp) [Java](design/0981-time-based-key-value-store/solution.java) |
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
@@ -141,13 +140,14 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 190 | [Reverse Bits](divide-and-conquer/0190-reverse-bits) | Easy | [Java](divide-and-conquer/0190-reverse-bits/solution.java) |
 | 191 | [Number of 1 Bits](divide-and-conquer/0191-number-of-1-bits) | Easy | [Java](divide-and-conquer/0191-number-of-1-bits/solution.java) |
 
-## Doubly-Linked List (4)
+## Doubly-Linked List (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 146 | [LRU Cache](doubly-linked-list/0146-lru-cache) | Medium | [Java](doubly-linked-list/0146-lru-cache/solution.java) |
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
+| 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
 ## Dynamic Programming (50)
@@ -293,6 +293,13 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
 | 1095 | [Find in Mountain Array](interactive/1095-find-in-mountain-array) | Hard | [Java](interactive/1095-find-in-mountain-array/solution.java) |
 
+## Iterator (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
+| 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
+
 ## Linked List (17)
 
 | # | Problem | Difficulty | Solutions |
@@ -361,13 +368,14 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 
-## Ordered Set (4)
+## Ordered Set (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 895 | [Maximum Frequency Stack](ordered-set/0895-maximum-frequency-stack) | Hard | [Java](ordered-set/0895-maximum-frequency-stack/solution.java) |
 | 2251 | [Number of Flowers in Full Bloom](ordered-set/2251-number-of-flowers-in-full-bloom) | Hard | [Java](ordered-set/2251-number-of-flowers-in-full-bloom/solution.java) |
 | 2336 | [Smallest Number in Infinite Set](ordered-set/2336-smallest-number-in-infinite-set) | Medium | [Java](ordered-set/2336-smallest-number-in-infinite-set/solution.java) |
+| 3408 | [Design Task Manager](ordered-set/3408-design-task-manager) | Medium | [Java](ordered-set/3408-design-task-manager/solution.java) |
 | 3885 | [Design Event Manager](ordered-set/3885-design-event-manager) | Medium | [Java](ordered-set/3885-design-event-manager/solution.java) |
 
 ## Prefix Sum (4)
@@ -434,7 +442,7 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 242 | [Valid Anagram](sorting/0242-valid-anagram) | Easy | [Java](sorting/0242-valid-anagram/solution.java) |
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 
-## Stack (12)
+## Stack (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -450,6 +458,7 @@ _Last synced 2026-09-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
+| 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
 
 ## String (2)
 
