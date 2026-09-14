@@ -1860,6 +1860,35 @@
       }
     ]
   },
+  "count-commas-in-range-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3871",
+      "paid_only": false,
+      "slug": "count-commas-in-range-ii",
+      "title": "Count Commas in Range II",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2140111808,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "1 ms",
+        "slug": "count-commas-in-range-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789267298,
+        "title": "Count Commas in Range II"
+      }
+    ]
+  },
   "count-complete-tree-nodes": {
     "question": {
       "difficulty": "Medium",
