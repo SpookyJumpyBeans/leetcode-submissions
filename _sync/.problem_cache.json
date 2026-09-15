@@ -1164,6 +1164,27 @@
       ]
     ]
   },
+  "count-nodes-equal-to-average-of-subtree": {
+    "difficulty": "Medium",
+    "frontend_id": "2265",
+    "paid_only": false,
+    "slug": "count-nodes-equal-to-average-of-subtree",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "counting-bits": {
     "difficulty": "Easy",
     "frontend_id": "338",
@@ -4245,6 +4266,31 @@
       ]
     ]
   },
+  "maximum-score-of-non-overlapping-intervals": {
+    "difficulty": "Hard",
+    "frontend_id": "3414",
+    "paid_only": false,
+    "slug": "maximum-score-of-non-overlapping-intervals",
+    "title": "Maximum Score of Non-overlapping Intervals",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "maximum-subarray": {
     "difficulty": "Medium",
     "frontend_id": "53",
@@ -4677,6 +4723,31 @@
       [
         "Heap (Priority Queue)",
         "heap-priority-queue"
+      ]
+    ]
+  },
+  "minimum-number-game": {
+    "difficulty": "Easy",
+    "frontend_id": "2974",
+    "paid_only": false,
+    "slug": "minimum-number-game",
+    "title": "Minimum Number Game",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },

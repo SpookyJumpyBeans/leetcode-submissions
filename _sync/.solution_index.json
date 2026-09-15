@@ -2005,6 +2005,43 @@
       }
     ]
   },
+  "count-nodes-equal-to-average-of-subtree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2265",
+      "paid_only": false,
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "title": "Count Nodes Equal to Average of Subtree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2141172032,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.6 MB",
+        "runtime": "0 ms",
+        "slug": "count-nodes-equal-to-average-of-subtree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789359801,
+        "title": "Count Nodes Equal to Average of Subtree"
+      }
+    ]
+  },
   "counting-bits": {
     "question": {
       "difficulty": "Easy",
@@ -7077,6 +7114,47 @@
       }
     ]
   },
+  "maximum-score-of-non-overlapping-intervals": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "3414",
+      "paid_only": false,
+      "slug": "maximum-score-of-non-overlapping-intervals",
+      "title": "Maximum Score of Non-overlapping Intervals",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2141225798,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "171.5 MB",
+        "runtime": "323 ms",
+        "slug": "maximum-score-of-non-overlapping-intervals",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789364172,
+        "title": "Maximum Score of Non-overlapping Intervals"
+      }
+    ]
+  },
   "maximum-subarray": {
     "question": {
       "difficulty": "Medium",
@@ -7809,6 +7887,47 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Minimum Interval to Include Each Query"
+      }
+    ]
+  },
+  "minimum-number-game": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2974",
+      "paid_only": false,
+      "slug": "minimum-number-game",
+      "title": "Minimum Number Game",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2141157851,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.4 MB",
+        "runtime": "6 ms",
+        "slug": "minimum-number-game",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789358326,
+        "title": "Minimum Number Game"
       }
     ]
   },

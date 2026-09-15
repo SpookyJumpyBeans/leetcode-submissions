@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**333 problems solved** &nbsp;·&nbsp; 89 Easy &nbsp;·&nbsp; 194 Medium &nbsp;·&nbsp; 50 Hard
+**336 problems solved** &nbsp;·&nbsp; 90 Easy &nbsp;·&nbsp; 195 Medium &nbsp;·&nbsp; 51 Hard
 
 Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-15 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -150,7 +150,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (50)
+## Dynamic Programming (51)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -204,6 +204,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
+| 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 
 ## Game Theory (6)
 
@@ -267,7 +268,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
 | 3718 | [Smallest Missing Multiple of K](hash-table/3718-smallest-missing-multiple-of-k) | Easy | [Java](hash-table/3718-smallest-missing-multiple-of-k/solution.java) |
 
-## Heap (Priority Queue) (13)
+## Heap (Priority Queue) (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -284,6 +285,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1834 | [Single-Threaded CPU](heap-priority-queue/1834-single-threaded-cpu) | Medium | [C++](heap-priority-queue/1834-single-threaded-cpu/solution.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](heap-priority-queue/1851-minimum-interval-to-include-each-query) | Hard | [C++](heap-priority-queue/1851-minimum-interval-to-include-each-query/solution.cpp) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
+| 2974 | [Minimum Number Game](heap-priority-queue/2974-minimum-number-game) | Easy | [Java](heap-priority-queue/2974-minimum-number-game/solution.java) |
 
 ## Interactive (3)
 
@@ -468,7 +470,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (22)
+## Tree (23)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -494,6 +496,7 @@ _Last synced 2026-09-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
+| 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |
 
 ## Trie (7)
 
