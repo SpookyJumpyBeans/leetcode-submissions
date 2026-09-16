@@ -4653,14 +4653,15 @@
     },
     "submissions": [
       {
-        "id": 1380450461,
+        "id": 2142208200,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "47.4 MB",
-        "runtime": "6 ms",
+        "memory": "51.2 MB",
+        "runtime": "19 ms",
         "slug": "group-anagrams",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1725572469,
+        "timestamp": 1789448674,
         "title": "Group Anagrams"
       }
     ]
@@ -5758,14 +5759,15 @@
     },
     "submissions": [
       {
-        "id": 1820995175,
+        "id": 2142190002,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "92 MB",
-        "runtime": "1180 ms",
+        "memory": "78.4 MB",
+        "runtime": "64 ms",
         "slug": "largest-rectangle-in-histogram",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1762300908,
+        "timestamp": 1789447462,
         "title": "Largest Rectangle in Histogram"
       }
     ]
@@ -7142,15 +7144,15 @@
     },
     "submissions": [
       {
-        "id": 2141225798,
+        "id": 2142146203,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "171.5 MB",
-        "runtime": "323 ms",
+        "memory": "171.7 MB",
+        "runtime": "330 ms",
         "slug": "maximum-score-of-non-overlapping-intervals",
         "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1789364172,
+        "timestamp": 1789444068,
         "title": "Maximum Score of Non-overlapping Intervals"
       }
     ]

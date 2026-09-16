@@ -1,28 +1,29 @@
 // 49. Group Anagrams
 // https://leetcode.com/problems/group-anagrams/
-// Medium | Java | Accepted 2024-09-05
-// Runtime 6 ms | Memory 47.4 MB
+// Medium | Java | Accepted 2026-09-15
+// Runtime 19 ms | Memory 51.2 MB
 
-class Solution {
+class Solution { 
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> bruh = new ArrayList<List<String>>();
-        Map <String, List<String>> map = new HashMap<>();
-        for(int i = 0; i<strs.length; i++)
-        {
-            String bruhh = strs[i];
-            char[] arr = bruhh.toCharArray();
-            Arrays.sort(arr);
-            String b = new String(arr);
-            if(!map.containsKey(b))
+            Map<String, List<String>> map = new HashMap<>();
+            for(String str : strs)
             {
-                map.put(b, new ArrayList<>());
-                map.get(b).add(bruhh);
+                //Can do this way or turn each string into a char array and then sort it
+                //This way technically runs faster O(MxN) (Linear) where M is the number of strings and N is the maximum length of the string
+                //Sorting the string will cost O(MxNlogN) where NlogN is how long it takes to sort the string
+                int[] counts = new int[26]; //Make a frequency count for every word
+                for(int i = 0; i<str.length(); i++) 
+                {
+                    counts[str.charAt(i)-'a']++; //Get the frequencies for every word
+                }
+                String key = Arrays.toString(counts); //Turn the entire frequency array into a key
+                map.computeIfAbsent(key, k -> new ArrayList<>()).add(str); //If this key exists, add this word into the list associated with the key, otherwise, make a new key and empty arraylist
             }
-            else
+            List<List<String>> ans = new ArrayList<>();
+            for(String temp : map.keySet())
             {
-                map.get(b).add(bruhh);
+                ans.add(map.get(temp)); //Add all the lists to the 2D arraylist
             }
-        }
-        return new ArrayList<>(map.values());
+            return ans;
     }
 }

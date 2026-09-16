@@ -8,7 +8,7 @@ Languages: C++, Java
 
 47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-15 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-16 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
