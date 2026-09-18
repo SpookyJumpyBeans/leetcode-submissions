@@ -2,11 +2,11 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**347 problems solved** &nbsp;·&nbsp; 91 Easy &nbsp;·&nbsp; 203 Medium &nbsp;·&nbsp; 53 Hard
+**348 problems solved** &nbsp;·&nbsp; 91 Easy &nbsp;·&nbsp; 204 Medium &nbsp;·&nbsp; 53 Hard
 
 Languages: C++, Java
 
-47 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
+48 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
 _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
@@ -442,7 +442,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 438 | [Find All Anagrams in a String](sliding-window/0438-find-all-anagrams-in-a-string) | Medium | [C++](sliding-window/0438-find-all-anagrams-in-a-string/solution.cpp) |
 | 3090 | [Maximum Length Substring With Two Occurrences](sliding-window/3090-maximum-length-substring-with-two-occurrences) | Easy | [Java](sliding-window/3090-maximum-length-substring-with-two-occurrences/solution.java) |
 
-## Sorting (6)
+## Sorting (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -452,6 +452,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 229 | [Majority Element II](sorting/0229-majority-element-ii) | Medium | [Java](sorting/0229-majority-element-ii/solution.java) |
 | 242 | [Valid Anagram](sorting/0242-valid-anagram) | Easy | [Java](sorting/0242-valid-anagram/solution.java) |
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
+| 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
 ## Stack (13)
 

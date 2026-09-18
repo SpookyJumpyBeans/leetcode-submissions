@@ -288,6 +288,47 @@
       }
     ]
   },
+  "analyze-user-website-visit-pattern": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1152",
+      "paid_only": true,
+      "slug": "analyze-user-website-visit-pattern",
+      "title": "Analyze User Website Visit Pattern",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "analyze-user-website-visit-pattern",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1789703625,
+        "title": "Analyze User Website Visit Pattern"
+      }
+    ]
+  },
   "asteroid-collision": {
     "question": {
       "difficulty": "Medium",

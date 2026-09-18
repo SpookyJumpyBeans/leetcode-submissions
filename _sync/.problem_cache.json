@@ -170,6 +170,31 @@
       ]
     ]
   },
+  "analyze-user-website-visit-pattern": {
+    "difficulty": "Medium",
+    "frontend_id": "1152",
+    "paid_only": true,
+    "slug": "analyze-user-website-visit-pattern",
+    "title": "Analyze User Website Visit Pattern",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "asteroid-collision": {
     "difficulty": "Medium",
     "frontend_id": "735",
