@@ -1185,6 +1185,39 @@
       ]
     ]
   },
+  "count-servers-that-communicate": {
+    "difficulty": "Medium",
+    "frontend_id": "1267",
+    "paid_only": false,
+    "slug": "count-servers-that-communicate",
+    "title": "Count Servers that Communicate",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
   "counting-bits": {
     "difficulty": "Easy",
     "frontend_id": "338",
@@ -2191,6 +2224,19 @@
       ]
     ]
   },
+  "find-champion-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "2924",
+    "paid_only": false,
+    "slug": "find-champion-ii",
+    "title": "Find Champion II",
+    "topics": [
+      [
+        "Graph Theory",
+        "graph"
+      ]
+    ]
+  },
   "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree": {
     "difficulty": "Hard",
     "frontend_id": "1489",
@@ -2521,6 +2567,39 @@
       [
         "Linked List",
         "linked-list"
+      ]
+    ]
+  },
+  "find-the-safest-path-in-a-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "2812",
+    "paid_only": false,
+    "slug": "find-the-safest-path-in-a-grid",
+    "title": "Find the Safest Path in a Grid",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },
@@ -3516,6 +3595,31 @@
       ]
     ]
   },
+  "letter-tile-possibilities": {
+    "difficulty": "Medium",
+    "frontend_id": "1079",
+    "paid_only": false,
+    "slug": "letter-tile-possibilities",
+    "title": "Letter Tile Possibilities",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
   "lexicographically-smallest-permutation-greater-than-target": {
     "difficulty": "Medium",
     "frontend_id": "3720",
@@ -4249,6 +4353,31 @@
       ]
     ]
   },
+  "maximum-number-of-non-overlapping-palindrome-substrings": {
+    "difficulty": "Hard",
+    "frontend_id": "2472",
+    "paid_only": false,
+    "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+    "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "topics": [
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
   "maximum-product-subarray": {
     "difficulty": "Medium",
     "frontend_id": "152",
@@ -4644,6 +4773,47 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "minimum-cost-to-make-at-least-one-valid-path-in-a-grid": {
+    "difficulty": "Hard",
+    "frontend_id": "1368",
+    "paid_only": false,
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ],
+      [
+        "0-1 BFS",
+        "0-1-bfs"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
       ]
     ]
   },
@@ -5160,6 +5330,31 @@
       ]
     ]
   },
+  "number-of-sets-of-k-non-overlapping-line-segments": {
+    "difficulty": "Medium",
+    "frontend_id": "1621",
+    "paid_only": false,
+    "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+    "title": "Number of Sets of K Non-Overlapping Line Segments",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Combinatorics",
+        "combinatorics"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "number-of-steps-to-reduce-a-number-to-zero": {
     "difficulty": "Easy",
     "frontend_id": "1342",
@@ -5265,6 +5460,19 @@
       [
         "Bidirectional Search",
         "bidirectional-search"
+      ]
+    ]
+  },
+  "out-of-boundary-paths": {
+    "difficulty": "Medium",
+    "frontend_id": "576",
+    "paid_only": false,
+    "slug": "out-of-boundary-paths",
+    "title": "Out of Boundary Paths",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },
@@ -5735,6 +5943,23 @@
       ]
     ]
   },
+  "rectangle-overlap": {
+    "difficulty": "Easy",
+    "frontend_id": "836",
+    "paid_only": false,
+    "slug": "rectangle-overlap",
+    "title": "Rectangle Overlap",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Geometry",
+        "geometry"
+      ]
+    ]
+  },
   "redundant-connection": {
     "difficulty": "Medium",
     "frontend_id": "684",
@@ -5787,6 +6012,23 @@
     "paid_only": false,
     "slug": "remove-duplicates-from-sorted-array",
     "title": "Remove Duplicates from Sorted Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ]
+    ]
+  },
+  "remove-duplicates-from-sorted-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "80",
+    "paid_only": false,
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "title": "Remove Duplicates from Sorted Array II",
     "topics": [
       [
         "Array",
@@ -7427,6 +7669,23 @@
       [
         "Monotonic Stack",
         "monotonic-stack"
+      ]
+    ]
+  },
+  "triangle": {
+    "difficulty": "Medium",
+    "frontend_id": "120",
+    "paid_only": false,
+    "slug": "triangle",
+    "title": "Triangle",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },

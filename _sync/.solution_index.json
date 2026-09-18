@@ -2042,6 +2042,55 @@
       }
     ]
   },
+  "count-servers-that-communicate": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1267",
+      "paid_only": false,
+      "slug": "count-servers-that-communicate",
+      "title": "Count Servers that Communicate",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2145082319,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.5 MB",
+        "runtime": "4 ms",
+        "slug": "count-servers-that-communicate",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789670400,
+        "title": "Count Servers that Communicate"
+      }
+    ]
+  },
   "counting-bits": {
     "question": {
       "difficulty": "Easy",
@@ -3720,6 +3769,35 @@
       }
     ]
   },
+  "find-champion-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2924",
+      "paid_only": false,
+      "slug": "find-champion-ii",
+      "title": "Find Champion II",
+      "topics": [
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2145091448,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.5 MB",
+        "runtime": "1 ms",
+        "slug": "find-champion-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789671025,
+        "title": "Find Champion II"
+      }
+    ]
+  },
   "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree": {
     "question": {
       "difficulty": "Hard",
@@ -4248,6 +4326,55 @@
         "status": "Accepted",
         "timestamp": 1788212733,
         "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points"
+      }
+    ]
+  },
+  "find-the-safest-path-in-a-grid": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2812",
+      "paid_only": false,
+      "slug": "find-the-safest-path-in-a-grid",
+      "title": "Find the Safest Path in a Grid",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2145306912,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "126.5 MB",
+        "runtime": "157 ms",
+        "slug": "find-the-safest-path-in-a-grid",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789702826,
+        "title": "Find the Safest Path in a Grid"
       }
     ]
   },
@@ -5913,6 +6040,47 @@
       }
     ]
   },
+  "letter-tile-possibilities": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1079",
+      "paid_only": false,
+      "slug": "letter-tile-possibilities",
+      "title": "Letter Tile Possibilities",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2144231704,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "2 ms",
+        "slug": "letter-tile-possibilities",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789613959,
+        "title": "Letter Tile Possibilities"
+      }
+    ]
+  },
   "lexicographically-smallest-permutation-greater-than-target": {
     "question": {
       "difficulty": "Medium",
@@ -7083,6 +7251,47 @@
       }
     ]
   },
+  "maximum-number-of-non-overlapping-palindrome-substrings": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2472",
+      "paid_only": false,
+      "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+      "topics": [
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2144112175,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.1 MB",
+        "runtime": "5 ms",
+        "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789591975,
+        "title": "Maximum Number of Non-overlapping Palindrome Substrings"
+      }
+    ]
+  },
   "maximum-product-subarray": {
     "question": {
       "difficulty": "Medium",
@@ -7764,6 +7973,63 @@
         "status": "Accepted",
         "timestamp": 1788658126,
         "title": "Minimum Array End"
+      }
+    ]
+  },
+  "minimum-cost-to-make-at-least-one-valid-path-in-a-grid": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1368",
+      "paid_only": false,
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ],
+        [
+          "0-1 BFS",
+          "0-1-bfs"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2143272038,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47 MB",
+        "runtime": "27 ms",
+        "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789534516,
+        "title": "Minimum Cost to Make at Least One Valid Path in a Grid"
       }
     ]
   },
@@ -8600,6 +8866,47 @@
       }
     ]
   },
+  "number-of-sets-of-k-non-overlapping-line-segments": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1621",
+      "paid_only": false,
+      "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+      "title": "Number of Sets of K Non-Overlapping Line Segments",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Combinatorics",
+          "combinatorics"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2143881227,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "135.7 MB",
+        "runtime": "179 ms",
+        "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789576820,
+        "title": "Number of Sets of K Non-Overlapping Line Segments"
+      }
+    ]
+  },
   "number-of-steps-to-reduce-a-number-to-zero": {
     "question": {
       "difficulty": "Easy",
@@ -8778,6 +9085,35 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Open the Lock"
+      }
+    ]
+  },
+  "out-of-boundary-paths": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "576",
+      "paid_only": false,
+      "slug": "out-of-boundary-paths",
+      "title": "Out of Boundary Paths",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2143295136,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.7 MB",
+        "runtime": "3 ms",
+        "slug": "out-of-boundary-paths",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789536018,
+        "title": "Out of Boundary Paths"
       }
     ]
   },
@@ -9549,6 +9885,39 @@
       }
     ]
   },
+  "rectangle-overlap": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "836",
+      "paid_only": false,
+      "slug": "rectangle-overlap",
+      "title": "Rectangle Overlap",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Geometry",
+          "geometry"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2144203897,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "rectangle-overlap",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789609916,
+        "title": "Rectangle Overlap"
+      }
+    ]
+  },
   "redundant-connection": {
     "question": {
       "difficulty": "Medium",
@@ -9655,6 +10024,39 @@
         "status": "Accepted",
         "timestamp": 1788233495,
         "title": "Remove Duplicates from Sorted Array"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-array-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "80",
+      "paid_only": false,
+      "slug": "remove-duplicates-from-sorted-array-ii",
+      "title": "Remove Duplicates from Sorted Array II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2144366519,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.6 MB",
+        "runtime": "1 ms",
+        "slug": "remove-duplicates-from-sorted-array-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789624038,
+        "title": "Remove Duplicates from Sorted Array II"
       }
     ]
   },
@@ -12329,6 +12731,39 @@
         "status": "Accepted",
         "timestamp": 1752981565,
         "title": "Trapping Rain Water"
+      }
+    ]
+  },
+  "triangle": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "120",
+      "paid_only": false,
+      "slug": "triangle",
+      "title": "Triangle",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2144347915,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.5 MB",
+        "runtime": "1 ms",
+        "slug": "triangle",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789622880,
+        "title": "Triangle"
       }
     ]
   },
