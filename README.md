@@ -2,11 +2,11 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**357 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 212 Medium &nbsp;·&nbsp; 53 Hard
+**359 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 214 Medium &nbsp;·&nbsp; 53 Hard
 
 Languages: C++, Java
 
-49 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
+50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
 _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
@@ -487,7 +487,7 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (23)
+## Tree (25)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -503,6 +503,7 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 226 | [Invert Binary Tree](tree/0226-invert-binary-tree) | Easy | [Java](tree/0226-invert-binary-tree/solution.java) |
 | 230 | [Kth Smallest Element in a BST](tree/0230-kth-smallest-element-in-a-bst) | Medium | [Java](tree/0230-kth-smallest-element-in-a-bst/solution.java) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](tree/0235-lowest-common-ancestor-of-a-binary-search-tree) | Medium | [Java](tree/0235-lowest-common-ancestor-of-a-binary-search-tree/solution.java) |
+| 236 | [Lowest Common Ancestor of a Binary Tree](tree/0236-lowest-common-ancestor-of-a-binary-tree) | Medium | [Java](tree/0236-lowest-common-ancestor-of-a-binary-tree/solution.java) |
 | 297 | [Serialize and Deserialize Binary Tree](tree/0297-serialize-and-deserialize-binary-tree) | Hard | [Java](tree/0297-serialize-and-deserialize-binary-tree/solution.java) |
 | 427 | [Construct Quad Tree](tree/0427-construct-quad-tree) | Medium | [Java](tree/0427-construct-quad-tree/solution.java) |
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
@@ -511,6 +512,7 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
+| 1650 | [Lowest Common Ancestor of a Binary Tree III](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii) | Medium | [Java](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |

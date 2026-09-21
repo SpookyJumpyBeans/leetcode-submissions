@@ -7053,6 +7053,100 @@
       }
     ]
   },
+  "lowest-common-ancestor-of-a-binary-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "236",
+      "paid_only": false,
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Binary Lifting",
+          "binary-lifting"
+        ],
+        [
+          "Lowest Common Ancestor",
+          "lowest-common-ancestor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2148177311,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "69.9 MB",
+        "runtime": "15 ms",
+        "slug": "lowest-common-ancestor-of-a-binary-tree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789956118,
+        "title": "Lowest Common Ancestor of a Binary Tree"
+      }
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-tree-iii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1650",
+      "paid_only": true,
+      "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "title": "Lowest Common Ancestor of a Binary Tree III",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Binary Lifting",
+          "binary-lifting"
+        ],
+        [
+          "Lowest Common Ancestor",
+          "lowest-common-ancestor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1789958055,
+        "title": "Lowest Common Ancestor of a Binary Tree III"
+      }
+    ]
+  },
   "lru-cache": {
     "question": {
       "difficulty": "Medium",

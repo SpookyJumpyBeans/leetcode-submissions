@@ -4209,6 +4209,68 @@
       ]
     ]
   },
+  "lowest-common-ancestor-of-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "236",
+    "paid_only": false,
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Binary Lifting",
+        "binary-lifting"
+      ],
+      [
+        "Lowest Common Ancestor",
+        "lowest-common-ancestor"
+      ]
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-tree-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "1650",
+    "paid_only": true,
+    "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+    "title": "Lowest Common Ancestor of a Binary Tree III",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Binary Lifting",
+        "binary-lifting"
+      ],
+      [
+        "Lowest Common Ancestor",
+        "lowest-common-ancestor"
+      ]
+    ]
+  },
   "lru-cache": {
     "difficulty": "Medium",
     "frontend_id": "146",
