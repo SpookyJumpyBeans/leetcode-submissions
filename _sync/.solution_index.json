@@ -1,4 +1,37 @@
 {
+  "2-keys-keyboard": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "650",
+      "paid_only": false,
+      "slug": "2-keys-keyboard",
+      "title": "2 Keys Keyboard",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2148132342,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "70.2 MB",
+        "runtime": "22 ms",
+        "slug": "2-keys-keyboard",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789946636,
+        "title": "2 Keys Keyboard"
+      }
+    ]
+  },
   "3sum": {
     "question": {
       "difficulty": "Medium",
@@ -285,6 +318,39 @@
         "status": "Accepted",
         "timestamp": 1784839597,
         "title": "All O`one Data Structure"
+      }
+    ]
+  },
+  "alternating-groups-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3208",
+      "paid_only": false,
+      "slug": "alternating-groups-ii",
+      "title": "Alternating Groups II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2148061467,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "95.9 MB",
+        "runtime": "5 ms",
+        "slug": "alternating-groups-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789934465,
+        "title": "Alternating Groups II"
       }
     ]
   },
@@ -1030,6 +1096,43 @@
       }
     ]
   },
+  "buildings-with-an-ocean-view": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1762",
+      "paid_only": true,
+      "slug": "buildings-with-an-ocean-view",
+      "title": "Buildings With an Ocean View",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Monotonic Stack",
+          "monotonic-stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 0,
+        "lang": "java",
+        "lang_name": "java",
+        "memory": "",
+        "runtime": "",
+        "slug": "buildings-with-an-ocean-view",
+        "source": "neetcode",
+        "status": "Accepted",
+        "timestamp": 1789947182,
+        "title": "Buildings With an Ocean View"
+      }
+    ]
+  },
   "burst-balloons": {
     "question": {
       "difficulty": "Hard",
@@ -1210,6 +1313,35 @@
         "status": "Accepted",
         "timestamp": 1787767961,
         "title": "Car Pooling"
+      }
+    ]
+  },
+  "champagne-tower": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "799",
+      "paid_only": false,
+      "slug": "champagne-tower",
+      "title": "Champagne Tower",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2146247662,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.2 MB",
+        "runtime": "5 ms",
+        "slug": "champagne-tower",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789789481,
+        "title": "Champagne Tower"
       }
     ]
   },
@@ -4584,14 +4716,15 @@
     },
     "submissions": [
       {
-        "id": 768033925,
+        "id": 2147908297,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "47.4 MB",
-        "runtime": "1 ms",
+        "memory": "47 MB",
+        "runtime": "0 ms",
         "slug": "flood-fill",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1659924772,
+        "timestamp": 1789923551,
         "title": "Flood Fill"
       }
     ]
@@ -7292,6 +7425,51 @@
       }
     ]
   },
+  "maximum-number-of-fish-in-a-grid": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2658",
+      "paid_only": false,
+      "slug": "maximum-number-of-fish-in-a-grid",
+      "title": "Maximum Number of Fish in a Grid",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2147888131,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "49.6 MB",
+        "runtime": "21 ms",
+        "slug": "maximum-number-of-fish-in-a-grid",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789922400,
+        "title": "Maximum Number of Fish in a Grid"
+      }
+    ]
+  },
   "maximum-number-of-non-overlapping-palindrome-substrings": {
     "question": {
       "difficulty": "Hard",
@@ -9472,6 +9650,51 @@
       }
     ]
   },
+  "path-with-maximum-probability": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1514",
+      "paid_only": false,
+      "slug": "path-with-maximum-probability",
+      "title": "Path with Maximum Probability",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ],
+        [
+          "Dijkstra's Algorithm",
+          "dijkstra"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2148010741,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "63.6 MB",
+        "runtime": "28 ms",
+        "slug": "path-with-maximum-probability",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789929644,
+        "title": "Path with Maximum Probability"
+      }
+    ]
+  },
   "path-with-minimum-effort": {
     "question": {
       "difficulty": "Medium",
@@ -10314,6 +10537,39 @@
       }
     ]
   },
+  "restore-ip-addresses": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "93",
+      "paid_only": false,
+      "slug": "restore-ip-addresses",
+      "title": "Restore IP Addresses",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2147963721,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.3 MB",
+        "runtime": "2 ms",
+        "slug": "restore-ip-addresses",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789926760,
+        "title": "Restore IP Addresses"
+      }
+    ]
+  },
   "reverse-bits": {
     "question": {
       "difficulty": "Easy",
@@ -10343,6 +10599,39 @@
         "status": "Accepted",
         "timestamp": 1767851866,
         "title": "Reverse Bits"
+      }
+    ]
+  },
+  "reverse-degree-of-a-string": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3498",
+      "paid_only": false,
+      "slug": "reverse-degree-of-a-string",
+      "title": "Reverse Degree of a String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2147873913,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.2 MB",
+        "runtime": "1 ms",
+        "slug": "reverse-degree-of-a-string",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789921559,
+        "title": "Reverse Degree of a String"
       }
     ]
   },
@@ -11073,6 +11362,39 @@
         "status": "Accepted",
         "timestamp": 1786507379,
         "title": "Shortest Path in Binary Matrix"
+      }
+    ]
+  },
+  "shortest-path-with-alternating-colors": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1129",
+      "paid_only": false,
+      "slug": "shortest-path-with-alternating-colors",
+      "title": "Shortest Path with Alternating Colors",
+      "topics": [
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2148078845,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "5 ms",
+        "slug": "shortest-path-with-alternating-colors",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1789936643,
+        "title": "Shortest Path with Alternating Colors"
       }
     ]
   },

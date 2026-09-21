@@ -1,4 +1,21 @@
 {
+  "2-keys-keyboard": {
+    "difficulty": "Medium",
+    "frontend_id": "650",
+    "paid_only": false,
+    "slug": "2-keys-keyboard",
+    "title": "2 Keys Keyboard",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
   "3sum": {
     "difficulty": "Medium",
     "frontend_id": "15",
@@ -167,6 +184,23 @@
       [
         "Doubly-Linked List",
         "doubly-linked-list"
+      ]
+    ]
+  },
+  "alternating-groups-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3208",
+    "paid_only": false,
+    "slug": "alternating-groups-ii",
+    "title": "Alternating Groups II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
       ]
     ]
   },
@@ -613,6 +647,27 @@
       ]
     ]
   },
+  "buildings-with-an-ocean-view": {
+    "difficulty": "Medium",
+    "frontend_id": "1762",
+    "paid_only": true,
+    "slug": "buildings-with-an-ocean-view",
+    "title": "Buildings With an Ocean View",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Monotonic Stack",
+        "monotonic-stack"
+      ]
+    ]
+  },
   "burst-balloons": {
     "difficulty": "Hard",
     "frontend_id": "312",
@@ -715,6 +770,19 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ]
+    ]
+  },
+  "champagne-tower": {
+    "difficulty": "Medium",
+    "frontend_id": "799",
+    "paid_only": false,
+    "slug": "champagne-tower",
+    "title": "Champagne Tower",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },
@@ -4378,6 +4446,35 @@
       ]
     ]
   },
+  "maximum-number-of-fish-in-a-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "2658",
+    "paid_only": false,
+    "slug": "maximum-number-of-fish-in-a-grid",
+    "title": "Maximum Number of Fish in a Grid",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
   "maximum-number-of-non-overlapping-palindrome-substrings": {
     "difficulty": "Hard",
     "frontend_id": "2472",
@@ -5693,6 +5790,35 @@
       ]
     ]
   },
+  "path-with-maximum-probability": {
+    "difficulty": "Medium",
+    "frontend_id": "1514",
+    "paid_only": false,
+    "slug": "path-with-maximum-probability",
+    "title": "Path with Maximum Probability",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
+      ],
+      [
+        "Dijkstra's Algorithm",
+        "dijkstra"
+      ]
+    ]
+  },
   "path-with-minimum-effort": {
     "difficulty": "Medium",
     "frontend_id": "1631",
@@ -6187,6 +6313,23 @@
       ]
     ]
   },
+  "restore-ip-addresses": {
+    "difficulty": "Medium",
+    "frontend_id": "93",
+    "paid_only": false,
+    "slug": "restore-ip-addresses",
+    "title": "Restore IP Addresses",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ]
+    ]
+  },
   "reverse-bits": {
     "difficulty": "Easy",
     "frontend_id": "190",
@@ -6201,6 +6344,23 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "reverse-degree-of-a-string": {
+    "difficulty": "Easy",
+    "frontend_id": "3498",
+    "paid_only": false,
+    "slug": "reverse-degree-of-a-string",
+    "title": "Reverse Degree of a String",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
@@ -6614,6 +6774,23 @@
       [
         "Matrix",
         "matrix"
+      ]
+    ]
+  },
+  "shortest-path-with-alternating-colors": {
+    "difficulty": "Medium",
+    "frontend_id": "1129",
+    "paid_only": false,
+    "slug": "shortest-path-with-alternating-colors",
+    "title": "Shortest Path with Alternating Colors",
+    "topics": [
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Graph Theory",
+        "graph"
       ]
     ]
   },

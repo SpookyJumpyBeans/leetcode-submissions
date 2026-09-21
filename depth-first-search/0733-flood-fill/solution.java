@@ -1,39 +1,30 @@
 // 733. Flood Fill
 // https://leetcode.com/problems/flood-fill/
-// Easy | Java | Accepted 2022-08-08
-// Runtime 1 ms | Memory 47.4 MB
+// Easy | Java | Accepted 2026-09-20
+// Runtime 0 ms | Memory 47 MB
 
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        //DFS
         if(image[sr][sc]==color)
         {
             return image;
         }
-        joe(image,sr,sc,image[sr][sc], color);
+        dfs(image, image[sr][sc], color, sr, sc);
         return image;
     }
-    
-    public void joe (int[][] kay, int r, int c, int color, int newColor)
+
+    public void dfs(int[][] image, int og, int color, int r, int c)
     {
-      if(r<0||r>=kay.length||c<0||c>=kay[0].length||kay[r][c]!=color)
-      {
-        return;
-      }
-        kay[r][c] = newColor;
-        joe(kay, r-1, c, color, newColor);
-        joe(kay, r+1, c, color, newColor);
-        joe(kay, r, c+1, color, newColor);
-        joe(kay, r, c-1, color, newColor);
+       if(r<0 || c<0 || r>=image.length || c>=image[0].length || image[r][c]!=og) //If the indices are out of bounds or the current indices don't correlate to the original color, end the call early
+       {
+            return;
+       }
+       image[r][c] = color; //Else set the value to the color
+       //Try all 4 directions
+       dfs(image, og, color, r+1, c);
+       dfs(image, og, color, r-1, c);
+       dfs(image, og, color, r, c+1);
+       dfs(image, og, color, r, c-1);
     }
 }
-
-/*
-
-DFS-recursive(G, s):
-        mark s as visited
-        for all neighbours w of s in Graph G:
-            if w is not visited:
-                DFS-recursive(G, w)
-
-
-*/

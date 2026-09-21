@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**348 problems solved** &nbsp;·&nbsp; 91 Easy &nbsp;·&nbsp; 204 Medium &nbsp;·&nbsp; 53 Hard
+**357 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 212 Medium &nbsp;·&nbsp; 53 Hard
 
 Languages: C++, Java
 
-48 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
+49 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -17,7 +17,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 57 | [Insert Interval](array/0057-insert-interval) | Medium | [Java](array/0057-insert-interval/solution.java) |
 | 674 | [Longest Continuous Increasing Subsequence](array/0674-longest-continuous-increasing-subsequence) | Easy | [Java](array/0674-longest-continuous-increasing-subsequence/solution.java) |
 
-## Backtracking (14)
+## Backtracking (15)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -32,6 +32,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 78 | [Subsets](backtracking/0078-subsets) | Medium | [Java](backtracking/0078-subsets/solution.java) |
 | 79 | [Word Search](backtracking/0079-word-search) | Medium | [Java](backtracking/0079-word-search/solution.java) |
 | 90 | [Subsets II](backtracking/0090-subsets-ii) | Medium | [Java](backtracking/0090-subsets-ii/solution.java) |
+| 93 | [Restore IP Addresses](backtracking/0093-restore-ip-addresses) | Medium | [Java](backtracking/0093-restore-ip-addresses/solution.java) |
 | 257 | [Binary Tree Paths](backtracking/0257-binary-tree-paths) | Easy | [Java](backtracking/0257-binary-tree-paths/solution.java) |
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1079 | [Letter Tile Possibilities](backtracking/1079-letter-tile-possibilities) | Medium | [Java](backtracking/1079-letter-tile-possibilities/solution.java) |
@@ -152,7 +153,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (54)
+## Dynamic Programming (56)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -198,8 +199,10 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 518 | [Coin Change II](dynamic-programming/0518-coin-change-ii) | Medium | [Java](dynamic-programming/0518-coin-change-ii/solution.java) |
 | 576 | [Out of Boundary Paths](dynamic-programming/0576-out-of-boundary-paths) | Medium | [Java](dynamic-programming/0576-out-of-boundary-paths/solution.java) |
 | 647 | [Palindromic Substrings](dynamic-programming/0647-palindromic-substrings) | Medium | [Java](dynamic-programming/0647-palindromic-substrings/solution.java) |
+| 650 | [2 Keys Keyboard](dynamic-programming/0650-2-keys-keyboard) | Medium | [Java](dynamic-programming/0650-2-keys-keyboard/solution.java) |
 | 678 | [Valid Parenthesis String](dynamic-programming/0678-valid-parenthesis-string) | Medium | [Java](dynamic-programming/0678-valid-parenthesis-string/solution.java) |
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
+| 799 | [Champagne Tower](dynamic-programming/0799-champagne-tower) | Medium | [Java](dynamic-programming/0799-champagne-tower/solution.java) |
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
 | 940 | [Distinct Subsequences II](dynamic-programming/0940-distinct-subsequences-ii) | Hard | [Java](dynamic-programming/0940-distinct-subsequences-ii/solution.java) |
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
@@ -229,7 +232,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 836 | [Rectangle Overlap](geometry/0836-rectangle-overlap) | Easy | [Java](geometry/0836-rectangle-overlap/solution.java) |
 | 973 | [K Closest Points to Origin](geometry/0973-k-closest-points-to-origin) | Medium | [Java](geometry/0973-k-closest-points-to-origin/solution.java) |
 
-## Graph Theory (10)
+## Graph Theory (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -240,6 +243,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 332 | [Reconstruct Itinerary](graph/0332-reconstruct-itinerary) | Hard | [Java](graph/0332-reconstruct-itinerary/solution.java) |
 | 802 | [Find Eventual Safe States](graph/0802-find-eventual-safe-states) | Medium | [Java](graph/0802-find-eventual-safe-states/solution.java) |
 | 997 | [Find the Town Judge](graph/0997-find-the-town-judge) | Easy | [C++](graph/0997-find-the-town-judge/solution.cpp) |
+| 1129 | [Shortest Path with Alternating Colors](graph/1129-shortest-path-with-alternating-colors) | Medium | [Java](graph/1129-shortest-path-with-alternating-colors/solution.java) |
 | 1462 | [Course Schedule IV](graph/1462-course-schedule-iv) | Medium | [C++](graph/1462-course-schedule-iv/solution.cpp) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
@@ -375,7 +379,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 239 | [Sliding Window Maximum](monotonic-queue/0239-sliding-window-maximum) | Hard | [Java](monotonic-queue/0239-sliding-window-maximum/solution.java) |
 | 918 | [Maximum Sum Circular Subarray](monotonic-queue/0918-maximum-sum-circular-subarray) | Medium | [Java](monotonic-queue/0918-maximum-sum-circular-subarray/solution.java) |
 
-## Monotonic Stack (5)
+## Monotonic Stack (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -384,6 +388,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 739 | [Daily Temperatures](monotonic-stack/0739-daily-temperatures) | Medium | [Java](monotonic-stack/0739-daily-temperatures/solution.java) |
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
+| 1762 | [Buildings With an Ocean View](monotonic-stack/1762-buildings-with-an-ocean-view) | Medium | [Java](monotonic-stack/1762-buildings-with-an-ocean-view/solution.java) |
 
 ## Ordered Set (5)
 
@@ -413,7 +418,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
 
-## Shortest Path (4)
+## Shortest Path (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -421,8 +426,9 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 787 | [Cheapest Flights Within K Stops](shortest-path/0787-cheapest-flights-within-k-stops) | Medium | [Java](shortest-path/0787-cheapest-flights-within-k-stops/solution.java) |
 | 1334 | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | Medium | [Java](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution.java) |
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](shortest-path/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) | Hard | [Java](shortest-path/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution.java) |
+| 1514 | [Path with Maximum Probability](shortest-path/1514-path-with-maximum-probability) | Medium | [Java](shortest-path/1514-path-with-maximum-probability/solution.java) |
 
-## Simulation (4)
+## Simulation (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -430,8 +436,9 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 68 | [Text Justification](simulation/0068-text-justification) | Hard | [Java](simulation/0068-text-justification/solution.java) |
 | 1929 | [Concatenation of Array](simulation/1929-concatenation-of-array) | Easy | [Java](simulation/1929-concatenation-of-array/solution.java) |
 | 3069 | [Distribute Elements Into Two Arrays I](simulation/3069-distribute-elements-into-two-arrays-i) | Easy | [C++](simulation/3069-distribute-elements-into-two-arrays-i/solution.cpp) |
+| 3498 | [Reverse Degree of a String](simulation/3498-reverse-degree-of-a-string) | Easy | [Java](simulation/3498-reverse-degree-of-a-string/solution.java) |
 
-## Sliding Window (6)
+## Sliding Window (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -441,6 +448,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 424 | [Longest Repeating Character Replacement](sliding-window/0424-longest-repeating-character-replacement) | Medium | [Java](sliding-window/0424-longest-repeating-character-replacement/solution.java) |
 | 438 | [Find All Anagrams in a String](sliding-window/0438-find-all-anagrams-in-a-string) | Medium | [C++](sliding-window/0438-find-all-anagrams-in-a-string/solution.cpp) |
 | 3090 | [Maximum Length Substring With Two Occurrences](sliding-window/3090-maximum-length-substring-with-two-occurrences) | Easy | [Java](sliding-window/3090-maximum-length-substring-with-two-occurrences/solution.java) |
+| 3208 | [Alternating Groups II](sliding-window/3208-alternating-groups-ii) | Medium | [Java](sliding-window/3208-alternating-groups-ii/solution.java) |
 
 ## Sorting (7)
 
@@ -547,7 +555,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (16)
+## Union-Find (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -564,6 +572,7 @@ _Last synced 2026-09-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1489 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Java](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
 | 1631 | [Path With Minimum Effort](union-find/1631-path-with-minimum-effort) | Medium | [Java](union-find/1631-path-with-minimum-effort/solution.java) |
+| 2658 | [Maximum Number of Fish in a Grid](union-find/2658-maximum-number-of-fish-in-a-grid) | Medium | [Java](union-find/2658-maximum-number-of-fish-in-a-grid/solution.java) |
 | 2709 | [Greatest Common Divisor Traversal](union-find/2709-greatest-common-divisor-traversal) | Hard | [Java](union-find/2709-greatest-common-divisor-traversal/solution.java) |
 | 2812 | [Find the Safest Path in a Grid](union-find/2812-find-the-safest-path-in-a-grid) | Medium | [Java](union-find/2812-find-the-safest-path-in-a-grid/solution.java) |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements) | Medium | [Java](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) |
