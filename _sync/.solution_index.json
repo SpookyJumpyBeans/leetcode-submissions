@@ -4588,6 +4588,43 @@
       }
     ]
   },
+  "find-x-value-of-array-i": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3524",
+      "paid_only": false,
+      "slug": "find-x-value-of-array-i",
+      "title": "Find X Value of Array I",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2149139717,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "103 MB",
+        "runtime": "55 ms",
+        "slug": "find-x-value-of-array-i",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790029573,
+        "title": "Find X Value of Array I"
+      }
+    ]
+  },
   "finding-pairs-with-a-certain-sum": {
     "question": {
       "difficulty": "Medium",
@@ -6734,6 +6771,39 @@
         "status": "Accepted",
         "timestamp": 1786336751,
         "title": "Longest Palindrome by Concatenating Two Letter Words"
+      }
+    ]
+  },
+  "longest-palindromic-subsequence": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "516",
+      "paid_only": false,
+      "slug": "longest-palindromic-subsequence",
+      "title": "Longest Palindromic Subsequence",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2149152664,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "64.1 MB",
+        "runtime": "102 ms",
+        "slug": "longest-palindromic-subsequence",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790032313,
+        "title": "Longest Palindromic Subsequence"
       }
     ]
   },
@@ -9008,6 +9078,35 @@
         "status": "Accepted",
         "timestamp": 1767813731,
         "title": "Number of 1 Bits"
+      }
+    ]
+  },
+  "number-of-dice-rolls-with-target-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1155",
+      "paid_only": false,
+      "slug": "number-of-dice-rolls-with-target-sum",
+      "title": "Number of Dice Rolls With Target Sum",
+      "topics": [
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2149158592,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.7 MB",
+        "runtime": "9 ms",
+        "slug": "number-of-dice-rolls-with-target-sum",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790033650,
+        "title": "Number of Dice Rolls With Target Sum"
       }
     ]
   },

@@ -2717,6 +2717,27 @@
       ]
     ]
   },
+  "find-x-value-of-array-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3524",
+    "paid_only": false,
+    "slug": "find-x-value-of-array-i",
+    "title": "Find X Value of Array I",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
   "finding-pairs-with-a-certain-sum": {
     "difficulty": "Medium",
     "frontend_id": "1865",
@@ -4010,6 +4031,23 @@
       [
         "Counting",
         "counting"
+      ]
+    ]
+  },
+  "longest-palindromic-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "516",
+    "paid_only": false,
+    "slug": "longest-palindromic-subsequence",
+    "title": "Longest Palindromic Subsequence",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },
@@ -5403,6 +5441,19 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "number-of-dice-rolls-with-target-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "1155",
+    "paid_only": false,
+    "slug": "number-of-dice-rolls-with-target-sum",
+    "title": "Number of Dice Rolls With Target Sum",
+    "topics": [
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },

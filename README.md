@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**359 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 214 Medium &nbsp;·&nbsp; 53 Hard
+**362 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 217 Medium &nbsp;·&nbsp; 53 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -153,7 +153,7 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (56)
+## Dynamic Programming (59)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -196,6 +196,7 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 435 | [Non-overlapping Intervals](dynamic-programming/0435-non-overlapping-intervals) | Medium | [C++](dynamic-programming/0435-non-overlapping-intervals/solution.cpp) |
 | 494 | [Target Sum](dynamic-programming/0494-target-sum) | Medium | [Java](dynamic-programming/0494-target-sum/solution.java) |
 | 509 | [Fibonacci Number](dynamic-programming/0509-fibonacci-number) | Easy | [Java](dynamic-programming/0509-fibonacci-number/solution.java) |
+| 516 | [Longest Palindromic Subsequence](dynamic-programming/0516-longest-palindromic-subsequence) | Medium | [Java](dynamic-programming/0516-longest-palindromic-subsequence/solution.java) |
 | 518 | [Coin Change II](dynamic-programming/0518-coin-change-ii) | Medium | [Java](dynamic-programming/0518-coin-change-ii/solution.java) |
 | 576 | [Out of Boundary Paths](dynamic-programming/0576-out-of-boundary-paths) | Medium | [Java](dynamic-programming/0576-out-of-boundary-paths/solution.java) |
 | 647 | [Palindromic Substrings](dynamic-programming/0647-palindromic-substrings) | Medium | [Java](dynamic-programming/0647-palindromic-substrings/solution.java) |
@@ -209,10 +210,12 @@ _Last synced 2026-09-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1049 | [Last Stone Weight II](dynamic-programming/1049-last-stone-weight-ii) | Medium | [Java](dynamic-programming/1049-last-stone-weight-ii/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
+| 1155 | [Number of Dice Rolls With Target Sum](dynamic-programming/1155-number-of-dice-rolls-with-target-sum) | Medium | [Java](dynamic-programming/1155-number-of-dice-rolls-with-target-sum/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
+| 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
 
 ## Game Theory (6)
 
