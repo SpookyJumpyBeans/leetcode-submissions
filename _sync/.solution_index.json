@@ -8582,6 +8582,51 @@
       }
     ]
   },
+  "minimum-operations-to-reduce-x-to-zero": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1658",
+      "paid_only": false,
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "title": "Minimum Operations to Reduce X to Zero",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2150437137,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "102 MB",
+        "runtime": "4 ms",
+        "slug": "minimum-operations-to-reduce-x-to-zero",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790138458,
+        "title": "Minimum Operations to Reduce X to Zero"
+      }
+    ]
+  },
   "minimum-path-sum": {
     "question": {
       "difficulty": "Medium",
@@ -11738,6 +11783,39 @@
         "status": "Accepted",
         "timestamp": 1761607781,
         "title": "Sliding Window Maximum"
+      }
+    ]
+  },
+  "smallest-index-with-digit-sum-equal-to-index": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3550",
+      "paid_only": false,
+      "slug": "smallest-index-with-digit-sum-equal-to-index",
+      "title": "Smallest Index With Digit Sum Equal to Index",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2151429139,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.7 MB",
+        "runtime": "1 ms",
+        "slug": "smallest-index-with-digit-sum-equal-to-index",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790209648,
+        "title": "Smallest Index With Digit Sum Equal to Index"
       }
     ]
   },

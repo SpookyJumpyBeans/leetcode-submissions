@@ -5143,6 +5143,35 @@
       ]
     ]
   },
+  "minimum-operations-to-reduce-x-to-zero": {
+    "difficulty": "Medium",
+    "frontend_id": "1658",
+    "paid_only": false,
+    "slug": "minimum-operations-to-reduce-x-to-zero",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "minimum-path-sum": {
     "difficulty": "Medium",
     "frontend_id": "64",
@@ -6992,6 +7021,23 @@
       [
         "Range Minimum/Maximum Query",
         "range-minimum-maximum-query"
+      ]
+    ]
+  },
+  "smallest-index-with-digit-sum-equal-to-index": {
+    "difficulty": "Easy",
+    "frontend_id": "3550",
+    "paid_only": false,
+    "slug": "smallest-index-with-digit-sum-equal-to-index",
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
       ]
     ]
   },

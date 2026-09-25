@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**362 problems solved** &nbsp;·&nbsp; 92 Easy &nbsp;·&nbsp; 217 Medium &nbsp;·&nbsp; 53 Hard
+**364 problems solved** &nbsp;·&nbsp; 93 Easy &nbsp;·&nbsp; 218 Medium &nbsp;·&nbsp; 53 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -37,7 +37,7 @@ _Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1079 | [Letter Tile Possibilities](backtracking/1079-letter-tile-possibilities) | Medium | [Java](backtracking/1079-letter-tile-possibilities/solution.java) |
 
-## Binary Search (12)
+## Binary Search (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -53,6 +53,7 @@ _Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 704 | [Binary Search](binary-search/0704-binary-search) | Easy | [Java](binary-search/0704-binary-search/solution.java) |
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
 | 1011 | [Capacity To Ship Packages Within D Days](binary-search/1011-capacity-to-ship-packages-within-d-days) | Medium | [C++](binary-search/1011-capacity-to-ship-packages-within-d-days/solution.cpp) |
+| 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 
 ## Bit Manipulation (10)
 
@@ -345,7 +346,7 @@ _Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
 | 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
-## Math (8)
+## Math (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -354,6 +355,7 @@ _Last synced 2026-09-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 66 | [Plus One](math/0066-plus-one) | Easy | [Java](math/0066-plus-one/solution.java) |
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](math/3550-smallest-index-with-digit-sum-equal-to-index) | Easy | [Java](math/3550-smallest-index-with-digit-sum-equal-to-index/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
 | 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |
 | 3871 | [Count Commas in Range II](math/3871-count-commas-in-range-ii) | Medium | [Java](math/3871-count-commas-in-range-ii/solution.java) |
