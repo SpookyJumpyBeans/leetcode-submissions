@@ -618,6 +618,31 @@
       ]
     ]
   },
+  "booking-concert-tickets-in-groups": {
+    "difficulty": "Hard",
+    "frontend_id": "2286",
+    "paid_only": false,
+    "slug": "booking-concert-tickets-in-groups",
+    "title": "Booking Concert Tickets in Groups",
+    "topics": [
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Binary Indexed Tree",
+        "binary-indexed-tree"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ]
+    ]
+  },
   "build-a-matrix-with-conditions": {
     "difficulty": "Hard",
     "frontend_id": "2392",

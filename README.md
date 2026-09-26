@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**364 problems solved** &nbsp;·&nbsp; 93 Easy &nbsp;·&nbsp; 218 Medium &nbsp;·&nbsp; 53 Hard
+**365 problems solved** &nbsp;·&nbsp; 93 Easy &nbsp;·&nbsp; 218 Medium &nbsp;·&nbsp; 54 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -36,6 +36,13 @@ _Last synced 2026-09-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 257 | [Binary Tree Paths](backtracking/0257-binary-tree-paths) | Easy | [Java](backtracking/0257-binary-tree-paths/solution.java) |
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1079 | [Letter Tile Possibilities](backtracking/1079-letter-tile-possibilities) | Medium | [Java](backtracking/1079-letter-tile-possibilities/solution.java) |
+
+## Binary Indexed Tree (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 1157 | [Online Majority Element In Subarray](binary-indexed-tree/1157-online-majority-element-in-subarray) | Hard | [Java](binary-indexed-tree/1157-online-majority-element-in-subarray/solution.java) |
+| 2286 | [Booking Concert Tickets in Groups](binary-indexed-tree/2286-booking-concert-tickets-in-groups) | Hard | [Java](binary-indexed-tree/2286-booking-concert-tickets-in-groups/solution.java) |
 
 ## Binary Search (13)
 
@@ -414,12 +421,11 @@ _Last synced 2026-09-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
 
-## Segment Tree (4)
+## Segment Tree (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 732 | [My Calendar III](segment-tree/0732-my-calendar-iii) | Hard | [Java](segment-tree/0732-my-calendar-iii/solution.java) |
-| 1157 | [Online Majority Element In Subarray](segment-tree/1157-online-majority-element-in-subarray) | Hard | [Java](segment-tree/1157-online-majority-element-in-subarray/solution.java) |
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
 
