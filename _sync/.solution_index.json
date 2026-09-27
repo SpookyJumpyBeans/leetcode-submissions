@@ -503,6 +503,43 @@
       }
     ]
   },
+  "basic-calculator-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "227",
+      "paid_only": false,
+      "slug": "basic-calculator-ii",
+      "title": "Basic Calculator II",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154364250,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.1 MB",
+        "runtime": "26 ms",
+        "slug": "basic-calculator-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790456312,
+        "title": "Basic Calculator II"
+      }
+    ]
+  },
   "best-time-to-buy-and-sell-stock": {
     "question": {
       "difficulty": "Easy",
@@ -7514,6 +7551,55 @@
       }
     ]
   },
+  "max-points-on-a-line": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "149",
+      "paid_only": false,
+      "slug": "max-points-on-a-line",
+      "title": "Max Points on a Line",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Geometry",
+          "geometry"
+        ],
+        [
+          "Euclidean Algorithm",
+          "euclidean-algorithm"
+        ],
+        [
+          "Greatest Common Divisor",
+          "greatest-common-divisor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154156311,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.2 MB",
+        "runtime": "40 ms",
+        "slug": "max-points-on-a-line",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790440456,
+        "title": "Max Points on a Line"
+      }
+    ]
+  },
   "maximum-depth-of-binary-tree": {
     "question": {
       "difficulty": "Easy",
@@ -7713,6 +7799,47 @@
         "status": "Accepted",
         "timestamp": 1789591975,
         "title": "Maximum Number of Non-overlapping Palindrome Substrings"
+      }
+    ]
+  },
+  "maximum-performance-of-a-team": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1383",
+      "paid_only": false,
+      "slug": "maximum-performance-of-a-team",
+      "title": "Maximum Performance of a Team",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154339758,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "65.9 MB",
+        "runtime": "52 ms",
+        "slug": "maximum-performance-of-a-team",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790453276,
+        "title": "Maximum Performance of a Team"
       }
     ]
   },
@@ -8620,6 +8747,51 @@
         "status": "Accepted",
         "timestamp": 1789358326,
         "title": "Minimum Number Game"
+      }
+    ]
+  },
+  "minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3191",
+      "paid_only": false,
+      "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+      "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154192204,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "102.2 MB",
+        "runtime": "6 ms",
+        "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790442621,
+        "title": "Minimum Operations to Make Binary Array Elements Equal to One I"
       }
     ]
   },
@@ -10291,6 +10463,47 @@
       }
     ]
   },
+  "range-sum-of-bst": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "938",
+      "paid_only": false,
+      "slug": "range-sum-of-bst",
+      "title": "Range Sum of BST",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Binary Search Tree",
+          "binary-search-tree"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154342507,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "54 MB",
+        "runtime": "1 ms",
+        "slug": "range-sum-of-bst",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790453587,
+        "title": "Range Sum of BST"
+      }
+    ]
+  },
   "range-sum-query-2d-immutable": {
     "question": {
       "difficulty": "Medium",
@@ -10724,6 +10937,43 @@
         "status": "Accepted",
         "timestamp": 1788118435,
         "title": "Removing Minimum and Maximum From Array"
+      }
+    ]
+  },
+  "removing-stars-from-a-string": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2390",
+      "paid_only": false,
+      "slug": "removing-stars-from-a-string",
+      "title": "Removing Stars From a String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154424223,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.8 MB",
+        "runtime": "16 ms",
+        "slug": "removing-stars-from-a-string",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790468214,
+        "title": "Removing Stars From a String"
       }
     ]
   },
@@ -12124,6 +12374,43 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Sort Colors"
+      }
+    ]
+  },
+  "special-array-with-x-elements-greater-than-or-equal-x": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1608",
+      "paid_only": false,
+      "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+      "title": "Special Array With X Elements Greater Than or Equal X",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154168470,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.8 MB",
+        "runtime": "2 ms",
+        "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790441190,
+        "title": "Special Array With X Elements Greater Than or Equal X"
       }
     ]
   },

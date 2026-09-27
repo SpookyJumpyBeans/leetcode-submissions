@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**365 problems solved** &nbsp;·&nbsp; 93 Easy &nbsp;·&nbsp; 218 Medium &nbsp;·&nbsp; 54 Hard
+**372 problems solved** &nbsp;·&nbsp; 95 Easy &nbsp;·&nbsp; 221 Medium &nbsp;·&nbsp; 56 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -44,7 +44,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1157 | [Online Majority Element In Subarray](binary-indexed-tree/1157-online-majority-element-in-subarray) | Hard | [Java](binary-indexed-tree/1157-online-majority-element-in-subarray/solution.java) |
 | 2286 | [Booking Concert Tickets in Groups](binary-indexed-tree/2286-booking-concert-tickets-in-groups) | Hard | [Java](binary-indexed-tree/2286-booking-concert-tickets-in-groups/solution.java) |
 
-## Binary Search (13)
+## Binary Search (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -60,6 +60,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 704 | [Binary Search](binary-search/0704-binary-search) | Easy | [Java](binary-search/0704-binary-search/solution.java) |
 | 875 | [Koko Eating Bananas](binary-search/0875-koko-eating-bananas) | Medium | [Java](binary-search/0875-koko-eating-bananas/solution.java) |
 | 1011 | [Capacity To Ship Packages Within D Days](binary-search/1011-capacity-to-ship-packages-within-d-days) | Medium | [C++](binary-search/1011-capacity-to-ship-packages-within-d-days/solution.cpp) |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 
 ## Bit Manipulation (10)
@@ -236,10 +237,11 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1927 | [Sum Game](game-theory/1927-sum-game) | Medium | [Java](game-theory/1927-sum-game/solution.java) |
 | 2029 | [Stone Game IX](game-theory/2029-stone-game-ix) | Medium | [Java](game-theory/2029-stone-game-ix/solution.java) |
 
-## Geometry (2)
+## Geometry (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 149 | [Max Points on a Line](geometry/0149-max-points-on-a-line) | Hard | [Java](geometry/0149-max-points-on-a-line/solution.java) |
 | 836 | [Rectangle Overlap](geometry/0836-rectangle-overlap) | Easy | [Java](geometry/0836-rectangle-overlap/solution.java) |
 | 973 | [K Closest Points to Origin](geometry/0973-k-closest-points-to-origin) | Medium | [Java](geometry/0973-k-closest-points-to-origin/solution.java) |
 
@@ -259,13 +261,12 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (11)
+## Greedy (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 134 | [Gas Station](greedy/0134-gas-station) | Medium | [Java](greedy/0134-gas-station/solution.java) |
 | 135 | [Candy](greedy/0135-candy) | Hard | [Java](greedy/0135-candy/solution.java) |
-| 649 | [Dota2 Senate](greedy/0649-dota2-senate) | Medium | [Java](greedy/0649-dota2-senate/solution.java) |
 | 846 | [Hand of Straights](greedy/0846-hand-of-straights) | Medium | [Java](greedy/0846-hand-of-straights/solution.java) |
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
@@ -296,7 +297,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
 | 3718 | [Smallest Missing Multiple of K](hash-table/3718-smallest-missing-multiple-of-k) | Easy | [Java](hash-table/3718-smallest-missing-multiple-of-k/solution.java) |
 
-## Heap (Priority Queue) (15)
+## Heap (Priority Queue) (16)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -310,6 +311,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 767 | [Reorganize String](heap-priority-queue/0767-reorganize-string) | Medium | [C++](heap-priority-queue/0767-reorganize-string/solution.cpp) |
 | 1046 | [Last Stone Weight](heap-priority-queue/1046-last-stone-weight) | Easy | [Java](heap-priority-queue/1046-last-stone-weight/solution.java) |
 | 1094 | [Car Pooling](heap-priority-queue/1094-car-pooling) | Medium | [Java](heap-priority-queue/1094-car-pooling/solution.java) |
+| 1383 | [Maximum Performance of a Team](heap-priority-queue/1383-maximum-performance-of-a-team) | Hard | [Java](heap-priority-queue/1383-maximum-performance-of-a-team/solution.java) |
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 1834 | [Single-Threaded CPU](heap-priority-queue/1834-single-threaded-cpu) | Medium | [C++](heap-priority-queue/1834-single-threaded-cpu/solution.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](heap-priority-queue/1851-minimum-interval-to-include-each-query) | Hard | [C++](heap-priority-queue/1851-minimum-interval-to-include-each-query/solution.cpp) |
@@ -421,6 +423,13 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
 
+## Queue (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 649 | [Dota2 Senate](queue/0649-dota2-senate) | Medium | [Java](queue/0649-dota2-senate/solution.java) |
+| 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) | Medium | [Java](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/solution.java) |
+
 ## Segment Tree (3)
 
 | # | Problem | Difficulty | Solutions |
@@ -473,7 +482,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
-## Stack (13)
+## Stack (15)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -485,11 +494,13 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 150 | [Evaluate Reverse Polish Notation](stack/0150-evaluate-reverse-polish-notation) | Medium | [Java](stack/0150-evaluate-reverse-polish-notation/solution.java) |
 | 155 | [Min Stack](stack/0155-min-stack) | Medium | [Java](stack/0155-min-stack/solution.java) |
 | 225 | [Implement Stack using Queues](stack/0225-implement-stack-using-queues) | Easy | [Java](stack/0225-implement-stack-using-queues/solution.java) |
+| 227 | [Basic Calculator II](stack/0227-basic-calculator-ii) | Medium | [Java](stack/0227-basic-calculator-ii/solution.java) |
 | 232 | [Implement Queue using Stacks](stack/0232-implement-queue-using-stacks) | Easy | [Java](stack/0232-implement-queue-using-stacks/solution.java) |
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
+| 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 
 ## String (2)
 
@@ -498,7 +509,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (25)
+## Tree (26)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -520,6 +531,7 @@ _Last synced 2026-09-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
 | 701 | [Insert into a Binary Search Tree](tree/0701-insert-into-a-binary-search-tree) | Medium | [C++](tree/0701-insert-into-a-binary-search-tree/solution.cpp) |
+| 938 | [Range Sum of BST](tree/0938-range-sum-of-bst) | Easy | [Java](tree/0938-range-sum-of-bst/solution.java) |
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
