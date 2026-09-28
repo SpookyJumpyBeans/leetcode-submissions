@@ -6,7 +6,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from .api import AuthError, LeetCodeClient, LeetCodeError
+from .api import AuthError, LeetCodeClient, LeetCodeError, NetworkError
 from .config import NEETCODE_CLONE, NEETCODE_REPO, Credentials, MissingCredentials
 from .neetcode import ensure_clone
 from .setup import prompt_for_cookies
@@ -146,6 +146,9 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             max_submissions=args.max_submissions,
         )
+    except NetworkError as exc:
+        print(f"network unavailable: {exc}", file=sys.stderr)
+        return 4
     except AuthError as exc:
         print(f"auth error: {exc}", file=sys.stderr)
         return 3
@@ -161,7 +164,11 @@ def main(argv: list[str] | None = None) -> int:
         if source is None:
             print("Skipping the NeetCode import; no clone available.")
         else:
-            neetcode_report = run_import_neetcode(source, client)
+            try:
+                neetcode_report = run_import_neetcode(source, client)
+            except NetworkError as exc:
+                print(f"network unavailable during the NeetCode import: {exc}",
+                      file=sys.stderr)
             print(f"NeetCode imported    : {len(neetcode_report.imported)}")
             for line in neetcode_report.imported:
                 print(f"  + {line}")

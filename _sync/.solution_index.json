@@ -7716,6 +7716,43 @@
       }
     ]
   },
+  "maximum-nesting-depth-of-the-parentheses": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1614",
+      "paid_only": false,
+      "slug": "maximum-nesting-depth-of-the-parentheses",
+      "title": "Maximum Nesting Depth of the Parentheses",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2155423361,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.4 MB",
+        "runtime": "1 ms",
+        "slug": "maximum-nesting-depth-of-the-parentheses",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790553887,
+        "title": "Maximum Nesting Depth of the Parentheses"
+      }
+    ]
+  },
   "maximum-number-of-fish-in-a-grid": {
     "question": {
       "difficulty": "Medium",
@@ -8524,6 +8561,47 @@
         "status": "Accepted",
         "timestamp": 1788658126,
         "title": "Minimum Array End"
+      }
+    ]
+  },
+  "minimum-cost-to-convert-string-i": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2976",
+      "paid_only": false,
+      "slug": "minimum-cost-to-convert-string-i",
+      "title": "Minimum Cost to Convert String I",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Shortest Path",
+          "shortest-path"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2155421034,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "106 ms",
+        "slug": "minimum-cost-to-convert-string-i",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790553419,
+        "title": "Minimum Cost to Convert String I"
       }
     ]
   },
@@ -11386,6 +11464,47 @@
         "status": "Accepted",
         "timestamp": 1786394218,
         "title": "RLE Iterator"
+      }
+    ]
+  },
+  "robot-collisions": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2751",
+      "paid_only": false,
+      "slug": "robot-collisions",
+      "title": "Robot Collisions",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2154494221,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "137.2 MB",
+        "runtime": "71 ms",
+        "slug": "robot-collisions",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790477825,
+        "title": "Robot Collisions"
       }
     ]
   },

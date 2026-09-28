@@ -4625,6 +4625,27 @@
       ]
     ]
   },
+  "maximum-nesting-depth-of-the-parentheses": {
+    "difficulty": "Easy",
+    "frontend_id": "1614",
+    "paid_only": false,
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
   "maximum-number-of-fish-in-a-grid": {
     "difficulty": "Medium",
     "frontend_id": "2658",
@@ -5099,6 +5120,31 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "minimum-cost-to-convert-string-i": {
+    "difficulty": "Medium",
+    "frontend_id": "2976",
+    "paid_only": false,
+    "slug": "minimum-cost-to-convert-string-i",
+    "title": "Minimum Cost to Convert String I",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Shortest Path",
+        "shortest-path"
       ]
     ]
   },
@@ -6801,6 +6847,31 @@
       [
         "Iterator",
         "iterator"
+      ]
+    ]
+  },
+  "robot-collisions": {
+    "difficulty": "Hard",
+    "frontend_id": "2751",
+    "paid_only": false,
+    "slug": "robot-collisions",
+    "title": "Robot Collisions",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },

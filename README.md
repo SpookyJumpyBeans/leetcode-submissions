@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**372 problems solved** &nbsp;·&nbsp; 95 Easy &nbsp;·&nbsp; 221 Medium &nbsp;·&nbsp; 56 Hard
+**375 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 222 Medium &nbsp;·&nbsp; 57 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -438,7 +438,7 @@ _Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
 
-## Shortest Path (5)
+## Shortest Path (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -447,6 +447,7 @@ _Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1334 | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | Medium | [Java](shortest-path/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution.java) |
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](shortest-path/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) | Hard | [Java](shortest-path/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution.java) |
 | 1514 | [Path with Maximum Probability](shortest-path/1514-path-with-maximum-probability) | Medium | [Java](shortest-path/1514-path-with-maximum-probability/solution.java) |
+| 2976 | [Minimum Cost to Convert String I](shortest-path/2976-minimum-cost-to-convert-string-i) | Medium | [Java](shortest-path/2976-minimum-cost-to-convert-string-i/solution.java) |
 
 ## Simulation (5)
 
@@ -482,7 +483,7 @@ _Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
-## Stack (15)
+## Stack (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -500,7 +501,9 @@ _Last synced 2026-09-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
+| 1614 | [Maximum Nesting Depth of the Parentheses](stack/1614-maximum-nesting-depth-of-the-parentheses) | Easy | [Java](stack/1614-maximum-nesting-depth-of-the-parentheses/solution.java) |
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
+| 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
 ## String (2)
 

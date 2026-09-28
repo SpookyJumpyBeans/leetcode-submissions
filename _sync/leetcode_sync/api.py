@@ -50,6 +50,12 @@ class AuthError(LeetCodeError):
     pass
 
 
+class NetworkError(LeetCodeError):
+    """The request never reached LeetCode: DNS, connection or timeout failure."""
+
+    pass
+
+
 class ThrottledError(LeetCodeError):
     """Rate limiting we could not wait out. Progress is still resumable."""
 
@@ -167,9 +173,32 @@ class LeetCodeClient:
         if csrf_token:
             self.http.headers["x-csrftoken"] = csrf_token
 
+    def _send(self, method: str, url: str, **kwargs) -> requests.Response:
+        """Perform one request, retrying while the network itself is unavailable.
+
+        A scheduled run often fires while the machine is still coming up, when
+        DNS is not answering yet. That is worth waiting out rather than failing
+        the whole sync, so these retry on their own schedule - separate from the
+        HTTP-level retries in the caller, which handle throttling.
+        """
+        last: Exception | None = None
+        for attempt in range(self.max_retries):
+            try:
+                return getattr(self.http, method)(url, timeout=30, **kwargs)
+            except (requests.exceptions.ConnectionError,
+                    requests.exceptions.Timeout) as exc:
+                last = exc
+                if attempt < self.max_retries - 1:
+                    time.sleep(min(30.0, 3.0 * (2 ** attempt)))
+        raise NetworkError(
+            f"Could not reach {BASE_URL} after {self.max_retries} attempts - no "
+            "network, or DNS is not resolving. Nothing was synced; the next run "
+            "picks up where this one left off."
+        ) from last
+
     def _get(self, url: str, params: dict[str, Any]) -> dict[str, Any]:
         for attempt in range(self.max_retries):
-            response = self.http.get(url, params=params, timeout=30)
+            response = self._send("get", url, params=params)
 
             # 403 means one of two very different things. Before any request has
             # succeeded it is a bad cookie; after several good pages it is
@@ -241,10 +270,9 @@ class LeetCodeClient:
 
     def get_question(self, slug: str) -> Question | None:
         for attempt in range(self.max_retries):
-            response = self.http.post(
-                GRAPHQL_URL,
+            response = self._send(
+                "post", GRAPHQL_URL,
                 json={"query": QUESTION_QUERY, "variables": {"titleSlug": slug}},
-                timeout=30,
             )
             if response.status_code == 429:
                 _backoff(attempt)
