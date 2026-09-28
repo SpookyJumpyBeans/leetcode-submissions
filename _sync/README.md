@@ -108,6 +108,9 @@ Add `-Push` inside the `/tr` string once a remote is configured.
 
 ## Notes
 
+- A run that cannot reach leetcode.com retries with backoff and then exits with
+  code 4 and a one-line message. DNS is often not ready when a scheduled run
+  fires just after boot, so this rides that out rather than failing the sync.
 - The session cookie expires every week or two. When that happens the sync exits
   with `auth error` and you paste a fresh cookie into `.env` — nothing else breaks,
   and the next run resumes from where it stopped.
