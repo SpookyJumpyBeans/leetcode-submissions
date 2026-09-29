@@ -12,7 +12,7 @@ _Last synced 2026-09-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-**7 day streak** (since Sep 23) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **101** active days
+🔥 **7 day streak** (since Sep 23) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **101** active days
 
 ```
          Mon Tue Wed Thu Fri Sat Sun 
