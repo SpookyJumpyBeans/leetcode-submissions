@@ -11,7 +11,10 @@ from .config import NEETCODE_CLONE, NEETCODE_REPO, Credentials, MissingCredentia
 from .neetcode import ensure_clone
 from .setup import prompt_for_cookies
 from .state import SyncState
-from .sync import SyncReport, commit, run_import_neetcode, run_relayout, run_sync, summarize
+from .sync import (
+    SyncReport, commit, run_import_neetcode, run_relayout, run_streak, run_sync,
+    summarize, update_profile,
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -29,6 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
         metavar="PATH",
         default=None,
         help="Fold a NeetCode GitHub Sync repo into this tree (path to a local clone).",
+    )
+    parser.add_argument(
+        "--no-streak",
+        action="store_true",
+        help="Skip refreshing the streak block in the READMEs.",
     )
     parser.add_argument(
         "--with-neetcode",
@@ -83,6 +91,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
     args = build_parser().parse_args(argv)
 
     if args.set_cookies:
@@ -173,6 +187,17 @@ def main(argv: list[str] | None = None) -> int:
             for line in neetcode_report.imported:
                 print(f"  + {line}")
 
+    streak_ran = False
+    if not args.dry_run and not args.no_streak:
+        try:
+            stats, block = run_streak(client)
+            streak_ran = True
+            print(f"Streak               : {stats.current} day(s) current, "
+                  f"{stats.longest} longest, {stats.total_active} active days")
+            update_profile(block, push=args.push)
+        except LeetCodeError as exc:
+            print(f"streak update skipped: {exc}", file=sys.stderr)
+
     if args.dry_run:
         for path in report.written[:40]:
             print(f"  would write {path}")
@@ -190,5 +215,5 @@ def main(argv: list[str] | None = None) -> int:
                 parts.append(f"{len(report.written)} from LeetCode")
             parts.append(f"{len(neetcode_report.imported)} from NeetCode")
             subject = "Sync " + " and ".join(parts)
-        commit(combined, push=args.push, subject=subject)
+        commit(combined, push=args.push, subject=subject, force=streak_ran)
     return 0

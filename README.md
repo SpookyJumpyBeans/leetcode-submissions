@@ -2,13 +2,31 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**375 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 222 Medium &nbsp;·&nbsp; 57 Hard
+**376 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 222 Medium &nbsp;·&nbsp; 58 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+
+### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
+
+**7 day streak** (since Sep 23) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **101** active days
+
+```
+         Mon Tue Wed Thu Fri Sat Sun 
+Aug 10    ▓   █   ▓   █   ░   ▓   ░  
+Aug 17    ▓   █   ░   ░   ░   ▓   ▒  
+Aug 24    ▓   ░   ▓   ▓   ▓   ▓   ▓  
+Aug 31    ░   █   ▒   ▓   █   ·   █  
+Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
+Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
+Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
+Sep 28    ░   ░                      
+```
+
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-09-29.</sub>
 
 ## Array (2)
 
@@ -162,7 +180,7 @@ _Last synced 2026-09-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (59)
+## Dynamic Programming (60)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -222,6 +240,7 @@ _Last synced 2026-09-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1155 | [Number of Dice Rolls With Target Sum](dynamic-programming/1155-number-of-dice-rolls-with-target-sum) | Medium | [Java](dynamic-programming/1155-number-of-dice-rolls-with-target-sum/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
+| 2267 | [ Check if There Is a Valid Parentheses String Path](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path) | Hard | [Java](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |

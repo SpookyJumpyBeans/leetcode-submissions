@@ -13,3 +13,6 @@ _sync/logs/
 
 # Working clone of the NeetCode sync repo
 _sync/.neetcode/
+
+# Working clone of the GitHub profile repo
+_sync/.profile/

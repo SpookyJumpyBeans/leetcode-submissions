@@ -878,6 +878,31 @@
       ]
     ]
   },
+  "check-if-there-is-a-valid-parentheses-string-path": {
+    "difficulty": "Hard",
+    "frontend_id": "2267",
+    "paid_only": false,
+    "slug": "check-if-there-is-a-valid-parentheses-string-path",
+    "title": " Check if There Is a Valid Parentheses String Path",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
   "cinema-seat-allocation": {
     "difficulty": "Medium",
     "frontend_id": "1386",

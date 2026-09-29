@@ -22,8 +22,12 @@ from .layout import (
     write_text,
 )
 from .bucketing import assign_topics
-from .config import TOPIC_MIN_SIZE
-from .neetcode import discover, to_submission
+from .config import (
+    LEETCODE_PROFILE_URL, LEETCODE_USERNAME, PROFILE_CLONE, PROFILE_REPO,
+    STREAK_END, STREAK_START, STREAK_WEEKS, TOPIC_MIN_SIZE,
+)
+from .neetcode import discover, ensure_clone, to_submission
+from .streak import apply_block, build as build_streak
 from .relayout import apply_moves, plan_moves, prune_empty_topic_dirs
 from .state import ProblemCache, SolutionIndex, SyncState
 
@@ -201,7 +205,8 @@ def run_relayout(repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None
 
 
 def _write_readmes(repo_root: Path, index: SolutionIndex,
-                   min_size: int = TOPIC_MIN_SIZE) -> None:
+                   min_size: int = TOPIC_MIN_SIZE,
+                   streak_block: str | None = None) -> None:
     """Rewrite every README. Consolidation is global, so one problem arriving
     can change which folder its neighbours belong in."""
     entries = index.entries()
@@ -210,11 +215,14 @@ def _write_readmes(repo_root: Path, index: SolutionIndex,
         placement = placement_for(question, submissions[0], assignment.get(question.slug))
         readme = repo_root / placement.topic_dir / placement.problem_dir / "README.md"
         write_text(readme, render_problem_readme(question, submissions))
-    write_text(repo_root / "README.md", render_root_readme(entries, assignment=assignment))
+    write_text(repo_root / "README.md",
+               render_root_readme(entries, assignment=assignment,
+                                  streak_block=streak_block))
 
 
 def normalize_layout(repo_root: Path, index: SolutionIndex, log=print,
-                     min_size: int = TOPIC_MIN_SIZE) -> list:
+                     min_size: int = TOPIC_MIN_SIZE,
+                     streak_block: str | None = None) -> list:
     """Move anything now in the wrong folder, then regenerate the READMEs."""
     moves = plan_moves(repo_root, index, min_size)
     if moves:
@@ -222,7 +230,7 @@ def normalize_layout(repo_root: Path, index: SolutionIndex, log=print,
         removed = prune_empty_topic_dirs(repo_root)
         if removed:
             log(f"Removed empty topic folders: {', '.join(removed)}")
-    _write_readmes(repo_root, index, min_size)
+    _write_readmes(repo_root, index, min_size, streak_block)
     return moves
 
 
@@ -306,9 +314,9 @@ def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:
 
 
 def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
-           subject: str | None = None, log=print) -> bool:
+           subject: str | None = None, force: bool = False, log=print) -> bool:
     """Stage and commit whatever the sync produced. Returns True if a commit was made."""
-    if not report.changed:
+    if not report.changed and not force:
         log("Nothing to commit.")
         return False
     git("add", "-A", repo_root=repo_root)
@@ -318,6 +326,8 @@ def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
         return False
 
     count = len(report.written)
+    if subject is None and count == 0:
+        subject = "Update LeetCode streak"
     if subject is None:
         if count == 1:
             subject = f"Add solution: {report.written[0]}"
@@ -355,3 +365,46 @@ def summarize(report: SyncReport) -> str:
         lines.append("PARTIAL RUN - everything above is saved.")
         lines.append("Rerun with --full to continue from where it stopped.")
     return "\n".join(lines)
+
+
+def run_streak(client, repo_root: Path = REPO_ROOT, index: SolutionIndex | None = None,
+               min_size: int = TOPIC_MIN_SIZE, weeks: int = STREAK_WEEKS,
+               username: str = LEETCODE_USERNAME, profile: str = LEETCODE_PROFILE_URL,
+               log=print):
+    """Refresh the streak block and rewrite this repo's root README with it."""
+    index = index if index is not None else SolutionIndex(INDEX_PATH)
+    stats, block = build_streak(client, username, weeks=weeks, profile=profile)
+    _write_readmes(repo_root, index, min_size, streak_block=block)
+    return stats, block
+
+
+def update_profile(block: str, repo: str | None = PROFILE_REPO,
+                   clone: Path = PROFILE_CLONE, push: bool = True, log=print) -> bool:
+    """Write the same block into the GitHub profile README, between its markers."""
+    if not repo:
+        return False
+    source = ensure_clone(repo, clone, log=log)
+    if source is None:
+        log("Skipping the profile README; no clone available.")
+        return False
+
+    readme = source / "README.md"
+    original = readme.read_text(encoding="utf-8") if readme.exists() else ""
+    updated = apply_block(original, block, STREAK_START, STREAK_END)
+    if updated == original:
+        return False
+
+    readme.write_text(updated, encoding="utf-8", newline="\n")
+    git("add", "README.md", repo_root=source)
+    result = git("commit", "-m", "Update LeetCode streak", repo_root=source)
+    if result.returncode != 0:
+        log(result.stderr.strip() or result.stdout.strip() or "profile commit failed")
+        return False
+    if push:
+        pushed = git("push", repo_root=source)
+        if pushed.returncode != 0:
+            log("Profile push failed:")
+            log("  " + (pushed.stderr.strip().splitlines() or ["unknown error"])[-1])
+            return False
+    log("Profile README updated.")
+    return True

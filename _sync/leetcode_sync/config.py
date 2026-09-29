@@ -195,3 +195,21 @@ NEETCODE_REPO = "SpookyJumpyBeans/neetcode-submissions"
 
 # Local working clone of the above. Gitignored; refreshed before each import.
 NEETCODE_CLONE = SYNC_ROOT / ".neetcode"
+
+
+# --- Streak block -----------------------------------------------------------
+# Your LeetCode profile. The streak is read from this user's public calendar.
+LEETCODE_USERNAME = "SpookyJumpyBeans"
+LEETCODE_PROFILE_URL = f"https://leetcode.com/u/{LEETCODE_USERNAME}/"
+
+# Weeks shown in the heatmap.
+STREAK_WEEKS = 8
+
+# GitHub profile README repo, updated alongside this one. Set to None to skip.
+PROFILE_REPO = "SpookyJumpyBeans/SpookyJumpyBeans"
+PROFILE_CLONE = SYNC_ROOT / ".profile"
+
+# The streak block is written between these markers, so everything else in a
+# README is left alone. Move the pair anywhere and updates follow them.
+STREAK_START = "<!-- leetcode-streak:start -->"
+STREAK_END = "<!-- leetcode-streak:end -->"

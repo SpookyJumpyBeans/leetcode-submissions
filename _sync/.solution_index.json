@@ -1499,6 +1499,47 @@
       }
     ]
   },
+  "check-if-there-is-a-valid-parentheses-string-path": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "2267",
+      "paid_only": false,
+      "slug": "check-if-there-is-a-valid-parentheses-string-path",
+      "title": " Check if There Is a Valid Parentheses String Path",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2156620220,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "157.8 MB",
+        "runtime": "130 ms",
+        "slug": "check-if-there-is-a-valid-parentheses-string-path",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790654574,
+        "title": " Check if There Is a Valid Parentheses String Path"
+      }
+    ]
+  },
   "cinema-seat-allocation": {
     "question": {
       "difficulty": "Medium",

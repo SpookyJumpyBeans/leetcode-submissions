@@ -103,7 +103,8 @@ DIFFICULTY_ORDER = {"Easy": 0, "Medium": 1, "Hard": 2}
 
 def render_root_readme(entries: list[tuple[Question, list[Submission]]],
                        generated_at: datetime | None = None,
-                       assignment: dict[str, tuple[str, str]] | None = None) -> str:
+                       assignment: dict[str, tuple[str, str]] | None = None,
+                       streak_block: str | None = None) -> str:
     """The repo landing page: counts plus a full index grouped by topic."""
     generated_at = generated_at or datetime.now(timezone.utc)
     counts = {"Easy": 0, "Medium": 0, "Hard": 0}
@@ -152,6 +153,8 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         "([how it works](_sync/README.md))._",
         "",
     ]
+    if streak_block:
+        lines += [streak_block, ""]
 
     def topic_of(question: Question) -> tuple[str, str]:
         if assignment is not None and question.slug in assignment:
