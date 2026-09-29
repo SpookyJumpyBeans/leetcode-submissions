@@ -313,14 +313,36 @@ def git(*args: str, repo_root: Path = REPO_ROOT) -> subprocess.CompletedProcess:
     )
 
 
+# State the sync owns and should commit, even though it lives under _sync/.
+STATE_FILES = (
+    "_sync/.problem_cache.json",
+    "_sync/.solution_index.json",
+    "_sync/.sync_state.json",
+)
+
+
+def stage_owned(repo_root: Path = REPO_ROOT) -> None:
+    """Stage only what the sync produces, never the tool or anything else.
+
+    Staging everything would let an unattended run sweep up whatever happened to
+    be uncommitted - half-finished edits to this package, stray notes - and push
+    it to a public repository under an auto-generated message.
+    """
+    git("add", "-A", "--", ".", ":(exclude)_sync", ":(exclude).gitignore",
+        repo_root=repo_root)
+    present = [name for name in STATE_FILES if (repo_root / name).exists()]
+    if present:
+        git("add", "--", *present, repo_root=repo_root)
+
+
 def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
            subject: str | None = None, force: bool = False, log=print) -> bool:
     """Stage and commit whatever the sync produced. Returns True if a commit was made."""
     if not report.changed and not force:
         log("Nothing to commit.")
         return False
-    git("add", "-A", repo_root=repo_root)
-    status = git("status", "--porcelain", repo_root=repo_root)
+    stage_owned(repo_root)
+    status = git("diff", "--cached", "--name-only", repo_root=repo_root)
     if not status.stdout.strip():
         log("Working tree clean; nothing to commit.")
         return False

@@ -162,3 +162,32 @@ def test_fetch_calendar_merges_the_years_it_is_given():
 def test_fetch_calendar_tolerates_a_year_with_no_data():
     client = FakeClient({2026: {dt.date(2026, 1, 1): 1}})
     assert fetch_calendar(client, "someone", [2025, 2026]) == {dt.date(2026, 1, 1): 1}
+
+
+def test_active_streak_gets_a_fire():
+    s = compute(days_from((27, 1), (28, 1), (29, 1)), TODAY)
+    assert "\U0001F525" in render_block(s, TODAY, weeks=2)
+
+
+def test_a_broken_streak_gets_no_fire():
+    s = compute(days_from((20, 1)), TODAY)
+    assert "\U0001F525" not in render_block(s, TODAY, weeks=2)
+
+
+def test_remove_block_strips_the_region_and_its_markers():
+    from leetcode_sync.streak import remove_block
+    original = f"banner\n\n{START}\nSTREAK\n{END}\n"
+    out = remove_block(original, START, END)
+    assert out == "banner\n"
+    assert START not in out and END not in out
+
+
+def test_remove_block_is_a_no_op_without_markers():
+    from leetcode_sync.streak import remove_block
+    assert remove_block("banner\n", START, END) == "banner\n"
+
+
+def test_apply_then_remove_round_trips():
+    from leetcode_sync.streak import remove_block
+    original = "banner\n"
+    assert remove_block(apply_block(original, "X", START, END), START, END) == original

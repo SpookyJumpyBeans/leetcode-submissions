@@ -150,9 +150,9 @@ def render_block(stats: Streak, today: dt.date, weeks: int = 8,
                  profile: str = "") -> str:
     """The markdown that goes between the streak markers."""
     if stats.current:
-        headline = (f"**{stats.current} day streak** "
+        headline = (f"🔥 **{stats.current} day streak** "
                     f"(since {short_date(stats.current_start)})" if stats.current > 1
-                    else "**1 day streak**")
+                    else "🔥 **1 day streak**")
     else:
         last = f", last solved {short_date(stats.last_active)}" if stats.last_active else ""
         headline = f"**No active streak**{last}"
@@ -194,3 +194,12 @@ def apply_block(text: str, block: str, start: str, end: str) -> str:
         return head + marked + tail
     separator = "" if text.endswith("\n\n") else ("\n" if text.endswith("\n") else "\n\n")
     return text + separator + marked + "\n"
+
+
+def remove_block(text: str, start: str, end: str) -> str:
+    """Strip the marked region and its markers, leaving the rest untouched."""
+    if start not in text or end not in text:
+        return text
+    head = text[: text.index(start)]
+    tail = text[text.index(end) + len(end):]
+    return (head.rstrip("\n") + "\n") if head.strip() else tail.lstrip("\n")

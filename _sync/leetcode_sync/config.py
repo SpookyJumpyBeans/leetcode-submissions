@@ -205,8 +205,9 @@ LEETCODE_PROFILE_URL = f"https://leetcode.com/u/{LEETCODE_USERNAME}/"
 # Weeks shown in the heatmap.
 STREAK_WEEKS = 8
 
-# GitHub profile README repo, updated alongside this one. Set to None to skip.
-PROFILE_REPO = "SpookyJumpyBeans/SpookyJumpyBeans"
+# GitHub profile README repo. None means the streak lives only in this repo;
+# set it to "owner/name" to mirror the block into that repo's README too.
+PROFILE_REPO = None
 PROFILE_CLONE = SYNC_ROOT / ".profile"
 
 # The streak block is written between these markers, so everything else in a
