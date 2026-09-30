@@ -4750,6 +4750,35 @@
       ]
     ]
   },
+  "maximum-product-of-the-length-of-two-palindromic-subsequences": {
+    "difficulty": "Medium",
+    "frontend_id": "2002",
+    "paid_only": false,
+    "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+    "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Bitmask",
+        "bitmask"
+      ]
+    ]
+  },
   "maximum-product-subarray": {
     "difficulty": "Medium",
     "frontend_id": "152",
@@ -6133,6 +6162,27 @@
       [
         "Binary Tree",
         "binary-tree"
+      ]
+    ]
+  },
+  "path-with-maximum-gold": {
+    "difficulty": "Medium",
+    "frontend_id": "1219",
+    "paid_only": false,
+    "slug": "path-with-maximum-gold",
+    "title": "Path with Maximum Gold",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },

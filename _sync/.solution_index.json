@@ -7921,6 +7921,51 @@
       }
     ]
   },
+  "maximum-product-of-the-length-of-two-palindromic-subsequences": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2002",
+      "paid_only": false,
+      "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Bitmask",
+          "bitmask"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2157492971,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.1 MB",
+        "runtime": "2318 ms",
+        "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790707661,
+        "title": "Maximum Product of the Length of Two Palindromic Subsequences"
+      }
+    ]
+  },
   "maximum-product-subarray": {
     "question": {
       "difficulty": "Medium",
@@ -10217,6 +10262,43 @@
         "status": "Accepted",
         "timestamp": 1785937976,
         "title": "Path Sum"
+      }
+    ]
+  },
+  "path-with-maximum-gold": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1219",
+      "paid_only": false,
+      "slug": "path-with-maximum-gold",
+      "title": "Path with Maximum Gold",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2157509939,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.1 MB",
+        "runtime": "35 ms",
+        "slug": "path-with-maximum-gold",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790708836,
+        "title": "Path with Maximum Gold"
       }
     ]
   },

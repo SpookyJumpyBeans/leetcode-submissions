@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**376 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 222 Medium &nbsp;·&nbsp; 58 Hard
+**378 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 224 Medium &nbsp;·&nbsp; 58 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-09-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
@@ -23,10 +23,10 @@ Aug 31    ░   █   ▒   ▓   █   ·   █
 Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ░                      
+Sep 28    ░   ▒   ·                  
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-09-29.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-09-30.</sub>
 
 ## Array (2)
 
@@ -35,7 +35,7 @@ Sep 28    ░   ░
 | 57 | [Insert Interval](array/0057-insert-interval) | Medium | [Java](array/0057-insert-interval/solution.java) |
 | 674 | [Longest Continuous Increasing Subsequence](array/0674-longest-continuous-increasing-subsequence) | Easy | [Java](array/0674-longest-continuous-increasing-subsequence/solution.java) |
 
-## Backtracking (15)
+## Backtracking (16)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -54,6 +54,7 @@ Sep 28    ░   ░
 | 257 | [Binary Tree Paths](backtracking/0257-binary-tree-paths) | Easy | [Java](backtracking/0257-binary-tree-paths/solution.java) |
 | 980 | [Unique Paths III](backtracking/0980-unique-paths-iii) | Hard | [Java](backtracking/0980-unique-paths-iii/solution.java) |
 | 1079 | [Letter Tile Possibilities](backtracking/1079-letter-tile-possibilities) | Medium | [Java](backtracking/1079-letter-tile-possibilities/solution.java) |
+| 1219 | [Path with Maximum Gold](backtracking/1219-path-with-maximum-gold) | Medium | [Java](backtracking/1219-path-with-maximum-gold/solution.java) |
 
 ## Binary Indexed Tree (2)
 
@@ -96,12 +97,13 @@ Sep 28    ░   ░
 | 3133 | [Minimum Array End](bit-manipulation/3133-minimum-array-end) | Medium | [Java](bit-manipulation/3133-minimum-array-end/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
-## Bitmask (2)
+## Bitmask (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 473 | [Matchsticks to Square](bitmask/0473-matchsticks-to-square) | Medium | [Java](bitmask/0473-matchsticks-to-square/solution.java) |
 | 698 | [Partition to K Equal Sum Subsets](bitmask/0698-partition-to-k-equal-sum-subsets) | Medium | [Java](bitmask/0698-partition-to-k-equal-sum-subsets/solution.java) |
+| 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences) | Medium | [Java](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/solution.java) |
 
 ## Breadth-First Search (5)
 
