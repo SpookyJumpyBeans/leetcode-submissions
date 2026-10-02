@@ -6,7 +6,7 @@ My accepted solutions, synced automatically from my LeetCode submission history 
 
 Languages: C++, Java
 
-Some solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
+50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
 _Last synced 2026-10-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
