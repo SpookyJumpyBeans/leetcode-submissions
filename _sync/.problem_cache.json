@@ -903,6 +903,23 @@
       ]
     ]
   },
+  "check-if-there-is-a-valid-partition-for-the-array": {
+    "difficulty": "Medium",
+    "frontend_id": "2369",
+    "paid_only": false,
+    "slug": "check-if-there-is-a-valid-partition-for-the-array",
+    "title": "Check if There is a Valid Partition For The Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
   "cinema-seat-allocation": {
     "difficulty": "Medium",
     "frontend_id": "1386",
@@ -4671,6 +4688,27 @@
       ]
     ]
   },
+  "maximum-nesting-depth-of-two-valid-parentheses-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "1111",
+    "paid_only": false,
+    "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
   "maximum-number-of-fish-in-a-grid": {
     "difficulty": "Medium",
     "frontend_id": "2658",
@@ -5174,6 +5212,23 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "minimum-cost-for-tickets": {
+    "difficulty": "Medium",
+    "frontend_id": "983",
+    "paid_only": false,
+    "slug": "minimum-cost-for-tickets",
+    "title": "Minimum Cost For Tickets",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },
@@ -8402,6 +8457,27 @@
     "paid_only": false,
     "slug": "triples-with-bitwise-and-equal-to-zero",
     "title": "Triples with Bitwise AND Equal To Zero",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
+  "two-out-of-three": {
+    "difficulty": "Easy",
+    "frontend_id": "2032",
+    "paid_only": false,
+    "slug": "two-out-of-three",
+    "title": "Two Out of Three",
     "topics": [
       [
         "Array",

@@ -1540,6 +1540,39 @@
       }
     ]
   },
+  "check-if-there-is-a-valid-partition-for-the-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2369",
+      "paid_only": false,
+      "slug": "check-if-there-is-a-valid-partition-for-the-array",
+      "title": "Check if There is a Valid Partition For The Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2159684331,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "97 MB",
+        "runtime": "8 ms",
+        "slug": "check-if-there-is-a-valid-partition-for-the-array",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790902219,
+        "title": "Check if There is a Valid Partition For The Array"
+      }
+    ]
+  },
   "cinema-seat-allocation": {
     "question": {
       "difficulty": "Medium",
@@ -7794,6 +7827,43 @@
       }
     ]
   },
+  "maximum-nesting-depth-of-two-valid-parentheses-strings": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1111",
+      "paid_only": false,
+      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2159674497,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.5 MB",
+        "runtime": "2 ms",
+        "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790899922,
+        "title": "Maximum Nesting Depth of Two Valid Parentheses Strings"
+      }
+    ]
+  },
   "maximum-number-of-fish-in-a-grid": {
     "question": {
       "difficulty": "Medium",
@@ -8647,6 +8717,39 @@
         "status": "Accepted",
         "timestamp": 1788658126,
         "title": "Minimum Array End"
+      }
+    ]
+  },
+  "minimum-cost-for-tickets": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "983",
+      "paid_only": false,
+      "slug": "minimum-cost-for-tickets",
+      "title": "Minimum Cost For Tickets",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2159543618,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43 MB",
+        "runtime": "0 ms",
+        "slug": "minimum-cost-for-tickets",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790880527,
+        "title": "Minimum Cost For Tickets"
       }
     ]
   },
@@ -14004,6 +14107,43 @@
         "status": "Accepted",
         "timestamp": 1784232242,
         "title": "Triples with Bitwise AND Equal To Zero"
+      }
+    ]
+  },
+  "two-out-of-three": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2032",
+      "paid_only": false,
+      "slug": "two-out-of-three",
+      "title": "Two Out of Three",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2158700913,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.8 MB",
+        "runtime": "1 ms",
+        "slug": "two-out-of-three",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790821273,
+        "title": "Two Out of Three"
       }
     ]
   },

@@ -2,17 +2,17 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**378 problems solved** &nbsp;·&nbsp; 96 Easy &nbsp;·&nbsp; 224 Medium &nbsp;·&nbsp; 58 Hard
+**382 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 227 Medium &nbsp;·&nbsp; 58 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-09-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **7 day streak** (since Sep 23) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **101** active days
+🔥 **2 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **103** active days
 
 ```
          Mon Tue Wed Thu Fri Sat Sun 
@@ -23,10 +23,10 @@ Aug 31    ░   █   ▒   ▓   █   ·   █
 Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ▒   ·                  
+Sep 28    ░   ▒   ·   ▒   ▒          
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-09-30.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-02.</sub>
 
 ## Array (2)
 
@@ -82,7 +82,7 @@ Sep 28    ░   ▒   ·
 | 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 
-## Bit Manipulation (10)
+## Bit Manipulation (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -94,6 +94,7 @@ Sep 28    ░   ▒   ·
 | 1342 | [Number of Steps to Reduce a Number to Zero](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero) | Easy | [C++](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.cpp) [Java](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.java) |
 | 1486 | [XOR Operation in an Array](bit-manipulation/1486-xor-operation-in-an-array) | Easy | [C++](bit-manipulation/1486-xor-operation-in-an-array/solution.cpp) |
 | 1720 | [Decode XORed Array](bit-manipulation/1720-decode-xored-array) | Easy | [Java](bit-manipulation/1720-decode-xored-array/solution.java) |
+| 2032 | [Two Out of Three](bit-manipulation/2032-two-out-of-three) | Easy | [Java](bit-manipulation/2032-two-out-of-three/solution.java) |
 | 3133 | [Minimum Array End](bit-manipulation/3133-minimum-array-end) | Medium | [Java](bit-manipulation/3133-minimum-array-end/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
@@ -182,7 +183,7 @@ Sep 28    ░   ▒   ·
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (60)
+## Dynamic Programming (62)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -236,6 +237,7 @@ Sep 28    ░   ▒   ·
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
 | 940 | [Distinct Subsequences II](dynamic-programming/0940-distinct-subsequences-ii) | Hard | [Java](dynamic-programming/0940-distinct-subsequences-ii/solution.java) |
 | 978 | [Longest Turbulent Subarray](dynamic-programming/0978-longest-turbulent-subarray) | Medium | [Java](dynamic-programming/0978-longest-turbulent-subarray/solution.java) |
+| 983 | [Minimum Cost For Tickets](dynamic-programming/0983-minimum-cost-for-tickets) | Medium | [Java](dynamic-programming/0983-minimum-cost-for-tickets/solution.java) |
 | 1049 | [Last Stone Weight II](dynamic-programming/1049-last-stone-weight-ii) | Medium | [Java](dynamic-programming/1049-last-stone-weight-ii/solution.java) |
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
@@ -243,6 +245,7 @@ Sep 28    ░   ▒   ·
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path) | Hard | [Java](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path/solution.java) |
+| 2369 | [Check if There is a Valid Partition For The Array](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array) | Medium | [Java](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
@@ -504,7 +507,7 @@ Sep 28    ░   ▒   ·
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
-## Stack (17)
+## Stack (18)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -521,6 +524,7 @@ Sep 28    ░   ▒   ·
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
+| 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) | Medium | [Java](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](stack/1614-maximum-nesting-depth-of-the-parentheses) | Easy | [Java](stack/1614-maximum-nesting-depth-of-the-parentheses/solution.java) |
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
