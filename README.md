@@ -8,7 +8,7 @@ Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
@@ -23,10 +23,10 @@ Aug 31    ░   █   ▒   ▓   █   ·   █
 Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ▒   ·   ▒   ▒          
+Sep 28    ░   ▒   ·   ▒   ▒   ·      
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-02.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-03.</sub>
 
 ## Array (2)
 
