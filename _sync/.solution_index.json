@@ -7537,6 +7537,51 @@
       }
     ]
   },
+  "making-a-large-island": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "827",
+      "paid_only": false,
+      "slug": "making-a-large-island",
+      "title": "Making A Large Island",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2160651952,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "152.8 MB",
+        "runtime": "86 ms",
+        "slug": "making-a-large-island",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1790995608,
+        "title": "Making A Large Island"
+      }
+    ]
+  },
   "matchsticks-to-square": {
     "question": {
       "difficulty": "Medium",

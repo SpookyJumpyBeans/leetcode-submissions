@@ -4505,6 +4505,35 @@
       ]
     ]
   },
+  "making-a-large-island": {
+    "difficulty": "Hard",
+    "frontend_id": "827",
+    "paid_only": false,
+    "slug": "making-a-large-island",
+    "title": "Making A Large Island",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
   "matchsticks-to-square": {
     "difficulty": "Medium",
     "frontend_id": "473",

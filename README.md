@@ -2,7 +2,7 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**382 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 227 Medium &nbsp;·&nbsp; 58 Hard
+**383 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 227 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
@@ -12,7 +12,7 @@ _Last synced 2026-10-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **2 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **103** active days
+🔥 **3 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **104** active days
 
 ```
          Mon Tue Wed Thu Fri Sat Sun 
@@ -23,7 +23,7 @@ Aug 31    ░   █   ▒   ▓   █   ·   █
 Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ▒   ·   ▒   ▒   ·      
+Sep 28    ░   ▒   ·   ▒   ▒   ▒      
 ```
 
 <sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-03.</sub>
@@ -608,7 +608,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ·
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (17)
+## Union-Find (18)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -621,6 +621,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ·
 | 695 | [Max Area of Island](union-find/0695-max-area-of-island) | Medium | [Java](union-find/0695-max-area-of-island/solution.java) |
 | 721 | [Accounts Merge](union-find/0721-accounts-merge) | Medium | [C++](union-find/0721-accounts-merge/solution.cpp) |
 | 778 | [Swim in Rising Water](union-find/0778-swim-in-rising-water) | Hard | [Java](union-find/0778-swim-in-rising-water/solution.java) |
+| 827 | [Making A Large Island](union-find/0827-making-a-large-island) | Hard | [Java](union-find/0827-making-a-large-island/solution.java) |
 | 1267 | [Count Servers that Communicate](union-find/1267-count-servers-that-communicate) | Medium | [Java](union-find/1267-count-servers-that-communicate/solution.java) |
 | 1489 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Java](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
