@@ -11666,6 +11666,43 @@
       }
     ]
   },
+  "reverse-substrings-between-each-pair-of-parentheses": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1190",
+      "paid_only": false,
+      "slug": "reverse-substrings-between-each-pair-of-parentheses",
+      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2161535256,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.2 MB",
+        "runtime": "4 ms",
+        "slug": "reverse-substrings-between-each-pair-of-parentheses",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791072756,
+        "title": "Reverse Substrings Between Each Pair of Parentheses"
+      }
+    ]
+  },
   "reverse-words-in-a-string-iii": {
     "question": {
       "difficulty": "Easy",
@@ -13947,6 +13984,43 @@
         "status": "Accepted",
         "timestamp": 1786395055,
         "title": "Time Based Key-Value Store"
+      }
+    ]
+  },
+  "time-needed-to-inform-all-employees": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1376",
+      "paid_only": false,
+      "slug": "time-needed-to-inform-all-employees",
+      "title": "Time Needed to Inform All Employees",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2160712698,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "110.6 MB",
+        "runtime": "42 ms",
+        "slug": "time-needed-to-inform-all-employees",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791002997,
+        "title": "Time Needed to Inform All Employees"
       }
     ]
   },

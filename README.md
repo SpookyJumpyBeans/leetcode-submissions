@@ -2,17 +2,17 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**383 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 227 Medium &nbsp;·&nbsp; 59 Hard
+**385 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 229 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **3 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **104** active days
+🔥 **4 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **105** active days
 
 ```
          Mon Tue Wed Thu Fri Sat Sun 
@@ -23,10 +23,10 @@ Aug 31    ░   █   ▒   ▓   █   ·   █
 Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ▒   ·   ▒   ▒   ▒      
+Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░  
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-03.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-04.</sub>
 
 ## Array (2)
 
@@ -507,7 +507,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
-## Stack (18)
+## Stack (19)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -525,6 +525,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) | Medium | [Java](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/solution.java) |
+| 1190 | [Reverse Substrings Between Each Pair of Parentheses](stack/1190-reverse-substrings-between-each-pair-of-parentheses) | Medium | [Java](stack/1190-reverse-substrings-between-each-pair-of-parentheses/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](stack/1614-maximum-nesting-depth-of-the-parentheses) | Easy | [Java](stack/1614-maximum-nesting-depth-of-the-parentheses/solution.java) |
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
@@ -537,7 +538,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (26)
+## Tree (27)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -561,6 +562,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒
 | 701 | [Insert into a Binary Search Tree](tree/0701-insert-into-a-binary-search-tree) | Medium | [C++](tree/0701-insert-into-a-binary-search-tree/solution.cpp) |
 | 938 | [Range Sum of BST](tree/0938-range-sum-of-bst) | Easy | [Java](tree/0938-range-sum-of-bst/solution.java) |
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
+| 1376 | [Time Needed to Inform All Employees](tree/1376-time-needed-to-inform-all-employees) | Medium | [Java](tree/1376-time-needed-to-inform-all-employees/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii) | Medium | [Java](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii/solution.java) |

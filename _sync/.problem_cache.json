@@ -6967,6 +6967,27 @@
       ]
     ]
   },
+  "reverse-substrings-between-each-pair-of-parentheses": {
+    "difficulty": "Medium",
+    "frontend_id": "1190",
+    "paid_only": false,
+    "slug": "reverse-substrings-between-each-pair-of-parentheses",
+    "title": "Reverse Substrings Between Each Pair of Parentheses",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
   "reverse-words-in-a-string-iii": {
     "difficulty": "Easy",
     "frontend_id": "557",
@@ -8369,6 +8390,27 @@
       [
         "Design",
         "design"
+      ]
+    ]
+  },
+  "time-needed-to-inform-all-employees": {
+    "difficulty": "Medium",
+    "frontend_id": "1376",
+    "paid_only": false,
+    "slug": "time-needed-to-inform-all-employees",
+    "title": "Time Needed to Inform All Employees",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
       ]
     ]
   },
