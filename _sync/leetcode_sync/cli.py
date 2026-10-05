@@ -8,6 +8,7 @@ from pathlib import Path
 
 from .api import AuthError, LeetCodeClient, LeetCodeError, NetworkError
 from .config import NEETCODE_CLONE, NEETCODE_REPO, Credentials, MissingCredentials
+from .lock import SyncInProgress, SyncLock
 from .neetcode import ensure_clone
 from .setup import prompt_for_cookies
 from .state import SyncState
@@ -102,6 +103,20 @@ def main(argv: list[str] | None = None) -> int:
     if args.set_cookies:
         return prompt_for_cookies()
 
+    # Everything below writes to the repo or the NeetCode clone, so only one run
+    # may do it at a time.
+    try:
+        lock = SyncLock().acquire()
+    except SyncInProgress as exc:
+        print(f"skipped: {exc}", file=sys.stderr)
+        return 5
+    try:
+        return _run(args)
+    finally:
+        lock.release()
+
+
+def _run(args) -> int:
     if args.import_neetcode:
         try:
             credentials = Credentials.load()

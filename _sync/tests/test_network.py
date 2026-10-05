@@ -91,8 +91,10 @@ def test_get_question_also_rides_out_a_blip(monkeypatch):
     assert http.calls == 3
 
 
-def test_cli_reports_a_network_outage_without_a_traceback(monkeypatch, capsys):
+def test_cli_reports_a_network_outage_without_a_traceback(monkeypatch, capsys, tmp_path):
     from leetcode_sync import cli
+    from leetcode_sync.lock import SyncLock
+    monkeypatch.setattr(cli, "SyncLock", lambda: SyncLock(tmp_path / ".sync.lock"))
     monkeypatch.setattr(cli, "Credentials", type("C", (), {
         "load": staticmethod(lambda: type("X", (), {"session": "s", "csrf_token": "c"})())}))
     monkeypatch.setattr(cli, "LeetCodeClient", lambda **kw: object())

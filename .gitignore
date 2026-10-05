@@ -16,3 +16,6 @@ _sync/.neetcode/
 
 # Working clone of the GitHub profile repo
 _sync/.profile/
+
+# Held while a sync runs
+_sync/.sync.lock

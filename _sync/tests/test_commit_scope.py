@@ -92,3 +92,57 @@ def test_commit_is_skipped_when_only_unowned_files_changed(tmp_path):
     assert commit(SyncReport(), repo_root=repo, push=False, force=True,
                   log=messages.append) is False
     assert any("nothing to commit" in m.lower() for m in messages)
+
+
+# --- commit subjects come from what is staged, not from the run's report -------
+
+from leetcode_sync.sync import describe_staged
+
+
+def add_solution(repo, topic, problem, body="x\n"):
+    folder = repo / topic / problem
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "solution.py").write_text(body, encoding="utf-8")
+
+
+def test_subject_counts_new_solutions(tmp_path):
+    repo = make_repo(tmp_path)
+    add_solution(repo, "tree", "0104-max-depth")
+    add_solution(repo, "graph", "0200-islands")
+    stage_owned(repo)
+    assert describe_staged(repo) == "Sync 2 LeetCode solutions"
+
+
+def test_subject_names_a_single_solution(tmp_path):
+    repo = make_repo(tmp_path)
+    add_solution(repo, "tree", "0104-max-depth")
+    stage_owned(repo)
+    assert describe_staged(repo) == "Add solution: tree/0104-max-depth/solution.py"
+
+
+def test_subject_for_a_readme_only_change_is_the_streak(tmp_path):
+    repo = make_repo(tmp_path)
+    (repo / "README.md").write_text("streak moved\n", encoding="utf-8")
+    stage_owned(repo)
+    assert describe_staged(repo) == "Update LeetCode streak"
+
+
+def test_moving_a_problem_between_topics_is_a_refile_not_new_work(tmp_path):
+    repo = make_repo(tmp_path)
+    (repo / "hash-table").mkdir()
+    (repo / "array" / "0001-two-sum").rename(repo / "hash-table" / "0001-two-sum")
+    stage_owned(repo)
+    assert describe_staged(repo) == "Re-file 1 problem under new topics"
+
+
+def test_work_stranded_by_a_killed_run_is_committed_under_its_real_name(tmp_path):
+    # The run that wrote these files died before committing; the next run's own
+    # report is empty, but the commit must still say what it contains.
+    repo = make_repo(tmp_path)
+    add_solution(repo, "tree", "0104-max-depth")
+    add_solution(repo, "graph", "0200-islands")
+    add_solution(repo, "stack", "0020-valid-parens")
+    assert commit(SyncReport(), repo_root=repo, push=False, force=True,
+                  log=lambda *a: None) is True
+    subject = git(repo, "log", "-1", "--format=%s").stdout.strip()
+    assert subject == "Sync 3 LeetCode solutions"

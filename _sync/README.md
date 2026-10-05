@@ -98,13 +98,43 @@ To import from a clone somewhere else instead: `--import-neetcode PATH`.
 ## Running it automatically
 
 `run_sync.ps1` wraps an incremental sync and appends to `logs/`. Register it as a
-daily Windows scheduled task:
+daily Windows scheduled task, launched through `conhost.exe --headless` so it
+never opens a window:
 
 ```
-schtasks /create /tn "LeetCode Sync" /tr "powershell -ExecutionPolicy Bypass -File \"%USERPROFILE%\LeetCode Submissions\_sync\run_sync.ps1\"" /sc daily /st 21:00
+schtasks /create /tn "LeetCode Sync" /sc daily /st 21:00 /tr "conhost.exe --headless powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\LeetCode Submissions\_sync\run_sync.ps1\" -Push"
 ```
 
-Add `-Push` inside the `/tr` string once a remote is configured.
+Drop `-Push` if no remote is configured. Then, in the task's settings, turn on
+"Run task as soon as possible after a scheduled start is missed", so a night the
+machine was asleep is caught up when it wakes.
+
+**Why headless.** A visible console window can be closed, and closing it kills
+the run mid-sync with exit `0xC000013A`. That is how two catch-up runs died the
+moment the machine woke. The cost is that conhost does not pass the exit code
+back, so Task Scheduler reports every run as a success. The log is the record
+instead: every entry ends with `exit code N`.
+
+| Exit code | Meaning |
+| --- | --- |
+| 0 | synced (or nothing new) |
+| 3 | session cookie expired: run `--set-cookies` |
+| 4 | no network: the next run picks up where this one stopped |
+| 5 | another sync was already running, so this one stepped aside |
+
+**What protects a run:**
+
+- **A lock** (`.sync.lock`) lets only one sync touch the repo at a time. A manual
+  run that overlaps the scheduled one exits with code 5 rather than racing it. A
+  lock left behind by a killed run is ignored once its process is gone.
+- **Catch-up runs wait.** A run starting outside the 21:00 window was triggered
+  by the machine waking, so it pauses two minutes and then waits for DNS before
+  syncing.
+- **The log streams.** Each line is written as it is printed, so a run cut short
+  still shows how far it got.
+- **Commits are named after what they contain,** counted from the staged files.
+  Work left uncommitted by a killed run is committed by the next run under its
+  real name, for example "Sync 3 LeetCode solutions".
 
 ## Notes
 

@@ -7,6 +7,7 @@ records where to pick up.
 
 from __future__ import annotations
 
+import re
 import subprocess
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -335,6 +336,37 @@ def stage_owned(repo_root: Path = REPO_ROOT) -> None:
         git("add", "--", *present, repo_root=repo_root)
 
 
+# A solution file inside a topic folder: "topic/0001-problem/solution.ext".
+_SOLUTION_PATH = re.compile(r"^[^_./][^/]*/[^/]+/solution\.[^/]+$")
+
+
+def describe_staged(repo_root: Path = REPO_ROOT) -> str:
+    """A commit subject for what is actually staged, not what this run wrote.
+
+    Naming the commit from the run's own report goes wrong whenever the run
+    commits work it did not write: files left behind by a run killed before its
+    commit, or files a concurrent run wrote first. Counting the staged solution
+    files is right in every case.
+    """
+    out = git("diff", "--cached", "--name-status", repo_root=repo_root).stdout
+    solutions, refiled = [], 0
+    for line in out.splitlines():
+        status, *paths = line.split("\t")
+        if not paths or not _SOLUTION_PATH.match(paths[-1]):
+            continue
+        if status[:1] in ("A", "M"):
+            solutions.append(paths[-1])
+        elif status[:1] == "R":   # moved to another topic folder, not new work
+            refiled += 1
+    if len(solutions) == 1:
+        return f"Add solution: {solutions[0]}"
+    if solutions:
+        return f"Sync {len(solutions)} LeetCode solutions"
+    if refiled:
+        return f"Re-file {refiled} problem{'s' if refiled != 1 else ''} under new topics"
+    return "Update LeetCode streak"
+
+
 def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
            subject: str | None = None, force: bool = False, log=print) -> bool:
     """Stage and commit whatever the sync produced. Returns True if a commit was made."""
@@ -347,15 +379,9 @@ def commit(report, repo_root: Path = REPO_ROOT, push: bool = False,
         log("Working tree clean; nothing to commit.")
         return False
 
-    count = len(report.written)
-    if subject is None and count == 0:
-        subject = "Update LeetCode streak"
     if subject is None:
-        if count == 1:
-            subject = f"Add solution: {report.written[0]}"
-        else:
-            subject = f"Sync {count} LeetCode solutions"
-    if report.partial:
+        subject = describe_staged(repo_root)
+    if getattr(report, "partial", False):
         subject += " (partial)"
     result = git("commit", "-m", subject, repo_root=repo_root)
     if result.returncode != 0:
