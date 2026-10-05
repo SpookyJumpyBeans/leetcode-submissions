@@ -2,31 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**385 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 229 Medium &nbsp;·&nbsp; 59 Hard
+**388 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 232 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
-
-### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
-
-🔥 **4 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **105** active days
-
-```
-         Mon Tue Wed Thu Fri Sat Sun 
-Aug 10    ▓   █   ▓   █   ░   ▓   ░  
-Aug 17    ▓   █   ░   ░   ░   ▓   ▒  
-Aug 24    ▓   ░   ▓   ▓   ▓   ▓   ▓  
-Aug 31    ░   █   ▒   ▓   █   ·   █  
-Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
-Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
-Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
-Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░  
-```
-
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-04.</sub>
+_Last synced 2026-10-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ## Array (2)
 
@@ -183,7 +165,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (62)
+## Dynamic Programming (63)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -243,6 +225,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
 | 1155 | [Number of Dice Rolls With Target Sum](dynamic-programming/1155-number-of-dice-rolls-with-target-sum) | Medium | [Java](dynamic-programming/1155-number-of-dice-rolls-with-target-sum/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
+| 1911 | [Maximum Alternating Subsequence Sum](dynamic-programming/1911-maximum-alternating-subsequence-sum) | Medium | [Java](dynamic-programming/1911-maximum-alternating-subsequence-sum/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path) | Hard | [Java](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path/solution.java) |
 | 2369 | [Check if There is a Valid Partition For The Array](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array) | Medium | [Java](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array/solution.java) |
@@ -357,7 +340,7 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░
 | 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
 | 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
 
-## Linked List (17)
+## Linked List (19)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -377,6 +360,8 @@ Sep 28    ░   ▒   ·   ▒   ▒   ▒   ░
 | 641 | [Design Circular Deque](linked-list/0641-design-circular-deque) | Medium | [Java](linked-list/0641-design-circular-deque/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
+| 2130 | [Maximum Twin Sum of a Linked List](linked-list/2130-maximum-twin-sum-of-a-linked-list) | Medium | [Java](linked-list/2130-maximum-twin-sum-of-a-linked-list/solution.java) |
+| 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
 ## Math (9)

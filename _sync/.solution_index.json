@@ -7719,6 +7719,39 @@
       }
     ]
   },
+  "maximum-alternating-subsequence-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1911",
+      "paid_only": false,
+      "slug": "maximum-alternating-subsequence-sum",
+      "title": "Maximum Alternating Subsequence Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2161781517,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "119.1 MB",
+        "runtime": "64 ms",
+        "slug": "maximum-alternating-subsequence-sum",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791093311,
+        "title": "Maximum Alternating Subsequence Sum"
+      }
+    ]
+  },
   "maximum-depth-of-binary-tree": {
     "question": {
       "difficulty": "Easy",
@@ -8246,6 +8279,43 @@
       }
     ]
   },
+  "maximum-twin-sum-of-a-linked-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2130",
+      "paid_only": false,
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "title": "Maximum Twin Sum of a Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Stack",
+          "stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2161755386,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "101.2 MB",
+        "runtime": "4 ms",
+        "slug": "maximum-twin-sum-of-a-linked-list",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791091334,
+        "title": "Maximum Twin Sum of a Linked List"
+      }
+    ]
+  },
   "median-of-two-sorted-arrays": {
     "question": {
       "difficulty": "Hard",
@@ -8452,6 +8522,39 @@
         "status": "Accepted",
         "timestamp": 1763363055,
         "title": "Merge k Sorted Lists"
+      }
+    ]
+  },
+  "merge-nodes-in-between-zeros": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2181",
+      "paid_only": false,
+      "slug": "merge-nodes-in-between-zeros",
+      "title": "Merge Nodes in Between Zeros",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2161768452,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "225.6 MB",
+        "runtime": "5 ms",
+        "slug": "merge-nodes-in-between-zeros",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791092336,
+        "title": "Merge Nodes in Between Zeros"
       }
     ]
   },

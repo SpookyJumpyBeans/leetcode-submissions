@@ -4625,6 +4625,23 @@
       ]
     ]
   },
+  "maximum-alternating-subsequence-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "1911",
+    "paid_only": false,
+    "slug": "maximum-alternating-subsequence-sum",
+    "title": "Maximum Alternating Subsequence Sum",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ]
+    ]
+  },
   "maximum-depth-of-binary-tree": {
     "difficulty": "Easy",
     "frontend_id": "104",
@@ -4938,6 +4955,27 @@
       ]
     ]
   },
+  "maximum-twin-sum-of-a-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "2130",
+    "paid_only": false,
+    "slug": "maximum-twin-sum-of-a-linked-list",
+    "title": "Maximum Twin Sum of a Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Stack",
+        "stack"
+      ]
+    ]
+  },
   "median-of-two-sorted-arrays": {
     "difficulty": "Hard",
     "frontend_id": "4",
@@ -5068,6 +5106,23 @@
       [
         "Tournament Sort",
         "tournament-sort"
+      ]
+    ]
+  },
+  "merge-nodes-in-between-zeros": {
+    "difficulty": "Medium",
+    "frontend_id": "2181",
+    "paid_only": false,
+    "slug": "merge-nodes-in-between-zeros",
+    "title": "Merge Nodes in Between Zeros",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
