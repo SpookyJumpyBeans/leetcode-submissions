@@ -10,6 +10,24 @@ Languages: C++, Java
 
 _Last synced 2026-10-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
+### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
+
+🔥 **4 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **105** active days
+
+```
+         Mon Tue Wed Thu Fri Sat Sun 
+Aug 17    ▓   █   ░   ░   ░   ▓   ▒  
+Aug 24    ▓   ░   ▓   ▓   ▓   ▓   ▓  
+Aug 31    ░   █   ▒   ▓   █   ·   █  
+Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒  
+Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
+Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
+Sep 28    ░   ▒   ·   ▒   ▒   ▒   ▓  
+Oct 05    ·                          
+```
+
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-05.</sub>
+
 ## Array (2)
 
 | # | Problem | Difficulty | Solutions |
