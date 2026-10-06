@@ -6894,6 +6894,47 @@
       ]
     ]
   },
+  "repeated-dna-sequences": {
+    "difficulty": "Medium",
+    "frontend_id": "187",
+    "paid_only": false,
+    "slug": "repeated-dna-sequences",
+    "title": "Repeated DNA Sequences",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Rolling Hash",
+        "rolling-hash"
+      ],
+      [
+        "Hash Function",
+        "hash-function"
+      ],
+      [
+        "Z Algorithm",
+        "z-algorithm"
+      ],
+      [
+        "Boyer\u2013Moore String-Search Algorithm",
+        "boyer-moore-string-search-algorithm"
+      ]
+    ]
+  },
   "restore-ip-addresses": {
     "difficulty": "Medium",
     "frontend_id": "93",

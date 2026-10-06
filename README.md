@@ -2,17 +2,17 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**388 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 232 Medium &nbsp;·&nbsp; 59 Hard
+**389 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 233 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **4 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **105** active days
+🔥 **6 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **107** active days
 
 ```
          Mon Tue Wed Thu Fri Sat Sun 
@@ -23,10 +23,10 @@ Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
 Sep 28    ░   ▒   ·   ▒   ▒   ▒   ▓  
-Oct 05    ·                          
+Oct 05    ░   ░                      
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-05.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-06.</sub>
 
 ## Array (2)
 
@@ -301,10 +301,11 @@ Oct 05    ·
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
-## Hash Function (3)
+## Hash Function (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 187 | [Repeated DNA Sequences](hash-function/0187-repeated-dna-sequences) | Medium | [Java](hash-function/0187-repeated-dna-sequences/solution.java) |
 | 572 | [Subtree of Another Tree](hash-function/0572-subtree-of-another-tree) | Easy | [Java](hash-function/0572-subtree-of-another-tree/solution.java) |
 | 705 | [Design HashSet](hash-function/0705-design-hashset) | Easy | [Java](hash-function/0705-design-hashset/solution.java) |
 | 706 | [Design HashMap](hash-function/0706-design-hashmap) | Easy | [Java](hash-function/0706-design-hashmap/solution.java) |

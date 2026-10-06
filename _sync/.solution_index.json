@@ -11518,6 +11518,63 @@
       }
     ]
   },
+  "repeated-dna-sequences": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "187",
+      "paid_only": false,
+      "slug": "repeated-dna-sequences",
+      "title": "Repeated DNA Sequences",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ],
+        [
+          "Rolling Hash",
+          "rolling-hash"
+        ],
+        [
+          "Hash Function",
+          "hash-function"
+        ],
+        [
+          "Z Algorithm",
+          "z-algorithm"
+        ],
+        [
+          "Boyer\u2013Moore String-Search Algorithm",
+          "boyer-moore-string-search-algorithm"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2162701836,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "273.7 MB",
+        "runtime": "421 ms",
+        "slug": "repeated-dna-sequences",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791174530,
+        "title": "Repeated DNA Sequences"
+      }
+    ]
+  },
   "restore-ip-addresses": {
     "question": {
       "difficulty": "Medium",
