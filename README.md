@@ -1,5 +1,8 @@
 # LeetCode Submissions
 
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
 **390 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 234 Medium &nbsp;·&nbsp; 59 Hard

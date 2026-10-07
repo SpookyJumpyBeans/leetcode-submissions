@@ -123,3 +123,26 @@ def test_write_text_skips_identical_content(tmp_path):
     assert write_text(target, "print(1)\n") is False
     assert write_text(target, "print(2)\n") is True
     assert target.read_text(encoding="utf-8") == "print(2)\n"
+
+
+def test_root_readme_shows_a_badge_per_solution_language():
+    entries = [
+        (make_question(), [make_submission(), make_submission(lang="python", lang_name="Python")]),
+        (
+            make_question(frontend_id="15", title="3Sum", slug="3sum", difficulty="Medium",
+                          topics=(("Two Pointers", "two-pointers"),)),
+            [make_submission(slug="3sum", lang="cpp")],
+        ),
+    ]
+    readme = render_root_readme(entries, generated_at=datetime(2026, 1, 2, tzinfo=timezone.utc))
+    assert "![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus" in readme
+    # Python and Python3 are one language as far as a reader is concerned.
+    assert readme.count("![Python](") == 1
+    # The badges sit under the title, above everything else.
+    assert readme.index("![C++]") < readme.index("problems solved")
+
+
+def test_language_badges_escape_shields_separators_and_fall_back_to_plain():
+    from leetcode_sync.layout import language_badges
+    assert language_badges({"MS SQL"}) == "![MS SQL](https://img.shields.io/badge/MS%20SQL-555555)"
+    assert "badge/A--B-" in language_badges({"A-B"})

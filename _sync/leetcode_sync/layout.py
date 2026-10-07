@@ -6,11 +6,45 @@ import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 from .api import Question, Submission
 from .config import comment_token, lang_display, lang_extension
 
 _UNSAFE = re.compile(r"[^a-z0-9]+")
+
+# Badge colour and simple-icons logo per display language. Python3 shares
+# Python's badge so a mix of the two shows one. Anything missing here still
+# gets a badge, just a plain grey one with no logo.
+_BADGES = {
+    "C": ("C", "A8B9CC", "c", "black"),
+    "C++": ("C++", "00599C", "cplusplus", "white"),
+    "C#": ("C#", "512BD4", "dotnet", "white"),
+    "Go": ("Go", "00ADD8", "go", "white"),
+    "Java": ("Java", "ED8B00", "openjdk", "white"),
+    "JavaScript": ("JavaScript", "F7DF1E", "javascript", "black"),
+    "Kotlin": ("Kotlin", "7F52FF", "kotlin", "white"),
+    "Python": ("Python", "3776AB", "python", "white"),
+    "Python3": ("Python", "3776AB", "python", "white"),
+    "Rust": ("Rust", "000000", "rust", "white"),
+    "TypeScript": ("TypeScript", "3178C6", "typescript", "white"),
+}
+
+
+def language_badges(languages: set[str]) -> str:
+    """One shields.io badge per language, one per line so they sit in a row."""
+    seen: dict[str, str] = {}
+    for language in sorted(languages):
+        label, colour, logo, logo_colour = _BADGES.get(language, (language, "555555", "", ""))
+        if label in seen:
+            continue
+        # shields reads "-" and "_" in the path as separators; doubling escapes them.
+        text = quote(label.replace("-", "--").replace("_", "__"), safe="")
+        url = f"https://img.shields.io/badge/{text}-{colour}"
+        if logo:
+            url += f"?logo={logo}&logoColor={logo_colour}"
+        seen[label] = f"![{label}]({url})"
+    return "\n".join(seen.values())
 
 
 def slugify(value: str) -> str:
@@ -129,9 +163,10 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         "My accepted LeetCode solutions, synced automatically from my submission "
         "history. Problems are grouped by their primary topic tag."
     )
-    lines = [
-        "# LeetCode Submissions",
-        "",
+    lines = ["# LeetCode Submissions", ""]
+    if languages:
+        lines += [language_badges(languages), ""]
+    lines += [
         intro,
         "",
         f"**{len(entries)} problems solved** &nbsp;·&nbsp; "
