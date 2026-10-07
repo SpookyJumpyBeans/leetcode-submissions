@@ -24,7 +24,7 @@ from .layout import (
 )
 from .bucketing import assign_topics
 from .config import (
-    LEETCODE_PROFILE_URL, LEETCODE_USERNAME, PROFILE_CLONE, PROFILE_REPO,
+    HEATMAP_PATH, HEATMAP_URL, LEETCODE_PROFILE_URL, LEETCODE_USERNAME, PROFILE_CLONE, PROFILE_REPO,
     STREAK_END, STREAK_START, STREAK_WEEKS, TOPIC_MIN_SIZE,
 )
 from .neetcode import discover, ensure_clone, to_submission
@@ -419,9 +419,11 @@ def run_streak(client, repo_root: Path = REPO_ROOT, index: SolutionIndex | None 
                min_size: int = TOPIC_MIN_SIZE, weeks: int = STREAK_WEEKS,
                username: str = LEETCODE_USERNAME, profile: str = LEETCODE_PROFILE_URL,
                log=print):
-    """Refresh the streak block and rewrite this repo's root README with it."""
+    """Refresh the streak block and heatmap, and rewrite this repo's root README."""
     index = index if index is not None else SolutionIndex(INDEX_PATH)
-    stats, block = build_streak(client, username, weeks=weeks, profile=profile)
+    stats, block, heatmap = build_streak(client, username, weeks=weeks, profile=profile,
+                                         heatmap_url=HEATMAP_URL)
+    write_text(repo_root / HEATMAP_PATH, heatmap)
     _write_readmes(repo_root, index, min_size, streak_block=block)
     return stats, block
 

@@ -202,8 +202,15 @@ NEETCODE_CLONE = SYNC_ROOT / ".neetcode"
 LEETCODE_USERNAME = "SpookyJumpyBeans"
 LEETCODE_PROFILE_URL = f"https://leetcode.com/u/{LEETCODE_USERNAME}/"
 
-# Weeks shown in the heatmap.
-STREAK_WEEKS = 8
+# Weeks shown in the heatmap: 53 is a full year, as on a GitHub profile.
+STREAK_WEEKS = 53
+
+# Where the sync writes the heatmap SVG, and the URL the README loads it from.
+# A full URL rather than a relative path, so the same block also works when
+# it is mirrored into the profile README.
+HEATMAP_PATH = "_assets/submissions.svg"
+HEATMAP_URL = ("https://raw.githubusercontent.com/SpookyJumpyBeans/"
+               "leetcode-submissions/main/" + HEATMAP_PATH)
 
 # GitHub profile README repo. None means the streak lives only in this repo;
 # set it to "owner/name" to mirror the block into that repo's README too.

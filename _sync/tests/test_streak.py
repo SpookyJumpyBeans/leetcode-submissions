@@ -1,12 +1,14 @@
 import datetime as dt
 import json
+import re
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from leetcode_sync.streak import (
-    apply_block, compute, fetch_calendar, glyph, render_block, render_calendar,
+    apply_block, build, compute, fetch_calendar, heatmap_start, level, render_block,
+    render_heatmap,
 )
 
 START = "<!-- leetcode-streak:start -->"
@@ -18,14 +20,8 @@ def days_from(*specs):
     return {dt.date(2026, 9, d): c for d, c in specs}
 
 
-def test_glyph_levels_are_ordered():
-    assert glyph(0) == "·"
-    assert glyph(1) == "░"
-    assert glyph(4) == "░"
-    assert glyph(5) == "▒"
-    assert glyph(10) == "▓"
-    assert glyph(20) == "█"
-    assert glyph(500) == "█"
+def test_levels_follow_the_thresholds():
+    assert [level(n) for n in (0, 1, 4, 5, 9, 10, 19, 20, 500)] == [0, 1, 1, 2, 2, 3, 3, 4, 4]
 
 
 def test_no_activity_is_not_a_streak():
@@ -75,28 +71,53 @@ def test_streak_can_span_a_year_boundary():
     assert s.current_start == dt.date(2025, 12, 30)
 
 
-def test_calendar_rows_all_have_the_same_width():
-    grid = render_calendar(days_from((28, 3), (29, 7)), TODAY, weeks=4)
-    rows = grid.splitlines()
-    assert len(rows) == 5  # header plus four weeks
-    assert len({len(r) for r in rows}) == 1
+def test_heatmap_starts_on_a_sunday_and_ends_in_the_week_of_today():
+    start = heatmap_start(TODAY, 53)
+    assert start.weekday() == 6  # Sunday
+    assert start + dt.timedelta(weeks=53) > TODAY >= start + dt.timedelta(weeks=52)
 
 
-def test_calendar_leaves_future_days_blank():
-    grid = render_calendar(days_from((29, 9)), TODAY, weeks=1)
-    week = grid.splitlines()[1]
-    # Sep 29 2026 is a Tuesday; Wednesday onward has not happened yet.
-    assert "▒" in week
-    assert week.rstrip() != week  # trailing cells are spaces
+def test_heatmap_draws_one_cell_per_day_up_to_today_plus_the_legend():
+    svg = render_heatmap(days_from((28, 3), (29, 25)), TODAY, weeks=4)
+    cells = re.findall(r'<rect class="l(\d)" x="(\d+)" y="(\d+)"', svg)
+    # Sep 29 2026 is a Tuesday: three full weeks plus Sun, Mon, Tue, then 5 legend swatches.
+    assert len(cells) == 3 * 7 + 3 + 5
+    grid = cells[:-5]
+    assert sorted(set(lvl for lvl, _, _ in grid)) == ["0", "1", "4"]
+    assert grid[-1][0] == "4"   # today, 25 submissions
+    assert grid[-2][0] == "1"   # yesterday, 3
 
 
-def test_block_mentions_the_streak_and_the_legend():
-    s = compute(days_from((27, 1), (28, 1), (29, 1)), TODAY)
-    block = render_block(s, TODAY, weeks=4, profile="https://example.com/u/x/")
+def test_heatmap_carries_both_github_palettes():
+    svg = render_heatmap({}, TODAY, weeks=2)
+    assert "#216e39" in svg and "#39d353" in svg
+    assert "prefers-color-scheme:dark" in svg
+    assert ">Less<" in svg and ">More<" in svg
+
+
+def test_heatmap_labels_months_and_weekdays():
+    svg = render_heatmap({}, TODAY, weeks=53)
+    for label in ("Oct", "Jan", "Sep", "Mon", "Wed", "Fri"):
+        assert f">{label}<" in svg
+
+
+def test_block_embeds_the_heatmap_with_a_dated_url():
+    s = compute(days_from((27, 1), (28, 2), (29, 4)), TODAY)
+    block = render_block(s, TODAY, weeks=4, profile="https://example.com/u/x/",
+                         heatmap_url="https://example.com/h.svg")
     assert "**3 day streak**" in block
     assert "https://example.com/u/x/" in block
-    assert "20+ submissions" in block
-    assert block.count("```") == 2
+    assert "(https://example.com/h.svg?v=2026-09-29)" in block
+    assert "**7** submissions in the last 4 weeks" in block
+    assert "```" not in block
+
+
+def test_build_returns_the_heatmap_alongside_the_block():
+    client = FakeClient({2026: {dt.date(2026, 9, 29): 2}})
+    stats, block, svg = build(client, "x", today=TODAY, weeks=2, heatmap_url="u.svg")
+    assert stats.current == 1
+    assert "u.svg?v=2026-09-29" in block
+    assert svg.startswith("<svg") and 'class="l1"' in svg
 
 
 def test_block_says_so_when_the_streak_is_broken():
