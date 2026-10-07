@@ -1,4 +1,4 @@
-# `_sync` — the LeetCode sync tool
+# `_sync`: the LeetCode sync tool
 
 Pulls your LeetCode submission history and writes each accepted solution into this
 repository, grouped by the problem's primary topic tag:
@@ -25,7 +25,7 @@ State lives in three files so repeat runs stay cheap:
 
 | File | Purpose |
 | --- | --- |
-| `.sync_state.json` | Newest submission already seen — later runs stop there instead of re-walking history. |
+| `.sync_state.json` | Newest submission already seen, so later runs stop there instead of re-walking history. |
 | `.problem_cache.json` | Problem metadata, fetched once per problem, ever. |
 | `.solution_index.json` | Everything in the repo, so the READMEs can be regenerated from an incremental run. |
 
@@ -40,7 +40,7 @@ State lives in three files so repeat runs stay cheap:
 2. Copy `.env.example` to `.env` and paste in your cookies (see the comments in
    that file for where to find them in devtools). `.env` is gitignored.
 
-3. Smoke test — reads 40 submissions, writes nothing:
+3. Smoke test, which reads 40 submissions and writes nothing:
 
    ```
    python -m leetcode_sync --dry-run --max-submissions 40
@@ -142,11 +142,11 @@ instead: every entry ends with `exit code N`.
   code 4 and a one-line message. DNS is often not ready when a scheduled run
   fires just after boot, so this rides that out rather than failing the sync.
 - The session cookie expires every week or two. When that happens the sync exits
-  with `auth error` and you paste a fresh cookie into `.env` — nothing else breaks,
+  with `auth error` and you paste a fresh cookie into `.env`; nothing else breaks,
   and the next run resumes from where it stopped.
 - Premium-only problems sync like any other; if LeetCode won't return metadata for
   a slug, the sync reports it under "Skipped" and moves on rather than failing.
-- Tests: `python -m pytest tests` (no network — the client is faked).
+- Tests: `python -m pytest tests` (no network; the client is faked).
 
 ## The credential guard
 
