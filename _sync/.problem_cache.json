@@ -5286,6 +5286,31 @@
       ]
     ]
   },
+  "minimum-add-to-make-parentheses-valid": {
+    "difficulty": "Medium",
+    "frontend_id": "921",
+    "paid_only": false,
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "title": "Minimum Add to Make Parentheses Valid",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Bracket Sequences",
+        "bracket-sequences"
+      ]
+    ]
+  },
   "minimum-array-end": {
     "difficulty": "Medium",
     "frontend_id": "3133",

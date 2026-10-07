@@ -2,13 +2,13 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**389 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 233 Medium &nbsp;·&nbsp; 59 Hard
+**390 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 234 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
@@ -23,10 +23,10 @@ Sep 07    ▓   ▓   ▒   ▓   ▓   ·   ▒
 Sep 14    ▒   ▓   ▓   ▓   ░   ░   █  
 Sep 21    ▓   ·   ▒   ░   ▒   █   ▓  
 Sep 28    ░   ▒   ·   ▒   ▒   ▒   ▓  
-Oct 05    ░   ░                      
+Oct 05    ░   ▒   ·                  
 ```
 
-<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-06.</sub>
+<sub>`·` none &nbsp; `░` 1-4 &nbsp; `▒` 5-9 &nbsp; `▓` 10-19 &nbsp; `█` 20+ submissions, by UTC day. Updated 2026-10-07.</sub>
 
 ## Array (2)
 
@@ -511,7 +511,7 @@ Oct 05    ░   ░
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 
-## Stack (19)
+## Stack (20)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -528,6 +528,7 @@ Oct 05    ░   ░
 | 394 | [Decode String](stack/0394-decode-string) | Medium | [Java](stack/0394-decode-string/solution.java) |
 | 682 | [Baseball Game](stack/0682-baseball-game) | Easy | [Java](stack/0682-baseball-game/solution.java) |
 | 735 | [Asteroid Collision](stack/0735-asteroid-collision) | Medium | [Java](stack/0735-asteroid-collision/solution.java) |
+| 921 | [Minimum Add to Make Parentheses Valid](stack/0921-minimum-add-to-make-parentheses-valid) | Medium | [Java](stack/0921-minimum-add-to-make-parentheses-valid/solution.java) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) | Medium | [Java](stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/solution.java) |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](stack/1190-reverse-substrings-between-each-pair-of-parentheses) | Medium | [Java](stack/1190-reverse-substrings-between-each-pair-of-parentheses/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |

@@ -8839,6 +8839,47 @@
       }
     ]
   },
+  "minimum-add-to-make-parentheses-valid": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "921",
+      "paid_only": false,
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "title": "Minimum Add to Make Parentheses Valid",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Bracket Sequences",
+          "bracket-sequences"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2163751275,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "2 ms",
+        "slug": "minimum-add-to-make-parentheses-valid",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791258129,
+        "title": "Minimum Add to Make Parentheses Valid"
+      }
+    ]
+  },
   "minimum-array-end": {
     "question": {
       "difficulty": "Medium",
