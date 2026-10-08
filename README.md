@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**390 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 234 Medium &nbsp;·&nbsp; 59 Hard
+**393 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 237 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **6 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **107** active days
+🔥 **7 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **108** active days
 
-![886 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-07)
+![897 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-08)
 
-<sub>**886** submissions in the last 53 weeks, by UTC day. Updated 2026-10-07.</sub>
+<sub>**897** submissions in the last 53 weeks, by UTC day. Updated 2026-10-08.</sub>
 
 ## Array (2)
 
@@ -176,7 +176,7 @@ _Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (63)
+## Dynamic Programming (64)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -238,6 +238,7 @@ _Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1911 | [Maximum Alternating Subsequence Sum](dynamic-programming/1911-maximum-alternating-subsequence-sum) | Medium | [Java](dynamic-programming/1911-maximum-alternating-subsequence-sum/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
+| 2140 | [Solving Questions With Brainpower](dynamic-programming/2140-solving-questions-with-brainpower) | Medium | [Java](dynamic-programming/2140-solving-questions-with-brainpower/solution.java) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path) | Hard | [Java](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path/solution.java) |
 | 2369 | [Check if There is a Valid Partition For The Array](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array) | Medium | [Java](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
@@ -480,7 +481,7 @@ _Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3069 | [Distribute Elements Into Two Arrays I](simulation/3069-distribute-elements-into-two-arrays-i) | Easy | [C++](simulation/3069-distribute-elements-into-two-arrays-i/solution.cpp) |
 | 3498 | [Reverse Degree of a String](simulation/3498-reverse-degree-of-a-string) | Easy | [Java](simulation/3498-reverse-degree-of-a-string/solution.java) |
 
-## Sliding Window (7)
+## Sliding Window (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -489,6 +490,7 @@ _Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 219 | [Contains Duplicate II](sliding-window/0219-contains-duplicate-ii) | Easy | [C++](sliding-window/0219-contains-duplicate-ii/solution.cpp) |
 | 424 | [Longest Repeating Character Replacement](sliding-window/0424-longest-repeating-character-replacement) | Medium | [Java](sliding-window/0424-longest-repeating-character-replacement/solution.java) |
 | 438 | [Find All Anagrams in a String](sliding-window/0438-find-all-anagrams-in-a-string) | Medium | [C++](sliding-window/0438-find-all-anagrams-in-a-string/solution.cpp) |
+| 1423 | [Maximum Points You Can Obtain from Cards](sliding-window/1423-maximum-points-you-can-obtain-from-cards) | Medium | [Java](sliding-window/1423-maximum-points-you-can-obtain-from-cards/solution.java) |
 | 3090 | [Maximum Length Substring With Two Occurrences](sliding-window/3090-maximum-length-substring-with-two-occurrences) | Easy | [Java](sliding-window/3090-maximum-length-substring-with-two-occurrences/solution.java) |
 | 3208 | [Alternating Groups II](sliding-window/3208-alternating-groups-ii) | Medium | [Java](sliding-window/3208-alternating-groups-ii/solution.java) |
 
@@ -536,11 +538,12 @@ _Last synced 2026-10-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (27)
+## Tree (28)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](tree/0098-validate-binary-search-tree) | Medium | [Java](tree/0098-validate-binary-search-tree/solution.java) |
+| 99 | [Recover Binary Search Tree](tree/0099-recover-binary-search-tree) | Medium | [Java](tree/0099-recover-binary-search-tree/solution.java) |
 | 100 | [Same Tree](tree/0100-same-tree) | Easy | [Java](tree/0100-same-tree/solution.java) |
 | 102 | [Binary Tree Level Order Traversal](tree/0102-binary-tree-level-order-traversal) | Medium | [Java](tree/0102-binary-tree-level-order-traversal/solution.java) |
 | 104 | [Maximum Depth of Binary Tree](tree/0104-maximum-depth-of-binary-tree) | Easy | [Java](tree/0104-maximum-depth-of-binary-tree/solution.java) |

@@ -4834,6 +4834,27 @@
       ]
     ]
   },
+  "maximum-points-you-can-obtain-from-cards": {
+    "difficulty": "Medium",
+    "frontend_id": "1423",
+    "paid_only": false,
+    "slug": "maximum-points-you-can-obtain-from-cards",
+    "title": "Maximum Points You Can Obtain from Cards",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Sliding Window",
+        "sliding-window"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "maximum-product-of-the-length-of-two-palindromic-subsequences": {
     "difficulty": "Medium",
     "frontend_id": "2002",
@@ -6679,6 +6700,31 @@
       ]
     ]
   },
+  "recover-binary-search-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "99",
+    "paid_only": false,
+    "slug": "recover-binary-search-tree",
+    "title": "Recover Binary Search Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Binary Search Tree",
+        "binary-search-tree"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "rectangle-overlap": {
     "difficulty": "Easy",
     "frontend_id": "836",
@@ -7660,6 +7706,23 @@
       [
         "Persistent Data Structure",
         "persistent-data-structure"
+      ]
+    ]
+  },
+  "solving-questions-with-brainpower": {
+    "difficulty": "Medium",
+    "frontend_id": "2140",
+    "paid_only": false,
+    "slug": "solving-questions-with-brainpower",
+    "title": "Solving Questions With Brainpower",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
       ]
     ]
   },
