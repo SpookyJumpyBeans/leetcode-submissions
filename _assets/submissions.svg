@@ -381,7 +381,8 @@
 <rect class="l1" x="762" y="36" width="11" height="11"/>
 <rect class="l2" x="762" y="50" width="11" height="11"/>
 <rect class="l3" x="762" y="64" width="11" height="11"/>
-<rect class="l0" x="762" y="78" width="11" height="11"/>
+<rect class="l3" x="762" y="78" width="11" height="11"/>
+<rect class="l0" x="762" y="92" width="11" height="11"/>
 <text x="0" y="45">Mon</text>
 <text x="0" y="73">Wed</text>
 <text x="0" y="101">Fri</text>

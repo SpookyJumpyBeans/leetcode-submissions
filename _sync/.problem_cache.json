@@ -1921,6 +1921,35 @@
       ]
     ]
   },
+  "design-hit-counter": {
+    "difficulty": "Medium",
+    "frontend_id": "362",
+    "paid_only": true,
+    "slug": "design-hit-counter",
+    "title": "Design Hit Counter",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
   "design-memory-allocator": {
     "difficulty": "Medium",
     "frontend_id": "2502",
@@ -2043,6 +2072,35 @@
       [
         "Ordered Set",
         "ordered-set"
+      ]
+    ]
+  },
+  "design-tic-tac-toe": {
+    "difficulty": "Medium",
+    "frontend_id": "348",
+    "paid_only": true,
+    "slug": "design-tic-tac-toe",
+    "title": "Design Tic-Tac-Toe",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
@@ -4625,6 +4683,27 @@
       ]
     ]
   },
+  "maximal-square": {
+    "difficulty": "Medium",
+    "frontend_id": "221",
+    "paid_only": false,
+    "slug": "maximal-square",
+    "title": "Maximal Square",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
   "maximum-alternating-subsequence-sum": {
     "difficulty": "Medium",
     "frontend_id": "1911",
@@ -5504,6 +5583,31 @@
       [
         "Heap (Priority Queue)",
         "heap-priority-queue"
+      ]
+    ]
+  },
+  "minimum-knight-moves": {
+    "difficulty": "Medium",
+    "frontend_id": "1197",
+    "paid_only": true,
+    "slug": "minimum-knight-moves",
+    "title": "Minimum Knight Moves",
+    "topics": [
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Heuristic Search",
+        "heuristic-search"
+      ],
+      [
+        "Bidirectional Search",
+        "bidirectional-search"
+      ],
+      [
+        "A* Search",
+        "a-search"
       ]
     ]
   },

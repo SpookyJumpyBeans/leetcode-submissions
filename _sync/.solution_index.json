@@ -3289,6 +3289,51 @@
       }
     ]
   },
+  "design-hit-counter": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "362",
+      "paid_only": true,
+      "slug": "design-hit-counter",
+      "title": "Design Hit Counter",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2165887568,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.8 MB",
+        "runtime": "1 ms",
+        "slug": "design-hit-counter",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791430591,
+        "title": "Design Hit Counter"
+      }
+    ]
+  },
   "design-memory-allocator": {
     "question": {
       "difficulty": "Medium",
@@ -3490,6 +3535,51 @@
         "status": "Accepted",
         "timestamp": 1789101405,
         "title": "Design Task Manager"
+      }
+    ]
+  },
+  "design-tic-tac-toe": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "348",
+      "paid_only": true,
+      "slug": "design-tic-tac-toe",
+      "title": "Design Tic-Tac-Toe",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2165963018,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.1 MB",
+        "runtime": "4 ms",
+        "slug": "design-tic-tac-toe",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791436297,
+        "title": "Design Tic-Tac-Toe"
       }
     ]
   },
@@ -7719,6 +7809,43 @@
       }
     ]
   },
+  "maximal-square": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "221",
+      "paid_only": false,
+      "slug": "maximal-square",
+      "title": "Maximal Square",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2165913599,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "70.6 MB",
+        "runtime": "11 ms",
+        "slug": "maximal-square",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791432900,
+        "title": "Maximal Square"
+      }
+    ]
+  },
   "maximum-alternating-subsequence-sum": {
     "question": {
       "difficulty": "Medium",
@@ -9199,6 +9326,47 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Minimum Interval to Include Each Query"
+      }
+    ]
+  },
+  "minimum-knight-moves": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1197",
+      "paid_only": true,
+      "slug": "minimum-knight-moves",
+      "title": "Minimum Knight Moves",
+      "topics": [
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Heuristic Search",
+          "heuristic-search"
+        ],
+        [
+          "Bidirectional Search",
+          "bidirectional-search"
+        ],
+        [
+          "A* Search",
+          "a-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2165987454,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "123.2 MB",
+        "runtime": "310 ms",
+        "slug": "minimum-knight-moves",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791437964,
+        "title": "Minimum Knight Moves"
       }
     ]
   },

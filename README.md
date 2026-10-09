@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**393 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 237 Medium &nbsp;·&nbsp; 59 Hard
+**397 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 241 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **7 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **108** active days
+🔥 **8 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **109** active days
 
-![897 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-08)
+![913 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-09)
 
-<sub>**897** submissions in the last 53 weeks, by UTC day. Updated 2026-10-08.</sub>
+<sub>**913** submissions in the last 53 weeks, by UTC day. Updated 2026-10-09.</sub>
 
 ## Array (2)
 
@@ -99,7 +99,7 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 698 | [Partition to K Equal Sum Subsets](bitmask/0698-partition-to-k-equal-sum-subsets) | Medium | [Java](bitmask/0698-partition-to-k-equal-sum-subsets/solution.java) |
 | 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences) | Medium | [Java](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/solution.java) |
 
-## Breadth-First Search (5)
+## Breadth-First Search (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -107,6 +107,7 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 752 | [Open the Lock](breadth-first-search/0752-open-the-lock) | Medium | [C++](breadth-first-search/0752-open-the-lock/solution.cpp) |
 | 994 | [Rotting Oranges](breadth-first-search/0994-rotting-oranges) | Medium | [Java](breadth-first-search/0994-rotting-oranges/solution.java) |
 | 1091 | [Shortest Path in Binary Matrix](breadth-first-search/1091-shortest-path-in-binary-matrix) | Medium | [Java](breadth-first-search/1091-shortest-path-in-binary-matrix/solution.java) |
+| 1197 | [Minimum Knight Moves](breadth-first-search/1197-minimum-knight-moves) | Medium | [Java](breadth-first-search/1197-minimum-knight-moves/solution.java) |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](breadth-first-search/1293-shortest-path-in-a-grid-with-obstacles-elimination) | Hard | [Java](breadth-first-search/1293-shortest-path-in-a-grid-with-obstacles-elimination/solution.java) |
 
 ## Bucket Sort (2)
@@ -124,11 +125,12 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments) | Medium | [Java](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (7)
+## Data Stream (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 295 | [Find Median from Data Stream](data-stream/0295-find-median-from-data-stream) | Hard | [Java](data-stream/0295-find-median-from-data-stream/solution.java) |
+| 362 | [Design Hit Counter](data-stream/0362-design-hit-counter) | Medium | [Java](data-stream/0362-design-hit-counter/solution.java) |
 | 703 | [Kth Largest Element in a Stream](data-stream/0703-kth-largest-element-in-a-stream) | Easy | [Java](data-stream/0703-kth-largest-element-in-a-stream/solution.java) |
 | 933 | [Number of Recent Calls](data-stream/0933-number-of-recent-calls) | Easy | [Java](data-stream/0933-number-of-recent-calls/solution.java) |
 | 1656 | [Design an Ordered Stream](data-stream/1656-design-an-ordered-stream) | Easy | [Java](data-stream/1656-design-an-ordered-stream/solution.java) |
@@ -144,12 +146,13 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (9)
+## Design (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 303 | [Range Sum Query - Immutable](design/0303-range-sum-query-immutable) | Easy | [Java](design/0303-range-sum-query-immutable/solution.java) |
 | 304 | [Range Sum Query 2D - Immutable](design/0304-range-sum-query-2d-immutable) | Medium | [Java](design/0304-range-sum-query-2d-immutable/solution.java) |
+| 348 | [Design Tic-Tac-Toe](design/0348-design-tic-tac-toe) | Medium | [Java](design/0348-design-tic-tac-toe/solution.java) |
 | 981 | [Time Based Key-Value Store](design/0981-time-based-key-value-store) | Medium | [C++](design/0981-time-based-key-value-store/solution.cpp) [Java](design/0981-time-based-key-value-store/solution.java) |
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
@@ -176,7 +179,7 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (64)
+## Dynamic Programming (65)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -201,6 +204,7 @@ _Last synced 2026-10-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 152 | [Maximum Product Subarray](dynamic-programming/0152-maximum-product-subarray) | Medium | [Java](dynamic-programming/0152-maximum-product-subarray/solution.java) |
 | 198 | [House Robber](dynamic-programming/0198-house-robber) | Medium | [Java](dynamic-programming/0198-house-robber/solution.java) |
 | 213 | [House Robber II](dynamic-programming/0213-house-robber-ii) | Medium | [Java](dynamic-programming/0213-house-robber-ii/solution.java) |
+| 221 | [Maximal Square](dynamic-programming/0221-maximal-square) | Medium | [Java](dynamic-programming/0221-maximal-square/solution.java) |
 | 241 | [Different Ways to Add Parentheses](dynamic-programming/0241-different-ways-to-add-parentheses) | Medium | [Java](dynamic-programming/0241-different-ways-to-add-parentheses/solution.java) |
 | 264 | [Ugly Number II](dynamic-programming/0264-ugly-number-ii) | Medium | [Java](dynamic-programming/0264-ugly-number-ii/solution.java) |
 | 279 | [Perfect Squares](dynamic-programming/0279-perfect-squares) | Medium | [Java](dynamic-programming/0279-perfect-squares/solution.java) |
