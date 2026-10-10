@@ -1689,6 +1689,47 @@
       }
     ]
   },
+  "closest-leaf-in-a-binary-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "742",
+      "paid_only": true,
+      "slug": "closest-leaf-in-a-binary-tree",
+      "title": "Closest Leaf in a Binary Tree",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2166856490,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.2 MB",
+        "runtime": "7 ms",
+        "slug": "closest-leaf-in-a-binary-tree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791514281,
+        "title": "Closest Leaf in a Binary Tree"
+      }
+    ]
+  },
   "coin-change": {
     "question": {
       "difficulty": "Medium",
@@ -5783,6 +5824,39 @@
         "status": "Accepted",
         "timestamp": 1762969093,
         "title": "Invert Binary Tree"
+      }
+    ]
+  },
+  "ip-to-cidr": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "751",
+      "paid_only": true,
+      "slug": "ip-to-cidr",
+      "title": "IP to CIDR",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2166892390,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.9 MB",
+        "runtime": "2 ms",
+        "slug": "ip-to-cidr",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791518311,
+        "title": "IP to CIDR"
       }
     ]
   },

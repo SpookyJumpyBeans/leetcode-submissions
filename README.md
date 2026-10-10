@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**397 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 241 Medium &nbsp;·&nbsp; 59 Hard
+**399 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 243 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **8 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **109** active days
+🔥 **9 day streak** (since Oct 1) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **110** active days
 
-![913 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-09)
+![922 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-10)
 
-<sub>**913** submissions in the last 53 weeks, by UTC day. Updated 2026-10-09.</sub>
+<sub>**922** submissions in the last 53 weeks, by UTC day. Updated 2026-10-10.</sub>
 
 ## Array (2)
 
@@ -75,7 +75,7 @@ _Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 
-## Bit Manipulation (11)
+## Bit Manipulation (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -83,6 +83,7 @@ _Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 136 | [Single Number](bit-manipulation/0136-single-number) | Easy | [Java](bit-manipulation/0136-single-number/solution.java) |
 | 201 | [Bitwise AND of Numbers Range](bit-manipulation/0201-bitwise-and-of-numbers-range) | Medium | [Java](bit-manipulation/0201-bitwise-and-of-numbers-range/solution.java) |
 | 371 | [Sum of Two Integers](bit-manipulation/0371-sum-of-two-integers) | Medium | [Java](bit-manipulation/0371-sum-of-two-integers/solution.java) |
+| 751 | [IP to CIDR](bit-manipulation/0751-ip-to-cidr) | Medium | [Java](bit-manipulation/0751-ip-to-cidr/solution.java) |
 | 982 | [Triples with Bitwise AND Equal To Zero](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero) | Hard | [Java](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero/solution.java) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero) | Easy | [C++](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.cpp) [Java](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.java) |
 | 1486 | [XOR Operation in an Array](bit-manipulation/1486-xor-operation-in-an-array) | Easy | [C++](bit-manipulation/1486-xor-operation-in-an-array/solution.cpp) |
@@ -542,7 +543,7 @@ _Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
-## Tree (28)
+## Tree (29)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -565,6 +566,7 @@ _Last synced 2026-10-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
 | 701 | [Insert into a Binary Search Tree](tree/0701-insert-into-a-binary-search-tree) | Medium | [C++](tree/0701-insert-into-a-binary-search-tree/solution.cpp) |
+| 742 | [Closest Leaf in a Binary Tree](tree/0742-closest-leaf-in-a-binary-tree) | Medium | [Java](tree/0742-closest-leaf-in-a-binary-tree/solution.java) |
 | 938 | [Range Sum of BST](tree/0938-range-sum-of-bst) | Easy | [Java](tree/0938-range-sum-of-bst/solution.java) |
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1376 | [Time Needed to Inform All Employees](tree/1376-time-needed-to-inform-all-employees) | Medium | [Java](tree/1376-time-needed-to-inform-all-employees/solution.java) |

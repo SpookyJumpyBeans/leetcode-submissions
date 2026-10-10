@@ -991,6 +991,31 @@
       ]
     ]
   },
+  "closest-leaf-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "742",
+    "paid_only": true,
+    "slug": "closest-leaf-in-a-binary-tree",
+    "title": "Closest Leaf in a Binary Tree",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "coin-change": {
     "difficulty": "Medium",
     "frontend_id": "322",
@@ -3418,6 +3443,23 @@
       [
         "Binary Tree",
         "binary-tree"
+      ]
+    ]
+  },
+  "ip-to-cidr": {
+    "difficulty": "Medium",
+    "frontend_id": "751",
+    "paid_only": true,
+    "slug": "ip-to-cidr",
+    "title": "IP to CIDR",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
       ]
     ]
   },
