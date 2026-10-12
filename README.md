@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**399 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 243 Medium &nbsp;·&nbsp; 59 Hard
+**400 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 244 Medium &nbsp;·&nbsp; 59 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-**No active streak**, last solved Oct 9 &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **110** active days
+🔥 **1 day streak** &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **111** active days
 
-![922 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-11)
+![931 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-12)
 
-<sub>**922** submissions in the last 53 weeks, by UTC day. Updated 2026-10-11.</sub>
+<sub>**931** submissions in the last 53 weeks, by UTC day. Updated 2026-10-12.</sub>
 
 ## Array (2)
 
@@ -358,7 +358,7 @@ _Last synced 2026-10-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
 | 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
 
-## Linked List (19)
+## Linked List (20)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -380,6 +380,7 @@ _Last synced 2026-10-11 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | Medium | [Java](linked-list/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) |
 | 2130 | [Maximum Twin Sum of a Linked List](linked-list/2130-maximum-twin-sum-of-a-linked-list) | Medium | [Java](linked-list/2130-maximum-twin-sum-of-a-linked-list/solution.java) |
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
+| 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 | 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
 ## Math (9)

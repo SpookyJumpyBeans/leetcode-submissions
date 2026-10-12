@@ -11645,14 +11645,15 @@
     },
     "submissions": [
       {
-        "id": 775706044,
+        "id": 2169714830,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "43.6 MB",
-        "runtime": "1 ms",
+        "memory": "45.6 MB",
+        "runtime": "0 ms",
         "slug": "remove-duplicates-from-sorted-list",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1660707190,
+        "timestamp": 1791762963,
         "title": "Remove Duplicates from Sorted List"
       }
     ]
@@ -13428,6 +13429,47 @@
         "status": "Accepted",
         "timestamp": 1786487895,
         "title": "Spiral Matrix"
+      }
+    ]
+  },
+  "spiral-matrix-iv": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2326",
+      "paid_only": false,
+      "slug": "spiral-matrix-iv",
+      "title": "Spiral Matrix IV",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2169711603,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "134.3 MB",
+        "runtime": "6 ms",
+        "slug": "spiral-matrix-iv",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791762155,
+        "title": "Spiral Matrix IV"
       }
     ]
   },

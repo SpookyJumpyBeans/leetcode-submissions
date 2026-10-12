@@ -8017,6 +8017,31 @@
       ]
     ]
   },
+  "spiral-matrix-iv": {
+    "difficulty": "Medium",
+    "frontend_id": "2326",
+    "paid_only": false,
+    "slug": "spiral-matrix-iv",
+    "title": "Spiral Matrix IV",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "split-array-largest-sum": {
     "difficulty": "Hard",
     "frontend_id": "410",
