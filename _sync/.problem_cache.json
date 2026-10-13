@@ -731,6 +731,27 @@
       ]
     ]
   },
+  "bus-routes": {
+    "difficulty": "Hard",
+    "frontend_id": "815",
+    "paid_only": false,
+    "slug": "bus-routes",
+    "title": "Bus Routes",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ]
+    ]
+  },
   "candy": {
     "difficulty": "Hard",
     "frontend_id": "135",
@@ -1190,6 +1211,35 @@
       [
         "Matrix",
         "matrix"
+      ]
+    ]
+  },
+  "construct-string-with-repeat-limit": {
+    "difficulty": "Medium",
+    "frontend_id": "2182",
+    "paid_only": false,
+    "slug": "construct-string-with-repeat-limit",
+    "title": "Construct String With Repeat Limit",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
+      ],
+      [
+        "Counting",
+        "counting"
       ]
     ]
   },
@@ -5962,6 +6012,23 @@
       ]
     ]
   },
+  "neighboring-bitwise-xor": {
+    "difficulty": "Medium",
+    "frontend_id": "2683",
+    "paid_only": false,
+    "slug": "neighboring-bitwise-xor",
+    "title": "Neighboring Bitwise XOR",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
   "network-delay-time": {
     "difficulty": "Medium",
     "frontend_id": "743",
@@ -6727,6 +6794,27 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ]
+    ]
+  },
+  "range-module": {
+    "difficulty": "Hard",
+    "frontend_id": "715",
+    "paid_only": false,
+    "slug": "range-module",
+    "title": "Range Module",
+    "topics": [
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Segment Tree",
+        "segment-tree"
+      ],
+      [
+        "Ordered Set",
+        "ordered-set"
       ]
     ]
   },

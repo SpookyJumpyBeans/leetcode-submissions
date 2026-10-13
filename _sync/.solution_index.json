@@ -1244,6 +1244,43 @@
       }
     ]
   },
+  "bus-routes": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "815",
+      "paid_only": false,
+      "slug": "bus-routes",
+      "title": "Bus Routes",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2169752991,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "104.2 MB",
+        "runtime": "36 ms",
+        "slug": "bus-routes",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791770846,
+        "title": "Bus Routes"
+      }
+    ]
+  },
   "candy": {
     "question": {
       "difficulty": "Hard",
@@ -2053,6 +2090,51 @@
         "status": "Accepted",
         "timestamp": 1787724036,
         "title": "Construct Quad Tree"
+      }
+    ]
+  },
+  "construct-string-with-repeat-limit": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2182",
+      "paid_only": false,
+      "slug": "construct-string-with-repeat-limit",
+      "title": "Construct String With Repeat Limit",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ],
+        [
+          "Counting",
+          "counting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2169763819,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.8 MB",
+        "runtime": "17 ms",
+        "slug": "construct-string-with-repeat-limit",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791772684,
+        "title": "Construct String With Repeat Limit"
       }
     ]
   },
@@ -9953,6 +10035,39 @@
       }
     ]
   },
+  "neighboring-bitwise-xor": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2683",
+      "paid_only": false,
+      "slug": "neighboring-bitwise-xor",
+      "title": "Neighboring Bitwise XOR",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2170615270,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "199.5 MB",
+        "runtime": "2 ms",
+        "slug": "neighboring-bitwise-xor",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791839554,
+        "title": "Neighboring Bitwise XOR"
+      }
+    ]
+  },
   "network-delay-time": {
     "question": {
       "difficulty": "Medium",
@@ -11235,6 +11350,43 @@
       }
     ]
   },
+  "range-module": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "715",
+      "paid_only": false,
+      "slug": "range-module",
+      "title": "Range Module",
+      "topics": [
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Segment Tree",
+          "segment-tree"
+        ],
+        [
+          "Ordered Set",
+          "ordered-set"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2170679788,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.8 MB",
+        "runtime": "41 ms",
+        "slug": "range-module",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791852623,
+        "title": "Range Module"
+      }
+    ]
+  },
   "range-sum-of-bst": {
     "question": {
       "difficulty": "Easy",
@@ -12285,14 +12437,15 @@
     },
     "submissions": [
       {
-        "id": 2102047083,
+        "id": 2170551730,
         "lang": "java",
         "lang_name": "Java",
         "memory": "43.9 MB",
         "runtime": "4 ms",
         "slug": "rle-iterator",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1786394218,
+        "timestamp": 1791832409,
         "title": "RLE Iterator"
       }
     ]
@@ -15111,14 +15264,15 @@
     },
     "submissions": [
       {
-        "id": 2103419446,
+        "id": 2170559285,
         "lang": "java",
         "lang_name": "Java",
-        "memory": "45 MB",
-        "runtime": "1 ms",
+        "memory": "46.2 MB",
+        "runtime": "2 ms",
         "slug": "unique-paths-iii",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1786480119,
+        "timestamp": 1791833049,
         "title": "Unique Paths III"
       }
     ]

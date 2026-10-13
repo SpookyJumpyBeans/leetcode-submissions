@@ -1,36 +1,32 @@
 // 900. RLE Iterator
 // https://leetcode.com/problems/rle-iterator/
-// Medium | Java | Accepted 2026-08-10
+// Medium | Java | Accepted 2026-10-12
 // Runtime 4 ms | Memory 43.9 MB
 
 class RLEIterator {
-    int[] encoded;
-    int index = 0;
+    int[] iterator;
+    int currInd = 0;
     public RLEIterator(int[] encoding) {
-        encoded = encoding;
+        iterator = encoding;
     }
     
     public int next(int n) {
-        int last = -1;
-       while(n>0)
-       {
-        if(index>=encoded.length)
+        while(currInd<iterator.length && n>0)
         {
-            return -1;
+            int temp = n;
+            int val = iterator[currInd+1];
+            n = Math.max(0, n-iterator[currInd]);
+            iterator[currInd] = Math.max(0, iterator[currInd]-temp);
+            if(iterator[currInd]==0)
+            {
+                currInd+=2;
+            }
+            if(n==0)
+            {
+                return val;
+            }
         }
-        if(encoded[index]>0)
-        {
-            last = encoded[index+1];
-            int temp = encoded[index];
-            encoded[index] = Math.max(0, encoded[index]-n); //1
-            n = Math.max(0, n-temp);
-        }
-        if(encoded[index]<=0)
-        {
-            index+=2;
-        }
-       }
-       return last;
+        return -1;
     }
 }
 

@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**400 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 244 Medium &nbsp;·&nbsp; 59 Hard
+**404 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 246 Medium &nbsp;·&nbsp; 61 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-13 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **1 day streak** &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **111** active days
+🔥 **3 day streak** (since Oct 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **113** active days
 
-![931 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-12)
+![950 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-13)
 
-<sub>**931** submissions in the last 53 weeks, by UTC day. Updated 2026-10-12.</sub>
+<sub>**950** submissions in the last 53 weeks, by UTC day. Updated 2026-10-13.</sub>
 
 ## Array (2)
 
@@ -75,7 +75,7 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 
-## Bit Manipulation (12)
+## Bit Manipulation (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -89,6 +89,7 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1486 | [XOR Operation in an Array](bit-manipulation/1486-xor-operation-in-an-array) | Easy | [C++](bit-manipulation/1486-xor-operation-in-an-array/solution.cpp) |
 | 1720 | [Decode XORed Array](bit-manipulation/1720-decode-xored-array) | Easy | [Java](bit-manipulation/1720-decode-xored-array/solution.java) |
 | 2032 | [Two Out of Three](bit-manipulation/2032-two-out-of-three) | Easy | [Java](bit-manipulation/2032-two-out-of-three/solution.java) |
+| 2683 | [Neighboring Bitwise XOR](bit-manipulation/2683-neighboring-bitwise-xor) | Medium | [Java](bit-manipulation/2683-neighboring-bitwise-xor/solution.java) |
 | 3133 | [Minimum Array End](bit-manipulation/3133-minimum-array-end) | Medium | [Java](bit-manipulation/3133-minimum-array-end/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
@@ -100,12 +101,13 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 698 | [Partition to K Equal Sum Subsets](bitmask/0698-partition-to-k-equal-sum-subsets) | Medium | [Java](bitmask/0698-partition-to-k-equal-sum-subsets/solution.java) |
 | 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences) | Medium | [Java](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/solution.java) |
 
-## Breadth-First Search (6)
+## Breadth-First Search (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 127 | [Word Ladder](breadth-first-search/0127-word-ladder) | Hard | [Java](breadth-first-search/0127-word-ladder/solution.java) |
 | 752 | [Open the Lock](breadth-first-search/0752-open-the-lock) | Medium | [C++](breadth-first-search/0752-open-the-lock/solution.cpp) |
+| 815 | [Bus Routes](breadth-first-search/0815-bus-routes) | Hard | [Java](breadth-first-search/0815-bus-routes/solution.java) |
 | 994 | [Rotting Oranges](breadth-first-search/0994-rotting-oranges) | Medium | [Java](breadth-first-search/0994-rotting-oranges/solution.java) |
 | 1091 | [Shortest Path in Binary Matrix](breadth-first-search/1091-shortest-path-in-binary-matrix) | Medium | [Java](breadth-first-search/1091-shortest-path-in-binary-matrix/solution.java) |
 | 1197 | [Minimum Knight Moves](breadth-first-search/1197-minimum-knight-moves) | Medium | [Java](breadth-first-search/1197-minimum-knight-moves/solution.java) |
@@ -322,7 +324,7 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
 | 3718 | [Smallest Missing Multiple of K](hash-table/3718-smallest-missing-multiple-of-k) | Easy | [Java](hash-table/3718-smallest-missing-multiple-of-k/solution.java) |
 
-## Heap (Priority Queue) (16)
+## Heap (Priority Queue) (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -340,6 +342,7 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
 | 1834 | [Single-Threaded CPU](heap-priority-queue/1834-single-threaded-cpu) | Medium | [C++](heap-priority-queue/1834-single-threaded-cpu/solution.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](heap-priority-queue/1851-minimum-interval-to-include-each-query) | Hard | [C++](heap-priority-queue/1851-minimum-interval-to-include-each-query/solution.cpp) |
+| 2182 | [Construct String With Repeat Limit](heap-priority-queue/2182-construct-string-with-repeat-limit) | Medium | [Java](heap-priority-queue/2182-construct-string-with-repeat-limit/solution.java) |
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
 | 2974 | [Minimum Number Game](heap-priority-queue/2974-minimum-number-game) | Easy | [Java](heap-priority-queue/2974-minimum-number-game/solution.java) |
 
@@ -458,10 +461,11 @@ _Last synced 2026-10-12 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 649 | [Dota2 Senate](queue/0649-dota2-senate) | Medium | [Java](queue/0649-dota2-senate/solution.java) |
 | 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) | Medium | [Java](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/solution.java) |
 
-## Segment Tree (3)
+## Segment Tree (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 715 | [Range Module](segment-tree/0715-range-module) | Hard | [Java](segment-tree/0715-range-module/solution.java) |
 | 732 | [My Calendar III](segment-tree/0732-my-calendar-iii) | Hard | [Java](segment-tree/0732-my-calendar-iii/solution.java) |
 | 2213 | [Longest Substring of One Repeating Character](segment-tree/2213-longest-substring-of-one-repeating-character) | Hard | [Java](segment-tree/2213-longest-substring-of-one-repeating-character/solution.java) |
 | 2276 | [Count Integers in Intervals](segment-tree/2276-count-integers-in-intervals) | Hard | [Java](segment-tree/2276-count-integers-in-intervals/solution.java) |
