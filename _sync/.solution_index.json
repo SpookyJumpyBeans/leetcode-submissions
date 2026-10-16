@@ -4307,6 +4307,55 @@
       }
     ]
   },
+  "find-all-possible-recipes-from-given-supplies": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2115",
+      "paid_only": false,
+      "slug": "find-all-possible-recipes-from-given-supplies",
+      "title": "Find All Possible Recipes from Given Supplies",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ],
+        [
+          "Topological Sort",
+          "topological-sort"
+        ],
+        [
+          "Directed Acyclic Graph",
+          "directed-acyclic-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2173447076,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48 MB",
+        "runtime": "60 ms",
+        "slug": "find-all-possible-recipes-from-given-supplies",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792111964,
+        "title": "Find All Possible Recipes from Given Supplies"
+      }
+    ]
+  },
   "find-champion-ii": {
     "question": {
       "difficulty": "Medium",
@@ -11285,6 +11334,39 @@
       }
     ]
   },
+  "plus-one-linked-list": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "369",
+      "paid_only": true,
+      "slug": "plus-one-linked-list",
+      "title": "Plus One Linked List",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2173438593,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.4 MB",
+        "runtime": "0 ms",
+        "slug": "plus-one-linked-list",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792109779,
+        "title": "Plus One Linked List"
+      }
+    ]
+  },
   "powx-n": {
     "question": {
       "difficulty": "Medium",
@@ -12704,6 +12786,47 @@
         "status": "Accepted",
         "timestamp": 1763447642,
         "title": "Same Tree"
+      }
+    ]
+  },
+  "score-after-flipping-matrix": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "861",
+      "paid_only": false,
+      "slug": "score-after-flipping-matrix",
+      "title": "Score After Flipping Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2173429465,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "1 ms",
+        "slug": "score-after-flipping-matrix",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792107437,
+        "title": "Score After Flipping Matrix"
       }
     ]
   },
@@ -14376,6 +14499,39 @@
         "status": "Accepted",
         "timestamp": 1787804101,
         "title": "Sum of All Subset XOR Totals"
+      }
+    ]
+  },
+  "sum-of-squares-of-special-elements": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2778",
+      "paid_only": false,
+      "slug": "sum-of-squares-of-special-elements",
+      "title": "Sum of Squares of Special Elements ",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Enumeration",
+          "enumeration"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2171713886,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46 MB",
+        "runtime": "2 ms",
+        "slug": "sum-of-squares-of-special-elements",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1791946512,
+        "title": "Sum of Squares of Special Elements "
       }
     ]
   },

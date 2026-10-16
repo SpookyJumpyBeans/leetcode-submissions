@@ -2538,6 +2538,39 @@
       ]
     ]
   },
+  "find-all-possible-recipes-from-given-supplies": {
+    "difficulty": "Medium",
+    "frontend_id": "2115",
+    "paid_only": false,
+    "slug": "find-all-possible-recipes-from-given-supplies",
+    "title": "Find All Possible Recipes from Given Supplies",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ],
+      [
+        "Topological Sort",
+        "topological-sort"
+      ],
+      [
+        "Directed Acyclic Graph",
+        "directed-acyclic-graph"
+      ]
+    ]
+  },
   "find-champion-ii": {
     "difficulty": "Medium",
     "frontend_id": "2924",
@@ -6763,6 +6796,23 @@
       ]
     ]
   },
+  "plus-one-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "369",
+    "paid_only": true,
+    "slug": "plus-one-linked-list",
+    "title": "Plus One Linked List",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Math",
+        "math"
+      ]
+    ]
+  },
   "powx-n": {
     "difficulty": "Medium",
     "frontend_id": "50",
@@ -7579,6 +7629,31 @@
       [
         "Binary Tree",
         "binary-tree"
+      ]
+    ]
+  },
+  "score-after-flipping-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "861",
+    "paid_only": false,
+    "slug": "score-after-flipping-matrix",
+    "title": "Score After Flipping Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },
@@ -8605,6 +8680,23 @@
       [
         "Combinatorics",
         "combinatorics"
+      ],
+      [
+        "Enumeration",
+        "enumeration"
+      ]
+    ]
+  },
+  "sum-of-squares-of-special-elements": {
+    "difficulty": "Easy",
+    "frontend_id": "2778",
+    "paid_only": false,
+    "slug": "sum-of-squares-of-special-elements",
+    "title": "Sum of Squares of Special Elements ",
+    "topics": [
+      [
+        "Array",
+        "array"
       ],
       [
         "Enumeration",

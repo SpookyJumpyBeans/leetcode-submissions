@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**404 problems solved** &nbsp;·&nbsp; 97 Easy &nbsp;·&nbsp; 246 Medium &nbsp;·&nbsp; 61 Hard
+**408 problems solved** &nbsp;·&nbsp; 98 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 61 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-16 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **3 day streak** (since Oct 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **113** active days
+🔥 **6 day streak** (since Oct 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **116** active days
 
-![950 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-14)
+![964 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-16)
 
-<sub>**950** submissions in the last 53 weeks, by UTC day. Updated 2026-10-14.</sub>
+<sub>**964** submissions in the last 53 weeks, by UTC day. Updated 2026-10-16.</sub>
 
 ## Array (2)
 
@@ -252,6 +252,13 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
 
+## Enumeration (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 2468 | [Split Message Based on Limit](enumeration/2468-split-message-based-on-limit) | Hard | [Java](enumeration/2468-split-message-based-on-limit/solution.java) |
+| 2778 | [Sum of Squares of Special Elements ](enumeration/2778-sum-of-squares-of-special-elements) | Easy | [Java](enumeration/2778-sum-of-squares-of-special-elements/solution.java) |
+
 ## Game Theory (6)
 
 | # | Problem | Difficulty | Solutions |
@@ -271,7 +278,7 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 836 | [Rectangle Overlap](geometry/0836-rectangle-overlap) | Easy | [Java](geometry/0836-rectangle-overlap/solution.java) |
 | 973 | [K Closest Points to Origin](geometry/0973-k-closest-points-to-origin) | Medium | [Java](geometry/0973-k-closest-points-to-origin/solution.java) |
 
-## Graph Theory (11)
+## Graph Theory (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -284,10 +291,11 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 997 | [Find the Town Judge](graph/0997-find-the-town-judge) | Easy | [C++](graph/0997-find-the-town-judge/solution.cpp) |
 | 1129 | [Shortest Path with Alternating Colors](graph/1129-shortest-path-with-alternating-colors) | Medium | [Java](graph/1129-shortest-path-with-alternating-colors/solution.java) |
 | 1462 | [Course Schedule IV](graph/1462-course-schedule-iv) | Medium | [C++](graph/1462-course-schedule-iv/solution.cpp) |
+| 2115 | [Find All Possible Recipes from Given Supplies](graph/2115-find-all-possible-recipes-from-given-supplies) | Medium | [Java](graph/2115-find-all-possible-recipes-from-given-supplies/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (10)
+## Greedy (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -295,6 +303,7 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 135 | [Candy](greedy/0135-candy) | Hard | [Java](greedy/0135-candy/solution.java) |
 | 846 | [Hand of Straights](greedy/0846-hand-of-straights) | Medium | [Java](greedy/0846-hand-of-straights/solution.java) |
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
+| 861 | [Score After Flipping Matrix](greedy/0861-score-after-flipping-matrix) | Medium | [Java](greedy/0861-score-after-flipping-matrix/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
 | 1899 | [Merge Triplets to Form Target Triplet](greedy/1899-merge-triplets-to-form-target-triplet) | Medium | [Java](greedy/1899-merge-triplets-to-form-target-triplet/solution.java) |
@@ -361,7 +370,7 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
 | 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
 
-## Linked List (20)
+## Linked List (21)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -377,6 +386,7 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 206 | [Reverse Linked List](linked-list/0206-reverse-linked-list) | Easy | [Java](linked-list/0206-reverse-linked-list/solution.java) |
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
+| 369 | [Plus One Linked List](linked-list/0369-plus-one-linked-list) | Medium | [Java](linked-list/0369-plus-one-linked-list/solution.java) |
 | 622 | [Design Circular Queue](linked-list/0622-design-circular-queue) | Medium | [C++](linked-list/0622-design-circular-queue/solution.cpp) [Java](linked-list/0622-design-circular-queue/solution.java) |
 | 641 | [Design Circular Deque](linked-list/0641-design-circular-deque) | Medium | [Java](linked-list/0641-design-circular-deque/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
@@ -541,12 +551,11 @@ _Last synced 2026-10-14 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 | 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
-## String (2)
+## String (1)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
-| 2468 | [Split Message Based on Limit](string/2468-split-message-based-on-limit) | Hard | [Java](string/2468-split-message-based-on-limit/solution.java) |
 
 ## Tree (29)
 
