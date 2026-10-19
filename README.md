@@ -5,7 +5,7 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**410 problems solved** &nbsp;·&nbsp; 98 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**411 problems solved** &nbsp;·&nbsp; 99 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
@@ -15,11 +15,11 @@ _Last synced 2026-10-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-**No active streak**, last solved Oct 16 &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **116** active days
+🔥 **1 day streak** &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **117** active days
 
-![976 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-19)
+![977 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-19)
 
-<sub>**976** submissions in the last 53 weeks, by UTC day. Updated 2026-10-19.</sub>
+<sub>**977** submissions in the last 53 weeks, by UTC day. Updated 2026-10-19.</sub>
 
 ## Array (2)
 
@@ -129,11 +129,12 @@ _Last synced 2026-10-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments) | Medium | [Java](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (8)
+## Data Stream (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 295 | [Find Median from Data Stream](data-stream/0295-find-median-from-data-stream) | Hard | [Java](data-stream/0295-find-median-from-data-stream/solution.java) |
+| 346 | [Moving Average from Data Stream](data-stream/0346-moving-average-from-data-stream) | Easy | [Java](data-stream/0346-moving-average-from-data-stream/solution.java) |
 | 362 | [Design Hit Counter](data-stream/0362-design-hit-counter) | Medium | [Java](data-stream/0362-design-hit-counter/solution.java) |
 | 703 | [Kth Largest Element in a Stream](data-stream/0703-kth-largest-element-in-a-stream) | Easy | [Java](data-stream/0703-kth-largest-element-in-a-stream/solution.java) |
 | 933 | [Number of Recent Calls](data-stream/0933-number-of-recent-calls) | Easy | [Java](data-stream/0933-number-of-recent-calls/solution.java) |

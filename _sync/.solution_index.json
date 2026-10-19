@@ -9898,6 +9898,47 @@
       }
     ]
   },
+  "moving-average-from-data-stream": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "346",
+      "paid_only": true,
+      "slug": "moving-average-from-data-stream",
+      "title": "Moving Average from Data Stream",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2175859878,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "51.9 MB",
+        "runtime": "61 ms",
+        "slug": "moving-average-from-data-stream",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792381563,
+        "title": "Moving Average from Data Stream"
+      }
+    ]
+  },
   "multiply-strings": {
     "question": {
       "difficulty": "Medium",

@@ -5936,6 +5936,31 @@
       ]
     ]
   },
+  "moving-average-from-data-stream": {
+    "difficulty": "Easy",
+    "frontend_id": "346",
+    "paid_only": true,
+    "slug": "moving-average-from-data-stream",
+    "title": "Moving Average from Data Stream",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ]
+    ]
+  },
   "multiply-strings": {
     "difficulty": "Medium",
     "frontend_id": "43",
