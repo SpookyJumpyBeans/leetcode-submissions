@@ -7,4 +7,4 @@
 
 | Language | File | Runtime | Memory | Accepted |
 | --- | --- | --- | --- | --- |
-| Java | [solution.java](solution.java) | 60 ms | 48 MB | 2026-10-16 |
+| Java | [solution.java](solution.java) | 62 ms | 48 MB | 2026-10-16 |

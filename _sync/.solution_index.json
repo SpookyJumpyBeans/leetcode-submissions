@@ -4343,15 +4343,15 @@
     },
     "submissions": [
       {
-        "id": 2173447076,
+        "id": 2173560119,
         "lang": "java",
         "lang_name": "Java",
         "memory": "48 MB",
-        "runtime": "60 ms",
+        "runtime": "62 ms",
         "slug": "find-all-possible-recipes-from-given-supplies",
         "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1792111964,
+        "timestamp": 1792127622,
         "title": "Find All Possible Recipes from Given Supplies"
       }
     ]
@@ -12573,6 +12573,39 @@
       }
     ]
   },
+  "robot-room-cleaner": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "489",
+      "paid_only": true,
+      "slug": "robot-room-cleaner",
+      "title": "Robot Room Cleaner",
+      "topics": [
+        [
+          "Backtracking",
+          "backtracking"
+        ],
+        [
+          "Interactive",
+          "interactive"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2173562599,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.2 MB",
+        "runtime": "10 ms",
+        "slug": "robot-room-cleaner",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792127834,
+        "title": "Robot Room Cleaner"
+      }
+    ]
+  },
   "roman-to-integer": {
     "question": {
       "difficulty": "Easy",
@@ -13790,6 +13823,59 @@
         "status": "Accepted",
         "timestamp": 1787088189,
         "title": "Split Array Largest Sum"
+      }
+    ]
+  },
+  "split-array-with-same-average": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "805",
+      "paid_only": false,
+      "slug": "split-array-with-same-average",
+      "title": "Split Array With Same Average",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ],
+        [
+          "Meet in the Middle",
+          "meet-in-the-middle"
+        ],
+        [
+          "Bitmask",
+          "bitmask"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2173606725,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "84 MB",
+        "runtime": "110 ms",
+        "slug": "split-array-with-same-average",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792131718,
+        "title": "Split Array With Same Average"
       }
     ]
   },

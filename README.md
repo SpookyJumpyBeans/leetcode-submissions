@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**408 problems solved** &nbsp;·&nbsp; 98 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 61 Hard
+**410 problems solved** &nbsp;·&nbsp; 98 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-16 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **6 day streak** (since Oct 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **116** active days
+**No active streak**, last solved Oct 16 &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **116** active days
 
-![964 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-16)
+![976 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-19)
 
-<sub>**964** submissions in the last 53 weeks, by UTC day. Updated 2026-10-16.</sub>
+<sub>**976** submissions in the last 53 weeks, by UTC day. Updated 2026-10-19.</sub>
 
 ## Array (2)
 
@@ -93,12 +93,13 @@ _Last synced 2026-10-16 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3133 | [Minimum Array End](bit-manipulation/3133-minimum-array-end) | Medium | [Java](bit-manipulation/3133-minimum-array-end/solution.java) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor) | Medium | [Java](bit-manipulation/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) |
 
-## Bitmask (3)
+## Bitmask (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 473 | [Matchsticks to Square](bitmask/0473-matchsticks-to-square) | Medium | [Java](bitmask/0473-matchsticks-to-square/solution.java) |
 | 698 | [Partition to K Equal Sum Subsets](bitmask/0698-partition-to-k-equal-sum-subsets) | Medium | [Java](bitmask/0698-partition-to-k-equal-sum-subsets/solution.java) |
+| 805 | [Split Array With Same Average](bitmask/0805-split-array-with-same-average) | Hard | [Java](bitmask/0805-split-array-with-same-average/solution.java) |
 | 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences) | Medium | [Java](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/solution.java) |
 
 ## Breadth-First Search (7)
@@ -355,12 +356,13 @@ _Last synced 2026-10-16 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2402 | [Meeting Rooms III](heap-priority-queue/2402-meeting-rooms-iii) | Hard | [Java](heap-priority-queue/2402-meeting-rooms-iii/solution.java) |
 | 2974 | [Minimum Number Game](heap-priority-queue/2974-minimum-number-game) | Easy | [Java](heap-priority-queue/2974-minimum-number-game/solution.java) |
 
-## Interactive (3)
+## Interactive (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 278 | [First Bad Version](interactive/0278-first-bad-version) | Easy | [Java](interactive/0278-first-bad-version/solution.java) |
 | 374 | [Guess Number Higher or Lower](interactive/0374-guess-number-higher-or-lower) | Easy | [Java](interactive/0374-guess-number-higher-or-lower/solution.java) |
+| 489 | [Robot Room Cleaner](interactive/0489-robot-room-cleaner) | Hard | [Java](interactive/0489-robot-room-cleaner/solution.java) |
 | 1095 | [Find in Mountain Array](interactive/1095-find-in-mountain-array) | Hard | [Java](interactive/1095-find-in-mountain-array/solution.java) |
 
 ## Iterator (2)

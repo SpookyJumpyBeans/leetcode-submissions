@@ -7506,6 +7506,23 @@
       ]
     ]
   },
+  "robot-room-cleaner": {
+    "difficulty": "Hard",
+    "frontend_id": "489",
+    "paid_only": true,
+    "slug": "robot-room-cleaner",
+    "title": "Robot Room Cleaner",
+    "topics": [
+      [
+        "Backtracking",
+        "backtracking"
+      ],
+      [
+        "Interactive",
+        "interactive"
+      ]
+    ]
+  },
   "roman-to-integer": {
     "difficulty": "Easy",
     "frontend_id": "13",
@@ -8231,6 +8248,43 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ]
+    ]
+  },
+  "split-array-with-same-average": {
+    "difficulty": "Hard",
+    "frontend_id": "805",
+    "paid_only": false,
+    "slug": "split-array-with-same-average",
+    "title": "Split Array With Same Average",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Meet in the Middle",
+        "meet-in-the-middle"
+      ],
+      [
+        "Bitmask",
+        "bitmask"
       ]
     ]
   },
