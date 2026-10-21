@@ -2796,6 +2796,27 @@
       ]
     ]
   },
+  "find-target-indices-after-sorting-array": {
+    "difficulty": "Easy",
+    "frontend_id": "2089",
+    "paid_only": false,
+    "slug": "find-target-indices-after-sorting-array",
+    "title": "Find Target Indices After Sorting Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
     "difficulty": "Medium",
     "frontend_id": "1334",

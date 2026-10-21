@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**411 problems solved** &nbsp;·&nbsp; 99 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**412 problems solved** &nbsp;·&nbsp; 100 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **1 day streak** &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **117** active days
+🔥 **2 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **118** active days
 
-![977 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-20)
+![978 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-21)
 
-<sub>**977** submissions in the last 53 weeks, by UTC day. Updated 2026-10-20.</sub>
+<sub>**978** submissions in the last 53 weeks, by UTC day. Updated 2026-10-21.</sub>
 
 ## Array (2)
 
@@ -56,7 +56,7 @@ _Last synced 2026-10-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1157 | [Online Majority Element In Subarray](binary-indexed-tree/1157-online-majority-element-in-subarray) | Hard | [Java](binary-indexed-tree/1157-online-majority-element-in-subarray/solution.java) |
 | 2286 | [Booking Concert Tickets in Groups](binary-indexed-tree/2286-booking-concert-tickets-in-groups) | Hard | [Java](binary-indexed-tree/2286-booking-concert-tickets-in-groups/solution.java) |
 
-## Binary Search (14)
+## Binary Search (15)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -74,6 +74,7 @@ _Last synced 2026-10-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1011 | [Capacity To Ship Packages Within D Days](binary-search/1011-capacity-to-ship-packages-within-d-days) | Medium | [C++](binary-search/1011-capacity-to-ship-packages-within-d-days/solution.cpp) |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
+| 2089 | [Find Target Indices After Sorting Array](binary-search/2089-find-target-indices-after-sorting-array) | Easy | [Java](binary-search/2089-find-target-indices-after-sorting-array/solution.java) |
 
 ## Bit Manipulation (13)
 

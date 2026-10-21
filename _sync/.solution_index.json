@@ -4720,6 +4720,43 @@
       }
     ]
   },
+  "find-target-indices-after-sorting-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2089",
+      "paid_only": false,
+      "slug": "find-target-indices-after-sorting-array",
+      "title": "Find Target Indices After Sorting Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2176714888,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.2 MB",
+        "runtime": "6 ms",
+        "slug": "find-target-indices-after-sorting-array",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792467774,
+        "title": "Find Target Indices After Sorting Array"
+      }
+    ]
+  },
   "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
     "question": {
       "difficulty": "Medium",
