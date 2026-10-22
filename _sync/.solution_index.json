@@ -1536,6 +1536,43 @@
       }
     ]
   },
+  "check-if-an-array-is-consecutive": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2229",
+      "paid_only": true,
+      "slug": "check-if-an-array-is-consecutive",
+      "title": "Check if an Array Is Consecutive",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2177558827,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "83.6 MB",
+        "runtime": "33 ms",
+        "slug": "check-if-an-array-is-consecutive",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792553797,
+        "title": "Check if an Array Is Consecutive"
+      }
+    ]
+  },
   "check-if-there-is-a-valid-parentheses-string-path": {
     "question": {
       "difficulty": "Hard",

@@ -899,6 +899,27 @@
       ]
     ]
   },
+  "check-if-an-array-is-consecutive": {
+    "difficulty": "Easy",
+    "frontend_id": "2229",
+    "paid_only": true,
+    "slug": "check-if-an-array-is-consecutive",
+    "title": "Check if an Array Is Consecutive",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "check-if-there-is-a-valid-parentheses-string-path": {
     "difficulty": "Hard",
     "frontend_id": "2267",

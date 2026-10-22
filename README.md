@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**412 problems solved** &nbsp;·&nbsp; 100 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**413 problems solved** &nbsp;·&nbsp; 101 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **2 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **118** active days
+🔥 **3 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **119** active days
 
-![978 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-21)
+![979 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-22)
 
-<sub>**978** submissions in the last 53 weeks, by UTC day. Updated 2026-10-21.</sub>
+<sub>**979** submissions in the last 53 weeks, by UTC day. Updated 2026-10-22.</sub>
 
 ## Array (2)
 
@@ -518,7 +518,7 @@ _Last synced 2026-10-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3090 | [Maximum Length Substring With Two Occurrences](sliding-window/3090-maximum-length-substring-with-two-occurrences) | Easy | [Java](sliding-window/3090-maximum-length-substring-with-two-occurrences/solution.java) |
 | 3208 | [Alternating Groups II](sliding-window/3208-alternating-groups-ii) | Medium | [Java](sliding-window/3208-alternating-groups-ii/solution.java) |
 
-## Sorting (7)
+## Sorting (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -529,6 +529,7 @@ _Last synced 2026-10-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 242 | [Valid Anagram](sorting/0242-valid-anagram) | Easy | [Java](sorting/0242-valid-anagram/solution.java) |
 | 791 | [Custom Sort String](sorting/0791-custom-sort-string) | Medium | [C++](sorting/0791-custom-sort-string/solution.cpp) |
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
+| 2229 | [Check if an Array Is Consecutive](sorting/2229-check-if-an-array-is-consecutive) | Easy | [Java](sorting/2229-check-if-an-array-is-consecutive/solution.java) |
 
 ## Stack (20)
 
