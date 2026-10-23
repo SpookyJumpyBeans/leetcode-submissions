@@ -245,6 +245,43 @@
       }
     ]
   },
+  "add-digits": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "258",
+      "paid_only": false,
+      "slug": "add-digits",
+      "title": "Add Digits",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ],
+        [
+          "Number Theory",
+          "number-theory"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2178425691,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.7 MB",
+        "runtime": "9 ms",
+        "slug": "add-digits",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792634178,
+        "title": "Add Digits"
+      }
+    ]
+  },
   "add-two-numbers": {
     "question": {
       "difficulty": "Medium",

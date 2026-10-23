@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**413 problems solved** &nbsp;·&nbsp; 101 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**414 problems solved** &nbsp;·&nbsp; 102 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **3 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **119** active days
+🔥 **4 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **120** active days
 
-![979 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-22)
+![980 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-23)
 
-<sub>**979** submissions in the last 53 weeks, by UTC day. Updated 2026-10-22.</sub>
+<sub>**980** submissions in the last 53 weeks, by UTC day. Updated 2026-10-23.</sub>
 
 ## Array (2)
 
@@ -374,7 +374,7 @@ _Last synced 2026-10-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
 | 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
 
-## Linked List (21)
+## Linked List (20)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -398,7 +398,6 @@ _Last synced 2026-10-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2130 | [Maximum Twin Sum of a Linked List](linked-list/2130-maximum-twin-sum-of-a-linked-list) | Medium | [Java](linked-list/2130-maximum-twin-sum-of-a-linked-list/solution.java) |
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
-| 2807 | [Insert Greatest Common Divisors in Linked List](linked-list/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](linked-list/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
 ## Math (9)
 
@@ -448,6 +447,13 @@ _Last synced 2026-10-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 853 | [Car Fleet](monotonic-stack/0853-car-fleet) | Medium | [Java](monotonic-stack/0853-car-fleet/solution.java) |
 | 901 | [Online Stock Span](monotonic-stack/0901-online-stock-span) | Medium | [Java](monotonic-stack/0901-online-stock-span/solution.java) |
 | 1762 | [Buildings With an Ocean View](monotonic-stack/1762-buildings-with-an-ocean-view) | Medium | [Java](monotonic-stack/1762-buildings-with-an-ocean-view/solution.java) |
+
+## Number Theory (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 258 | [Add Digits](number-theory/0258-add-digits) | Easy | [Java](number-theory/0258-add-digits/solution.java) |
+| 2807 | [Insert Greatest Common Divisors in Linked List](number-theory/2807-insert-greatest-common-divisors-in-linked-list) | Medium | [Java](number-theory/2807-insert-greatest-common-divisors-in-linked-list/solution.java) |
 
 ## Ordered Set (5)
 

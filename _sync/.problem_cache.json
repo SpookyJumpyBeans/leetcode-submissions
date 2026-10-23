@@ -141,6 +141,27 @@
       ]
     ]
   },
+  "add-digits": {
+    "difficulty": "Easy",
+    "frontend_id": "258",
+    "paid_only": false,
+    "slug": "add-digits",
+    "title": "Add Digits",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ],
+      [
+        "Number Theory",
+        "number-theory"
+      ]
+    ]
+  },
   "add-two-numbers": {
     "difficulty": "Medium",
     "frontend_id": "2",
