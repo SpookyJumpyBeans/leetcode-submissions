@@ -10419,6 +10419,35 @@
       }
     ]
   },
+  "number-of-employees-who-met-the-target": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2798",
+      "paid_only": false,
+      "slug": "number-of-employees-who-met-the-target",
+      "title": "Number of Employees Who Met the Target",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2180067122,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.6 MB",
+        "runtime": "1 ms",
+        "slug": "number-of-employees-who-met-the-target",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792803649,
+        "title": "Number of Employees Who Met the Target"
+      }
+    ]
+  },
   "number-of-flowers-in-full-bloom": {
     "question": {
       "difficulty": "Hard",
@@ -13334,6 +13363,39 @@
         "status": "Accepted",
         "timestamp": 1789936643,
         "title": "Shortest Path with Alternating Colors"
+      }
+    ]
+  },
+  "sign-of-the-product-of-an-array": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1822",
+      "paid_only": false,
+      "slug": "sign-of-the-product-of-an-array",
+      "title": "Sign of the Product of an Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2179268049,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.7 MB",
+        "runtime": "1 ms",
+        "slug": "sign-of-the-product-of-an-array",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792720474,
+        "title": "Sign of the Product of an Array"
       }
     ]
   },

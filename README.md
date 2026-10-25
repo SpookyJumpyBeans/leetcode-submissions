@@ -5,28 +5,29 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**414 problems solved** &nbsp;·&nbsp; 102 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**416 problems solved** &nbsp;·&nbsp; 104 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **4 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **120** active days
+🔥 **6 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **122** active days
 
-![980 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-23)
+![970 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-25)
 
-<sub>**980** submissions in the last 53 weeks, by UTC day. Updated 2026-10-23.</sub>
+<sub>**970** submissions in the last 53 weeks, by UTC day. Updated 2026-10-25.</sub>
 
-## Array (2)
+## Array (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 57 | [Insert Interval](array/0057-insert-interval) | Medium | [Java](array/0057-insert-interval/solution.java) |
 | 674 | [Longest Continuous Increasing Subsequence](array/0674-longest-continuous-increasing-subsequence) | Easy | [Java](array/0674-longest-continuous-increasing-subsequence/solution.java) |
+| 2798 | [Number of Employees Who Met the Target](array/2798-number-of-employees-who-met-the-target) | Easy | [Java](array/2798-number-of-employees-who-met-the-target/solution.java) |
 
 ## Backtracking (16)
 
@@ -399,7 +400,7 @@ _Last synced 2026-10-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 
-## Math (9)
+## Math (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -408,6 +409,7 @@ _Last synced 2026-10-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 66 | [Plus One](math/0066-plus-one) | Easy | [Java](math/0066-plus-one/solution.java) |
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
+| 1822 | [Sign of the Product of an Array](math/1822-sign-of-the-product-of-an-array) | Easy | [Java](math/1822-sign-of-the-product-of-an-array/solution.java) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](math/3550-smallest-index-with-digit-sum-equal-to-index) | Easy | [Java](math/3550-smallest-index-with-digit-sum-equal-to-index/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
 | 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |

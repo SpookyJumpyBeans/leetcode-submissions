@@ -6238,6 +6238,19 @@
       ]
     ]
   },
+  "number-of-employees-who-met-the-target": {
+    "difficulty": "Easy",
+    "frontend_id": "2798",
+    "paid_only": false,
+    "slug": "number-of-employees-who-met-the-target",
+    "title": "Number of Employees Who Met the Target",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ]
+    ]
+  },
   "number-of-flowers-in-full-bloom": {
     "difficulty": "Hard",
     "frontend_id": "2251",
@@ -7944,6 +7957,23 @@
       [
         "Graph Theory",
         "graph"
+      ]
+    ]
+  },
+  "sign-of-the-product-of-an-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1822",
+    "paid_only": false,
+    "slug": "sign-of-the-product-of-an-array",
+    "title": "Sign of the Product of an Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
       ]
     ]
   },
