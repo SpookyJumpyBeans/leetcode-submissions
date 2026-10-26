@@ -1516,6 +1516,31 @@
       ]
     ]
   },
+  "count-the-number-of-complete-components": {
+    "difficulty": "Medium",
+    "frontend_id": "2685",
+    "paid_only": false,
+    "slug": "count-the-number-of-complete-components",
+    "title": "Count the Number of Complete Components",
+    "topics": [
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Graph Theory",
+        "graph"
+      ]
+    ]
+  },
   "counting-bits": {
     "difficulty": "Easy",
     "frontend_id": "338",
@@ -4461,6 +4486,47 @@
       [
         "Sliding Window",
         "sliding-window"
+      ]
+    ]
+  },
+  "longest-repeating-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "1062",
+    "paid_only": true,
+    "slug": "longest-repeating-substring",
+    "title": "Longest Repeating Substring",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Rolling Hash",
+        "rolling-hash"
+      ],
+      [
+        "Suffix Array",
+        "suffix-array"
+      ],
+      [
+        "Hash Function",
+        "hash-function"
+      ],
+      [
+        "Suffix Automaton",
+        "suffix-automaton"
+      ],
+      [
+        "Suffix Tree",
+        "suffix-tree"
       ]
     ]
   },
@@ -7928,6 +7994,27 @@
     "paid_only": false,
     "slug": "shortest-path-in-binary-matrix",
     "title": "Shortest Path in Binary Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
+  "shortest-path-to-get-food": {
+    "difficulty": "Medium",
+    "frontend_id": "1730",
+    "paid_only": true,
+    "slug": "shortest-path-to-get-food",
+    "title": "Shortest Path to Get Food",
     "topics": [
       [
         "Array",

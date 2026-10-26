@@ -2613,6 +2613,47 @@
       }
     ]
   },
+  "count-the-number-of-complete-components": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2685",
+      "paid_only": false,
+      "slug": "count-the-number-of-complete-components",
+      "title": "Count the Number of Complete Components",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2181086321,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.5 MB",
+        "runtime": "18 ms",
+        "slug": "count-the-number-of-complete-components",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792903488,
+        "title": "Count the Number of Complete Components"
+      }
+    ]
+  },
   "counting-bits": {
     "question": {
       "difficulty": "Easy",
@@ -7486,6 +7527,63 @@
         "status": "Accepted",
         "timestamp": 1758321621,
         "title": "Longest Repeating Character Replacement"
+      }
+    ]
+  },
+  "longest-repeating-substring": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1062",
+      "paid_only": true,
+      "slug": "longest-repeating-substring",
+      "title": "Longest Repeating Substring",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Rolling Hash",
+          "rolling-hash"
+        ],
+        [
+          "Suffix Array",
+          "suffix-array"
+        ],
+        [
+          "Hash Function",
+          "hash-function"
+        ],
+        [
+          "Suffix Automaton",
+          "suffix-automaton"
+        ],
+        [
+          "Suffix Tree",
+          "suffix-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2181111967,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "54.8 MB",
+        "runtime": "37 ms",
+        "slug": "longest-repeating-substring",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792906114,
+        "title": "Longest Repeating Substring"
       }
     ]
   },
@@ -13330,6 +13428,43 @@
         "status": "Accepted",
         "timestamp": 1786507379,
         "title": "Shortest Path in Binary Matrix"
+      }
+    ]
+  },
+  "shortest-path-to-get-food": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1730",
+      "paid_only": true,
+      "slug": "shortest-path-to-get-food",
+      "title": "Shortest Path to Get Food",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2181048175,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "55.5 MB",
+        "runtime": "5 ms",
+        "slug": "shortest-path-to-get-food",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792900009,
+        "title": "Shortest Path to Get Food"
       }
     ]
   },

@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**416 problems solved** &nbsp;·&nbsp; 104 Easy &nbsp;·&nbsp; 249 Medium &nbsp;·&nbsp; 63 Hard
+**419 problems solved** &nbsp;·&nbsp; 104 Easy &nbsp;·&nbsp; 252 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **6 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **122** active days
+🔥 **7 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **123** active days
 
-![970 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-25)
+![976 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-26)
 
-<sub>**970** submissions in the last 53 weeks, by UTC day. Updated 2026-10-25.</sub>
+<sub>**976** submissions in the last 53 weeks, by UTC day. Updated 2026-10-26.</sub>
 
 ## Array (3)
 
@@ -104,7 +104,7 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 805 | [Split Array With Same Average](bitmask/0805-split-array-with-same-average) | Hard | [Java](bitmask/0805-split-array-with-same-average/solution.java) |
 | 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences) | Medium | [Java](bitmask/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/solution.java) |
 
-## Breadth-First Search (7)
+## Breadth-First Search (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -115,6 +115,7 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1091 | [Shortest Path in Binary Matrix](breadth-first-search/1091-shortest-path-in-binary-matrix) | Medium | [Java](breadth-first-search/1091-shortest-path-in-binary-matrix/solution.java) |
 | 1197 | [Minimum Knight Moves](breadth-first-search/1197-minimum-knight-moves) | Medium | [Java](breadth-first-search/1197-minimum-knight-moves/solution.java) |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](breadth-first-search/1293-shortest-path-in-a-grid-with-obstacles-elimination) | Hard | [Java](breadth-first-search/1293-shortest-path-in-a-grid-with-obstacles-elimination/solution.java) |
+| 1730 | [Shortest Path to Get Food](breadth-first-search/1730-shortest-path-to-get-food) | Medium | [Java](breadth-first-search/1730-shortest-path-to-get-food/solution.java) |
 
 ## Bucket Sort (2)
 
@@ -315,11 +316,10 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
-## Hash Function (4)
+## Hash Function (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
-| 187 | [Repeated DNA Sequences](hash-function/0187-repeated-dna-sequences) | Medium | [Java](hash-function/0187-repeated-dna-sequences/solution.java) |
 | 572 | [Subtree of Another Tree](hash-function/0572-subtree-of-another-tree) | Easy | [Java](hash-function/0572-subtree-of-another-tree/solution.java) |
 | 705 | [Design HashSet](hash-function/0705-design-hashset) | Easy | [Java](hash-function/0705-design-hashset/solution.java) |
 | 706 | [Design HashMap](hash-function/0706-design-hashmap) | Easy | [Java](hash-function/0706-design-hashmap/solution.java) |
@@ -483,6 +483,13 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 649 | [Dota2 Senate](queue/0649-dota2-senate) | Medium | [Java](queue/0649-dota2-senate/solution.java) |
 | 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) | Medium | [Java](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/solution.java) |
 
+## Rolling Hash (2)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 187 | [Repeated DNA Sequences](rolling-hash/0187-repeated-dna-sequences) | Medium | [Java](rolling-hash/0187-repeated-dna-sequences/solution.java) |
+| 1062 | [Longest Repeating Substring](rolling-hash/1062-longest-repeating-substring) | Medium | [Java](rolling-hash/1062-longest-repeating-substring/solution.java) |
+
 ## Segment Tree (4)
 
 | # | Problem | Difficulty | Solutions |
@@ -644,7 +651,7 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (18)
+## Union-Find (19)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -663,6 +670,7 @@ _Last synced 2026-10-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |
 | 1631 | [Path With Minimum Effort](union-find/1631-path-with-minimum-effort) | Medium | [Java](union-find/1631-path-with-minimum-effort/solution.java) |
 | 2658 | [Maximum Number of Fish in a Grid](union-find/2658-maximum-number-of-fish-in-a-grid) | Medium | [Java](union-find/2658-maximum-number-of-fish-in-a-grid/solution.java) |
+| 2685 | [Count the Number of Complete Components](union-find/2685-count-the-number-of-complete-components) | Medium | [Java](union-find/2685-count-the-number-of-complete-components/solution.java) |
 | 2709 | [Greatest Common Divisor Traversal](union-find/2709-greatest-common-divisor-traversal) | Hard | [Java](union-find/2709-greatest-common-divisor-traversal/solution.java) |
 | 2812 | [Find the Safest Path in a Grid](union-find/2812-find-the-safest-path-in-a-grid) | Medium | [Java](union-find/2812-find-the-safest-path-in-a-grid/solution.java) |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements) | Medium | [Java](union-find/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) |
