@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**419 problems solved** &nbsp;·&nbsp; 104 Easy &nbsp;·&nbsp; 252 Medium &nbsp;·&nbsp; 63 Hard
+**423 problems solved** &nbsp;·&nbsp; 107 Easy &nbsp;·&nbsp; 253 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **7 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **123** active days
+🔥 **9 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **125** active days
 
-![976 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-26)
+![982 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-27)
 
-<sub>**976** submissions in the last 53 weeks, by UTC day. Updated 2026-10-26.</sub>
+<sub>**982** submissions in the last 53 weeks, by UTC day. Updated 2026-10-27.</sub>
 
 ## Array (3)
 
@@ -375,7 +375,7 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 173 | [Binary Search Tree Iterator](iterator/0173-binary-search-tree-iterator) | Medium | [Java](iterator/0173-binary-search-tree-iterator/solution.java) |
 | 900 | [RLE Iterator](iterator/0900-rle-iterator) | Medium | [Java](iterator/0900-rle-iterator/solution.java) |
 
-## Linked List (20)
+## Linked List (21)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -392,6 +392,7 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 237 | [Delete Node in a Linked List](linked-list/0237-delete-node-in-a-linked-list) | Medium | [Java](linked-list/0237-delete-node-in-a-linked-list/solution.java) |
 | 355 | [Design Twitter](linked-list/0355-design-twitter) | Medium | [Java](linked-list/0355-design-twitter/solution.java) |
 | 369 | [Plus One Linked List](linked-list/0369-plus-one-linked-list) | Medium | [Java](linked-list/0369-plus-one-linked-list/solution.java) |
+| 445 | [Add Two Numbers II](linked-list/0445-add-two-numbers-ii) | Medium | [Java](linked-list/0445-add-two-numbers-ii/solution.java) |
 | 622 | [Design Circular Queue](linked-list/0622-design-circular-queue) | Medium | [C++](linked-list/0622-design-circular-queue/solution.cpp) [Java](linked-list/0622-design-circular-queue/solution.java) |
 | 641 | [Design Circular Deque](linked-list/0641-design-circular-deque) | Medium | [Java](linked-list/0641-design-circular-deque/solution.java) |
 | 876 | [Middle of the Linked List](linked-list/0876-middle-of-the-linked-list) | Easy | [Java](linked-list/0876-middle-of-the-linked-list/solution.java) |
@@ -400,7 +401,7 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 
-## Math (10)
+## Math (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -410,12 +411,13 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 1822 | [Sign of the Product of an Array](math/1822-sign-of-the-product-of-an-array) | Easy | [Java](math/1822-sign-of-the-product-of-an-array/solution.java) |
+| 2520 | [Count the Digits That Divide a Number](math/2520-count-the-digits-that-divide-a-number) | Easy | [Java](math/2520-count-the-digits-that-divide-a-number/solution.java) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](math/3550-smallest-index-with-digit-sum-equal-to-index) | Easy | [Java](math/3550-smallest-index-with-digit-sum-equal-to-index/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
 | 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |
 | 3871 | [Count Commas in Range II](math/3871-count-commas-in-range-ii) | Medium | [Java](math/3871-count-commas-in-range-ii/solution.java) |
 
-## Matrix (5)
+## Matrix (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -424,6 +426,7 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 54 | [Spiral Matrix](matrix/0054-spiral-matrix) | Medium | [Java](matrix/0054-spiral-matrix/solution.java) |
 | 73 | [Set Matrix Zeroes](matrix/0073-set-matrix-zeroes) | Medium | [C++](matrix/0073-set-matrix-zeroes/solution.cpp) |
 | 867 | [Transpose Matrix](matrix/0867-transpose-matrix) | Easy | [Java](matrix/0867-transpose-matrix/solution.java) |
+| 1672 | [Richest Customer Wealth](matrix/1672-richest-customer-wealth) | Easy | [Java](matrix/1672-richest-customer-wealth/solution.java) |
 
 ## Merge Sort (2)
 
@@ -571,11 +574,12 @@ _Last synced 2026-10-26 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 | 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
-## String (1)
+## String (2)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
+| 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 
 ## Tree (29)
 

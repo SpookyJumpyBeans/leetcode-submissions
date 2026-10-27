@@ -183,6 +183,27 @@
       ]
     ]
   },
+  "add-two-numbers-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "445",
+    "paid_only": false,
+    "slug": "add-two-numbers-ii",
+    "title": "Add Two Numbers II",
+    "topics": [
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Stack",
+        "stack"
+      ]
+    ]
+  },
   "all-oone-data-structure": {
     "difficulty": "Hard",
     "frontend_id": "432",
@@ -1513,6 +1534,19 @@
       [
         "Counting",
         "counting"
+      ]
+    ]
+  },
+  "count-the-digits-that-divide-a-number": {
+    "difficulty": "Easy",
+    "frontend_id": "2520",
+    "paid_only": false,
+    "slug": "count-the-digits-that-divide-a-number",
+    "title": "Count the Digits That Divide a Number",
+    "topics": [
+      [
+        "Math",
+        "math"
       ]
     ]
   },
@@ -3056,6 +3090,23 @@
       [
         "Graph Theory",
         "graph"
+      ]
+    ]
+  },
+  "find-words-containing-character": {
+    "difficulty": "Easy",
+    "frontend_id": "2942",
+    "paid_only": false,
+    "slug": "find-words-containing-character",
+    "title": "Find Words Containing Character",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
       ]
     ]
   },
@@ -7620,6 +7671,23 @@
       [
         "String",
         "string"
+      ]
+    ]
+  },
+  "richest-customer-wealth": {
+    "difficulty": "Easy",
+    "frontend_id": "1672",
+    "paid_only": false,
+    "slug": "richest-customer-wealth",
+    "title": "Richest Customer Wealth",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },

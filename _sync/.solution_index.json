@@ -318,6 +318,43 @@
       }
     ]
   },
+  "add-two-numbers-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "445",
+      "paid_only": false,
+      "slug": "add-two-numbers-ii",
+      "title": "Add Two Numbers II",
+      "topics": [
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Stack",
+          "stack"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2181886570,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.7 MB",
+        "runtime": "3 ms",
+        "slug": "add-two-numbers-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1792988376,
+        "title": "Add Two Numbers II"
+      }
+    ]
+  },
   "all-oone-data-structure": {
     "question": {
       "difficulty": "Hard",
@@ -2610,6 +2647,35 @@
         "status": "Accepted",
         "timestamp": 1789670400,
         "title": "Count Servers that Communicate"
+      }
+    ]
+  },
+  "count-the-digits-that-divide-a-number": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2520",
+      "paid_only": false,
+      "slug": "count-the-digits-that-divide-a-number",
+      "title": "Count the Digits That Divide a Number",
+      "topics": [
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2182670645,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.7 MB",
+        "runtime": "0 ms",
+        "slug": "count-the-digits-that-divide-a-number",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793062321,
+        "title": "Count the Digits That Divide a Number"
       }
     ]
   },
@@ -5151,6 +5217,39 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Find the Town Judge"
+      }
+    ]
+  },
+  "find-words-containing-character": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2942",
+      "paid_only": false,
+      "slug": "find-words-containing-character",
+      "title": "Find Words Containing Character",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2182666018,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "2 ms",
+        "slug": "find-words-containing-character",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793061353,
+        "title": "Find Words Containing Character"
       }
     ]
   },
@@ -12767,6 +12866,39 @@
         "status": "Accepted",
         "timestamp": 1659821865,
         "title": "Reverse Words in a String III"
+      }
+    ]
+  },
+  "richest-customer-wealth": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1672",
+      "paid_only": false,
+      "slug": "richest-customer-wealth",
+      "title": "Richest Customer Wealth",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2182669884,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.2 MB",
+        "runtime": "0 ms",
+        "slug": "richest-customer-wealth",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793062173,
+        "title": "Richest Customer Wealth"
       }
     ]
   },
