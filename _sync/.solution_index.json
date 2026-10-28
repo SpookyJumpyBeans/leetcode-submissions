@@ -3505,6 +3505,47 @@
       }
     ]
   },
+  "design-file-system": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1166",
+      "paid_only": true,
+      "slug": "design-file-system",
+      "title": "Design File System",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Trie",
+          "trie"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2183495366,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "68.1 MB",
+        "runtime": "118 ms",
+        "slug": "design-file-system",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793146284,
+        "title": "Design File System"
+      }
+    ]
+  },
   "design-hashmap": {
     "question": {
       "difficulty": "Easy",
@@ -5461,6 +5502,43 @@
         "status": "Accepted",
         "timestamp": 1788847445,
         "title": "Frequency Tracker"
+      }
+    ]
+  },
+  "furthest-building-you-can-reach": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1642",
+      "paid_only": false,
+      "slug": "furthest-building-you-can-reach",
+      "title": "Furthest Building You Can Reach",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Heap (Priority Queue)",
+          "heap-priority-queue"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2183508465,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "73 MB",
+        "runtime": "22 ms",
+        "slug": "furthest-building-you-can-reach",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793149215,
+        "title": "Furthest Building You Can Reach"
       }
     ]
   },
@@ -10584,6 +10662,35 @@
         "status": "Accepted",
         "timestamp": 1767813731,
         "title": "Number of 1 Bits"
+      }
+    ]
+  },
+  "number-of-changing-keys": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3019",
+      "paid_only": false,
+      "slug": "number-of-changing-keys",
+      "title": "Number of Changing Keys",
+      "topics": [
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2182674532,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.5 MB",
+        "runtime": "5 ms",
+        "slug": "number-of-changing-keys",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793063085,
+        "title": "Number of Changing Keys"
       }
     ]
   },

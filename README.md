@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag.
 
-**423 problems solved** &nbsp;·&nbsp; 107 Easy &nbsp;·&nbsp; 253 Medium &nbsp;·&nbsp; 63 Hard
+**426 problems solved** &nbsp;·&nbsp; 108 Easy &nbsp;·&nbsp; 255 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **9 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **125** active days
+🔥 **10 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **126** active days
 
-![982 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-27)
+![993 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-28)
 
-<sub>**982** submissions in the last 53 weeks, by UTC day. Updated 2026-10-27.</sub>
+<sub>**993** submissions in the last 53 weeks, by UTC day. Updated 2026-10-28.</sub>
 
 ## Array (3)
 
@@ -337,7 +337,7 @@ _Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3471 | [Find the Largest Almost Missing Integer](hash-table/3471-find-the-largest-almost-missing-integer) | Easy | [C++](hash-table/3471-find-the-largest-almost-missing-integer/solution.cpp) |
 | 3718 | [Smallest Missing Multiple of K](hash-table/3718-smallest-missing-multiple-of-k) | Easy | [Java](hash-table/3718-smallest-missing-multiple-of-k/solution.java) |
 
-## Heap (Priority Queue) (17)
+## Heap (Priority Queue) (18)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -353,6 +353,7 @@ _Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1094 | [Car Pooling](heap-priority-queue/1094-car-pooling) | Medium | [Java](heap-priority-queue/1094-car-pooling/solution.java) |
 | 1383 | [Maximum Performance of a Team](heap-priority-queue/1383-maximum-performance-of-a-team) | Hard | [Java](heap-priority-queue/1383-maximum-performance-of-a-team/solution.java) |
 | 1405 | [Longest Happy String](heap-priority-queue/1405-longest-happy-string) | Medium | [Java](heap-priority-queue/1405-longest-happy-string/solution.java) |
+| 1642 | [Furthest Building You Can Reach](heap-priority-queue/1642-furthest-building-you-can-reach) | Medium | [Java](heap-priority-queue/1642-furthest-building-you-can-reach/solution.java) |
 | 1834 | [Single-Threaded CPU](heap-priority-queue/1834-single-threaded-cpu) | Medium | [C++](heap-priority-queue/1834-single-threaded-cpu/solution.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](heap-priority-queue/1851-minimum-interval-to-include-each-query) | Hard | [C++](heap-priority-queue/1851-minimum-interval-to-include-each-query/solution.cpp) |
 | 2182 | [Construct String With Repeat Limit](heap-priority-queue/2182-construct-string-with-repeat-limit) | Medium | [Java](heap-priority-queue/2182-construct-string-with-repeat-limit/solution.java) |
@@ -574,12 +575,13 @@ _Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 | 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
-## String (2)
+## String (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
+| 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
 ## Tree (29)
 
@@ -615,7 +617,7 @@ _Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |
 
-## Trie (7)
+## Trie (8)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -624,6 +626,7 @@ _Last synced 2026-10-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 208 | [Implement Trie (Prefix Tree)](trie/0208-implement-trie-prefix-tree) | Medium | [Java](trie/0208-implement-trie-prefix-tree/solution.java) |
 | 211 | [Design Add and Search Words Data Structure](trie/0211-design-add-and-search-words-data-structure) | Medium | [Java](trie/0211-design-add-and-search-words-data-structure/solution.java) |
 | 212 | [Word Search II](trie/0212-word-search-ii) | Hard | [Java](trie/0212-word-search-ii/solution.java) |
+| 1166 | [Design File System](trie/1166-design-file-system) | Medium | [Java](trie/1166-design-file-system/solution.java) |
 | 2707 | [Extra Characters in a String](trie/2707-extra-characters-in-a-string) | Medium | [C++](trie/2707-extra-characters-in-a-string/solution.cpp) |
 | 3043 | [Find the Length of the Longest Common Prefix](trie/3043-find-the-length-of-the-longest-common-prefix) | Medium | [Java](trie/3043-find-the-length-of-the-longest-common-prefix/solution.java) |
 

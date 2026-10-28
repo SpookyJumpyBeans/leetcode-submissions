@@ -2039,6 +2039,31 @@
       ]
     ]
   },
+  "design-file-system": {
+    "difficulty": "Medium",
+    "frontend_id": "1166",
+    "paid_only": true,
+    "slug": "design-file-system",
+    "title": "Design File System",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Trie",
+        "trie"
+      ]
+    ]
+  },
   "design-hashmap": {
     "difficulty": "Easy",
     "frontend_id": "706",
@@ -3225,6 +3250,27 @@
       [
         "Design",
         "design"
+      ]
+    ]
+  },
+  "furthest-building-you-can-reach": {
+    "difficulty": "Medium",
+    "frontend_id": "1642",
+    "paid_only": false,
+    "slug": "furthest-building-you-can-reach",
+    "title": "Furthest Building You Can Reach",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Heap (Priority Queue)",
+        "heap-priority-queue"
       ]
     ]
   },
@@ -6339,6 +6385,19 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "number-of-changing-keys": {
+    "difficulty": "Easy",
+    "frontend_id": "3019",
+    "paid_only": false,
+    "slug": "number-of-changing-keys",
+    "title": "Number of Changing Keys",
+    "topics": [
+      [
+        "String",
+        "string"
       ]
     ]
   },
