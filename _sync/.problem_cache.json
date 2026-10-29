@@ -3211,6 +3211,31 @@
       ]
     ]
   },
+  "first-unique-character-in-a-string": {
+    "difficulty": "Easy",
+    "frontend_id": "387",
+    "paid_only": false,
+    "slug": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Counting",
+        "counting"
+      ]
+    ]
+  },
   "flood-fill": {
     "difficulty": "Easy",
     "frontend_id": "733",
@@ -8091,6 +8116,31 @@
       [
         "Matrix",
         "matrix"
+      ]
+    ]
+  },
+  "set-mismatch": {
+    "difficulty": "Easy",
+    "frontend_id": "645",
+    "paid_only": false,
+    "slug": "set-mismatch",
+    "title": "Set Mismatch",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ],
+      [
+        "Sorting",
+        "sorting"
       ]
     ]
   },

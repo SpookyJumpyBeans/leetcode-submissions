@@ -5,21 +5,21 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**426 problems solved** &nbsp;·&nbsp; 108 Easy &nbsp;·&nbsp; 255 Medium &nbsp;·&nbsp; 63 Hard
+**428 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 255 Medium &nbsp;·&nbsp; 63 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **10 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **126** active days
+🔥 **11 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **127** active days
 
-![993 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-28)
+![998 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-29)
 
-<sub>**993** submissions in the last 53 weeks, by UTC day. Updated 2026-10-28.</sub>
+<sub>**998** submissions in the last 53 weeks, by UTC day. Updated 2026-10-29.</sub>
 
 ## Array (3)
 
@@ -77,7 +77,7 @@ _Last synced 2026-10-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
 | 2089 | [Find Target Indices After Sorting Array](binary-search/2089-find-target-indices-after-sorting-array) | Easy | [Java](binary-search/2089-find-target-indices-after-sorting-array/solution.java) |
 
-## Bit Manipulation (13)
+## Bit Manipulation (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -85,6 +85,7 @@ _Last synced 2026-10-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 136 | [Single Number](bit-manipulation/0136-single-number) | Easy | [Java](bit-manipulation/0136-single-number/solution.java) |
 | 201 | [Bitwise AND of Numbers Range](bit-manipulation/0201-bitwise-and-of-numbers-range) | Medium | [Java](bit-manipulation/0201-bitwise-and-of-numbers-range/solution.java) |
 | 371 | [Sum of Two Integers](bit-manipulation/0371-sum-of-two-integers) | Medium | [Java](bit-manipulation/0371-sum-of-two-integers/solution.java) |
+| 645 | [Set Mismatch](bit-manipulation/0645-set-mismatch) | Easy | [Java](bit-manipulation/0645-set-mismatch/solution.java) |
 | 751 | [IP to CIDR](bit-manipulation/0751-ip-to-cidr) | Medium | [Java](bit-manipulation/0751-ip-to-cidr/solution.java) |
 | 982 | [Triples with Bitwise AND Equal To Zero](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero) | Hard | [Java](bit-manipulation/0982-triples-with-bitwise-and-equal-to-zero/solution.java) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero) | Easy | [C++](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.cpp) [Java](bit-manipulation/1342-number-of-steps-to-reduce-a-number-to-zero/solution.java) |
@@ -480,10 +481,11 @@ _Last synced 2026-10-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
 
-## Queue (2)
+## Queue (3)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 387 | [First Unique Character in a String](queue/0387-first-unique-character-in-a-string) | Easy | [Java](queue/0387-first-unique-character-in-a-string/solution.java) |
 | 649 | [Dota2 Senate](queue/0649-dota2-senate) | Medium | [Java](queue/0649-dota2-senate/solution.java) |
 | 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) | Medium | [Java](queue/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/solution.java) |
 
