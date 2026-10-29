@@ -212,3 +212,21 @@ def test_apply_then_remove_round_trips():
     from leetcode_sync.streak import remove_block
     original = "banner\n"
     assert remove_block(apply_block(original, "X", START, END), START, END) == original
+
+
+def test_readme_rewrite_without_a_fresh_block_keeps_the_old_one(tmp_path):
+    from leetcode_sync.api import Question
+    from leetcode_sync.state import SolutionIndex
+    from leetcode_sync.sync import _write_readmes
+    from test_sync import sub
+
+    index = SolutionIndex(tmp_path / "index.json")
+    index.record(Question("1", "Two Sum", "two-sum", "Easy", False, (("Array", "array"),)),
+                 sub(1, "two-sum", "java", 100))
+    _write_readmes(tmp_path, index, min_size=1, streak_block="STREAK v1")
+    _write_readmes(tmp_path, index, min_size=1)
+    text = (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert text.count("STREAK v1") == 1
+    _write_readmes(tmp_path, index, min_size=1, streak_block="STREAK v2")
+    text = (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert "STREAK v2" in text and "STREAK v1" not in text

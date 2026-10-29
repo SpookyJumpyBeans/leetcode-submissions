@@ -13,6 +13,7 @@ Languages: C++, Java
 
 _Last synced 2026-10-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
+<!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
 🔥 **11 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **127** active days
@@ -20,6 +21,7 @@ _Last synced 2026-10-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 ![998 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-29)
 
 <sub>**998** submissions in the last 53 weeks, by UTC day. Updated 2026-10-29.</sub>
+<!-- leetcode-streak:end -->
 
 ## Array (3)
 

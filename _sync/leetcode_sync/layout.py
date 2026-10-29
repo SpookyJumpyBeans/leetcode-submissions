@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from .api import Question, Submission
-from .config import comment_token, lang_display, lang_extension
+from .config import STREAK_END, STREAK_START, comment_token, lang_display, lang_extension
 
 _UNSAFE = re.compile(r"[^a-z0-9]+")
 
@@ -162,7 +162,7 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         if imported else
         "My accepted LeetCode solutions, synced automatically from my submission "
         "history. Problems are grouped by their primary topic tag."
-    )
+    ) + " Let's get to 500 problems!"
     lines = ["# LeetCode Submissions", ""]
     if languages:
         lines += [language_badges(languages), ""]
@@ -189,7 +189,8 @@ def render_root_readme(entries: list[tuple[Question, list[Submission]]],
         "",
     ]
     if streak_block:
-        lines += [streak_block, ""]
+        # Marked so a README rewrite that has no fresh block can keep this one.
+        lines += [STREAK_START, streak_block, STREAK_END, ""]
 
     def topic_of(question: Question) -> tuple[str, str]:
         if assignment is not None and question.slug in assignment:

@@ -231,9 +231,21 @@ def _write_readmes(repo_root: Path, index: SolutionIndex,
         placement = placement_for(question, submissions[0], assignment.get(question.slug))
         readme = repo_root / placement.topic_dir / placement.problem_dir / "README.md"
         write_text(readme, render_problem_readme(question, submissions))
+    if streak_block is None:
+        # Keep the block already there; only the streak step should replace it.
+        streak_block = _existing_streak_block(repo_root / "README.md")
     write_text(repo_root / "README.md",
                render_root_readme(entries, assignment=assignment,
                                   streak_block=streak_block))
+
+
+def _existing_streak_block(readme: Path) -> str | None:
+    if not readme.exists():
+        return None
+    text = readme.read_text(encoding="utf-8")
+    if STREAK_START not in text or STREAK_END not in text:
+        return None
+    return text[text.index(STREAK_START) + len(STREAK_START):text.index(STREAK_END)].strip("\n")
 
 
 def normalize_layout(repo_root: Path, index: SolutionIndex, log=print,
