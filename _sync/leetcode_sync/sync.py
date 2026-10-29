@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .api import LeetCodeClient, Submission, ThrottledError
+from .api import ChallengedError, LeetCodeClient, Submission, ThrottledError
 from .config import REPO_ROOT
 from .layout import (
     placement_for,
@@ -128,14 +128,29 @@ def run_sync(
         if write_text(path, render_solution(question, submission)):
             report.written.append(placement.relative_path)
 
+    def submissions():
+        try:
+            yield from client.iter_submissions(
+                stop_at_id=stop_id,
+                stop_before_timestamp=stop_ts,
+                start_offset=start_offset,
+                start_last_key=start_last_key,
+                on_page=on_page,
+            )
+        except ChallengedError:
+            # The recent list only reaches back a few dozen submissions, so it
+            # can keep an incremental run going but cannot stand in for a backfill.
+            if full or report.fetched:
+                raise
+            log("Submission history is behind a Cloudflare check; "
+                "reading recent accepted submissions over GraphQL instead.")
+            yield from client.iter_recent_accepted(LEETCODE_USERNAME, stop_at_id=stop_id)
+            if getattr(client, "recent_window_full", False):
+                log("Warning: every recent submission was new, so older ones may be "
+                    "missing. Run --full once the history endpoint is reachable again.")
+
     try:
-        for submission in client.iter_submissions(
-            stop_at_id=stop_id,
-            stop_before_timestamp=stop_ts,
-            start_offset=start_offset,
-            start_last_key=start_last_key,
-            on_page=on_page,
-        ):
+        for submission in submissions():
             report.fetched += 1
             if report.fetched == 1 and not resumed:
                 report.newest_id = submission.id

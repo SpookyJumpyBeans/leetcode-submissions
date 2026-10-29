@@ -121,6 +121,7 @@ instead: every entry ends with `exit code N`.
 | 3 | session cookie expired: run `--set-cookies` |
 | 4 | no network: the next run picks up where this one stopped |
 | 5 | another sync was already running, so this one stepped aside |
+| 6 | LeetCode's Cloudflare check blocked every endpoint, or a `--full` run: try again later |
 
 **What protects a run:**
 
@@ -141,6 +142,11 @@ instead: every entry ends with `exit code N`.
 - A run that cannot reach leetcode.com retries with backoff and then exits with
   code 4 and a one-line message. DNS is often not ready when a scheduled run
   fires just after boot, so this rides that out rather than failing the sync.
+- LeetCode sometimes puts the submission-history endpoint behind a Cloudflare
+  bot check, which a script cannot pass. An incremental run then reads your
+  recent accepted submissions over GraphQL instead, which reaches back about 20
+  submissions; a daily run never needs more. `--full` cannot fall back, and
+  exits with code 6 until the check is lifted.
 - The session cookie expires every week or two. When that happens the sync exits
   with `auth error` and you paste a fresh cookie into `.env`; nothing else breaks,
   and the next run resumes from where it stopped.

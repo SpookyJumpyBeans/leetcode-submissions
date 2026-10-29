@@ -41,6 +41,28 @@ query questionData($titleSlug: String!) {
 }
 """
 
+# The GraphQL fallback for when the history endpoint is challenged: the recent
+# accepted list gives the ids, and each submission's details give its code.
+RECENT_AC_QUERY = """
+query recentAc($username: String!, $limit: Int!) {
+  recentAcSubmissionList(username: $username, limit: $limit) {
+    id title titleSlug timestamp lang
+  }
+}
+"""
+
+SUBMISSION_DETAILS_QUERY = """
+query submissionDetails($id: Int!) {
+  submissionDetails(submissionId: $id) {
+    runtimeDisplay memoryDisplay timestamp statusCode code
+    lang { name verboseName }
+  }
+}
+"""
+
+ACCEPTED_STATUS = 10
+RECENT_LIMIT = 20   # how far back the recent-accepted list reaches
+
 
 class LeetCodeError(RuntimeError):
     pass
@@ -60,6 +82,25 @@ class ThrottledError(LeetCodeError):
     """Rate limiting we could not wait out. Progress is still resumable."""
 
     pass
+
+
+class ChallengedError(LeetCodeError):
+    """Cloudflare answered with a bot challenge instead of the API.
+
+    A browser passes this by running JavaScript; a script cannot, and it is not
+    something to work around. It is also not an auth failure - the same request
+    with the same cookie can succeed on an endpoint that is not challenged.
+    """
+
+    pass
+
+
+def is_challenge(response) -> bool:
+    headers = getattr(response, "headers", None) or {}
+    if headers.get("cf-mitigated") == "challenge":
+        return True
+    body = getattr(response, "text", "") or ""
+    return "<title>Just a moment...</title>" in body[:2000]
 
 
 @dataclass(frozen=True)
@@ -200,6 +241,14 @@ class LeetCodeClient:
         for attempt in range(self.max_retries):
             response = self._send("get", url, params=params)
 
+            # Checked before any status handling: a challenge is a 403, and was
+            # being reported as an expired cookie.
+            if is_challenge(response):
+                raise ChallengedError(
+                    "LeetCode's Cloudflare bot check blocked the submission-history "
+                    "endpoint. This is not a cookie problem."
+                )
+
             # 403 means one of two very different things. Before any request has
             # succeeded it is a bad cookie; after several good pages it is
             # LeetCode throttling us, and the fix is to wait, not to re-auth.
@@ -266,6 +315,59 @@ class LeetCodeClient:
             offset += PAGE_SIZE
             if on_page:
                 on_page(offset, last_key)
+            time.sleep(self.delay)
+
+    def _graphql(self, query: str, variables: dict[str, Any]) -> dict[str, Any]:
+        for attempt in range(self.max_retries):
+            response = self._send("post", GRAPHQL_URL, json={"query": query, "variables": variables})
+            if is_challenge(response):
+                raise ChallengedError(
+                    "LeetCode's Cloudflare bot check blocked the GraphQL API as well. "
+                    "This is not a cookie problem; there is no endpoint left to read from."
+                )
+            if response.status_code == 429:
+                _backoff(attempt)
+                continue
+            response.raise_for_status()
+            payload = response.json() or {}
+            if payload.get("errors"):
+                first = payload["errors"][0]
+                raise LeetCodeError(f"GraphQL error: {first.get('message', first)}")
+            return payload.get("data") or {}
+        raise ThrottledError(f"LeetCode kept throttling GraphQL after {self.max_retries} attempts.")
+
+    def iter_recent_accepted(self, username: str, stop_at_id: int | None = None,
+                             limit: int = RECENT_LIMIT) -> Iterator[Submission]:
+        """Recent accepted submissions over GraphQL, newest first, with their code.
+
+        The fallback when the history endpoint is behind a bot challenge. The list
+        only reaches back `limit` accepted submissions, so `recent_window_full`
+        records whether every one of them was new - in which case older ones,
+        beyond the window, may have been missed.
+        """
+        data = self._graphql(RECENT_AC_QUERY, {"username": username, "limit": limit})
+        rows = sorted(data.get("recentAcSubmissionList") or [],
+                      key=lambda row: int(row["id"]), reverse=True)
+        fresh = [row for row in rows if stop_at_id is None or int(row["id"]) > stop_at_id]
+        self.recent_window_full = stop_at_id is not None and bool(rows) and len(fresh) == len(rows)
+        for row in fresh:
+            details = self._graphql(SUBMISSION_DETAILS_QUERY, {"id": int(row["id"])})
+            detail = details.get("submissionDetails")
+            if not detail or detail.get("statusCode") != ACCEPTED_STATUS:
+                continue
+            lang = detail.get("lang") or {}
+            yield Submission(
+                id=int(row["id"]),
+                title=row.get("title") or row["titleSlug"],
+                slug=row["titleSlug"],
+                lang=lang.get("name") or row.get("lang", ""),
+                lang_name=lang.get("verboseName", ""),
+                status="Accepted",
+                timestamp=int(detail.get("timestamp") or row.get("timestamp") or 0),
+                runtime=detail.get("runtimeDisplay") or "",
+                memory=detail.get("memoryDisplay") or "",
+                code=detail.get("code") or "",
+            )
             time.sleep(self.delay)
 
     def get_question(self, slug: str) -> Question | None:

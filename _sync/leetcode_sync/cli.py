@@ -6,7 +6,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from .api import AuthError, LeetCodeClient, LeetCodeError, NetworkError
+from .api import AuthError, ChallengedError, LeetCodeClient, LeetCodeError, NetworkError
 from .config import NEETCODE_CLONE, NEETCODE_REPO, Credentials, MissingCredentials
 from .lock import SyncInProgress, SyncLock
 from .neetcode import ensure_clone
@@ -181,6 +181,9 @@ def _run(args) -> int:
     except AuthError as exc:
         print(f"auth error: {exc}", file=sys.stderr)
         return 3
+    except ChallengedError as exc:
+        print(f"blocked by Cloudflare: {exc}", file=sys.stderr)
+        return 6
     except LeetCodeError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
