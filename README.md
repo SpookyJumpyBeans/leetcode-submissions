@@ -11,16 +11,16 @@ Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-29 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
 🔥 **11 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **127** active days
 
-![998 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-29)
+![998 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-30)
 
-<sub>**998** submissions in the last 53 weeks, by UTC day. Updated 2026-10-29.</sub>
+<sub>**998** submissions in the last 53 weeks, by UTC day. Updated 2026-10-30.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
