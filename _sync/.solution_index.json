@@ -1721,6 +1721,80 @@
       }
     ]
   },
+  "cherry-pickup": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "741",
+      "paid_only": false,
+      "slug": "cherry-pickup",
+      "title": "Cherry Pickup",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2185221890,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.7 MB",
+        "runtime": "16 ms",
+        "slug": "cherry-pickup",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793335891,
+        "title": "Cherry Pickup"
+      }
+    ]
+  },
+  "cherry-pickup-ii": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "1463",
+      "paid_only": false,
+      "slug": "cherry-pickup-ii",
+      "title": "Cherry Pickup II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2185236539,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.8 MB",
+        "runtime": "26 ms",
+        "slug": "cherry-pickup-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793337290,
+        "title": "Cherry Pickup II"
+      }
+    ]
+  },
   "cinema-seat-allocation": {
     "question": {
       "difficulty": "Medium",
@@ -4607,6 +4681,39 @@
       }
     ]
   },
+  "find-closest-node-to-given-two-nodes": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2359",
+      "paid_only": false,
+      "slug": "find-closest-node-to-given-two-nodes",
+      "title": "Find Closest Node to Given Two Nodes",
+      "topics": [
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Graph Theory",
+          "graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2185138797,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "101.6 MB",
+        "runtime": "11 ms",
+        "slug": "find-closest-node-to-given-two-nodes",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793324031,
+        "title": "Find Closest Node to Given Two Nodes"
+      }
+    ]
+  },
   "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree": {
     "question": {
       "difficulty": "Hard",
@@ -6883,6 +6990,43 @@
         "status": "Accepted",
         "timestamp": 1770532087,
         "title": "Kth Smallest Element in a Sorted Matrix"
+      }
+    ]
+  },
+  "kth-smallest-subarray-sum": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1918",
+      "paid_only": true,
+      "slug": "kth-smallest-subarray-sum",
+      "title": "Kth Smallest Subarray Sum",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sliding Window",
+          "sliding-window"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2185709948,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "48.2 MB",
+        "runtime": "26 ms",
+        "slug": "kth-smallest-subarray-sum",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793382700,
+        "title": "Kth Smallest Subarray Sum"
       }
     ]
   },

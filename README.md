@@ -5,22 +5,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**428 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 255 Medium &nbsp;·&nbsp; 63 Hard
+**432 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 257 Medium &nbsp;·&nbsp; 65 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **11 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **127** active days
+🔥 **12 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **128** active days
 
-![998 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-30)
+![1009 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-31)
 
-<sub>**998** submissions in the last 53 weeks, by UTC day. Updated 2026-10-30.</sub>
+<sub>**1009** submissions in the last 53 weeks, by UTC day. Updated 2026-10-31.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -59,7 +59,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1157 | [Online Majority Element In Subarray](binary-indexed-tree/1157-online-majority-element-in-subarray) | Hard | [Java](binary-indexed-tree/1157-online-majority-element-in-subarray/solution.java) |
 | 2286 | [Booking Concert Tickets in Groups](binary-indexed-tree/2286-booking-concert-tickets-in-groups) | Hard | [Java](binary-indexed-tree/2286-booking-concert-tickets-in-groups/solution.java) |
 
-## Binary Search (15)
+## Binary Search (16)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -77,6 +77,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1011 | [Capacity To Ship Packages Within D Days](binary-search/1011-capacity-to-ship-packages-within-d-days) | Medium | [C++](binary-search/1011-capacity-to-ship-packages-within-d-days/solution.cpp) |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x) | Easy | [Java](binary-search/1608-special-array-with-x-elements-greater-than-or-equal-x/solution.java) |
 | 1658 | [Minimum Operations to Reduce X to Zero](binary-search/1658-minimum-operations-to-reduce-x-to-zero) | Medium | [Java](binary-search/1658-minimum-operations-to-reduce-x-to-zero/solution.java) |
+| 1918 | [Kth Smallest Subarray Sum](binary-search/1918-kth-smallest-subarray-sum) | Medium | [Java](binary-search/1918-kth-smallest-subarray-sum/solution.java) |
 | 2089 | [Find Target Indices After Sorting Array](binary-search/2089-find-target-indices-after-sorting-array) | Easy | [Java](binary-search/2089-find-target-indices-after-sorting-array/solution.java) |
 
 ## Bit Manipulation (14)
@@ -190,7 +191,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (65)
+## Dynamic Programming (67)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -240,6 +241,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 647 | [Palindromic Substrings](dynamic-programming/0647-palindromic-substrings) | Medium | [Java](dynamic-programming/0647-palindromic-substrings/solution.java) |
 | 650 | [2 Keys Keyboard](dynamic-programming/0650-2-keys-keyboard) | Medium | [Java](dynamic-programming/0650-2-keys-keyboard/solution.java) |
 | 678 | [Valid Parenthesis String](dynamic-programming/0678-valid-parenthesis-string) | Medium | [Java](dynamic-programming/0678-valid-parenthesis-string/solution.java) |
+| 741 | [Cherry Pickup](dynamic-programming/0741-cherry-pickup) | Hard | [Java](dynamic-programming/0741-cherry-pickup/solution.java) |
 | 746 | [Min Cost Climbing Stairs](dynamic-programming/0746-min-cost-climbing-stairs) | Easy | [Java](dynamic-programming/0746-min-cost-climbing-stairs/solution.java) |
 | 799 | [Champagne Tower](dynamic-programming/0799-champagne-tower) | Medium | [Java](dynamic-programming/0799-champagne-tower/solution.java) |
 | 845 | [Longest Mountain in Array](dynamic-programming/0845-longest-mountain-in-array) | Medium | [Java](dynamic-programming/0845-longest-mountain-in-array/solution.java) |
@@ -250,6 +252,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1137 | [N-th Tribonacci Number](dynamic-programming/1137-n-th-tribonacci-number) | Easy | [Java](dynamic-programming/1137-n-th-tribonacci-number/solution.java) |
 | 1143 | [Longest Common Subsequence](dynamic-programming/1143-longest-common-subsequence) | Medium | [Java](dynamic-programming/1143-longest-common-subsequence/solution.java) |
 | 1155 | [Number of Dice Rolls With Target Sum](dynamic-programming/1155-number-of-dice-rolls-with-target-sum) | Medium | [Java](dynamic-programming/1155-number-of-dice-rolls-with-target-sum/solution.java) |
+| 1463 | [Cherry Pickup II](dynamic-programming/1463-cherry-pickup-ii) | Hard | [Java](dynamic-programming/1463-cherry-pickup-ii/solution.java) |
 | 1871 | [Jump Game VII](dynamic-programming/1871-jump-game-vii) | Medium | [Java](dynamic-programming/1871-jump-game-vii/solution.java) |
 | 1911 | [Maximum Alternating Subsequence Sum](dynamic-programming/1911-maximum-alternating-subsequence-sum) | Medium | [Java](dynamic-programming/1911-maximum-alternating-subsequence-sum/solution.java) |
 | 1928 | [Minimum Cost to Reach Destination in Time](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time) | Hard | [Java](dynamic-programming/1928-minimum-cost-to-reach-destination-in-time/solution.java) |
@@ -286,7 +289,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 836 | [Rectangle Overlap](geometry/0836-rectangle-overlap) | Easy | [Java](geometry/0836-rectangle-overlap/solution.java) |
 | 973 | [K Closest Points to Origin](geometry/0973-k-closest-points-to-origin) | Medium | [Java](geometry/0973-k-closest-points-to-origin/solution.java) |
 
-## Graph Theory (12)
+## Graph Theory (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -300,6 +303,7 @@ _Last synced 2026-10-30 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1129 | [Shortest Path with Alternating Colors](graph/1129-shortest-path-with-alternating-colors) | Medium | [Java](graph/1129-shortest-path-with-alternating-colors/solution.java) |
 | 1462 | [Course Schedule IV](graph/1462-course-schedule-iv) | Medium | [C++](graph/1462-course-schedule-iv/solution.cpp) |
 | 2115 | [Find All Possible Recipes from Given Supplies](graph/2115-find-all-possible-recipes-from-given-supplies) | Medium | [Java](graph/2115-find-all-possible-recipes-from-given-supplies/solution.java) |
+| 2359 | [Find Closest Node to Given Two Nodes](graph/2359-find-closest-node-to-given-two-nodes) | Medium | [Java](graph/2359-find-closest-node-to-given-two-nodes/solution.java) |
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
