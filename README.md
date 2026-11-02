@@ -5,22 +5,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**432 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 257 Medium &nbsp;·&nbsp; 65 Hard
+**435 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 260 Medium &nbsp;·&nbsp; 65 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **12 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **128** active days
+🔥 **14 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **130** active days
 
-![1009 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-10-31)
+![986 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-02)
 
-<sub>**1009** submissions in the last 53 weeks, by UTC day. Updated 2026-10-31.</sub>
+<sub>**986** submissions in the last 53 weeks, by UTC day. Updated 2026-11-02.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -191,7 +191,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (67)
+## Dynamic Programming (68)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -262,6 +262,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
+| 3665 | [Twisted Mirror Path Count](dynamic-programming/3665-twisted-mirror-path-count) | Medium | [Java](dynamic-programming/3665-twisted-mirror-path-count/solution.java) |
 
 ## Enumeration (2)
 
@@ -409,7 +410,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 
-## Math (11)
+## Math (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -417,6 +418,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 50 | [Pow(x, n)](math/0050-powx-n) | Medium | [Java](math/0050-powx-n/solution.java) |
 | 66 | [Plus One](math/0066-plus-one) | Easy | [Java](math/0066-plus-one/solution.java) |
 | 168 | [Excel Sheet Column Title](math/0168-excel-sheet-column-title) | Easy | [Java](math/0168-excel-sheet-column-title/solution.java) |
+| 453 | [Minimum Moves to Equal Array Elements](math/0453-minimum-moves-to-equal-array-elements) | Medium | [Java](math/0453-minimum-moves-to-equal-array-elements/solution.java) |
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 1822 | [Sign of the Product of an Array](math/1822-sign-of-the-product-of-an-array) | Easy | [Java](math/1822-sign-of-the-product-of-an-array/solution.java) |
 | 2520 | [Count the Digits That Divide a Number](math/2520-count-the-digits-that-divide-a-number) | Easy | [Java](math/2520-count-the-digits-that-divide-a-number/solution.java) |
@@ -591,7 +593,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
-## Tree (29)
+## Tree (30)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -621,6 +623,7 @@ _Last synced 2026-10-31 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii) | Medium | [Java](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii/solution.java) |
+| 1740 | [Find Distance in a Binary Tree](tree/1740-find-distance-in-a-binary-tree) | Medium | [Java](tree/1740-find-distance-in-a-binary-tree/solution.java) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |

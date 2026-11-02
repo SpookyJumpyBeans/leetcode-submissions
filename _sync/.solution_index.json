@@ -4771,6 +4771,59 @@
       }
     ]
   },
+  "find-distance-in-a-binary-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1740",
+      "paid_only": true,
+      "slug": "find-distance-in-a-binary-tree",
+      "title": "Find Distance in a Binary Tree",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ],
+        [
+          "Binary Lifting",
+          "binary-lifting"
+        ],
+        [
+          "Lowest Common Ancestor",
+          "lowest-common-ancestor"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2186534200,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.9 MB",
+        "runtime": "1 ms",
+        "slug": "find-distance-in-a-binary-tree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793489013,
+        "title": "Find Distance in a Binary Tree"
+      }
+    ]
+  },
   "find-eventual-safe-states": {
     "question": {
       "difficulty": "Medium",
@@ -10143,6 +10196,39 @@
         "status": "Accepted",
         "timestamp": 1791437964,
         "title": "Minimum Knight Moves"
+      }
+    ]
+  },
+  "minimum-moves-to-equal-array-elements": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "453",
+      "paid_only": false,
+      "slug": "minimum-moves-to-equal-array-elements",
+      "title": "Minimum Moves to Equal Array Elements",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2187017423,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "2 ms",
+        "slug": "minimum-moves-to-equal-array-elements",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793540830,
+        "title": "Minimum Moves to Equal Array Elements"
       }
     ]
   },
@@ -16031,6 +16117,43 @@
         "status": "Accepted",
         "timestamp": 1784232242,
         "title": "Triples with Bitwise AND Equal To Zero"
+      }
+    ]
+  },
+  "twisted-mirror-path-count": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3665",
+      "paid_only": false,
+      "slug": "twisted-mirror-path-count",
+      "title": "Twisted Mirror Path Count",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2187256810,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "283.7 MB",
+        "runtime": "73 ms",
+        "slug": "twisted-mirror-path-count",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793560206,
+        "title": "Twisted Mirror Path Count"
       }
     ]
   },

@@ -2810,6 +2810,43 @@
       ]
     ]
   },
+  "find-distance-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1740",
+    "paid_only": true,
+    "slug": "find-distance-in-a-binary-tree",
+    "title": "Find Distance in a Binary Tree",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ],
+      [
+        "Binary Lifting",
+        "binary-lifting"
+      ],
+      [
+        "Lowest Common Ancestor",
+        "lowest-common-ancestor"
+      ]
+    ]
+  },
   "find-eventual-safe-states": {
     "difficulty": "Medium",
     "frontend_id": "802",
@@ -6064,6 +6101,23 @@
       [
         "A* Search",
         "a-search"
+      ]
+    ]
+  },
+  "minimum-moves-to-equal-array-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "453",
+    "paid_only": false,
+    "slug": "minimum-moves-to-equal-array-elements",
+    "title": "Minimum Moves to Equal Array Elements",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
       ]
     ]
   },
@@ -9591,6 +9645,27 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "twisted-mirror-path-count": {
+    "difficulty": "Medium",
+    "frontend_id": "3665",
+    "paid_only": false,
+    "slug": "twisted-mirror-path-count",
+    "title": "Twisted Mirror Path Count",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },
