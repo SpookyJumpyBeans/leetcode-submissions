@@ -13947,6 +13947,43 @@
       }
     ]
   },
+  "shifting-letters-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2381",
+      "paid_only": false,
+      "slug": "shifting-letters-ii",
+      "title": "Shifting Letters II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2188270074,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "112.8 MB",
+        "runtime": "6 ms",
+        "slug": "shifting-letters-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793680883,
+        "title": "Shifting Letters II"
+      }
+    ]
+  },
   "shortest-path-in-a-grid-with-obstacles-elimination": {
     "question": {
       "difficulty": "Hard",

@@ -8299,6 +8299,27 @@
       ]
     ]
   },
+  "shifting-letters-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "2381",
+    "paid_only": false,
+    "slug": "shifting-letters-ii",
+    "title": "Shifting Letters II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "shortest-path-in-a-grid-with-obstacles-elimination": {
     "difficulty": "Hard",
     "frontend_id": "1293",

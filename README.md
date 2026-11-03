@@ -5,7 +5,7 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**436 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 261 Medium &nbsp;·&nbsp; 65 Hard
+**437 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 262 Medium &nbsp;·&nbsp; 65 Hard
 
 Languages: C++, Java
 
@@ -16,11 +16,11 @@ _Last synced 2026-11-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **15 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **131** active days
+🔥 **16 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **132** active days
 
-![988 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-03)
+![991 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-03)
 
-<sub>**988** submissions in the last 53 weeks, by UTC day. Updated 2026-11-03.</sub>
+<sub>**991** submissions in the last 53 weeks, by UTC day. Updated 2026-11-03.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -481,7 +481,7 @@ _Last synced 2026-11-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3408 | [Design Task Manager](ordered-set/3408-design-task-manager) | Medium | [Java](ordered-set/3408-design-task-manager/solution.java) |
 | 3885 | [Design Event Manager](ordered-set/3885-design-event-manager) | Medium | [Java](ordered-set/3885-design-event-manager/solution.java) |
 
-## Prefix Sum (4)
+## Prefix Sum (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -489,6 +489,7 @@ _Last synced 2026-11-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 560 | [Subarray Sum Equals K](prefix-sum/0560-subarray-sum-equals-k) | Medium | [Java](prefix-sum/0560-subarray-sum-equals-k/solution.java) |
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
+| 2381 | [Shifting Letters II](prefix-sum/2381-shifting-letters-ii) | Medium | [Java](prefix-sum/2381-shifting-letters-ii/solution.java) |
 
 ## Queue (3)
 
