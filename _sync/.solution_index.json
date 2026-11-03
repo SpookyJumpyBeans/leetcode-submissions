@@ -469,6 +469,43 @@
       }
     ]
   },
+  "array-with-elements-not-equal-to-average-of-neighbors": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1968",
+      "paid_only": false,
+      "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+      "title": "Array With Elements Not Equal to Average of Neighbors",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2188039398,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "159.3 MB",
+        "runtime": "4 ms",
+        "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793645054,
+        "title": "Array With Elements Not Equal to Average of Neighbors"
+      }
+    ]
+  },
   "asteroid-collision": {
     "question": {
       "difficulty": "Medium",

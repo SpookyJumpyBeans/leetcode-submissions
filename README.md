@@ -5,22 +5,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**435 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 260 Medium &nbsp;·&nbsp; 65 Hard
+**436 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 261 Medium &nbsp;·&nbsp; 65 Hard
 
 Languages: C++, Java
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-03 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **14 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **130** active days
+🔥 **15 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **131** active days
 
-![986 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-02)
+![988 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-03)
 
-<sub>**986** submissions in the last 53 weeks, by UTC day. Updated 2026-11-02.</sub>
+<sub>**988** submissions in the last 53 weeks, by UTC day. Updated 2026-11-03.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -308,7 +308,7 @@ _Last synced 2026-11-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (11)
+## Greedy (12)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -320,6 +320,7 @@ _Last synced 2026-11-02 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
 | 1899 | [Merge Triplets to Form Target Triplet](greedy/1899-merge-triplets-to-form-target-triplet) | Medium | [Java](greedy/1899-merge-triplets-to-form-target-triplet/solution.java) |
+| 1968 | [Array With Elements Not Equal to Average of Neighbors](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors) | Medium | [Java](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors/solution.java) |
 | 2091 | [Removing Minimum and Maximum From Array](greedy/2091-removing-minimum-and-maximum-from-array) | Medium | [Java](greedy/2091-removing-minimum-and-maximum-from-array/solution.java) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |

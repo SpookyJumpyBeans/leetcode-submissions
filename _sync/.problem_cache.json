@@ -271,6 +271,27 @@
       ]
     ]
   },
+  "array-with-elements-not-equal-to-average-of-neighbors": {
+    "difficulty": "Medium",
+    "frontend_id": "1968",
+    "paid_only": false,
+    "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+    "title": "Array With Elements Not Equal to Average of Neighbors",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "asteroid-collision": {
     "difficulty": "Medium",
     "frontend_id": "735",
