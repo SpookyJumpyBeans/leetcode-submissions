@@ -9869,6 +9869,39 @@
       }
     ]
   },
+  "minimize-xor": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2429",
+      "paid_only": false,
+      "slug": "minimize-xor",
+      "title": "Minimize XOR",
+      "topics": [
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Bit Manipulation",
+          "bit-manipulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2188823829,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "41.7 MB",
+        "runtime": "1 ms",
+        "slug": "minimize-xor",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793728016,
+        "title": "Minimize XOR"
+      }
+    ]
+  },
   "minimum-add-to-make-parentheses-valid": {
     "question": {
       "difficulty": "Medium",

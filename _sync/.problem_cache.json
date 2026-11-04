@@ -5900,6 +5900,23 @@
       ]
     ]
   },
+  "minimize-xor": {
+    "difficulty": "Medium",
+    "frontend_id": "2429",
+    "paid_only": false,
+    "slug": "minimize-xor",
+    "title": "Minimize XOR",
+    "topics": [
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Bit Manipulation",
+        "bit-manipulation"
+      ]
+    ]
+  },
   "minimum-add-to-make-parentheses-valid": {
     "difficulty": "Medium",
     "frontend_id": "921",
