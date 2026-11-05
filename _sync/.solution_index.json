@@ -506,6 +506,35 @@
       }
     ]
   },
+  "article-views-i": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1148",
+      "paid_only": false,
+      "slug": "article-views-i",
+      "title": "Article Views I",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189132631,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "667 ms",
+        "slug": "article-views-i",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793772846,
+        "title": "Article Views I"
+      }
+    ]
+  },
   "asteroid-collision": {
     "question": {
       "difficulty": "Medium",
@@ -760,6 +789,35 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Best Time to Buy and Sell Stock with Cooldown"
+      }
+    ]
+  },
+  "big-countries": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "595",
+      "paid_only": false,
+      "slug": "big-countries",
+      "title": "Big Countries",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189131493,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "307 ms",
+        "slug": "big-countries",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793772735,
+        "title": "Big Countries"
       }
     ]
   },
@@ -4689,6 +4747,47 @@
       }
     ]
   },
+  "find-bottom-left-tree-value": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "513",
+      "paid_only": false,
+      "slug": "find-bottom-left-tree-value",
+      "title": "Find Bottom Left Tree Value",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189705037,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46 MB",
+        "runtime": "4 ms",
+        "slug": "find-bottom-left-tree-value",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793837420,
+        "title": "Find Bottom Left Tree Value"
+      }
+    ]
+  },
   "find-champion-ii": {
     "question": {
       "difficulty": "Medium",
@@ -4805,6 +4904,35 @@
         "status": "Accepted",
         "timestamp": 1788678484,
         "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree"
+      }
+    ]
+  },
+  "find-customer-referee": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "584",
+      "paid_only": false,
+      "slug": "find-customer-referee",
+      "title": "Find Customer Referee",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189123986,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "611 ms",
+        "slug": "find-customer-referee",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793772023,
+        "title": "Find Customer Referee"
       }
     ]
   },
@@ -5027,6 +5155,47 @@
         "status": "Accepted",
         "timestamp": 1770530089,
         "title": "Find K Pairs with Smallest Sums"
+      }
+    ]
+  },
+  "find-k-th-smallest-pair-distance": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "719",
+      "paid_only": false,
+      "slug": "find-k-th-smallest-pair-distance",
+      "title": "Find K-th Smallest Pair Distance",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Two Pointers",
+          "two-pointers"
+        ],
+        [
+          "Binary Search",
+          "binary-search"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189662632,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "10 ms",
+        "slug": "find-k-th-smallest-pair-distance",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793827077,
+        "title": "Find K-th Smallest Pair Distance"
       }
     ]
   },
@@ -6485,6 +6654,35 @@
       }
     ]
   },
+  "invalid-tweets": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1683",
+      "paid_only": false,
+      "slug": "invalid-tweets",
+      "title": "Invalid Tweets",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189126386,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "679 ms",
+        "slug": "invalid-tweets",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793772251,
+        "title": "Invalid Tweets"
+      }
+    ]
+  },
   "invert-binary-tree": {
     "question": {
       "difficulty": "Easy",
@@ -7120,6 +7318,39 @@
       }
     ]
   },
+  "largest-local-values-in-a-matrix": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2373",
+      "paid_only": false,
+      "slug": "largest-local-values-in-a-matrix",
+      "title": "Largest Local Values in a Matrix",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189067286,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47 MB",
+        "runtime": "3 ms",
+        "slug": "largest-local-values-in-a-matrix",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793766230,
+        "title": "Largest Local Values in a Matrix"
+      }
+    ]
+  },
   "largest-rectangle-in-histogram": {
     "question": {
       "difficulty": "Hard",
@@ -7263,6 +7494,47 @@
         "status": "Accepted",
         "timestamp": 1787884462,
         "title": "Lemonade Change"
+      }
+    ]
+  },
+  "length-of-longest-v-shaped-diagonal-segment": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "3459",
+      "paid_only": false,
+      "slug": "length-of-longest-v-shaped-diagonal-segment",
+      "title": "Length of Longest V-Shaped Diagonal Segment",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Memoization",
+          "memoization"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189043896,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "285 MB",
+        "runtime": "479 ms",
+        "slug": "length-of-longest-v-shaped-diagonal-segment",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793763294,
+        "title": "Length of Longest V-Shaped Diagonal Segment"
       }
     ]
   },
@@ -8579,6 +8851,47 @@
         "status": "Accepted",
         "timestamp": 1787776364,
         "title": "Matchsticks to Square"
+      }
+    ]
+  },
+  "matrix-similarity-after-cyclic-shifts": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2946",
+      "paid_only": false,
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189064483,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.6 MB",
+        "runtime": "2 ms",
+        "slug": "matrix-similarity-after-cyclic-shifts",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793765908,
+        "title": "Matrix Similarity After Cyclic Shifts"
       }
     ]
   },
@@ -10143,6 +10456,39 @@
       }
     ]
   },
+  "minimum-health-to-beat-game": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2214",
+      "paid_only": true,
+      "slug": "minimum-health-to-beat-game",
+      "title": "Minimum Health to Beat Game",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189585232,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "81.5 MB",
+        "runtime": "3 ms",
+        "slug": "minimum-health-to-beat-game",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793816868,
+        "title": "Minimum Health to Beat Game"
+      }
+    ]
+  },
   "minimum-height-trees": {
     "question": {
       "difficulty": "Medium",
@@ -11299,6 +11645,43 @@
         "status": "Accepted",
         "timestamp": 1789576820,
         "title": "Number of Sets of K Non-Overlapping Line Segments"
+      }
+    ]
+  },
+  "number-of-spaces-cleaning-robot-cleaned": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2061",
+      "paid_only": true,
+      "slug": "number-of-spaces-cleaning-robot-cleaned",
+      "title": "Number of Spaces Cleaning Robot Cleaned",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189012109,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "68 MB",
+        "runtime": "8 ms",
+        "slug": "number-of-spaces-cleaning-robot-cleaned",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793757838,
+        "title": "Number of Spaces Cleaning Robot Cleaned"
       }
     ]
   },
@@ -12544,6 +12927,35 @@
         "status": "Accepted",
         "timestamp": 1789609916,
         "title": "Rectangle Overlap"
+      }
+    ]
+  },
+  "recyclable-and-low-fat-products": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1757",
+      "paid_only": false,
+      "slug": "recyclable-and-low-fat-products",
+      "title": "Recyclable and Low Fat Products",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2189121202,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "605 ms",
+        "slug": "recyclable-and-low-fat-products",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793771755,
+        "title": "Recyclable and Low Fat Products"
       }
     ]
   },

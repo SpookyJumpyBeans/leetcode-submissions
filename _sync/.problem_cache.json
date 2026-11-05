@@ -292,6 +292,19 @@
       ]
     ]
   },
+  "article-views-i": {
+    "difficulty": "Easy",
+    "frontend_id": "1148",
+    "paid_only": false,
+    "slug": "article-views-i",
+    "title": "Article Views I",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
   "asteroid-collision": {
     "difficulty": "Medium",
     "frontend_id": "735",
@@ -428,6 +441,19 @@
       [
         "Dynamic Programming",
         "dynamic-programming"
+      ]
+    ]
+  },
+  "big-countries": {
+    "difficulty": "Easy",
+    "frontend_id": "595",
+    "paid_only": false,
+    "slug": "big-countries",
+    "title": "Big Countries",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
@@ -2760,6 +2786,31 @@
       ]
     ]
   },
+  "find-bottom-left-tree-value": {
+    "difficulty": "Medium",
+    "frontend_id": "513",
+    "paid_only": false,
+    "slug": "find-bottom-left-tree-value",
+    "title": "Find Bottom Left Tree Value",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "find-champion-ii": {
     "difficulty": "Medium",
     "frontend_id": "2924",
@@ -2828,6 +2879,19 @@
       [
         "Bor\u016fvka's Algorithm",
         "boruvkas-algorithm"
+      ]
+    ]
+  },
+  "find-customer-referee": {
+    "difficulty": "Easy",
+    "frontend_id": "584",
+    "paid_only": false,
+    "slug": "find-customer-referee",
+    "title": "Find Customer Referee",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
@@ -2973,6 +3037,31 @@
       [
         "Heap (Priority Queue)",
         "heap-priority-queue"
+      ]
+    ]
+  },
+  "find-k-th-smallest-pair-distance": {
+    "difficulty": "Hard",
+    "frontend_id": "719",
+    "paid_only": false,
+    "slug": "find-k-th-smallest-pair-distance",
+    "title": "Find K-th Smallest Pair Distance",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Two Pointers",
+        "two-pointers"
+      ],
+      [
+        "Binary Search",
+        "binary-search"
+      ],
+      [
+        "Sorting",
+        "sorting"
       ]
     ]
   },
@@ -3831,6 +3920,19 @@
       ]
     ]
   },
+  "invalid-tweets": {
+    "difficulty": "Easy",
+    "frontend_id": "1683",
+    "paid_only": false,
+    "slug": "invalid-tweets",
+    "title": "Invalid Tweets",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
   "invert-binary-tree": {
     "difficulty": "Easy",
     "frontend_id": "226",
@@ -4223,6 +4325,23 @@
       ]
     ]
   },
+  "largest-local-values-in-a-matrix": {
+    "difficulty": "Easy",
+    "frontend_id": "2373",
+    "paid_only": false,
+    "slug": "largest-local-values-in-a-matrix",
+    "title": "Largest Local Values in a Matrix",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ]
+    ]
+  },
   "largest-rectangle-in-histogram": {
     "difficulty": "Hard",
     "frontend_id": "84",
@@ -4304,6 +4423,31 @@
       [
         "Greedy",
         "greedy"
+      ]
+    ]
+  },
+  "length-of-longest-v-shaped-diagonal-segment": {
+    "difficulty": "Hard",
+    "frontend_id": "3459",
+    "paid_only": false,
+    "slug": "length-of-longest-v-shaped-diagonal-segment",
+    "title": "Length of Longest V-Shaped Diagonal Segment",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Memoization",
+        "memoization"
+      ],
+      [
+        "Matrix",
+        "matrix"
       ]
     ]
   },
@@ -5132,6 +5276,31 @@
       [
         "Bitmask",
         "bitmask"
+      ]
+    ]
+  },
+  "matrix-similarity-after-cyclic-shifts": {
+    "difficulty": "Easy",
+    "frontend_id": "2946",
+    "paid_only": false,
+    "slug": "matrix-similarity-after-cyclic-shifts",
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
@@ -6063,6 +6232,23 @@
       ]
     ]
   },
+  "minimum-health-to-beat-game": {
+    "difficulty": "Medium",
+    "frontend_id": "2214",
+    "paid_only": true,
+    "slug": "minimum-health-to-beat-game",
+    "title": "Minimum Health to Beat Game",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ]
+    ]
+  },
   "minimum-height-trees": {
     "difficulty": "Medium",
     "frontend_id": "310",
@@ -6754,6 +6940,27 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ]
+    ]
+  },
+  "number-of-spaces-cleaning-robot-cleaned": {
+    "difficulty": "Medium",
+    "frontend_id": "2061",
+    "paid_only": true,
+    "slug": "number-of-spaces-cleaning-robot-cleaned",
+    "title": "Number of Spaces Cleaning Robot Cleaned",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Simulation",
+        "simulation"
       ]
     ]
   },
@@ -7497,6 +7704,19 @@
       [
         "Geometry",
         "geometry"
+      ]
+    ]
+  },
+  "recyclable-and-low-fat-products": {
+    "difficulty": "Easy",
+    "frontend_id": "1757",
+    "paid_only": false,
+    "slug": "recyclable-and-low-fat-products",
+    "title": "Recyclable and Low Fat Products",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },

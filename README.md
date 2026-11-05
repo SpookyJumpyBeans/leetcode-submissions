@@ -2,25 +2,26 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-555555)
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**438 problems solved** &nbsp;·&nbsp; 110 Easy &nbsp;·&nbsp; 263 Medium &nbsp;·&nbsp; 65 Hard
+**450 problems solved** &nbsp;·&nbsp; 117 Easy &nbsp;·&nbsp; 266 Medium &nbsp;·&nbsp; 67 Hard
 
-Languages: C++, Java
+Languages: C++, Java, MySQL
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **16 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **132** active days
+🔥 **18 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **134** active days
 
-![993 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-04)
+![1017 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-05)
 
-<sub>**993** submissions in the last 53 weeks, by UTC day. Updated 2026-11-04.</sub>
+<sub>**1017** submissions in the last 53 weeks, by UTC day. Updated 2026-11-05.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -150,6 +151,16 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |
 | 3829 | [Design Ride Sharing System](data-stream/3829-design-ride-sharing-system) | Medium | [Java](data-stream/3829-design-ride-sharing-system/solution.java) |
 
+## Database (5)
+
+| # | Problem | Difficulty | Solutions |
+| --- | --- | --- | --- |
+| 584 | [Find Customer Referee](database/0584-find-customer-referee) | Easy | [MySQL](database/0584-find-customer-referee/solution.sql) |
+| 595 | [Big Countries](database/0595-big-countries) | Easy | [MySQL](database/0595-big-countries/solution.sql) |
+| 1148 | [Article Views I](database/1148-article-views-i) | Easy | [MySQL](database/1148-article-views-i/solution.sql) |
+| 1683 | [Invalid Tweets](database/1683-invalid-tweets) | Easy | [MySQL](database/1683-invalid-tweets/solution.sql) |
+| 1757 | [Recyclable and Low Fat Products](database/1757-recyclable-and-low-fat-products) | Easy | [MySQL](database/1757-recyclable-and-low-fat-products/solution.sql) |
+
 ## Depth-First Search (3)
 
 | # | Problem | Difficulty | Solutions |
@@ -191,7 +202,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (68)
+## Dynamic Programming (69)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -261,6 +272,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2369 | [Check if There is a Valid Partition For The Array](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array) | Medium | [Java](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
+| 3459 | [Length of Longest V-Shaped Diagonal Segment](dynamic-programming/3459-length-of-longest-v-shaped-diagonal-segment) | Hard | [Java](dynamic-programming/3459-length-of-longest-v-shaped-diagonal-segment/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
 | 3665 | [Twisted Mirror Path Count](dynamic-programming/3665-twisted-mirror-path-count) | Medium | [Java](dynamic-programming/3665-twisted-mirror-path-count/solution.java) |
 
@@ -308,7 +320,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (13)
+## Greedy (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -323,6 +335,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1968 | [Array With Elements Not Equal to Average of Neighbors](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors) | Medium | [Java](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors/solution.java) |
 | 2091 | [Removing Minimum and Maximum From Array](greedy/2091-removing-minimum-and-maximum-from-array) | Medium | [Java](greedy/2091-removing-minimum-and-maximum-from-array/solution.java) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
+| 2214 | [Minimum Health to Beat Game](greedy/2214-minimum-health-to-beat-game) | Medium | [Java](greedy/2214-minimum-health-to-beat-game/solution.java) |
 | 2429 | [Minimize XOR](greedy/2429-minimize-xor) | Medium | [Java](greedy/2429-minimize-xor/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
@@ -429,7 +442,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |
 | 3871 | [Count Commas in Range II](math/3871-count-commas-in-range-ii) | Medium | [Java](math/3871-count-commas-in-range-ii/solution.java) |
 
-## Matrix (6)
+## Matrix (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -439,6 +452,9 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 73 | [Set Matrix Zeroes](matrix/0073-set-matrix-zeroes) | Medium | [C++](matrix/0073-set-matrix-zeroes/solution.cpp) |
 | 867 | [Transpose Matrix](matrix/0867-transpose-matrix) | Easy | [Java](matrix/0867-transpose-matrix/solution.java) |
 | 1672 | [Richest Customer Wealth](matrix/1672-richest-customer-wealth) | Easy | [Java](matrix/1672-richest-customer-wealth/solution.java) |
+| 2061 | [Number of Spaces Cleaning Robot Cleaned](matrix/2061-number-of-spaces-cleaning-robot-cleaned) | Medium | [Java](matrix/2061-number-of-spaces-cleaning-robot-cleaned/solution.java) |
+| 2373 | [Largest Local Values in a Matrix](matrix/2373-largest-local-values-in-a-matrix) | Easy | [Java](matrix/2373-largest-local-values-in-a-matrix/solution.java) |
+| 2946 | [Matrix Similarity After Cyclic Shifts](matrix/2946-matrix-similarity-after-cyclic-shifts) | Easy | [Java](matrix/2946-matrix-similarity-after-cyclic-shifts/solution.java) |
 
 ## Merge Sort (2)
 
@@ -596,7 +612,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
-## Tree (30)
+## Tree (31)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -617,6 +633,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 297 | [Serialize and Deserialize Binary Tree](tree/0297-serialize-and-deserialize-binary-tree) | Hard | [Java](tree/0297-serialize-and-deserialize-binary-tree/solution.java) |
 | 427 | [Construct Quad Tree](tree/0427-construct-quad-tree) | Medium | [Java](tree/0427-construct-quad-tree/solution.java) |
 | 450 | [Delete Node in a BST](tree/0450-delete-node-in-a-bst) | Medium | [Java](tree/0450-delete-node-in-a-bst/solution.java) |
+| 513 | [Find Bottom Left Tree Value](tree/0513-find-bottom-left-tree-value) | Medium | [Java](tree/0513-find-bottom-left-tree-value/solution.java) |
 | 543 | [Diameter of Binary Tree](tree/0543-diameter-of-binary-tree) | Easy | [Java](tree/0543-diameter-of-binary-tree/solution.java) |
 | 701 | [Insert into a Binary Search Tree](tree/0701-insert-into-a-binary-search-tree) | Medium | [C++](tree/0701-insert-into-a-binary-search-tree/solution.cpp) |
 | 742 | [Closest Leaf in a Binary Tree](tree/0742-closest-leaf-in-a-binary-tree) | Medium | [Java](tree/0742-closest-leaf-in-a-binary-tree/solution.java) |
@@ -644,7 +661,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2707 | [Extra Characters in a String](trie/2707-extra-characters-in-a-string) | Medium | [C++](trie/2707-extra-characters-in-a-string/solution.cpp) |
 | 3043 | [Find the Length of the Longest Common Prefix](trie/3043-find-the-length-of-the-longest-common-prefix) | Medium | [Java](trie/3043-find-the-length-of-the-longest-common-prefix/solution.java) |
 
-## Two Pointers (23)
+## Two Pointers (24)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -667,6 +684,7 @@ _Last synced 2026-11-04 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 557 | [Reverse Words in a String III](two-pointers/0557-reverse-words-in-a-string-iii) | Easy | [Java](two-pointers/0557-reverse-words-in-a-string-iii/solution.java) |
 | 567 | [Permutation in String](two-pointers/0567-permutation-in-string) | Medium | [C++](two-pointers/0567-permutation-in-string/solution.cpp) [Java](two-pointers/0567-permutation-in-string/solution.java) |
 | 680 | [Valid Palindrome II](two-pointers/0680-valid-palindrome-ii) | Easy | [Java](two-pointers/0680-valid-palindrome-ii/solution.java) |
+| 719 | [Find K-th Smallest Pair Distance](two-pointers/0719-find-k-th-smallest-pair-distance) | Hard | [Java](two-pointers/0719-find-k-th-smallest-pair-distance/solution.java) |
 | 763 | [Partition Labels](two-pointers/0763-partition-labels) | Medium | [Java](two-pointers/0763-partition-labels/solution.java) |
 | 881 | [Boats to Save People](two-pointers/0881-boats-to-save-people) | Medium | [Java](two-pointers/0881-boats-to-save-people/solution.java) |
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
