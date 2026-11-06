@@ -13844,6 +13844,39 @@
       }
     ]
   },
+  "robot-return-to-origin": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "657",
+      "paid_only": false,
+      "slug": "robot-return-to-origin",
+      "title": "Robot Return to Origin",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2190400237,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.3 MB",
+        "runtime": "11 ms",
+        "slug": "robot-return-to-origin",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1793924333,
+        "title": "Robot Return to Origin"
+      }
+    ]
+  },
   "robot-room-cleaner": {
     "question": {
       "difficulty": "Hard",

@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**450 problems solved** &nbsp;·&nbsp; 117 Easy &nbsp;·&nbsp; 266 Medium &nbsp;·&nbsp; 67 Hard
+**451 problems solved** &nbsp;·&nbsp; 118 Easy &nbsp;·&nbsp; 266 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-06 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **18 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **134** active days
+🔥 **19 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **135** active days
 
-![1017 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-05)
+![1018 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-06)
 
-<sub>**1017** submissions in the last 53 weeks, by UTC day. Updated 2026-11-05.</sub>
+<sub>**1018** submissions in the last 53 weeks, by UTC day. Updated 2026-11-06.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -543,12 +543,13 @@ _Last synced 2026-11-05 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1514 | [Path with Maximum Probability](shortest-path/1514-path-with-maximum-probability) | Medium | [Java](shortest-path/1514-path-with-maximum-probability/solution.java) |
 | 2976 | [Minimum Cost to Convert String I](shortest-path/2976-minimum-cost-to-convert-string-i) | Medium | [Java](shortest-path/2976-minimum-cost-to-convert-string-i/solution.java) |
 
-## Simulation (5)
+## Simulation (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 43 | [Multiply Strings](simulation/0043-multiply-strings) | Medium | [Java](simulation/0043-multiply-strings/solution.java) |
 | 68 | [Text Justification](simulation/0068-text-justification) | Hard | [Java](simulation/0068-text-justification/solution.java) |
+| 657 | [Robot Return to Origin](simulation/0657-robot-return-to-origin) | Easy | [Java](simulation/0657-robot-return-to-origin/solution.java) |
 | 1929 | [Concatenation of Array](simulation/1929-concatenation-of-array) | Easy | [Java](simulation/1929-concatenation-of-array/solution.java) |
 | 3069 | [Distribute Elements Into Two Arrays I](simulation/3069-distribute-elements-into-two-arrays-i) | Easy | [C++](simulation/3069-distribute-elements-into-two-arrays-i/solution.cpp) |
 | 3498 | [Reverse Degree of a String](simulation/3498-reverse-degree-of-a-string) | Easy | [Java](simulation/3498-reverse-degree-of-a-string/solution.java) |
