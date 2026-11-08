@@ -686,6 +686,27 @@
       ]
     ]
   },
+  "binary-tree-zigzag-level-order-traversal": {
+    "difficulty": "Medium",
+    "frontend_id": "103",
+    "paid_only": false,
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
+      ]
+    ]
+  },
   "bitwise-and-of-numbers-range": {
     "difficulty": "Medium",
     "frontend_id": "201",
@@ -2962,6 +2983,23 @@
       [
         "Tarjan's SCC Algorithm",
         "tarjans-scc-algorithm"
+      ]
+    ]
+  },
+  "find-if-digit-game-can-be-won": {
+    "difficulty": "Easy",
+    "frontend_id": "3232",
+    "paid_only": false,
+    "slug": "find-if-digit-game-can-be-won",
+    "title": "Find if Digit Game Can Be Won",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
       ]
     ]
   },
@@ -6471,6 +6509,35 @@
       [
         "Prefix Sum",
         "prefix-sum"
+      ]
+    ]
+  },
+  "minimum-time-to-collect-all-apples-in-a-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1443",
+    "paid_only": false,
+    "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+    "title": "Minimum Time to Collect All Apples in a Tree",
+    "topics": [
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "DP on Trees",
+        "dp-on-trees"
       ]
     ]
   },

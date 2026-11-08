@@ -1186,6 +1186,43 @@
       }
     ]
   },
+  "binary-tree-zigzag-level-order-traversal": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "103",
+      "paid_only": false,
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2191621448,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "43.2 MB",
+        "runtime": "1 ms",
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794097251,
+        "title": "Binary Tree Zigzag Level Order Traversal"
+      }
+    ]
+  },
   "bitwise-and-of-numbers-range": {
     "question": {
       "difficulty": "Medium",
@@ -5034,6 +5071,39 @@
         "status": "Accepted",
         "timestamp": 1786929869,
         "title": "Find Eventual Safe States"
+      }
+    ]
+  },
+  "find-if-digit-game-can-be-won": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "3232",
+      "paid_only": false,
+      "slug": "find-if-digit-game-can-be-won",
+      "title": "Find if Digit Game Can Be Won",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2191012410,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "44.9 MB",
+        "runtime": "1 ms",
+        "slug": "find-if-digit-game-can-be-won",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794014514,
+        "title": "Find if Digit Game Can Be Won"
       }
     ]
   },
@@ -10852,6 +10922,51 @@
         "status": "Accepted",
         "timestamp": 1758608128,
         "title": "Minimum Size Subarray Sum"
+      }
+    ]
+  },
+  "minimum-time-to-collect-all-apples-in-a-tree": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1443",
+      "paid_only": false,
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "topics": [
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "DP on Trees",
+          "dp-on-trees"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2191610172,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "82.3 MB",
+        "runtime": "13 ms",
+        "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794093869,
+        "title": "Minimum Time to Collect All Apples in a Tree"
       }
     ]
   },

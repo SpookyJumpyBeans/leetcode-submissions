@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**451 problems solved** &nbsp;·&nbsp; 118 Easy &nbsp;·&nbsp; 266 Medium &nbsp;·&nbsp; 67 Hard
+**454 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 268 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **19 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **135** active days
+🔥 **21 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **137** active days
 
-![1018 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-07)
+![1003 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-08)
 
-<sub>**1018** submissions in the last 53 weeks, by UTC day. Updated 2026-11-07.</sub>
+<sub>**1003** submissions in the last 53 weeks, by UTC day. Updated 2026-11-08.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -425,7 +425,7 @@ _Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 
-## Math (12)
+## Math (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -437,6 +437,7 @@ _Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 1822 | [Sign of the Product of an Array](math/1822-sign-of-the-product-of-an-array) | Easy | [Java](math/1822-sign-of-the-product-of-an-array/solution.java) |
 | 2520 | [Count the Digits That Divide a Number](math/2520-count-the-digits-that-divide-a-number) | Easy | [Java](math/2520-count-the-digits-that-divide-a-number/solution.java) |
+| 3232 | [Find if Digit Game Can Be Won](math/3232-find-if-digit-game-can-be-won) | Easy | [Java](math/3232-find-if-digit-game-can-be-won/solution.java) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](math/3550-smallest-index-with-digit-sum-equal-to-index) | Easy | [Java](math/3550-smallest-index-with-digit-sum-equal-to-index/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
 | 3870 | [Count Commas in Range](math/3870-count-commas-in-range) | Easy | [Java](math/3870-count-commas-in-range/solution.java) |
@@ -613,7 +614,7 @@ _Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
-## Tree (31)
+## Tree (33)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -621,6 +622,7 @@ _Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 99 | [Recover Binary Search Tree](tree/0099-recover-binary-search-tree) | Medium | [Java](tree/0099-recover-binary-search-tree/solution.java) |
 | 100 | [Same Tree](tree/0100-same-tree) | Easy | [Java](tree/0100-same-tree/solution.java) |
 | 102 | [Binary Tree Level Order Traversal](tree/0102-binary-tree-level-order-traversal) | Medium | [Java](tree/0102-binary-tree-level-order-traversal/solution.java) |
+| 103 | [Binary Tree Zigzag Level Order Traversal](tree/0103-binary-tree-zigzag-level-order-traversal) | Medium | [Java](tree/0103-binary-tree-zigzag-level-order-traversal/solution.java) |
 | 104 | [Maximum Depth of Binary Tree](tree/0104-maximum-depth-of-binary-tree) | Easy | [Java](tree/0104-maximum-depth-of-binary-tree/solution.java) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](tree/0105-construct-binary-tree-from-preorder-and-inorder-traversal) | Medium | [Java](tree/0105-construct-binary-tree-from-preorder-and-inorder-traversal/solution.java) |
 | 110 | [Balanced Binary Tree](tree/0110-balanced-binary-tree) | Easy | [Java](tree/0110-balanced-binary-tree/solution.java) |
@@ -641,6 +643,7 @@ _Last synced 2026-11-07 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 938 | [Range Sum of BST](tree/0938-range-sum-of-bst) | Easy | [Java](tree/0938-range-sum-of-bst/solution.java) |
 | 1325 | [Delete Leaves With a Given Value](tree/1325-delete-leaves-with-a-given-value) | Medium | [Java](tree/1325-delete-leaves-with-a-given-value/solution.java) |
 | 1376 | [Time Needed to Inform All Employees](tree/1376-time-needed-to-inform-all-employees) | Medium | [Java](tree/1376-time-needed-to-inform-all-employees/solution.java) |
+| 1443 | [Minimum Time to Collect All Apples in a Tree](tree/1443-minimum-time-to-collect-all-apples-in-a-tree) | Medium | [Java](tree/1443-minimum-time-to-collect-all-apples-in-a-tree/solution.java) |
 | 1448 | [Count Good Nodes in Binary Tree](tree/1448-count-good-nodes-in-binary-tree) | Medium | [Java](tree/1448-count-good-nodes-in-binary-tree/solution.java) |
 | 1600 | [Throne Inheritance](tree/1600-throne-inheritance) | Medium | [Java](tree/1600-throne-inheritance/solution.java) |
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii) | Medium | [Java](tree/1650-lowest-common-ancestor-of-a-binary-tree-iii/solution.java) |
