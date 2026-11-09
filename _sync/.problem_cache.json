@@ -2286,6 +2286,51 @@
       ]
     ]
   },
+  "design-most-recently-used-queue": {
+    "difficulty": "Medium",
+    "frontend_id": "1756",
+    "paid_only": true,
+    "slug": "design-most-recently-used-queue",
+    "title": "Design Most Recently Used Queue",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Linked List",
+        "linked-list"
+      ],
+      [
+        "Divide and Conquer",
+        "divide-and-conquer"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ],
+      [
+        "Doubly-Linked List",
+        "doubly-linked-list"
+      ],
+      [
+        "Sqrt Decomposition",
+        "sqrt-decomposition"
+      ],
+      [
+        "Treap",
+        "treap"
+      ],
+      [
+        "Splay Tree",
+        "splay-tree"
+      ]
+    ]
+  },
   "design-neighbor-sum-service": {
     "difficulty": "Easy",
     "frontend_id": "3242",

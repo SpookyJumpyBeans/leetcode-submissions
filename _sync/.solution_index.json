@@ -3926,6 +3926,67 @@
       }
     ]
   },
+  "design-most-recently-used-queue": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1756",
+      "paid_only": true,
+      "slug": "design-most-recently-used-queue",
+      "title": "Design Most Recently Used Queue",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Linked List",
+          "linked-list"
+        ],
+        [
+          "Divide and Conquer",
+          "divide-and-conquer"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ],
+        [
+          "Doubly-Linked List",
+          "doubly-linked-list"
+        ],
+        [
+          "Sqrt Decomposition",
+          "sqrt-decomposition"
+        ],
+        [
+          "Treap",
+          "treap"
+        ],
+        [
+          "Splay Tree",
+          "splay-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2192165075,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "16 ms",
+        "slug": "design-most-recently-used-queue",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794180088,
+        "title": "Design Most Recently Used Queue"
+      }
+    ]
+  },
   "design-neighbor-sum-service": {
     "question": {
       "difficulty": "Easy",

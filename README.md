@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**454 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 268 Medium &nbsp;·&nbsp; 67 Hard
+**455 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 269 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
 🔥 **21 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **137** active days
 
-![1003 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-08)
+![1004 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-09)
 
-<sub>**1003** submissions in the last 53 weeks, by UTC day. Updated 2026-11-08.</sub>
+<sub>**1004** submissions in the last 53 weeks, by UTC day. Updated 2026-11-09.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -192,7 +192,7 @@ _Last synced 2026-11-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 190 | [Reverse Bits](divide-and-conquer/0190-reverse-bits) | Easy | [Java](divide-and-conquer/0190-reverse-bits/solution.java) |
 | 191 | [Number of 1 Bits](divide-and-conquer/0191-number-of-1-bits) | Easy | [Java](divide-and-conquer/0191-number-of-1-bits/solution.java) |
 
-## Doubly-Linked List (5)
+## Doubly-Linked List (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -200,6 +200,7 @@ _Last synced 2026-11-08 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 432 | [All O`one Data Structure](doubly-linked-list/0432-all-oone-data-structure) | Hard | [C++](doubly-linked-list/0432-all-oone-data-structure/solution.cpp) |
 | 460 | [LFU Cache](doubly-linked-list/0460-lfu-cache) | Hard | [Java](doubly-linked-list/0460-lfu-cache/solution.java) |
 | 1472 | [Design Browser History](doubly-linked-list/1472-design-browser-history) | Medium | [Java](doubly-linked-list/1472-design-browser-history/solution.java) |
+| 1756 | [Design Most Recently Used Queue](doubly-linked-list/1756-design-most-recently-used-queue) | Medium | [Java](doubly-linked-list/1756-design-most-recently-used-queue/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
 ## Dynamic Programming (69)
