@@ -1685,6 +1685,19 @@
       ]
     ]
   },
+  "count-total-number-of-colored-cells": {
+    "difficulty": "Medium",
+    "frontend_id": "2579",
+    "paid_only": false,
+    "slug": "count-total-number-of-colored-cells",
+    "title": "Count Total Number of Colored Cells",
+    "topics": [
+      [
+        "Math",
+        "math"
+      ]
+    ]
+  },
   "counting-bits": {
     "difficulty": "Easy",
     "frontend_id": "338",
@@ -2658,6 +2671,27 @@
       [
         "Dynamic Programming",
         "dynamic-programming"
+      ]
+    ]
+  },
+  "eliminate-maximum-number-of-monsters": {
+    "difficulty": "Medium",
+    "frontend_id": "1921",
+    "paid_only": false,
+    "slug": "eliminate-maximum-number-of-monsters",
+    "title": "Eliminate Maximum Number of Monsters",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
       ]
     ]
   },
@@ -3911,6 +3945,35 @@
       [
         "Trie",
         "trie"
+      ]
+    ]
+  },
+  "insert-delete-getrandom-o1": {
+    "difficulty": "Medium",
+    "frontend_id": "380",
+    "paid_only": false,
+    "slug": "insert-delete-getrandom-o1",
+    "title": "Insert Delete GetRandom O(1)",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Randomized",
+        "randomized"
       ]
     ]
   },

@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**455 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 269 Medium &nbsp;·&nbsp; 67 Hard
+**458 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 272 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-10 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **21 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **137** active days
+🔥 **22 day streak** (since Oct 19) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **138** active days
 
-![1004 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-09)
+![1013 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-10)
 
-<sub>**1004** submissions in the last 53 weeks, by UTC day. Updated 2026-11-09.</sub>
+<sub>**1013** submissions in the last 53 weeks, by UTC day. Updated 2026-11-10.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -169,13 +169,14 @@ _Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 463 | [Island Perimeter](depth-first-search/0463-island-perimeter) | Easy | [C++](depth-first-search/0463-island-perimeter/solution.cpp) |
 | 733 | [Flood Fill](depth-first-search/0733-flood-fill) | Easy | [Java](depth-first-search/0733-flood-fill/solution.java) |
 
-## Design (10)
+## Design (11)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 303 | [Range Sum Query - Immutable](design/0303-range-sum-query-immutable) | Easy | [Java](design/0303-range-sum-query-immutable/solution.java) |
 | 304 | [Range Sum Query 2D - Immutable](design/0304-range-sum-query-2d-immutable) | Medium | [Java](design/0304-range-sum-query-2d-immutable/solution.java) |
 | 348 | [Design Tic-Tac-Toe](design/0348-design-tic-tac-toe) | Medium | [Java](design/0348-design-tic-tac-toe/solution.java) |
+| 380 | [Insert Delete GetRandom O(1)](design/0380-insert-delete-getrandom-o1) | Medium | [Java](design/0380-insert-delete-getrandom-o1/solution.java) |
 | 981 | [Time Based Key-Value Store](design/0981-time-based-key-value-store) | Medium | [C++](design/0981-time-based-key-value-store/solution.cpp) [Java](design/0981-time-based-key-value-store/solution.java) |
 | 1146 | [Snapshot Array](design/1146-snapshot-array) | Medium | [Java](design/1146-snapshot-array/solution.java) |
 | 1603 | [Design Parking System](design/1603-design-parking-system) | Easy | [Java](design/1603-design-parking-system/solution.java) |
@@ -321,7 +322,7 @@ _Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (14)
+## Greedy (15)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -333,6 +334,7 @@ _Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
 | 1899 | [Merge Triplets to Form Target Triplet](greedy/1899-merge-triplets-to-form-target-triplet) | Medium | [Java](greedy/1899-merge-triplets-to-form-target-triplet/solution.java) |
+| 1921 | [Eliminate Maximum Number of Monsters](greedy/1921-eliminate-maximum-number-of-monsters) | Medium | [Java](greedy/1921-eliminate-maximum-number-of-monsters/solution.java) |
 | 1968 | [Array With Elements Not Equal to Average of Neighbors](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors) | Medium | [Java](greedy/1968-array-with-elements-not-equal-to-average-of-neighbors/solution.java) |
 | 2091 | [Removing Minimum and Maximum From Array](greedy/2091-removing-minimum-and-maximum-from-array) | Medium | [Java](greedy/2091-removing-minimum-and-maximum-from-array/solution.java) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
@@ -426,7 +428,7 @@ _Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2181 | [Merge Nodes in Between Zeros](linked-list/2181-merge-nodes-in-between-zeros) | Medium | [Java](linked-list/2181-merge-nodes-in-between-zeros/solution.java) |
 | 2326 | [Spiral Matrix IV](linked-list/2326-spiral-matrix-iv) | Medium | [Java](linked-list/2326-spiral-matrix-iv/solution.java) |
 
-## Math (13)
+## Math (14)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -438,6 +440,7 @@ _Last synced 2026-11-09 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1071 | [Greatest Common Divisor of Strings](math/1071-greatest-common-divisor-of-strings) | Easy | [Java](math/1071-greatest-common-divisor-of-strings/solution.java) |
 | 1822 | [Sign of the Product of an Array](math/1822-sign-of-the-product-of-an-array) | Easy | [Java](math/1822-sign-of-the-product-of-an-array/solution.java) |
 | 2520 | [Count the Digits That Divide a Number](math/2520-count-the-digits-that-divide-a-number) | Easy | [Java](math/2520-count-the-digits-that-divide-a-number/solution.java) |
+| 2579 | [Count Total Number of Colored Cells](math/2579-count-total-number-of-colored-cells) | Medium | [Java](math/2579-count-total-number-of-colored-cells/solution.java) |
 | 3232 | [Find if Digit Game Can Be Won](math/3232-find-if-digit-game-can-be-won) | Easy | [Java](math/3232-find-if-digit-game-can-be-won/solution.java) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](math/3550-smallest-index-with-digit-sum-equal-to-index) | Easy | [Java](math/3550-smallest-index-with-digit-sum-equal-to-index/solution.java) |
 | 3622 | [Check Divisibility by Digit Sum and Product](math/3622-check-divisibility-by-digit-sum-and-product) | Easy | [Java](math/3622-check-divisibility-by-digit-sum-and-product/solution.java) |
