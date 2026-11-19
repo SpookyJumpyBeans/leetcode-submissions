@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**458 problems solved** &nbsp;·&nbsp; 119 Easy &nbsp;·&nbsp; 272 Medium &nbsp;·&nbsp; 67 Hard
+**469 problems solved** &nbsp;·&nbsp; 124 Easy &nbsp;·&nbsp; 278 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
-50 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
+46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **7 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **145** active days
+🔥 **8 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **146** active days
 
-![1037 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-18)
+![1038 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-19)
 
-<sub>**1037** submissions in the last 53 weeks, by UTC day. Updated 2026-11-18.</sub>
+<sub>**1038** submissions in the last 53 weeks, by UTC day. Updated 2026-11-19.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -151,13 +151,17 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |
 | 3829 | [Design Ride Sharing System](data-stream/3829-design-ride-sharing-system) | Medium | [Java](data-stream/3829-design-ride-sharing-system/solution.java) |
 
-## Database (5)
+## Database (9)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 197 | [Rising Temperature](database/0197-rising-temperature) | Easy | [MySQL](database/0197-rising-temperature/solution.sql) |
 | 584 | [Find Customer Referee](database/0584-find-customer-referee) | Easy | [MySQL](database/0584-find-customer-referee/solution.sql) |
 | 595 | [Big Countries](database/0595-big-countries) | Easy | [MySQL](database/0595-big-countries/solution.sql) |
+| 1068 | [Product Sales Analysis I](database/1068-product-sales-analysis-i) | Easy | [MySQL](database/1068-product-sales-analysis-i/solution.sql) |
 | 1148 | [Article Views I](database/1148-article-views-i) | Easy | [MySQL](database/1148-article-views-i/solution.sql) |
+| 1378 | [Replace Employee ID With The Unique Identifier](database/1378-replace-employee-id-with-the-unique-identifier) | Easy | [MySQL](database/1378-replace-employee-id-with-the-unique-identifier/solution.sql) |
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](database/1581-customer-who-visited-but-did-not-make-any-transactions) | Easy | [MySQL](database/1581-customer-who-visited-but-did-not-make-any-transactions/solution.sql) |
 | 1683 | [Invalid Tweets](database/1683-invalid-tweets) | Easy | [MySQL](database/1683-invalid-tweets/solution.sql) |
 | 1757 | [Recyclable and Low Fat Products](database/1757-recyclable-and-low-fat-products) | Easy | [MySQL](database/1757-recyclable-and-low-fat-products/solution.sql) |
 
@@ -322,7 +326,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (15)
+## Greedy (16)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -332,6 +336,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 860 | [Lemonade Change](greedy/0860-lemonade-change) | Easy | [Java](greedy/0860-lemonade-change/solution.java) |
 | 861 | [Score After Flipping Matrix](greedy/0861-score-after-flipping-matrix) | Medium | [Java](greedy/0861-score-after-flipping-matrix/solution.java) |
 | 1386 | [Cinema Seat Allocation](greedy/1386-cinema-seat-allocation) | Medium | [Java](greedy/1386-cinema-seat-allocation/solution.java) |
+| 1509 | [Minimum Difference Between Largest and Smallest Value in Three Moves](greedy/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves) | Medium | [Java](greedy/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/solution.java) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers) | Medium | [Java](greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers/solution.java) |
 | 1899 | [Merge Triplets to Form Target Triplet](greedy/1899-merge-triplets-to-form-target-triplet) | Medium | [Java](greedy/1899-merge-triplets-to-form-target-triplet/solution.java) |
 | 1921 | [Eliminate Maximum Number of Monsters](greedy/1921-eliminate-maximum-number-of-monsters) | Medium | [Java](greedy/1921-eliminate-maximum-number-of-monsters/solution.java) |
@@ -503,7 +508,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 3408 | [Design Task Manager](ordered-set/3408-design-task-manager) | Medium | [Java](ordered-set/3408-design-task-manager/solution.java) |
 | 3885 | [Design Event Manager](ordered-set/3885-design-event-manager) | Medium | [Java](ordered-set/3885-design-event-manager/solution.java) |
 
-## Prefix Sum (5)
+## Prefix Sum (6)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -511,6 +516,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 560 | [Subarray Sum Equals K](prefix-sum/0560-subarray-sum-equals-k) | Medium | [Java](prefix-sum/0560-subarray-sum-equals-k/solution.java) |
 | 724 | [Find Pivot Index](prefix-sum/0724-find-pivot-index) | Easy | [Java](prefix-sum/0724-find-pivot-index/solution.java) |
 | 1480 | [Running Sum of 1d Array](prefix-sum/1480-running-sum-of-1d-array) | Easy | [Java](prefix-sum/1480-running-sum-of-1d-array/solution.java) |
+| 2219 | [Maximum Sum Score of Array](prefix-sum/2219-maximum-sum-score-of-array) | Medium | [Java](prefix-sum/2219-maximum-sum-score-of-array/solution.java) |
 | 2381 | [Shifting Letters II](prefix-sum/2381-shifting-letters-ii) | Medium | [Java](prefix-sum/2381-shifting-letters-ii/solution.java) |
 
 ## Queue (3)
@@ -585,7 +591,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1152 | [Analyze User Website Visit Pattern](sorting/1152-analyze-user-website-visit-pattern) | Medium | [Java](sorting/1152-analyze-user-website-visit-pattern/solution.java) |
 | 2229 | [Check if an Array Is Consecutive](sorting/2229-check-if-an-array-is-consecutive) | Easy | [Java](sorting/2229-check-if-an-array-is-consecutive/solution.java) |
 
-## Stack (20)
+## Stack (21)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -607,18 +613,20 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](stack/1190-reverse-substrings-between-each-pair-of-parentheses) | Medium | [Java](stack/1190-reverse-substrings-between-each-pair-of-parentheses/solution.java) |
 | 1381 | [Design a Stack With Increment Operation](stack/1381-design-a-stack-with-increment-operation) | Medium | [Java](stack/1381-design-a-stack-with-increment-operation/solution.java) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](stack/1614-maximum-nesting-depth-of-the-parentheses) | Easy | [Java](stack/1614-maximum-nesting-depth-of-the-parentheses/solution.java) |
+| 1700 | [Number of Students Unable to Eat Lunch](stack/1700-number-of-students-unable-to-eat-lunch) | Easy | [Java](stack/1700-number-of-students-unable-to-eat-lunch/solution.java) |
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 | 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
-## String (3)
+## String (4)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
+| 6 | [Zigzag Conversion](string/0006-zigzag-conversion) | Medium | [Java](string/0006-zigzag-conversion/solution.java) |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
-## Tree (33)
+## Tree (34)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -655,6 +663,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another) | Medium | [C++](tree/2096-step-by-step-directions-from-a-binary-tree-node-to-another/solution.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |
+| 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](tree/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) | Medium | [Java](tree/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/solution.java) |
 
 ## Trie (8)
 
@@ -698,7 +707,7 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 977 | [Squares of a Sorted Array](two-pointers/0977-squares-of-a-sorted-array) | Easy | [Java](two-pointers/0977-squares-of-a-sorted-array/solution.java) |
 | 1768 | [Merge Strings Alternately](two-pointers/1768-merge-strings-alternately) | Easy | [Java](two-pointers/1768-merge-strings-alternately/solution.java) |
 
-## Union-Find (19)
+## Union-Find (21)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -710,8 +719,10 @@ _Last synced 2026-11-18 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 684 | [Redundant Connection](union-find/0684-redundant-connection) | Medium | [Java](union-find/0684-redundant-connection/solution.java) |
 | 695 | [Max Area of Island](union-find/0695-max-area-of-island) | Medium | [Java](union-find/0695-max-area-of-island/solution.java) |
 | 721 | [Accounts Merge](union-find/0721-accounts-merge) | Medium | [C++](union-find/0721-accounts-merge/solution.cpp) |
+| 737 | [Sentence Similarity II](union-find/0737-sentence-similarity-ii) | Medium | [Java](union-find/0737-sentence-similarity-ii/solution.java) |
 | 778 | [Swim in Rising Water](union-find/0778-swim-in-rising-water) | Hard | [Java](union-find/0778-swim-in-rising-water/solution.java) |
 | 827 | [Making A Large Island](union-find/0827-making-a-large-island) | Hard | [Java](union-find/0827-making-a-large-island/solution.java) |
+| 959 | [Regions Cut By Slashes](union-find/0959-regions-cut-by-slashes) | Medium | [Java](union-find/0959-regions-cut-by-slashes/solution.java) |
 | 1267 | [Count Servers that Communicate](union-find/1267-count-servers-that-communicate) | Medium | [Java](union-find/1267-count-servers-that-communicate/solution.java) |
 | 1489 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Java](union-find/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/solution.java) |
 | 1584 | [Min Cost to Connect All Points](union-find/1584-min-cost-to-connect-all-points) | Medium | [Java](union-find/1584-min-cost-to-connect-all-points/solution.java) |

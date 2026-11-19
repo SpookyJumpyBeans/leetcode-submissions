@@ -1,44 +1,42 @@
 // 1143. Longest Common Subsequence
 // https://leetcode.com/problems/longest-common-subsequence/
-// Medium | java | Accepted on NeetCode 2026-09-04
+// Medium | Java | Accepted 2026-11-16
+// Runtime 34 ms | Memory 53.9 MB
 
 class Solution {
-    String t1;
-    String t2;
-    int[][] strings;
+    int[][] dp;
+    String text1;
+    String text2;
     public int longestCommonSubsequence(String text1, String text2) {
-        t1 =  text2;
-        t2 = text1;
-        strings = new int[text2.length()][text1.length()];
-        for(int i = 0; i<strings.length; i++)
+        dp = new int[text1.length()][text2.length()];
+        this.text1 = text1;
+        this.text2 = text2;
+        for(int[] d : dp)
         {
-            for(int j = 0; j<strings[0].length; j++)
-            {
-                strings[i][j] = -1;
-            }
+            Arrays.fill(d, -1);
         }
         return recurse(0, 0);
     }
-    public int recurse(int ind1, int ind2)
+
+    public int recurse(int t1, int t2)
     {
-        if(ind1 >= t1.length() || ind2 >= t2.length())
+        if(t1>=text1.length() || t2>=text2.length())
         {
             return 0;
         }
-         System.out.println(t1.charAt(ind1) + " " + t2.charAt(ind2));
-         System.out.println(strings[ind1][ind2]);
-        if(strings[ind1][ind2]>-1)
+        if(dp[t1][t2]!=-1)
         {
-            return strings[ind1][ind2];
+            return dp[t1][t2];
         }
-        if(t1.charAt(ind1)==t2.charAt(ind2))
+        int max = 0;
+        if(text1.charAt(t1)==text2.charAt(t2))
         {
-            strings[ind1][ind2] =  1 + recurse(ind1+1, ind2+1);
+            max = Math.max(max, 1+recurse(t1+1, t2+1));
         }
         else
         {
-            strings[ind1][ind2] = Math.max(recurse(ind1, ind2+1), recurse(ind1+1, ind2));
+            max = Math.max(max, Math.max(recurse(t1, t2+1), recurse(t1+1, t2)));
         }
-        return strings[ind1][ind2];
+        return dp[t1][t2] = max;
     }
 }

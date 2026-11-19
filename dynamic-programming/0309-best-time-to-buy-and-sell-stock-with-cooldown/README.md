@@ -5,6 +5,6 @@
 - **Difficulty:** Medium
 - **Topics:** Array, Dynamic Programming
 
-| Language | File | Runtime | Memory | Accepted | Source |
-| --- | --- | --- | --- | --- | --- |
-| Java | [solution.java](solution.java) | - | - | 2026-09-04 | NeetCode |
+| Language | File | Runtime | Memory | Accepted |
+| --- | --- | --- | --- | --- |
+| Java | [solution.java](solution.java) | 1 ms | 43.3 MB | 2026-11-16 |

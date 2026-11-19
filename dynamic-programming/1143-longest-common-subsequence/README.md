@@ -5,6 +5,6 @@
 - **Difficulty:** Medium
 - **Topics:** String, Dynamic Programming, Longest Common Subsequence
 
-| Language | File | Runtime | Memory | Accepted | Source |
-| --- | --- | --- | --- | --- | --- |
-| Java | [solution.java](solution.java) | - | - | 2026-09-04 | NeetCode |
+| Language | File | Runtime | Memory | Accepted |
+| --- | --- | --- | --- | --- |
+| Java | [solution.java](solution.java) | 34 ms | 53.9 MB | 2026-11-16 |

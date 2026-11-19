@@ -1,29 +1,38 @@
 // 62. Unique Paths
 // https://leetcode.com/problems/unique-paths/
-// Medium | java | Accepted on NeetCode 2026-09-04
+// Medium | Java | Accepted 2026-11-15
+// Runtime 0 ms | Memory 41.8 MB
 
 class Solution {
+    int[][] dp;
+    int m;
+    int n;
     public int uniquePaths(int m, int n) {
-        int[][] ans = new int[m][n];
-        ans[0][0] = 1;
-        for(int i = 0; i<m; i++)
+        dp = new int[m][n];
+        this.m = m-1;
+        this.n = n-1;
+        for(int[] d : dp)
         {
-            for(int j = 0; j<n; j++)
-            {
-                if(i-1<0 && j-1>=0)
-                {
-                    ans[i][j] = ans[i][j-1];
-                }
-                if(j-1<0 && i-1>=0)
-                {
-                    ans[i][j] = ans[i-1][j];
-                }   
-                else if(j-1>=0 && i-1>=0)
-                {
-                    ans[i][j] = ans[i-1][j] + ans[i][j-1];
-                }
-            }
+            Arrays.fill(d, -1);
         }
-        return ans[m-1][n-1];
+        return recurse(0, 0);
+    }
+
+    public int recurse(int i, int j)
+    {
+        if(i==m && j==n)
+        {
+            return 1;
+        }
+        if(i<0 || j<0 || i>m || j>n)
+        {
+            return 0;
+        }
+        if(dp[i][j]!=-1)
+        {
+            return dp[i][j];
+        }
+        int sum = recurse(i+1, j) + recurse(i, j+1);
+        return dp[i][j] = sum;
     }
 }

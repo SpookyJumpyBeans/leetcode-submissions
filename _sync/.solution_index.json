@@ -779,15 +779,15 @@
     },
     "submissions": [
       {
-        "id": 0,
+        "id": 2196986549,
         "lang": "java",
-        "lang_name": "java",
-        "memory": "",
-        "runtime": "",
+        "lang_name": "Java",
+        "memory": "43.3 MB",
+        "runtime": "1 ms",
         "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-        "source": "neetcode",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1788566040,
+        "timestamp": 1794797415,
         "title": "Best Time to Buy and Sell Stock with Cooldown"
       }
     ]
@@ -2145,15 +2145,15 @@
     },
     "submissions": [
       {
-        "id": 0,
+        "id": 2197697580,
         "lang": "java",
-        "lang_name": "java",
-        "memory": "",
-        "runtime": "",
+        "lang_name": "Java",
+        "memory": "58.4 MB",
+        "runtime": "32 ms",
         "slug": "coin-change-ii",
-        "source": "neetcode",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1788566040,
+        "timestamp": 1794886250,
         "title": "Coin Change II"
       }
     ]
@@ -3146,6 +3146,35 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Custom Sort String"
+      }
+    ]
+  },
+  "customer-who-visited-but-did-not-make-any-transactions": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1581",
+      "paid_only": false,
+      "slug": "customer-who-visited-but-did-not-make-any-transactions",
+      "title": "Customer Who Visited but Did Not Make Any Transactions",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196376798,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "1132 ms",
+        "slug": "customer-who-visited-but-did-not-make-any-transactions",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794715730,
+        "title": "Customer Who Visited but Did Not Make Any Transactions"
       }
     ]
   },
@@ -8041,15 +8070,15 @@
     },
     "submissions": [
       {
-        "id": 0,
+        "id": 2196938355,
         "lang": "java",
-        "lang_name": "java",
-        "memory": "",
-        "runtime": "",
+        "lang_name": "Java",
+        "memory": "53.9 MB",
+        "runtime": "34 ms",
         "slug": "longest-common-subsequence",
-        "source": "neetcode",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1788566040,
+        "timestamp": 1794787532,
         "title": "Longest Common Subsequence"
       }
     ]
@@ -9864,6 +9893,39 @@
       }
     ]
   },
+  "maximum-sum-score-of-array": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2219",
+      "paid_only": true,
+      "slug": "maximum-sum-score-of-array",
+      "title": "Maximum Sum Score of Array",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2195652776,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "66.9 MB",
+        "runtime": "2 ms",
+        "slug": "maximum-sum-score-of-array",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794626893,
+        "title": "Maximum Sum Score of Array"
+      }
+    ]
+  },
   "maximum-twin-sum-of-a-linked-list": {
     "question": {
       "difficulty": "Medium",
@@ -10698,6 +10760,43 @@
       }
     ]
   },
+  "minimum-difference-between-largest-and-smallest-value-in-three-moves": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1509",
+      "paid_only": false,
+      "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+      "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2195008102,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "60 MB",
+        "runtime": "21 ms",
+        "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794540163,
+        "title": "Minimum Difference Between Largest and Smallest Value in Three Moves"
+      }
+    ]
+  },
   "minimum-health-to-beat-game": {
     "question": {
       "difficulty": "Medium",
@@ -10928,6 +11027,43 @@
         "status": "Accepted",
         "timestamp": 1789358326,
         "title": "Minimum Number Game"
+      }
+    ]
+  },
+  "minimum-number-of-operations-to-sort-a-binary-tree-by-level": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2471",
+      "paid_only": false,
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "topics": [
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Binary Tree",
+          "binary-tree"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196247971,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "81.2 MB",
+        "runtime": "89 ms",
+        "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794706130,
+        "title": "Minimum Number of Operations to Sort a Binary Tree by Level"
       }
     ]
   },
@@ -12015,6 +12151,47 @@
       }
     ]
   },
+  "number-of-students-unable-to-eat-lunch": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1700",
+      "paid_only": false,
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "title": "Number of Students Unable to Eat Lunch",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Stack",
+          "stack"
+        ],
+        [
+          "Queue",
+          "queue"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2198358496,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.9 MB",
+        "runtime": "0 ms",
+        "slug": "number-of-students-unable-to-eat-lunch",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794966088,
+        "title": "Number of Students Unable to Eat Lunch"
+      }
+    ]
+  },
   "online-majority-element-in-subarray": {
     "question": {
       "difficulty": "Hard",
@@ -12928,6 +13105,35 @@
       }
     ]
   },
+  "product-sales-analysis-i": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1068",
+      "paid_only": false,
+      "slug": "product-sales-analysis-i",
+      "title": "Product Sales Analysis I",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196362199,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "1092 ms",
+        "slug": "product-sales-analysis-i",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794714610,
+        "title": "Product Sales Analysis I"
+      }
+    ]
+  },
   "range-module": {
     "question": {
       "difficulty": "Hard",
@@ -13283,6 +13489,59 @@
         "status": "Accepted",
         "timestamp": 1767592533,
         "title": "Redundant Connection"
+      }
+    ]
+  },
+  "regions-cut-by-slashes": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "959",
+      "paid_only": false,
+      "slug": "regions-cut-by-slashes",
+      "title": "Regions Cut By Slashes",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ],
+        [
+          "Matrix",
+          "matrix"
+        ],
+        [
+          "Planar Graph",
+          "planar-graph"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2194246880,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "45.7 MB",
+        "runtime": "16 ms",
+        "slug": "regions-cut-by-slashes",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794446451,
+        "title": "Regions Cut By Slashes"
       }
     ]
   },
@@ -13696,6 +13955,35 @@
       }
     ]
   },
+  "replace-employee-id-with-the-unique-identifier": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1378",
+      "paid_only": false,
+      "slug": "replace-employee-id-with-the-unique-identifier",
+      "title": "Replace Employee ID With The Unique Identifier",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196345835,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "941 ms",
+        "slug": "replace-employee-id-with-the-unique-identifier",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794713656,
+        "title": "Replace Employee ID With The Unique Identifier"
+      }
+    ]
+  },
   "restore-ip-addresses": {
     "question": {
       "difficulty": "Medium",
@@ -14046,6 +14334,35 @@
         "status": "Accepted",
         "timestamp": 1793062173,
         "title": "Richest Customer Wealth"
+      }
+    ]
+  },
+  "rising-temperature": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "197",
+      "paid_only": false,
+      "slug": "rising-temperature",
+      "title": "Rising Temperature",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196382225,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "425 ms",
+        "slug": "rising-temperature",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794716471,
+        "title": "Rising Temperature"
       }
     ]
   },
@@ -14583,6 +14900,55 @@
         "status": "Accepted",
         "timestamp": 1787629590,
         "title": "Search Insert Position"
+      }
+    ]
+  },
+  "sentence-similarity-ii": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "737",
+      "paid_only": true,
+      "slug": "sentence-similarity-ii",
+      "title": "Sentence Similarity II",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ],
+        [
+          "Breadth-First Search",
+          "breadth-first-search"
+        ],
+        [
+          "Union-Find",
+          "union-find"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2196256707,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "47.8 MB",
+        "runtime": "70 ms",
+        "slug": "sentence-similarity-ii",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794708414,
+        "title": "Sentence Similarity II"
       }
     ]
   },
@@ -17201,15 +17567,15 @@
     },
     "submissions": [
       {
-        "id": 0,
+        "id": 2196935524,
         "lang": "java",
-        "lang_name": "java",
-        "memory": "",
-        "runtime": "",
+        "lang_name": "Java",
+        "memory": "41.8 MB",
+        "runtime": "0 ms",
         "slug": "unique-paths",
-        "source": "neetcode",
+        "source": "leetcode",
         "status": "Accepted",
-        "timestamp": 1788566040,
+        "timestamp": 1794786870,
         "title": "Unique Paths"
       }
     ]
@@ -17802,6 +18168,35 @@
         "status": "Accepted",
         "timestamp": 1663456589,
         "title": "XOR Operation in an Array"
+      }
+    ]
+  },
+  "zigzag-conversion": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "6",
+      "paid_only": false,
+      "slug": "zigzag-conversion",
+      "title": "Zigzag Conversion",
+      "topics": [
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2193557539,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46 MB",
+        "runtime": "4 ms",
+        "slug": "zigzag-conversion",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1794365540,
+        "title": "Zigzag Conversion"
       }
     ]
   }

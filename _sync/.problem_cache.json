@@ -1815,6 +1815,19 @@
       ]
     ]
   },
+  "customer-who-visited-but-did-not-make-any-transactions": {
+    "difficulty": "Easy",
+    "frontend_id": "1581",
+    "paid_only": false,
+    "slug": "customer-who-visited-but-did-not-make-any-transactions",
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
   "daily-temperatures": {
     "difficulty": "Medium",
     "frontend_id": "739",
@@ -5884,6 +5897,23 @@
       ]
     ]
   },
+  "maximum-sum-score-of-array": {
+    "difficulty": "Medium",
+    "frontend_id": "2219",
+    "paid_only": true,
+    "slug": "maximum-sum-score-of-array",
+    "title": "Maximum Sum Score of Array",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "maximum-twin-sum-of-a-linked-list": {
     "difficulty": "Medium",
     "frontend_id": "2130",
@@ -6378,6 +6408,27 @@
       ]
     ]
   },
+  "minimum-difference-between-largest-and-smallest-value-in-three-moves": {
+    "difficulty": "Medium",
+    "frontend_id": "1509",
+    "paid_only": false,
+    "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+    "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "minimum-health-to-beat-game": {
     "difficulty": "Medium",
     "frontend_id": "2214",
@@ -6513,6 +6564,27 @@
       [
         "Simulation",
         "simulation"
+      ]
+    ]
+  },
+  "minimum-number-of-operations-to-sort-a-binary-tree-by-level": {
+    "difficulty": "Medium",
+    "frontend_id": "2471",
+    "paid_only": false,
+    "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+    "topics": [
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Binary Tree",
+        "binary-tree"
       ]
     ]
   },
@@ -7156,6 +7228,31 @@
       ]
     ]
   },
+  "number-of-students-unable-to-eat-lunch": {
+    "difficulty": "Easy",
+    "frontend_id": "1700",
+    "paid_only": false,
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "title": "Number of Students Unable to Eat Lunch",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Stack",
+        "stack"
+      ],
+      [
+        "Queue",
+        "queue"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "online-majority-element-in-subarray": {
     "difficulty": "Hard",
     "frontend_id": "1157",
@@ -7703,6 +7800,19 @@
       ]
     ]
   },
+  "product-sales-analysis-i": {
+    "difficulty": "Easy",
+    "frontend_id": "1068",
+    "paid_only": false,
+    "slug": "product-sales-analysis-i",
+    "title": "Product Sales Analysis I",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
   "range-module": {
     "difficulty": "Hard",
     "frontend_id": "715",
@@ -7917,6 +8027,43 @@
       [
         "Graph Theory",
         "graph"
+      ]
+    ]
+  },
+  "regions-cut-by-slashes": {
+    "difficulty": "Medium",
+    "frontend_id": "959",
+    "paid_only": false,
+    "slug": "regions-cut-by-slashes",
+    "title": "Regions Cut By Slashes",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
+      ],
+      [
+        "Matrix",
+        "matrix"
+      ],
+      [
+        "Planar Graph",
+        "planar-graph"
       ]
     ]
   },
@@ -8159,6 +8306,19 @@
       ]
     ]
   },
+  "replace-employee-id-with-the-unique-identifier": {
+    "difficulty": "Easy",
+    "frontend_id": "1378",
+    "paid_only": false,
+    "slug": "replace-employee-id-with-the-unique-identifier",
+    "title": "Replace Employee ID With The Unique Identifier",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
   "restore-ip-addresses": {
     "difficulty": "Medium",
     "frontend_id": "93",
@@ -8339,6 +8499,19 @@
       [
         "Matrix",
         "matrix"
+      ]
+    ]
+  },
+  "rising-temperature": {
+    "difficulty": "Easy",
+    "frontend_id": "197",
+    "paid_only": false,
+    "slug": "rising-temperature",
+    "title": "Rising Temperature",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
@@ -8646,6 +8819,39 @@
       [
         "Binary Search",
         "binary-search"
+      ]
+    ]
+  },
+  "sentence-similarity-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "737",
+    "paid_only": true,
+    "slug": "sentence-similarity-ii",
+    "title": "Sentence Similarity II",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ],
+      [
+        "Breadth-First Search",
+        "breadth-first-search"
+      ],
+      [
+        "Union-Find",
+        "union-find"
       ]
     ]
   },
@@ -10626,6 +10832,19 @@
       [
         "Bit Manipulation",
         "bit-manipulation"
+      ]
+    ]
+  },
+  "zigzag-conversion": {
+    "difficulty": "Medium",
+    "frontend_id": "6",
+    "paid_only": false,
+    "slug": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "topics": [
+      [
+        "String",
+        "string"
       ]
     ]
   }
