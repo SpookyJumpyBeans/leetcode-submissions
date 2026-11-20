@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**469 problems solved** &nbsp;·&nbsp; 124 Easy &nbsp;·&nbsp; 278 Medium &nbsp;·&nbsp; 67 Hard
+**475 problems solved** &nbsp;·&nbsp; 129 Easy &nbsp;·&nbsp; 279 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **8 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **146** active days
+🔥 **9 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **147** active days
 
-![1038 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-19)
+![1048 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-20)
 
-<sub>**1038** submissions in the last 53 weeks, by UTC day. Updated 2026-11-19.</sub>
+<sub>**1048** submissions in the last 53 weeks, by UTC day. Updated 2026-11-20.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -151,7 +151,7 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |
 | 3829 | [Design Ride Sharing System](data-stream/3829-design-ride-sharing-system) | Medium | [Java](data-stream/3829-design-ride-sharing-system/solution.java) |
 
-## Database (9)
+## Database (13)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -160,10 +160,14 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 595 | [Big Countries](database/0595-big-countries) | Easy | [MySQL](database/0595-big-countries/solution.sql) |
 | 1068 | [Product Sales Analysis I](database/1068-product-sales-analysis-i) | Easy | [MySQL](database/1068-product-sales-analysis-i/solution.sql) |
 | 1148 | [Article Views I](database/1148-article-views-i) | Easy | [MySQL](database/1148-article-views-i/solution.sql) |
+| 1350 | [Students With Invalid Departments](database/1350-students-with-invalid-departments) | Easy | [MySQL](database/1350-students-with-invalid-departments/solution.sql) |
 | 1378 | [Replace Employee ID With The Unique Identifier](database/1378-replace-employee-id-with-the-unique-identifier) | Easy | [MySQL](database/1378-replace-employee-id-with-the-unique-identifier/solution.sql) |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](database/1581-customer-who-visited-but-did-not-make-any-transactions) | Easy | [MySQL](database/1581-customer-who-visited-but-did-not-make-any-transactions/solution.sql) |
 | 1683 | [Invalid Tweets](database/1683-invalid-tweets) | Easy | [MySQL](database/1683-invalid-tweets/solution.sql) |
+| 1693 | [Daily Leads and Partners](database/1693-daily-leads-and-partners) | Easy | [MySQL](database/1693-daily-leads-and-partners/solution.sql) |
+| 1741 | [Find Total Time Spent by Each Employee](database/1741-find-total-time-spent-by-each-employee) | Easy | [MySQL](database/1741-find-total-time-spent-by-each-employee/solution.sql) |
 | 1757 | [Recyclable and Low Fat Products](database/1757-recyclable-and-low-fat-products) | Easy | [MySQL](database/1757-recyclable-and-low-fat-products/solution.sql) |
+| 2356 | [Number of Unique Subjects Taught by Each Teacher](database/2356-number-of-unique-subjects-taught-by-each-teacher) | Easy | [MySQL](database/2356-number-of-unique-subjects-taught-by-each-teacher/solution.sql) |
 
 ## Depth-First Search (3)
 
@@ -326,7 +330,7 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2392 | [Build a Matrix With Conditions](graph/2392-build-a-matrix-with-conditions) | Hard | [Java](graph/2392-build-a-matrix-with-conditions/solution.java) |
 | 2924 | [Find Champion II](graph/2924-find-champion-ii) | Medium | [Java](graph/2924-find-champion-ii/solution.java) |
 
-## Greedy (16)
+## Greedy (17)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -345,6 +349,7 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](greedy/2131-longest-palindrome-by-concatenating-two-letter-words) | Medium | [Java](greedy/2131-longest-palindrome-by-concatenating-two-letter-words/solution.java) |
 | 2214 | [Minimum Health to Beat Game](greedy/2214-minimum-health-to-beat-game) | Medium | [Java](greedy/2214-minimum-health-to-beat-game/solution.java) |
 | 2429 | [Minimize XOR](greedy/2429-minimize-xor) | Medium | [Java](greedy/2429-minimize-xor/solution.java) |
+| 2567 | [Minimum Score by Changing Two Elements](greedy/2567-minimum-score-by-changing-two-elements) | Medium | [Java](greedy/2567-minimum-score-by-changing-two-elements/solution.java) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](greedy/3720-lexicographically-smallest-permutation-greater-than-target) | Medium | [Java](greedy/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) |
 
 ## Hash Function (3)
@@ -554,7 +559,7 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1514 | [Path with Maximum Probability](shortest-path/1514-path-with-maximum-probability) | Medium | [Java](shortest-path/1514-path-with-maximum-probability/solution.java) |
 | 2976 | [Minimum Cost to Convert String I](shortest-path/2976-minimum-cost-to-convert-string-i) | Medium | [Java](shortest-path/2976-minimum-cost-to-convert-string-i/solution.java) |
 
-## Simulation (6)
+## Simulation (7)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -562,6 +567,7 @@ _Last synced 2026-11-19 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 68 | [Text Justification](simulation/0068-text-justification) | Hard | [Java](simulation/0068-text-justification/solution.java) |
 | 657 | [Robot Return to Origin](simulation/0657-robot-return-to-origin) | Easy | [Java](simulation/0657-robot-return-to-origin/solution.java) |
 | 1929 | [Concatenation of Array](simulation/1929-concatenation-of-array) | Easy | [Java](simulation/1929-concatenation-of-array/solution.java) |
+| 2243 | [Calculate Digit Sum of a String](simulation/2243-calculate-digit-sum-of-a-string) | Easy | [Java](simulation/2243-calculate-digit-sum-of-a-string/solution.java) |
 | 3069 | [Distribute Elements Into Two Arrays I](simulation/3069-distribute-elements-into-two-arrays-i) | Easy | [C++](simulation/3069-distribute-elements-into-two-arrays-i/solution.cpp) |
 | 3498 | [Reverse Degree of a String](simulation/3498-reverse-degree-of-a-string) | Easy | [Java](simulation/3498-reverse-degree-of-a-string/solution.java) |
 

@@ -1487,6 +1487,39 @@
       }
     ]
   },
+  "calculate-digit-sum-of-a-string": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2243",
+      "paid_only": false,
+      "slug": "calculate-digit-sum-of-a-string",
+      "title": "Calculate Digit Sum of a String",
+      "topics": [
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Simulation",
+          "simulation"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199046875,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.6 MB",
+        "runtime": "1 ms",
+        "slug": "calculate-digit-sum-of-a-string",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795057041,
+        "title": "Calculate Digit Sum of a String"
+      }
+    ]
+  },
   "candy": {
     "question": {
       "difficulty": "Hard",
@@ -3175,6 +3208,35 @@
         "status": "Accepted",
         "timestamp": 1794715730,
         "title": "Customer Who Visited but Did Not Make Any Transactions"
+      }
+    ]
+  },
+  "daily-leads-and-partners": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1693",
+      "paid_only": false,
+      "slug": "daily-leads-and-partners",
+      "title": "Daily Leads and Partners",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199076416,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "451 ms",
+        "slug": "daily-leads-and-partners",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795061593,
+        "title": "Daily Leads and Partners"
       }
     ]
   },
@@ -5850,6 +5912,35 @@
         "status": "Accepted",
         "timestamp": 1788566040,
         "title": "Find the Town Judge"
+      }
+    ]
+  },
+  "find-total-time-spent-by-each-employee": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1741",
+      "paid_only": false,
+      "slug": "find-total-time-spent-by-each-employee",
+      "title": "Find Total Time Spent by Each Employee",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199078123,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "435 ms",
+        "slug": "find-total-time-spent-by-each-employee",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795061818,
+        "title": "Find Total Time Spent by Each Employee"
       }
     ]
   },
@@ -11193,6 +11284,43 @@
       }
     ]
   },
+  "minimum-score-by-changing-two-elements": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "2567",
+      "paid_only": false,
+      "slug": "minimum-score-by-changing-two-elements",
+      "title": "Minimum Score by Changing Two Elements",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Greedy",
+          "greedy"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199030196,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "58.9 MB",
+        "runtime": "19 ms",
+        "slug": "minimum-score-by-changing-two-elements",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795053917,
+        "title": "Minimum Score by Changing Two Elements"
+      }
+    ]
+  },
   "minimum-size-subarray-sum": {
     "question": {
       "difficulty": "Medium",
@@ -12189,6 +12317,35 @@
         "status": "Accepted",
         "timestamp": 1794966088,
         "title": "Number of Students Unable to Eat Lunch"
+      }
+    ]
+  },
+  "number-of-unique-subjects-taught-by-each-teacher": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2356",
+      "paid_only": false,
+      "slug": "number-of-unique-subjects-taught-by-each-teacher",
+      "title": "Number of Unique Subjects Taught by Each Teacher",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199062223,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "465 ms",
+        "slug": "number-of-unique-subjects-taught-by-each-teacher",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795059537,
+        "title": "Number of Unique Subjects Taught by Each Teacher"
       }
     ]
   },
@@ -16450,6 +16607,35 @@
         "status": "Accepted",
         "timestamp": 1786655523,
         "title": "String to Integer (atoi)"
+      }
+    ]
+  },
+  "students-with-invalid-departments": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1350",
+      "paid_only": true,
+      "slug": "students-with-invalid-departments",
+      "title": "Students With Invalid Departments",
+      "topics": [
+        [
+          "Database",
+          "database"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199051531,
+        "lang": "mysql",
+        "lang_name": "MySQL",
+        "memory": "0B",
+        "runtime": "991 ms",
+        "slug": "students-with-invalid-departments",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795057820,
+        "title": "Students With Invalid Departments"
       }
     ]
   },

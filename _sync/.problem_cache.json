@@ -862,6 +862,23 @@
       ]
     ]
   },
+  "calculate-digit-sum-of-a-string": {
+    "difficulty": "Easy",
+    "frontend_id": "2243",
+    "paid_only": false,
+    "slug": "calculate-digit-sum-of-a-string",
+    "title": "Calculate Digit Sum of a String",
+    "topics": [
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Simulation",
+        "simulation"
+      ]
+    ]
+  },
   "candy": {
     "difficulty": "Hard",
     "frontend_id": "135",
@@ -1821,6 +1838,19 @@
     "paid_only": false,
     "slug": "customer-who-visited-but-did-not-make-any-transactions",
     "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "topics": [
+      [
+        "Database",
+        "database"
+      ]
+    ]
+  },
+  "daily-leads-and-partners": {
+    "difficulty": "Easy",
+    "frontend_id": "1693",
+    "paid_only": false,
+    "slug": "daily-leads-and-partners",
+    "title": "Daily Leads and Partners",
     "topics": [
       [
         "Database",
@@ -3451,6 +3481,19 @@
       [
         "Graph Theory",
         "graph"
+      ]
+    ]
+  },
+  "find-total-time-spent-by-each-employee": {
+    "difficulty": "Easy",
+    "frontend_id": "1741",
+    "paid_only": false,
+    "slug": "find-total-time-spent-by-each-employee",
+    "title": "Find Total Time Spent by Each Employee",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
@@ -6667,6 +6710,27 @@
       ]
     ]
   },
+  "minimum-score-by-changing-two-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "2567",
+    "paid_only": false,
+    "slug": "minimum-score-by-changing-two-elements",
+    "title": "Minimum Score by Changing Two Elements",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Greedy",
+        "greedy"
+      ],
+      [
+        "Sorting",
+        "sorting"
+      ]
+    ]
+  },
   "minimum-size-subarray-sum": {
     "difficulty": "Medium",
     "frontend_id": "209",
@@ -7250,6 +7314,19 @@
       [
         "Simulation",
         "simulation"
+      ]
+    ]
+  },
+  "number-of-unique-subjects-taught-by-each-teacher": {
+    "difficulty": "Easy",
+    "frontend_id": "2356",
+    "paid_only": false,
+    "slug": "number-of-unique-subjects-taught-by-each-teacher",
+    "title": "Number of Unique Subjects Taught by Each Teacher",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
@@ -9781,6 +9858,19 @@
       [
         "String",
         "string"
+      ]
+    ]
+  },
+  "students-with-invalid-departments": {
+    "difficulty": "Easy",
+    "frontend_id": "1350",
+    "paid_only": true,
+    "slug": "students-with-invalid-departments",
+    "title": "Students With Invalid Departments",
+    "topics": [
+      [
+        "Database",
+        "database"
       ]
     ]
   },
