@@ -1812,6 +1812,35 @@
       }
     ]
   },
+  "check-if-string-is-decomposable-into-value-equal-substrings": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "1933",
+      "paid_only": true,
+      "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
+      "title": "Check if String Is Decomposable Into Value-Equal Substrings",
+      "topics": [
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2199712876,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "46.3 MB",
+        "runtime": "16 ms",
+        "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795146373,
+        "title": "Check if String Is Decomposable Into Value-Equal Substrings"
+      }
+    ]
+  },
   "check-if-there-is-a-valid-parentheses-string-path": {
     "question": {
       "difficulty": "Hard",

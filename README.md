@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**475 problems solved** &nbsp;·&nbsp; 129 Easy &nbsp;·&nbsp; 279 Medium &nbsp;·&nbsp; 67 Hard
+**476 problems solved** &nbsp;·&nbsp; 130 Easy &nbsp;·&nbsp; 279 Medium &nbsp;·&nbsp; 67 Hard
 
 Languages: C++, Java, MySQL
 
 46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **9 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **147** active days
+🔥 **10 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **148** active days
 
-![1048 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-20)
+![1050 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-21)
 
-<sub>**1048** submissions in the last 53 weeks, by UTC day. Updated 2026-11-20.</sub>
+<sub>**1050** submissions in the last 53 weeks, by UTC day. Updated 2026-11-21.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -623,12 +623,13 @@ _Last synced 2026-11-20 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2390 | [Removing Stars From a String](stack/2390-removing-stars-from-a-string) | Medium | [Java](stack/2390-removing-stars-from-a-string/solution.java) |
 | 2751 | [Robot Collisions](stack/2751-robot-collisions) | Hard | [Java](stack/2751-robot-collisions/solution.java) |
 
-## String (4)
+## String (5)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
 | 6 | [Zigzag Conversion](string/0006-zigzag-conversion) | Medium | [Java](string/0006-zigzag-conversion/solution.java) |
 | 8 | [String to Integer (atoi)](string/0008-string-to-integer-atoi) | Medium | [Java](string/0008-string-to-integer-atoi/solution.java) |
+| 1933 | [Check if String Is Decomposable Into Value-Equal Substrings](string/1933-check-if-string-is-decomposable-into-value-equal-substrings) | Easy | [Java](string/1933-check-if-string-is-decomposable-into-value-equal-substrings/solution.java) |
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 

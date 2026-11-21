@@ -1047,6 +1047,19 @@
       ]
     ]
   },
+  "check-if-string-is-decomposable-into-value-equal-substrings": {
+    "difficulty": "Easy",
+    "frontend_id": "1933",
+    "paid_only": true,
+    "slug": "check-if-string-is-decomposable-into-value-equal-substrings",
+    "title": "Check if String Is Decomposable Into Value-Equal Substrings",
+    "topics": [
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
   "check-if-there-is-a-valid-parentheses-string-path": {
     "difficulty": "Hard",
     "frontend_id": "2267",
