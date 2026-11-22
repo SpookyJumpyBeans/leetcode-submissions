@@ -3301,6 +3301,35 @@
       ]
     ]
   },
+  "find-subtree-sizes-after-changes": {
+    "difficulty": "Medium",
+    "frontend_id": "3331",
+    "paid_only": false,
+    "slug": "find-subtree-sizes-after-changes",
+    "title": "Find Subtree Sizes After Changes",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Hash Table",
+        "hash-table"
+      ],
+      [
+        "String",
+        "string"
+      ],
+      [
+        "Tree",
+        "tree"
+      ],
+      [
+        "Depth-First Search",
+        "depth-first-search"
+      ]
+    ]
+  },
   "find-target-indices-after-sorting-array": {
     "difficulty": "Easy",
     "frontend_id": "2089",
@@ -5599,6 +5628,27 @@
       [
         "Matrix",
         "matrix"
+      ]
+    ]
+  },
+  "maximize-consecutive-elements-in-an-array-after-modification": {
+    "difficulty": "Hard",
+    "frontend_id": "3041",
+    "paid_only": false,
+    "slug": "maximize-consecutive-elements-in-an-array-after-modification",
+    "title": "Maximize Consecutive Elements in an Array After Modification",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Dynamic Programming",
+        "dynamic-programming"
+      ],
+      [
+        "Sorting",
+        "sorting"
       ]
     ]
   },

@@ -5625,6 +5625,51 @@
       }
     ]
   },
+  "find-subtree-sizes-after-changes": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "3331",
+      "paid_only": false,
+      "slug": "find-subtree-sizes-after-changes",
+      "title": "Find Subtree Sizes After Changes",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Hash Table",
+          "hash-table"
+        ],
+        [
+          "String",
+          "string"
+        ],
+        [
+          "Tree",
+          "tree"
+        ],
+        [
+          "Depth-First Search",
+          "depth-first-search"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2200293118,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "230.1 MB",
+        "runtime": "121 ms",
+        "slug": "find-subtree-sizes-after-changes",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795229816,
+        "title": "Find Subtree Sizes After Changes"
+      }
+    ]
+  },
   "find-target-indices-after-sorting-array": {
     "question": {
       "difficulty": "Easy",
@@ -9413,6 +9458,43 @@
         "status": "Accepted",
         "timestamp": 1791432900,
         "title": "Maximal Square"
+      }
+    ]
+  },
+  "maximize-consecutive-elements-in-an-array-after-modification": {
+    "question": {
+      "difficulty": "Hard",
+      "frontend_id": "3041",
+      "paid_only": false,
+      "slug": "maximize-consecutive-elements-in-an-array-after-modification",
+      "title": "Maximize Consecutive Elements in an Array After Modification",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Dynamic Programming",
+          "dynamic-programming"
+        ],
+        [
+          "Sorting",
+          "sorting"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2200865209,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "74.2 MB",
+        "runtime": "90 ms",
+        "slug": "maximize-consecutive-elements-in-an-array-after-modification",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795305280,
+        "title": "Maximize Consecutive Elements in an Array After Modification"
       }
     ]
   },

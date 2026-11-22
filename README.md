@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**476 problems solved** &nbsp;·&nbsp; 130 Easy &nbsp;·&nbsp; 279 Medium &nbsp;·&nbsp; 67 Hard
+**478 problems solved** &nbsp;·&nbsp; 130 Easy &nbsp;·&nbsp; 280 Medium &nbsp;·&nbsp; 68 Hard
 
 Languages: C++, Java, MySQL
 
 46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-22 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **10 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **148** active days
+🔥 **11 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **149** active days
 
-![1050 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-21)
+![1040 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-22)
 
-<sub>**1050** submissions in the last 53 weeks, by UTC day. Updated 2026-11-21.</sub>
+<sub>**1040** submissions in the last 53 weeks, by UTC day. Updated 2026-11-22.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -212,7 +212,7 @@ _Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1756 | [Design Most Recently Used Queue](doubly-linked-list/1756-design-most-recently-used-queue) | Medium | [Java](doubly-linked-list/1756-design-most-recently-used-queue/solution.java) |
 | 2296 | [Design a Text Editor](doubly-linked-list/2296-design-a-text-editor) | Hard | [Java](doubly-linked-list/2296-design-a-text-editor/solution.java) |
 
-## Dynamic Programming (69)
+## Dynamic Programming (70)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -281,6 +281,7 @@ _Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2267 | [ Check if There Is a Valid Parentheses String Path](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path) | Hard | [Java](dynamic-programming/2267-check-if-there-is-a-valid-parentheses-string-path/solution.java) |
 | 2369 | [Check if There is a Valid Partition For The Array](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array) | Medium | [Java](dynamic-programming/2369-check-if-there-is-a-valid-partition-for-the-array/solution.java) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings) | Hard | [Java](dynamic-programming/2472-maximum-number-of-non-overlapping-palindrome-substrings/solution.java) |
+| 3041 | [Maximize Consecutive Elements in an Array After Modification](dynamic-programming/3041-maximize-consecutive-elements-in-an-array-after-modification) | Hard | [Java](dynamic-programming/3041-maximize-consecutive-elements-in-an-array-after-modification/solution.java) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals) | Hard | [Java](dynamic-programming/3414-maximum-score-of-non-overlapping-intervals/solution.java) |
 | 3459 | [Length of Longest V-Shaped Diagonal Segment](dynamic-programming/3459-length-of-longest-v-shaped-diagonal-segment) | Hard | [Java](dynamic-programming/3459-length-of-longest-v-shaped-diagonal-segment/solution.java) |
 | 3524 | [Find X Value of Array I](dynamic-programming/3524-find-x-value-of-array-i) | Medium | [Java](dynamic-programming/3524-find-x-value-of-array-i/solution.java) |
@@ -633,7 +634,7 @@ _Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2942 | [Find Words Containing Character](string/2942-find-words-containing-character) | Easy | [Java](string/2942-find-words-containing-character/solution.java) |
 | 3019 | [Number of Changing Keys](string/3019-number-of-changing-keys) | Easy | [Java](string/3019-number-of-changing-keys/solution.java) |
 
-## Tree (34)
+## Tree (35)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -671,6 +672,7 @@ _Last synced 2026-11-21 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 2246 | [Longest Path With Different Adjacent Characters](tree/2246-longest-path-with-different-adjacent-characters) | Hard | [C++](tree/2246-longest-path-with-different-adjacent-characters/solution.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](tree/2265-count-nodes-equal-to-average-of-subtree) | Medium | [Java](tree/2265-count-nodes-equal-to-average-of-subtree/solution.java) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](tree/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) | Medium | [Java](tree/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/solution.java) |
+| 3331 | [Find Subtree Sizes After Changes](tree/3331-find-subtree-sizes-after-changes) | Medium | [Java](tree/3331-find-subtree-sizes-after-changes/solution.java) |
 
 ## Trie (8)
 
