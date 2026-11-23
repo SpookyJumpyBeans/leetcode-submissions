@@ -1775,6 +1775,35 @@
       }
     ]
   },
+  "check-if-all-as-appears-before-all-bs": {
+    "question": {
+      "difficulty": "Easy",
+      "frontend_id": "2124",
+      "paid_only": false,
+      "slug": "check-if-all-as-appears-before-all-bs",
+      "title": "Check if All A's Appears Before All B's",
+      "topics": [
+        [
+          "String",
+          "string"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2201324408,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "42.4 MB",
+        "runtime": "1 ms",
+        "slug": "check-if-all-as-appears-before-all-bs",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795358168,
+        "title": "Check if All A's Appears Before All B's"
+      }
+    ]
+  },
   "check-if-an-array-is-consecutive": {
     "question": {
       "difficulty": "Easy",

@@ -1026,6 +1026,19 @@
       ]
     ]
   },
+  "check-if-all-as-appears-before-all-bs": {
+    "difficulty": "Easy",
+    "frontend_id": "2124",
+    "paid_only": false,
+    "slug": "check-if-all-as-appears-before-all-bs",
+    "title": "Check if All A's Appears Before All B's",
+    "topics": [
+      [
+        "String",
+        "string"
+      ]
+    ]
+  },
   "check-if-an-array-is-consecutive": {
     "difficulty": "Easy",
     "frontend_id": "2229",
