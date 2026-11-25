@@ -6,22 +6,22 @@
 
 My accepted solutions, synced automatically from my LeetCode submission history and my NeetCode submissions. Problems are grouped by their primary topic tag. Let's get to 500 problems!
 
-**479 problems solved** &nbsp;·&nbsp; 131 Easy &nbsp;·&nbsp; 280 Medium &nbsp;·&nbsp; 68 Hard
+**480 problems solved** &nbsp;·&nbsp; 131 Easy &nbsp;·&nbsp; 281 Medium &nbsp;·&nbsp; 68 Hard
 
 Languages: C++, Java, MySQL
 
 46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-25 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **12 day streak** (since Nov 11) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **150** active days
+🔥 **1 day streak** &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **151** active days
 
-![1041 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-23)
+![1045 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-25)
 
-<sub>**1041** submissions in the last 53 weeks, by UTC day. Updated 2026-11-23.</sub>
+<sub>**1045** submissions in the last 53 weeks, by UTC day. Updated 2026-11-25.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
@@ -137,7 +137,7 @@ _Last synced 2026-11-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments) | Medium | [Java](combinatorics/1621-number-of-sets-of-k-non-overlapping-line-segments/solution.java) |
 | 1863 | [Sum of All Subset XOR Totals](combinatorics/1863-sum-of-all-subset-xor-totals) | Easy | [Java](combinatorics/1863-sum-of-all-subset-xor-totals/solution.java) |
 
-## Data Stream (9)
+## Data Stream (10)
 
 | # | Problem | Difficulty | Solutions |
 | --- | --- | --- | --- |
@@ -146,6 +146,7 @@ _Last synced 2026-11-23 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 | 362 | [Design Hit Counter](data-stream/0362-design-hit-counter) | Medium | [Java](data-stream/0362-design-hit-counter/solution.java) |
 | 703 | [Kth Largest Element in a Stream](data-stream/0703-kth-largest-element-in-a-stream) | Easy | [Java](data-stream/0703-kth-largest-element-in-a-stream/solution.java) |
 | 933 | [Number of Recent Calls](data-stream/0933-number-of-recent-calls) | Easy | [Java](data-stream/0933-number-of-recent-calls/solution.java) |
+| 1352 | [Product of the Last K Numbers](data-stream/1352-product-of-the-last-k-numbers) | Medium | [Java](data-stream/1352-product-of-the-last-k-numbers/solution.java) |
 | 1656 | [Design an Ordered Stream](data-stream/1656-design-an-ordered-stream) | Easy | [Java](data-stream/1656-design-an-ordered-stream/solution.java) |
 | 2013 | [Detect Squares](data-stream/2013-detect-squares) | Medium | [Java](data-stream/2013-detect-squares/solution.java) |
 | 2034 | [Stock Price Fluctuation ](data-stream/2034-stock-price-fluctuation) | Medium | [Java](data-stream/2034-stock-price-fluctuation/solution.java) |

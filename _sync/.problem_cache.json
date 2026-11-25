@@ -7953,6 +7953,35 @@
       ]
     ]
   },
+  "product-of-the-last-k-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "1352",
+    "paid_only": false,
+    "slug": "product-of-the-last-k-numbers",
+    "title": "Product of the Last K Numbers",
+    "topics": [
+      [
+        "Array",
+        "array"
+      ],
+      [
+        "Math",
+        "math"
+      ],
+      [
+        "Design",
+        "design"
+      ],
+      [
+        "Data Stream",
+        "data-stream"
+      ],
+      [
+        "Prefix Sum",
+        "prefix-sum"
+      ]
+    ]
+  },
   "product-sales-analysis-i": {
     "difficulty": "Easy",
     "frontend_id": "1068",

@@ -13402,6 +13402,51 @@
       }
     ]
   },
+  "product-of-the-last-k-numbers": {
+    "question": {
+      "difficulty": "Medium",
+      "frontend_id": "1352",
+      "paid_only": false,
+      "slug": "product-of-the-last-k-numbers",
+      "title": "Product of the Last K Numbers",
+      "topics": [
+        [
+          "Array",
+          "array"
+        ],
+        [
+          "Math",
+          "math"
+        ],
+        [
+          "Design",
+          "design"
+        ],
+        [
+          "Data Stream",
+          "data-stream"
+        ],
+        [
+          "Prefix Sum",
+          "prefix-sum"
+        ]
+      ]
+    },
+    "submissions": [
+      {
+        "id": 2202899769,
+        "lang": "java",
+        "lang_name": "Java",
+        "memory": "95.6 MB",
+        "runtime": "19 ms",
+        "slug": "product-of-the-last-k-numbers",
+        "source": "leetcode",
+        "status": "Accepted",
+        "timestamp": 1795566281,
+        "title": "Product of the Last K Numbers"
+      }
+    ]
+  },
   "product-sales-analysis-i": {
     "question": {
       "difficulty": "Easy",
