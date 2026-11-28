@@ -12,16 +12,16 @@ Languages: C++, Java, MySQL
 
 46 solutions were solved on [NeetCode](https://neetcode.io)'s judge rather than LeetCode's, so they have no LeetCode submission; each is marked in its problem README.
 
-_Last synced 2026-11-27 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
+_Last synced 2026-11-28 by [`_sync`](_sync/) ([how it works](_sync/README.md))._
 
 <!-- leetcode-streak:start -->
 ### [LeetCode](https://leetcode.com/u/SpookyJumpyBeans/) streak
 
-🔥 **2 day streak** (since Nov 25) &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **152** active days
+**No active streak**, last solved Nov 26 &nbsp;·&nbsp; longest **29 days** &nbsp;·&nbsp; **152** active days
 
-![1052 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-27)
+![1052 submissions in the last 53 weeks](https://raw.githubusercontent.com/SpookyJumpyBeans/leetcode-submissions/main/_assets/submissions.svg?v=2026-11-28)
 
-<sub>**1052** submissions in the last 53 weeks, by UTC day. Updated 2026-11-27.</sub>
+<sub>**1052** submissions in the last 53 weeks, by UTC day. Updated 2026-11-28.</sub>
 <!-- leetcode-streak:end -->
 
 ## Array (3)
